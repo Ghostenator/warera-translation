@@ -673,7 +673,7 @@ msgstr "<0>{0}</0> проти ворога держави <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr ""
+msgstr "<0>{0}</0> бонусу атаки при атаці з цього регіону.<1/>Громадяни отримують повний бонус, союзники лише половину."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -693,7 +693,7 @@ msgstr "<0>{0}</0> оскільки <1/> окуповує щонайменше �
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
-msgstr ""
+msgstr "<0>{0}</0> бонусу захисту при захисті цього регіону.<1/>Громадяни отримують повний бонус, союзники лише половину. Учасники договору про захист нічого не отримують."
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1629
@@ -2996,7 +2996,7 @@ msgstr "Посприяйте спротиву <0/> разів"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:218
 msgid "Contribute to the resistance"
-msgstr "Долучитись до спротиву"
+msgstr "Долучіться до спротиву"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -4353,11 +4353,11 @@ msgstr "Знайти мене"
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 #: src/components/_political/region/SetResistanceFocusModal.tsx:143
 msgid "Focus resistance"
-msgstr "Фокусувати спротив"
+msgstr "Зосередити спротив"
 
 #: src/components/_political/region/RegionResistance.tsx:167
 msgid "Focus resistance here"
-msgstr "Фокусувати спротив тут"
+msgstr "Зосередити спротив тут"
 
 #: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
@@ -4398,7 +4398,7 @@ msgstr "Дармова щоденна нагорода"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:49
 msgid "Full throttle, no brakes"
-msgstr ""
+msgstr "Повний газ, ніяких гальм"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:27
 msgid "Fun fact: The house always wins"
@@ -4496,7 +4496,7 @@ msgstr "Подарувати комусь цей набір"
 #: src/pages/shop/index.tsx:108
 #: src/pages/shop/index.tsx:134
 msgid "gifted"
-msgstr "зробив подарунок"
+msgstr "подарував"
 
 #: src/components/_military/mu/MuMemberList.tsx:446
 msgid "Give Ownership"
@@ -4736,59 +4736,59 @@ msgstr "Трудяга"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:68
 msgid "Harlequin"
-msgstr ""
+msgstr "Арлекін"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:506
 msgid "Harlequin Ammo"
-msgstr ""
+msgstr "Набої арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:500
 msgid "Harlequin Biplane"
-msgstr ""
+msgstr "Біплан арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:518
 msgid "Harlequin Boots"
-msgstr ""
+msgstr "Чоботи арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:524
 msgid "Harlequin Gloves"
-msgstr ""
+msgstr "Рукавиці арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:509
 msgid "Harlequin Heavy Ammo"
-msgstr ""
+msgstr "Важкі набої арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:515
 msgid "Harlequin Jacket"
-msgstr ""
+msgstr "Піджак арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:503
 msgid "Harlequin Light Ammo"
-msgstr ""
+msgstr "Легкі набої арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:485
 msgid "Harlequin Mallet"
-msgstr ""
+msgstr "Киянка арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:512
 msgid "Harlequin Mask"
-msgstr ""
+msgstr "Маска арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:521
 msgid "Harlequin Pants"
-msgstr ""
+msgstr "Штани арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:488
 msgid "Harlequin Pistol"
-msgstr ""
+msgstr "Пістолет арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:491
 msgid "Harlequin Rifle"
-msgstr ""
+msgstr "Автомат арлекіна"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:494
 msgid "Harlequin Sniper"
-msgstr ""
+msgstr "Снайперка арлекіна"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
 msgid "Headquarters"
@@ -5084,7 +5084,7 @@ msgstr "j. Спам та повторювані повідомлення"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:497
 msgid "Jack-in-the-Box Tank"
-msgstr ""
+msgstr "Танк стрибунця"
 
 #: src/pages/companies.tsx:32
 #: src/pages/user/[userId]/companies.tsx:56
@@ -5234,11 +5234,11 @@ msgstr "Востаннє отримано: <0/>"
 
 #: src/pages/shop/index.tsx:96
 msgid "Last gifts"
-msgstr "Останні подарунки"
+msgstr "Останні подаровані підписки"
 
 #: src/pages/shop/index.tsx:122
 msgid "Last skin gifts"
-msgstr ""
+msgstr "Останні подаровані скіни"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:339
 #: src/components/_user/auth/ConnectFromModal.tsx:358
@@ -7071,7 +7071,7 @@ msgstr "Вривайся в бій!"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
 msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
-msgstr ""
+msgstr "Виберіть до {maxItemsPerListing} одиниць зброї чи спорядження у ідеальному стані, щоб продати за однаковою ціною."
 
 #: src/utils/translations.tsx:117
 msgid "Pill"
@@ -7612,7 +7612,7 @@ msgstr "Недавні заявки"
 
 #: src/components/_political/election/Election.tsx:247
 msgid "Recent citizenship change"
-msgstr ""
+msgstr "Недавня зміна громадянства"
 
 #: src/pages/company/[companyId]/index.tsx:101
 msgid "Recipe"
@@ -8005,7 +8005,7 @@ msgstr "Фокус спротиву"
 
 #: src/components/_political/region/RegionResistance.tsx:205
 msgid "Resistance focused by <0/>"
-msgstr "<0/> фокусує спротив"
+msgstr "<0/> зосереджує спротив"
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
@@ -8470,7 +8470,7 @@ msgstr "Сторона"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:65
 msgid "Silver not included"
-msgstr ""
+msgstr "Срібло не входило в угоду"
 
 #: src/components/_military/tournament/TournamentHeader.tsx:103
 #: src/components/_military/tournament/TournamentRegistrationPanel.tsx:77
@@ -8548,7 +8548,7 @@ msgstr "Пропущено"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:57
 msgid "Sleeps all day, bites all night"
-msgstr ""
+msgstr "Спить цілий день, уночі кусається"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:260
 msgid "Sling Stones"
@@ -8604,7 +8604,7 @@ msgstr "Витрати"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
 msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
-msgstr ""
+msgstr "Витрачається при переміщенні по мапі: 10 за кожен перетнутий регіон. Якщо вашої витривалості не вистачає для переміщення, нестача буде компенсована паливом. Кожну годину відновлюються 10 одиниць, і навички на це не впливають."
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
@@ -8834,7 +8834,7 @@ msgstr "Верховний командувач"
 
 #: src/components/_political/map/MapLibre.tsx:432
 msgid "Switched back to the flat map."
-msgstr ""
+msgstr "Повернуто до пласкої мапи."
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
@@ -8853,7 +8853,7 @@ msgstr "Вартість утримання заклятого ворога зб
 #: src/components/_political/party/party.frontConfig.tsx:141
 #: src/components/_political/party/party.frontConfig.tsx:177
 msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> each day."
-msgstr ""
+msgstr "Закляті вороги починають з <0>відданістю {0}</0>, яка зростає на <1>{1}</1> кожного дня."
 
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:537
@@ -8957,7 +8957,7 @@ msgstr "Громадянську війну, розпочату <0/> у <1/>, б
 
 #: src/components/_political/event/event.frontConfig.tsx:494
 msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the government has been overthrown."
-msgstr ""
+msgstr "Громадянська війна, розпочата <0/> у <1/>, досягла успіху у <2/>, і уряд було скинуто."
 
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1653
@@ -8991,11 +8991,11 @@ msgstr "Ефект вашого підсилення закінчився. Те�
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:53
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
-msgstr ""
+msgstr "Бонус <0/> застосовується, поки ваша частка світового <2>Розвитку</2> менша за <1/>. Якщо вона вища, бонус зменшується на <3/> за кожен відсоток понад ліміт, аж поки не досягне <4/>."
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:69
 msgid "The joke's on you"
-msgstr ""
+msgstr "Сміється той, хто сміється останнім"
 
 #: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
@@ -9041,7 +9041,7 @@ msgstr ""
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
 msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
-msgstr ""
+msgstr "Ці предмети не мають узгодженої ціни. Приберіть найдешевший або найдорожчий. "
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -9219,7 +9219,7 @@ msgstr "Залишити чайові"
 
 #: src/pages/shop/index.tsx:147
 msgid "to"
-msgstr ""
+msgstr "гравцю"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:246
 msgid "Token Name"
@@ -9841,87 +9841,87 @@ msgstr "Цінні внески будуть відзначені значком
 
 #: src/components/_other/shop/skin.frontConfig.tsx:479
 msgid "Vampire Ammo"
-msgstr ""
+msgstr "Набої вампіра"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:64
 msgid "Vampire Arsenal"
-msgstr ""
+msgstr "Арсенал вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:470
 msgid "Vampire Coffin"
-msgstr ""
+msgstr "Труна вампіра"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:56
 msgid "Vampire Count"
-msgstr ""
+msgstr "Граф-вампір"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:434
 msgid "Vampire Count Boots"
-msgstr ""
+msgstr "Чоботи графа-вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:440
 msgid "Vampire Count Gloves"
-msgstr ""
+msgstr "Рукавиці графа-вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:428
 msgid "Vampire Count Mask"
-msgstr ""
+msgstr "Маска графа-вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:437
 msgid "Vampire Count Pants"
-msgstr ""
+msgstr "Штани графа-вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:431
 msgid "Vampire Count Tailcoat"
-msgstr ""
+msgstr "Фрак графа-вампіра"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:60
 msgid "Vampire Countess"
-msgstr ""
+msgstr "Графиня-вампір"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:449
 msgid "Vampire Countess Boots"
-msgstr ""
+msgstr "Чоботи графині-вампір"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:446
 msgid "Vampire Countess Corset"
-msgstr ""
+msgstr "Корсет графині-вампір"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:452
 msgid "Vampire Countess Garters"
-msgstr ""
+msgstr "Гартери графині-вампір"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:455
 msgid "Vampire Countess Gloves"
-msgstr ""
+msgstr "Рукавиці графині-вампір"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:443
 msgid "Vampire Countess Top Hat"
-msgstr ""
+msgstr "Циліндр графині-вампір"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:464
 msgid "Vampire Crossbow"
-msgstr ""
+msgstr "Арблате вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:458
 msgid "Vampire Dagger"
-msgstr ""
+msgstr "Кинджал вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:482
 msgid "Vampire Heavy Ammo"
-msgstr ""
+msgstr "Важкі набої вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:476
 msgid "Vampire Light Ammo"
-msgstr ""
+msgstr "Легкі набої вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:461
 msgid "Vampire Pistol"
-msgstr ""
+msgstr "Пістолет вампіра"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:467
 msgid "Vampire Sniper"
-msgstr ""
+msgstr "Снайперка вампіра"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:56
 msgid "Vanguard"
@@ -10117,7 +10117,7 @@ msgstr "Ласкаво просимо до вашої економіки!"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
-msgstr ""
+msgstr "Що ви отримали з битв, у який наразі берете участь (удари, шкода, кейси, винагорода та контракти), плюс здобич, на яку ви зараз претендуєте. Здобич не гарантована: вона залежить від рейтингу шкоди та стає вашою лише після розподілу."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
@@ -10381,7 +10381,7 @@ msgstr "Ви можете поліпшити свої навички!"
 #. placeholder {0}: gameConfig?.election.voteMinDaysSinceCitizenshipChange
 #: src/components/_political/election/Election.tsx:249
 msgid "You can vote {0} days after changing citizenship. Available in <0/>."
-msgstr ""
+msgstr "Право голосу повернеться до вас через {0} днів після зміни громадянства. Зачекайте ще <0/>."
 
 #: src/pages/country/[countryId]/citizenship.tsx:61
 msgid "You cannot apply for citizenship if you have a government/congress role"
@@ -10519,7 +10519,7 @@ msgstr "Вам потрібна держава, щоб долучитись"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
-msgstr ""
+msgstr "Досягніть {minLevel} рівня для продажу спорядження"
 
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
@@ -10543,7 +10543,7 @@ msgstr "Ви отримаєте"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
 msgid "You receive if all sell"
-msgstr ""
+msgstr "Ви отримаєте, якщо все продасте"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
 msgid "You receive, per item"
@@ -10735,7 +10735,7 @@ msgstr "Ваше підсилення скінчиться менш ніж за 
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:102
 msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
-msgstr ""
+msgstr "Ваші громадяни побачать <0/> у їхньому списку битв із цим повідомленням. Воно не дає ніякого бонусу: просто вказує людям, де потрібно підвищити спротив."
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
@@ -10748,7 +10748,7 @@ msgstr "Ваша держава"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:112
 msgid "Your country already focuses <0/>. Setting this one releases it."
-msgstr ""
+msgstr "Ваша держава вже зосереджена на <0/>. Встановлення цього скасує попередній."
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
