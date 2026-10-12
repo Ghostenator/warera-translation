@@ -10117,7 +10117,7 @@ msgstr "Ласкаво просимо до вашої економіки!"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
-msgstr "Що ви отримали з битв, у який наразі берете участь (удари, шкода, кейси, винагорода та контракти), плюс здобич, на яку ви зараз претендуєте. Здобич не гарантована: вона залежить від рейтингу шкоди та стає вашою лише після розподілу."
+msgstr "Що ви отримали з битв, у яких берете участь (удари, шкода, кейси, винагорода та контракти), плюс здобич, на яку ви зараз претендуєте. Здобич не гарантована: вона залежить від рейтингу шкоди та стає вашою лише після розподілу."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
