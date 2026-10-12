@@ -67,11 +67,11 @@ msgstr "- Дохід від розвитку зменшено на 50%:<0>{0}</0
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:246
 msgid "(average member development)"
-msgstr "(розвиток середнього члена)"
+msgstr "(розвиток середнього учасника)"
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:66
 msgid "(member average development)"
-msgstr "(середній розвиток члена)"
+msgstr "(середній розвиток учасника)"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:236
 msgid "(own development)"
@@ -133,7 +133,7 @@ msgstr "{0} запропонував новий закон <0/>"
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:55
 msgid "{0} rounds are needed to win the battle."
-msgstr "Для перемогти у битві потрібні {0} успішні раунди."
+msgstr "Для перемоги у битві потрібні {0} успішні раунди."
 
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
@@ -265,7 +265,7 @@ msgstr "<0/> заблокував <1/> у цій розмові"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1903
 msgid "<0/> bought your {assetLabel} as a gift for <1/>!"
-msgstr "<0/> купив ваш {assetLabel} як подарунок для <1/>"
+msgstr "<0/> купив ваш {assetLabel} як подарунок для <1/>!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1910
 msgid "<0/> bought your {assetLabel}!"
@@ -335,11 +335,11 @@ msgstr "<0/> завершено <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:148
 msgid "<0/> financed a resistance war for <1/> in <2/>"
-msgstr "<0/> профінасувала повстанську війну за <1/> у <2/>"
+msgstr "<0/> профінансувала повстанську війну за <1/> у <2/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> financed a revolt in <1/>"
-msgstr "<0/> профіансувала повстання у <1/>"
+msgstr "<0/> профінансувала повстання у <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:525
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
@@ -405,7 +405,7 @@ msgstr "<0/> захистила <1/> у битві проти <2/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:532
 msgid "<0/> has financed a revolt in <1/> for <2/> against <3/>"
-msgstr "<0/> профінансувала революція у <1/> за <2/> проти <3/>"
+msgstr "<0/> профінансувала революцію у <1/> за <2/> проти <3/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:449
 msgid "<0/> has financed resistance in <1/>"
@@ -715,7 +715,7 @@ msgstr "<0>{0}</0> завдяки <1/> у <2/>"
 #. placeholder {0}: sideBonus.resistanceBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:241
 msgid "<0>{0}</0> from <1>Resistance</1>"
-msgstr "<0>{0}</0> через <1>Заворушення</1>"
+msgstr "<0>{0}</0> через <1>Спротив</1>"
 
 #. placeholder {0}: sideBonus.defensivePactBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:122
@@ -853,11 +853,11 @@ msgstr "<0>Наповнюється <1>Балами виробництва</1> �
 #. placeholder {5}: gameConfig?.unrest.contributionCooldownAfterRevolutionHours
 #: src/components/_political/unrest/UnrestBar.tsx:25
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can <3>increase</3> or <4>decrease</4> unrest by spending <5>{0}</5> or <6>{1}</6> to change the bar by <7>{2}</7>.<8/><9/>When the bar is full, any party can vote via motion to start a <10>Civil war</10> (cost: <11>development × 10</11>, cooldown: {3}h). The battle takes place in the capital region, and <12>only citizens</12> can fight.<13/><14/>If revolutionaries win:<15/>- Government is impeached<16/>- Borders are opened for {4} days<17/>- Presidential elections begin<18/><19/>After a revolution, contributions are disabled for {5}h."
-msgstr "<0>Заворушення</0> відображають внутрішню напруженість в державі.<1/><2/>Громадяни можуть <3>збільшувати</3> або <4>зменшувати</4> рівень заворушень, витрачаючи <5>{0}</5> або <6>{1}</6>, щоб додати <7>{2}</7> до шкали.<8/><9/>Коли шкала повна, будь-яка партія може проголосувати за резолюцію, щоб розпочати <10>Громадянську війну</10> (вартість: <11>розвиток × 10</11>, кулдаун: {3}год). Битва відбувається у столиці, і <12>лише громадяни</12> можуть брати участь.<13/><14/>Якщо революціонери переможуть:<15/>- Уряд буде розпущено<16/>- Кордони буде відкрито на {4} днів<17/>- Розпочнуться президентські вибори<18/><19/>Після революції, вплив на зворушення буде вимкнено на {5}год."
+msgstr "<0>Заворушення</0> відображають внутрішню напруженість в державі.<1/><2/>Громадяни можуть <3>збільшувати</3> або <4>зменшувати</4> рівень заворушень, витрачаючи <5>{0}</5> або <6>{1}</6>, щоб додати <7>{2}</7> до шкали.<8/><9/>Коли шкала повна, будь-яка партія може проголосувати за резолюцію, щоб розпочати <10>Громадянську війну</10> (вартість: <11>розвиток × 10</11>, кулдаун: {3}год). Битва відбувається у столиці, і <12>лише громадяни</12> можуть брати участь.<13/><14/>Якщо революціонери переможуть:<15/>- Уряд буде розпущено<16/>- Кордони буде відкрито на {4} днів<17/>- Розпочнуться президентські вибори<18/><19/>Після революції, вплив на заворушення буде вимкнено на {5}год."
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
-msgstr "<0>Ваш акаунт потребує додаткової верифікації. Будь-ласка, підтвердіть ваш номер телефону якнайшвидше, щоб продовжити нормально користуватись своїм акаунтом. Непідтверджені акаунти будуть обмежеі після 48 годин, а також можут бути назавжди видалені після 5-и днів.</0><1>Номери телефону зашифровані та недоступні нікому з адміністраторів.</1>"
+msgstr "<0>Ваш акаунт потребує додаткової верифікації. Будь ласка, підтвердіть ваш номер телефону якнайшвидше, щоб продовжити нормально користуватись своїм акаунтом. Непідтверджені акаунти будуть обмежені після 48 годин, а також можуть бути назавжди видалені після 5 днів.</0><1>Номери телефону зашифровані та недоступні нікому з адміністраторів.</1>"
 
 #: src/components/_layout/LayoutOptions.tsx:103
 msgid "= consumes more power"
@@ -1197,7 +1197,7 @@ msgstr "3★ Солдат"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:129
 msgid "3★ Rear Admiral"
-msgstr "3★  Контрадмірал"
+msgstr "3★ Контрадмірал"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:24
 msgid "3★ Recruit"
