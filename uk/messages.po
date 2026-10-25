@@ -65,7 +65,7 @@ msgstr "- Штраф при захисті цього регіону склад�
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:483
 msgid "-1 to every stat every 20 days in the same company, down to -3."
-msgstr "-1 до кожного атрибуту за кожні 20 днів на тій самій фабриці, аж до -3"
+msgstr "-1 до кожної характеристики за кожні 20 днів на тій самій фабриці, аж до -3"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:135
 msgid "-10% on the wage they expect."
@@ -113,7 +113,7 @@ msgstr ""
 #. placeholder {0}: data.employeeCount
 #: src/components/_economy/employee/WorkforceSummary.tsx:451
 msgid "{0, plural, one {# employee} other {# employees}}"
-msgstr ""
+msgstr "{0, plural, one {# працівник} other {# працівників}}"
 
 #. placeholder {0}: data.managerCount
 #: src/components/_economy/employee/WorkforceSummary.tsx:470
@@ -174,7 +174,7 @@ msgstr "Потрібно {0} активних громадян"
 #. placeholder {0}: getTimeAgo(entry.pickedAt, 'fromNow', undefined, true, true)
 #: src/components/_economy/employee/TrainingHistory.tsx:184
 msgid "{0} ago"
-msgstr ""
+msgstr "{0} тому"
 
 #. placeholder {0}: damagesPercent(effects.allianceBonusDelta)
 #: src/components/_political/govType/govType.frontConfig.tsx:259
@@ -2031,7 +2031,7 @@ msgstr ""
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:329
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:592
 msgid "<0/> and <1/>"
-msgstr ""
+msgstr "<0/> і <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:389
 #: src/components/_user/notification/notification.frontConfig.tsx:1291
@@ -2672,11 +2672,11 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:533
 msgid "<0>Armor</0> and <1>Dodge</1>: less <2>Health</2> lost."
-msgstr ""
+msgstr "<0>Захист</0> та <1>Ухилення</1>: зменшують втрати <2>Здоров'я</2>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:527
 msgid "<0>Attack</0>, <1>Precision</1> and <2>Critical chance</2>: more damage."
-msgstr ""
+msgstr "<0>Атака</0>, <1>Влучність</1> та <2>Шанс крит. влучання</2>: збільшують шкоду."
 
 #: src/components/_political/country/CountryHeader.tsx:297
 msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
@@ -2700,7 +2700,7 @@ msgstr "<0>Емоції</0> у чаті"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:403
 msgid "<0>Energy</0> to work, <1>Stamina</1> to travel."
-msgstr ""
+msgstr "<0>Енергію</0> для роботи, <1>Витривалість</1> для подорожей."
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
@@ -2725,11 +2725,11 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:400
 msgid "<0>Health</0> to fight, <1>Hunger</1> to eat."
-msgstr ""
+msgstr "<0>Здоров'я</0> щоб воювати, <1>Голод</1> щоб їсти."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:151
 msgid "<0>Luck</0>: finds toolboxes."
-msgstr "<0>Luck</0>: для пошуку ящиків з інструментами."
+msgstr "<0>Удача</0>: для пошуку ящиків з інструментами."
 
 #: src/components/_layout/loadingTips.tsx:199
 msgid "<0>Precision</0> caps at 100%: every point above turns into <1>{precisionOverflow}</1>."
@@ -3415,7 +3415,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:108
 msgid "A full bar turns into items."
-msgstr "Повна шкала перетворюється на предмети."
+msgstr "Повна шкала перетворюється на продукцію."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:438
 msgid "A full storage does not bother them."
@@ -3681,11 +3681,11 @@ msgstr "Активні битви"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:73
 msgid "Active citizen"
-msgstr ""
+msgstr "Активний громадянин"
 
 #: src/components/_political/country/CountryHeader.tsx:233
 msgid "Active citizens"
-msgstr ""
+msgstr "Активні громадяни"
 
 #: src/pages/country/[countryId]/citizens.tsx:36
 msgid "Active Citizens"
@@ -3866,7 +3866,7 @@ msgstr "Придбано усі скіни"
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:145
 msgid "All traits"
-msgstr ""
+msgstr "Усі риси"
 
 #: src/components/_common/GameRules.tsx:103
 msgid "All transactions must stay fair and balanced."
@@ -4696,11 +4696,11 @@ msgstr "Краще"
 
 #: src/components/_economy/manager/ManagerOfferFormModal.tsx:147
 msgid "Best offer"
-msgstr ""
+msgstr "Найкраща пропозиція"
 
 #: src/components/_economy/manager/ManagerBestOfferLine.tsx:37
 msgid "Best position for you"
-msgstr ""
+msgstr "Найкраща пропозиція для вас"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:37
 msgid "Better than nothing, right?"
@@ -4759,7 +4759,7 @@ msgstr "Бонусна шкода"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:265
 msgid "Boost your Energy!"
-msgstr ""
+msgstr "Збільш енергію!"
 
 #: src/components/_economy/inventory/Inventory.tsx:502
 #: src/components/_user/UserEquipments.tsx:288
@@ -4883,7 +4883,7 @@ msgstr "Побудувати підрозділ"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:485
 msgid "Build a second company!"
-msgstr "Побудуйте другу фабрику!"
+msgstr "Побудуй другу фабрику!"
 
 #: src/components/_military/mu/MuFormModal.tsx:134
 msgid "Build the military unit"
@@ -4891,7 +4891,7 @@ msgstr "Побудувати підрозділ"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:109
 msgid "Bulk dismantle"
-msgstr ""
+msgstr "Масовий розбір"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:97
 msgid "Bully"
@@ -5139,11 +5139,11 @@ msgstr ""
 
 #: src/components/_economy/employee/TrainingCardList.tsx:139
 msgid "Cards"
-msgstr ""
+msgstr "Карти"
 
 #: src/components/_economy/manager/ManagerCareButton.tsx:67
 msgid "Care"
-msgstr ""
+msgstr "Піклуватись"
 
 #: src/components/_economy/employee/employeeStats.tsx:745
 #: src/components/_economy/employee/employeeStats.tsx:892
@@ -5303,7 +5303,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Check your loot!"
-msgstr "Перевірте інвентар!"
+msgstr "Перевір інвентар!"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1906
 msgid "Checking the inventory"
@@ -5413,7 +5413,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:229
 msgid "Claim your missions!"
-msgstr "Зберіть місії!"
+msgstr "Збери місії!"
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:139
 #: src/components/_user/mission/MissionItem.tsx:214
@@ -5579,7 +5579,7 @@ msgstr "Коммодор"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:25
 msgid "Common"
-msgstr ""
+msgstr "Звичайне"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:147
 msgid "Community"
@@ -5791,7 +5791,7 @@ msgstr "Контекстні кордони"
 #: src/components/_economy/employee/TrainingDraftModal.tsx:458
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:697
 msgid "Continue"
-msgstr ""
+msgstr "Продовжити"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2346
 msgid "Contract cancelled"
@@ -5994,13 +5994,13 @@ msgstr "Війни держави"
 
 #: src/components/_economy/employee/employeeStats.tsx:743
 msgid "Coworker fired"
-msgstr ""
+msgstr "Співробітника звільнено"
 
 #: src/components/_economy/employee/EmployeeModal.tsx:205
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:45
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:141
 msgid "Coworkers"
-msgstr ""
+msgstr "Співробітники"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:146
 msgid "Cozy"
@@ -6021,7 +6021,7 @@ msgstr "Створення предметів"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:97
 msgid "Craft items"
-msgstr ""
+msgstr "Крафт предметів"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:108
 msgid "Craftsman"
@@ -6167,7 +6167,7 @@ msgstr "Поточна сума:"
 
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:103
 msgid "Currently"
-msgstr ""
+msgstr "Зараз"
 
 #: src/components/_user/user/UserFontSelector.tsx:148
 msgid "Custom fonts are a Supporter Plan feature."
@@ -6179,15 +6179,15 @@ msgstr "Власний шрифт імені користувача"
 
 #: src/components/_economy/employee/employeeTags.tsx:183
 msgid "Cut by Negotiation training cards."
-msgstr ""
+msgstr "Зменшується карткою «Переговори»."
 
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:135
 msgid "Cut pay"
-msgstr ""
+msgstr "Зменшити оплату"
 
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:75
 msgid "Cut your manager's pay?"
-msgstr ""
+msgstr "Зменшити оплату менеджера?"
 
 #: src/components/_common/GameRules.tsx:256
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
@@ -6200,7 +6200,7 @@ msgstr "Щоденні"
 #: src/components/_political/country/CountryHeader.tsx:191
 #: src/components/_political/region/RegionHeader.tsx:79
 msgid "Daily income"
-msgstr ""
+msgstr "Щоденний дохід"
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:59
 #: src/components/_political/law/LawTypeSelect.tsx:187
@@ -6213,27 +6213,27 @@ msgstr "Скидання щоденних місій"
 
 #: src/components/_economy/employee/EmployeeModal.tsx:762
 msgid "Daily output"
-msgstr ""
+msgstr "Щоденний випуск"
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:511
 msgid "Daily pay"
-msgstr ""
+msgstr "Щоденна оплата"
 
 #: src/components/_economy/employee/EmployeeModal.tsx:159
 msgid "Daily production"
-msgstr ""
+msgstr "Щоденне виробництво"
 
 #: src/components/_economy/employee/EmployeeModal.tsx:776
 msgid "Daily profit"
-msgstr ""
+msgstr "Щоденний прибуток"
 
 #: src/components/_layout/map.frontConfig.tsx:49
 msgid "Daily revenue"
-msgstr ""
+msgstr "Щоденний дохід"
 
 #: src/components/_economy/employee/EmployeeModal.tsx:771
 msgid "Daily wage"
-msgstr ""
+msgstr "Щоденна зарплата"
 
 #: src/components/_political/government/Government.tsx:209
 msgid "Daily wage paid from the country treasury."
@@ -6241,7 +6241,7 @@ msgstr "Щоденна зарплата, яка виплачується з де
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:237
 msgid "Daily, weekly and monthly missions refresh on their own. Each tab shows when."
-msgstr "Щоденні, щотижневі та щомісячні місії оновлюються самостійно. Кожна вкладка показує таймер."
+msgstr "Щоденні, щотижневі та щомісячні місії оновлюються окремо. Кожна вкладка показує таймер."
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:156
 msgid "Damage by user"
@@ -6559,7 +6559,7 @@ msgstr "Розвиток"
 
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:50
 msgid "Development income"
-msgstr ""
+msgstr "Дохід від розвитку"
 
 #: src/utils/translations.tsx:254
 msgid "Diamond Auger"
@@ -6733,7 +6733,7 @@ msgstr "Пожертвуйте <0/> до підрозділу або держа�
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:43
 msgid "Donate to country/MU"
-msgstr ""
+msgstr "Пожертви державі/ВП"
 
 #: src/components/_economy/transaction/TransactionList.tsx:83
 msgid "Donation"
@@ -6754,7 +6754,7 @@ msgstr "Пожертви"
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:53
 msgid "Done"
-msgstr "Зроблено"
+msgstr "Завершено"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:124
 msgid "Dormitories"
@@ -6837,7 +6837,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:377
 msgid "Each meal refills your <0>Health</0> and uses <1>Hunger</1>."
-msgstr ""
+msgstr "Кожен прийом їжі відновлює <0>Здоров'я</0> за рахунок <1>Голоду</1>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:575
 msgid "Each one leads to the next."
@@ -6882,7 +6882,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:375
 msgid "Eat up to 3 times!"
-msgstr ""
+msgstr "Поїж 3 рази!"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:20
 msgid "Eco Mode"
@@ -7041,11 +7041,11 @@ msgstr ""
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:143
 #: src/components/_user/notification/notification.frontConfig.tsx:2207
 msgid "Employee events"
-msgstr ""
+msgstr "Події працівника"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:810
 msgid "Employee Events"
-msgstr ""
+msgstr "Події працівника"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2209
 msgid "Employee events decided"
@@ -7053,7 +7053,7 @@ msgstr ""
 
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:150
 msgid "Employee moved"
-msgstr ""
+msgstr "Працівника переміщено"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:936
 msgid "Employee Production"
@@ -7065,7 +7065,7 @@ msgstr ""
 
 #: src/components/_economy/employee/EmployeeRenameModal.tsx:48
 msgid "Employee renamed!"
-msgstr ""
+msgstr "Працівника перейменовано!"
 
 #: src/components/_economy/company/CompanyTags.tsx:56
 #: src/components/_economy/company/CompanyTags.tsx:69
@@ -7086,7 +7086,7 @@ msgstr ""
 #: src/components/_economy/work/WorkChart.tsx:252
 #: src/pages/company/[companyId]/index.tsx:49
 msgid "Employees"
-msgstr ""
+msgstr "Працівники"
 
 #: src/components/_layout/loadingTips.tsx:384
 msgid "Employees below {happinessQuitThreshold} happiness may quit."
@@ -7191,7 +7191,7 @@ msgstr "Заздрісний"
 #: src/components/_economy/employee/employeeStats.tsx:132
 #: src/components/_user/user/EcoSkillEffects.tsx:28
 msgid "Epic"
-msgstr ""
+msgstr "Епічне"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:838
 msgid "Equip a Tool"
@@ -7261,11 +7261,11 @@ msgstr "Приблизний час, через який ця сторона з�
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:65
 msgid "Estimated profit"
-msgstr ""
+msgstr "Очікуваний прибуток"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:538
 msgid "Estimated toolboxes found per day"
-msgstr ""
+msgstr "Приблизна кількість ящиків щодня"
 
 #: src/components/_economy/company/CompanyHeader.tsx:32
 msgid "Estimated value"
@@ -7279,7 +7279,7 @@ msgstr ""
 #: src/components/_economy/employee/employeeStats.tsx:572
 #: src/components/_economy/employee/employeeStats.tsx:747
 msgid "Event"
-msgstr ""
+msgstr "Подія"
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:173
 #: src/components/_layout/LayoutRightIcons.tsx:263
@@ -7294,7 +7294,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:336
 msgid "Every 2 minutes, the side with more <0>Damages</0> gains <1>Ground</1>. Your hits count."
-msgstr ""
+msgstr "Кожні 2 хвилин сторона, яка завдала більше <0>Шкоди</0>, отримує <1>Бал контролю</1>. Ваші удари теж враховано."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:650
 msgid "Every coworker can train twice a day instead of once."
@@ -7365,7 +7365,7 @@ msgstr ""
 
 #: src/components/_user/level/LevelTrack.tsx:88
 msgid "Every level gives skill points and opens something new. Here is the way to the top."
-msgstr ""
+msgstr "Кожен рівень дає бали навичок та відкриває якісь нові можливості. Нижче ваш шлях до вершини."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:260
 msgid "Every level gives skill points. Tap Skills."
@@ -7468,7 +7468,7 @@ msgstr "Очікувана здобич"
 #: src/components/_economy/employee/TrainingCard.tsx:282
 #: src/components/_economy/employee/TrainingDraftModal.tsx:255
 msgid "Expected wage"
-msgstr ""
+msgstr "Очікувана зарплата"
 
 #. placeholder {0}: Math.round(entry.delta * 100)
 #: src/components/_economy/employee/TrainingHistory.tsx:141
@@ -7733,11 +7733,11 @@ msgstr "Звільнити"
 #: src/components/_user/user/UserEffectSelector.tsx:62
 msgctxt "username effect: flames"
 msgid "Fire"
-msgstr ""
+msgstr "Вогонь"
 
 #: src/components/_economy/employee/useConfirmFire.tsx:61
 msgid "Fire employee?"
-msgstr ""
+msgstr "Звільнити працівника?"
 
 #: src/components/_political/government/Government.tsx:275
 msgid "Fire government member"
@@ -7761,11 +7761,11 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:325
 msgid "First side to reach <0>{pointsToWinRound}</0> Ground wins the round."
-msgstr ""
+msgstr "Сторона, яка першою отримає <0>{pointsToWinRound}</0> балів контролю, виграє раунд."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:317
 msgid "First side to win {roundsToWin} rounds wins the battle."
-msgstr "Сторона, яка першою виграє {roundsToWin} раундів, переможе у битві."
+msgstr "Сторона, яка першою виграє {roundsToWin} раунди, переможе у битві."
 
 #: src/utils/translations.tsx:36
 msgid "Fish"
@@ -8018,7 +8018,7 @@ msgstr "Створює <0>{0}</0>/день"
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:54
 msgid "Geography"
-msgstr ""
+msgstr "Географія"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3870
 msgid "Gerald"
@@ -8377,7 +8377,7 @@ msgstr "Посібник призупинено"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:170
 msgid "Guide replayed"
-msgstr "Посібник перезапущено"
+msgstr "Посібник повторено"
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:83
 #: src/components/_user/mission/ProgressHeader.tsx:98
@@ -8426,7 +8426,7 @@ msgstr ""
 #: src/components/_economy/employee/WorkforceSummary.tsx:317
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:159
 msgid "Happiness"
-msgstr ""
+msgstr "Щастя"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:148
 msgid "Happiness {mood} or less, or {burnout} or {wornOut}."
@@ -8589,15 +8589,15 @@ msgstr ""
 #: src/components/_economy/company/CompanyDropdown.tsx:295
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:141
 msgid "Hire a manager"
-msgstr ""
+msgstr "Найняти менеджера"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:830
 msgid "Hire an Employee"
-msgstr ""
+msgstr "Найняти працівника"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:832
 msgid "Hire an employee in one of your companies"
-msgstr ""
+msgstr "Найміть працівника на одну з ваших фабрик"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:469
 msgid "Hire another employee!"
@@ -8609,7 +8609,7 @@ msgstr "Найміть свого першого працівника!"
 
 #: src/components/_economy/employee/employeeTags.tsx:271
 msgid "hired {hiredDaysAgo}d ago"
-msgstr ""
+msgstr "найнято {hiredDaysAgo}д. тому"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:314
 msgid "Hired 7 days ago or more, and {greedy}, {climber} or with happiness {mood} or less."
@@ -8899,7 +8899,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:429
 msgid "Introduce yourself!"
-msgstr "Представтеся!"
+msgstr "Представся!"
 
 #: src/components/_layout/LayoutMenu.tsx:99
 #: src/components/_layout/LayoutUserMenu.tsx:169
@@ -9133,7 +9133,7 @@ msgstr "Приєднайтесь до ВП"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:133
 msgid "Join resistances"
-msgstr ""
+msgstr "Долучення до спротиву"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1372
 msgid "Join the party"
@@ -9145,7 +9145,7 @@ msgstr ""
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:282
 msgid "Join the WarEra Discord to meet players and get help."
-msgstr "Приєднайтесь до Discord WarEra, щоб познайомитись з гравцями і отримати допомогу."
+msgstr "Приєднуйтесь до Discord серверу WarEra, щоб познайомитись з гравцями і отримати допомогу."
 
 #: src/pages/index.tsx:186
 msgid "Join the world"
@@ -9153,7 +9153,7 @@ msgstr "Стати частиною світу"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:139
 msgid "Join unrest"
-msgstr ""
+msgstr "Долучення до заворушень"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:423
 msgid "Join your country chat!"
@@ -9217,7 +9217,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:518
 msgid "Keep training them to increase your profit."
-msgstr "Продовжуйте тренувати їх, щоб збільшити прибутки."
+msgstr "Продовжуйте навчати їх, щоб збільшити прибутки."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2465
 msgid "Keep working"
@@ -9386,7 +9386,7 @@ msgstr "Лідер"
 #: src/components/_user/user/skills.frontConfig.tsx:214
 #: src/components/_user/user/skills.frontConfig.tsx:215
 msgid "Leadership"
-msgstr ""
+msgstr "Лідерство"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2520
 msgid "Leaflets from the sky"
@@ -9451,7 +9451,7 @@ msgstr "Помічено легенду!"
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:148
 #: src/components/_user/user/EcoSkillEffects.tsx:29
 msgid "Legendary"
-msgstr ""
+msgstr "Легендарне"
 
 #: src/utils/translations.tsx:217
 msgid "Legendary Boots"
@@ -9564,7 +9564,7 @@ msgstr "Рівень {level}"
 #. placeholder {0}: unlocks.map((unlock, i) => ( <Fragment key={unlock.key}> {i > 0 && ', '} <b>{unlock.label}</b> </Fragment> ))
 #: src/components/_user/level/LevelTrack.tsx:108
 msgid "Level {level} opens {0}. Claim missions to get there."
-msgstr ""
+msgstr "Рівень {level} відкриває {0}. Завершуйте місії, щоб опинитись тут."
 
 #: src/components/_social/poll/PollCard.tsx:309
 msgid "Level {minLevel}+"
@@ -9581,7 +9581,7 @@ msgstr "Новий рівень!"
 
 #: src/components/_user/mission/ProgressHeader.tsx:83
 msgid "Levels"
-msgstr ""
+msgstr "Рівні"
 
 #: src/components/_political/law/law.frontConfig.tsx:515
 msgid "Liberate <0/>"
@@ -9726,7 +9726,7 @@ msgstr "Вийти"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:90
 msgid "Loner"
-msgstr "Самітник"
+msgstr "Одинак"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:86
 msgid "Long Sword"
@@ -9739,7 +9739,7 @@ msgstr ""
 #: src/components/_economy/employee/employeeStats.tsx:358
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:66
 msgid "Loot"
-msgstr ""
+msgstr "Здобич"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:457
 msgid "Loot <0/> in battles"
@@ -9871,7 +9871,7 @@ msgstr ""
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:67
 msgid "Manager jobs"
-msgstr ""
+msgstr "Робота менеджера"
 
 #: src/components/_economy/manager/manager.hooks.ts:151
 msgid "Manager moved"
@@ -9994,7 +9994,7 @@ msgstr ""
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:140
 msgid "Maximum of <0>{0}</0> employees."
-msgstr ""
+msgstr "Максимум <0>{0}</0> працівників."
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:127
@@ -10577,7 +10577,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:360
 msgid "Move to the battle first (costs <0>Stamina</0>), then hit."
-msgstr "Для початку перемістіться у битву (ви втратите <0>Витривалість</0>), після цього вдарте."
+msgstr "Для початку перемістіться у битву (витративши <0>Витривалість</0>), після цього вдарте."
 
 #: src/components/_economy/company/CompanyDropdown.tsx:422
 msgid "Move to top"
@@ -10681,7 +10681,7 @@ msgstr "Мій рівень {0}"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:242
 msgid "My workforce"
-msgstr ""
+msgstr "Моя робоча сила"
 
 #: src/utils/translations.tsx:124
 msgid "Mysterious Plant"
@@ -10893,7 +10893,7 @@ msgstr "Новий підрозділ"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:235
 msgid "New missions all the time"
-msgstr ""
+msgstr "Місії постійно оновлюються"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2321
 msgid "New MU Application"
@@ -10965,7 +10965,7 @@ msgstr "Новини"
 #: src/components/_other/tour/TutorialStep.tsx:608
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:106
 msgid "Next"
-msgstr "Наступна"
+msgstr "Далі"
 
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:693
 msgid "Next event ({nextCount} left)"
@@ -11302,15 +11302,15 @@ msgstr "Рівня поки немає"
 
 #: src/components/_economy/employee/EmployeeTooltip.tsx:185
 msgid "No tool"
-msgstr ""
+msgstr "Інструменту немає"
 
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:135
 msgid "No tool equipped"
-msgstr ""
+msgstr "Інструменту немає"
 
 #: src/components/_economy/inventory/Inventory.tsx:694
 msgid "No tools"
-msgstr ""
+msgstr "Інструментів немає"
 
 #: src/components/_economy/itemTrading/TradingOrders.tsx:44
 #: src/pages/market/index.tsx:143
@@ -11725,15 +11725,15 @@ msgstr "Відкрийте <0/>"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2333
 msgid "Open a toolbox"
-msgstr ""
+msgstr "Відкрити ящик"
 
 #: src/components/_economy/inventory/case/OpenCaseModal.tsx:581
 msgid "Open all"
-msgstr ""
+msgstr "Відкрити всі"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:103
 msgid "Open all cases"
-msgstr ""
+msgstr "Відкрити всі кейси"
 
 #: src/components/_economy/transaction/TransactionList.tsx:89
 msgid "Open Case"
@@ -11858,7 +11858,7 @@ msgstr "Інше"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:369
 msgid "Out of Health?"
-msgstr ""
+msgstr "Скінчилось здоров'я?"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:72
 #: src/components/_political/law/Law.tsx:78
@@ -12092,7 +12092,7 @@ msgstr "Призупинено"
 #. placeholder {1}: position.total
 #: src/components/_other/tour/TutorialGuidesList.tsx:50
 msgid "Paused at step {0} of {1}"
-msgstr ""
+msgstr "Зупинено на кроці {0} з {1}"
 
 #: src/components/_economy/manager/MoveManagerModal.tsx:88
 msgid "Paused: nobody manages here"
@@ -12179,7 +12179,7 @@ msgstr "Народ озлоблений, автоматичне повстанн
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:84
 #: src/pages/country/[countryId]/index.tsx:386
 msgid "Per day"
-msgstr ""
+msgstr "За день"
 
 #: src/pages/country/[countryId]/index.tsx:421
 msgid "per day to <0/>."
@@ -12235,7 +12235,7 @@ msgstr "Потрібне підтвердження телефону"
 
 #: src/components/_economy/employee/TrainingDraftModal.tsx:476
 msgid "Pick {cardTitle}"
-msgstr ""
+msgstr "Вибрати «{cardTitle}»"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:120
 #: src/components/_other/tour/tuto.frontConfig.tsx:477
@@ -12258,7 +12258,7 @@ msgstr "Вривайся в бій!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:347
 msgid "Pick a side and hit until your <0>Health</0> runs out."
-msgstr ""
+msgstr "Виберіть сторону та бийте, поки у вас не скінчиться <0>Здоров'я</0>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:441
 msgid "Pick an article!"
@@ -12388,7 +12388,7 @@ msgstr ""
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:58
 msgid "Politics"
-msgstr ""
+msgstr "Політика"
 
 #: src/components/_user/notification/notificationPrefs.categories.ts:167
 msgid "Politics & Government"
@@ -12620,7 +12620,7 @@ msgstr "Виробити"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:91
 msgid "Produce all"
-msgstr ""
+msgstr "Виробити все"
 
 #: src/components/_economy/company/ProduceAllButton.tsx:128
 msgid "Produce All"
@@ -12690,7 +12690,7 @@ msgstr "Профіль"
 #: src/components/_economy/employee/EstimatedProfit.tsx:107
 #: src/components/_economy/employee/WorkforceSummary.tsx:310
 msgid "Profit"
-msgstr ""
+msgstr "Прибуток"
 
 #: src/components/_layout/LayoutRightIcons.tsx:180
 #: src/components/_layout/MoreButtonNav.tsx:100
@@ -12916,7 +12916,7 @@ msgstr "Рейтинг"
 #: src/components/_economy/employee/employeeStats.tsx:131
 #: src/components/_user/user/EcoSkillEffects.tsx:27
 msgid "Rare"
-msgstr ""
+msgstr "Рідкісне"
 
 #: src/components/_economy/strategicResource/strategicResource.frontConfig.ts:13
 msgid "Rare earths"
@@ -12962,7 +12962,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:292
 msgid "Reach a tier, claim its XP."
-msgstr ""
+msgstr "Досягайте рівнів та отримуйте досвід."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:592
 msgid "Reach level 10"
@@ -12998,11 +12998,11 @@ msgstr "Досягніть 25-го рівня"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:587
 msgid "Reach level 5"
-msgstr "Досягніть п'ятого рівню"
+msgstr "Досягніть 5-го рівня"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:586
 msgid "Reach Level 5"
-msgstr "Досягніть п'ятого рівню"
+msgstr "Досягніть 5-го рівня"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:648
 msgid "Reach military rank 10"
@@ -13038,11 +13038,11 @@ msgstr "Досягніть 40-го військового звання"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:643
 msgid "Reach military rank 5"
-msgstr "Досягніть п'ятого військового звання"
+msgstr "Досягніть 5-го військового звання"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:642
 msgid "Reach Military Rank 5"
-msgstr "Досягніть п'ятого військового звання"
+msgstr "Досягніть 5-го військового звання"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:668
 msgid "Reach military rank 50"
@@ -13125,11 +13125,11 @@ msgstr "Рекрут"
 #: src/components/_economy/employee/RecruitModal.tsx:229
 msgctxt "verb: hire employees"
 msgid "Recruit"
-msgstr ""
+msgstr "Найняти"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:143
 msgid "Recruiter"
-msgstr ""
+msgstr "Рекрутер"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:170
 msgid "Red Staff"
@@ -13451,7 +13451,7 @@ msgstr "Заміна урядовця"
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:60
 msgid "Replay"
-msgstr ""
+msgstr "Повторити"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:66
 msgid "Report"
@@ -13495,11 +13495,11 @@ msgstr "Запити:"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:262
 msgid "Require attention"
-msgstr ""
+msgstr "Потребує уваги"
 
 #: src/components/_economy/manager/ManagerOfferFormModal.tsx:194
 msgid "Required citizenship"
-msgstr ""
+msgstr "Потрібне громадянство"
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:131
 msgid "Requirements"
@@ -13716,7 +13716,7 @@ msgstr "Права"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:95
 msgid "Rival"
-msgstr "Ворог"
+msgstr "Суперник"
 
 #: src/components/_military/mercenaryContract/AdminDeleteContractModal.tsx:51
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
@@ -13808,7 +13808,7 @@ msgstr "Правляча партія"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:127
 msgid "Run in elections"
-msgstr ""
+msgstr "Участь у виборах"
 
 #: src/components/_economy/employee/employeeStats.tsx:913
 msgid "Running"
@@ -14516,7 +14516,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:259
 msgid "Spend your skill points!"
-msgstr ""
+msgstr "Витратьте бали навичок!"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:101
 msgid "Spendings"
@@ -14647,7 +14647,7 @@ msgstr ""
 
 #: src/components/_economy/employee/employee.traitMeta.ts:127
 msgid "Statist"
-msgstr ""
+msgstr "Етатист"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:11
 msgid "Statistically impossible to stay this unlucky"
@@ -14774,7 +14774,7 @@ msgstr ""
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:67
 msgid "Support"
-msgstr ""
+msgstr "Підтримати"
 
 #: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
@@ -14853,7 +14853,7 @@ msgstr ""
 
 #: src/components/_economy/employee/employee.traitMeta.ts:101
 msgid "Sweethearts"
-msgstr ""
+msgstr "Закохані"
 
 #: src/components/_political/map/MapLibre.tsx:633
 msgid "Switched back to the flat map."
@@ -14937,7 +14937,7 @@ msgstr "Танк"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:310
 msgid "Tap a battle to join it."
-msgstr ""
+msgstr "Натисніть на битву, щоб перейти до неї."
 
 #: src/components/_economy/employee/TrainingDraftModal.tsx:448
 msgid "Tap a card to look at it."
@@ -14945,11 +14945,11 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:546
 msgid "Tap any region on the map to open its menu."
-msgstr ""
+msgstr "Натисніть на будь-який регіон, щоб відкрити його меню."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:96
 msgid "Tap Companies to start."
-msgstr ""
+msgstr "Для початку натисність кнопку «Фабрики»"
 
 #: src/components/_user/milestone/MilestoneItem.tsx:166
 #: src/components/_user/milestone/MilestoneItem.tsx:258
@@ -14958,43 +14958,43 @@ msgstr "Натисність для повного огляду рівня"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:203
 msgid "Tap Inventory."
-msgstr ""
+msgstr "Натисність кнопку «Інвентар»"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:558
 msgid "Tap Move to travel there."
-msgstr ""
+msgstr "Натисність «Рухатись», щоб переміститись."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:442
 msgid "Tap one to read it."
-msgstr ""
+msgstr "Натисність на якусь, щоб прочитати."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:277
 msgid "Tap Save to keep your points."
-msgstr ""
+msgstr "Натисність «Зберегти», щоб закріпити бали."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:418
 msgid "Tap the chat."
-msgstr ""
+msgstr "Натисніть на чат."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:134
 msgid "Tap them to see who they are."
-msgstr ""
+msgstr "Натисніть на нього, щоб дізнатись більше."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:449
 msgid "Tap this slot to wear your new gear."
-msgstr ""
+msgstr "Натисність на цей слот, щоб одягнути нове спорядження."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:574
 msgid "Tap to go to the nearest one and loot it."
-msgstr ""
+msgstr "Натисніть, щоб переміститись до найближчого і підібрати його."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:215
 msgid "Tap to see what's inside."
-msgstr ""
+msgstr "Натисність, щоб побачити, що всередині."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:424
 msgid "Tap your country's conversation."
-msgstr ""
+msgstr "Натисність на кімнату вашої держави."
 
 #: src/components/_political/law/LawFormModal.tsx:226
 msgid "Target country"
@@ -15095,7 +15095,7 @@ msgstr "Цей дофамін безкоштовний"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:517
 msgid "That is what they make, minus their wages."
-msgstr ""
+msgstr "Те, що вони вироблять, мінус їх зарплати."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:68
 msgid "That's epic!"
@@ -15111,7 +15111,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:193
 msgid "The bar is full. Tap to turn it into items."
-msgstr ""
+msgstr "Шкала повна. Натисність, щоб перетворити її на продукцію."
 
 #: src/components/_user/user/skills.frontConfig.tsx:55
 msgid "The base value for <0>Damages</0> calculation."
@@ -15250,7 +15250,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:987
 msgid "The demand"
-msgstr ""
+msgstr "Вимога"
 
 #: src/pages/region/[regionId]/index.tsx:73
 msgid "The deposit gives a production bonus of the following percentage."
@@ -15334,15 +15334,15 @@ msgstr ""
 
 #: src/components/_political/law/LawGovTypeAlert.tsx:27
 msgid "The government type of this country forbids alliances."
-msgstr ""
+msgstr "Форма правління цієї держави забороняє альянси."
 
 #: src/components/_political/law/LawGovTypeAlert.tsx:35
 msgid "The government type of this country forbids defensive pacts."
-msgstr ""
+msgstr "Форма правління цієї держави забороняє договори про захист."
 
 #: src/components/_political/law/LawGovTypeAlert.tsx:62
 msgid "The government type of this country forbids sending money to a country."
-msgstr ""
+msgstr "Форма правління цієї держави забороняє надсилати гроші державам."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1831
 msgid "The great soup debate"
@@ -15350,7 +15350,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3759
 msgid "The haircut"
-msgstr ""
+msgstr "Зачіска"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:498
 msgid "The hour's whole payroll across all your companies, employees and managers, divided by the production it banks. Under the market value of a point your companies earn more than they spend; over it, they cost more than what they make is worth."
@@ -15473,7 +15473,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:293
 msgid "The next tier opens right away."
-msgstr ""
+msgstr "Наступний рівень негайно розблокується."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:230
 msgid "The night shift tinkerer"
@@ -15517,7 +15517,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:554
 msgid "The region menu"
-msgstr ""
+msgstr "Меню регіону"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:749
 msgid "The reinvention fizzles out, and they sulk about it."
@@ -15766,7 +15766,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:291
 msgid "They never reset."
-msgstr ""
+msgstr "Вони ніколи не скидаються."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:629
 msgid "They put it to work on their own tool straight away."
@@ -15774,7 +15774,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:407
 msgid "They regenerate {regenPercent}% every hour. Next in <0/>."
-msgstr ""
+msgstr "Вони відновлюють {regenPercent}% кожну годину. Наступна регенерація: <0/>."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:886
 msgid "They shake hands, grudgingly."
@@ -15855,11 +15855,11 @@ msgstr ""
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:288
 #: src/components/_economy/employee/useConfirmFire.tsx:58
 msgid "this employee"
-msgstr ""
+msgstr "цей працівник"
 
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:192
 msgid "This employee"
-msgstr ""
+msgstr "Цей працівник"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
@@ -15887,7 +15887,7 @@ msgstr "Це значення, яке використовується для р
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:103
 msgid "This is your company"
-msgstr ""
+msgstr "Це ваша фабрика"
 
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:207
 msgid "This is your offer, shown like other buyers from your country see it. Buyers from elsewhere add their own country's tax."
@@ -16141,7 +16141,7 @@ msgstr ""
 #: src/components/_economy/inventory/Inventory.tsx:852
 #: src/components/_economy/inventory/ItemGridFilters.tsx:208
 msgid "Tools"
-msgstr ""
+msgstr "Інструменти"
 
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:137
 msgid "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, looted in battles."
@@ -16310,7 +16310,7 @@ msgstr "Перемога у турнірі!"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:55
 msgid "Trade items"
-msgstr ""
+msgstr "Торгівля предметами"
 
 #. placeholder {0}: coworker.name || t`this employee`
 #. placeholder {1}: -happinessPenalty
@@ -16334,7 +16334,7 @@ msgstr "Торгівельні транзакції"
 #: src/components/_economy/employee/EmployeeModal.tsx:399
 #: src/components/_economy/employee/TrainingDraftModal.tsx:356
 msgid "Train"
-msgstr ""
+msgstr "Навчати"
 
 #: src/components/_layout/loadingTips.tsx:410
 msgid "Train each employee once a day, resetting at 00:00 UTC: you draw {trainingHandSize} cards and keep the one you like."
@@ -16350,7 +16350,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:160
 msgid "Train your employee!"
-msgstr ""
+msgstr "Навчіть працівника!"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:16
 msgid "Trainee"
@@ -16358,20 +16358,20 @@ msgstr "Курсант"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:144
 msgid "Trainer"
-msgstr ""
+msgstr "Тренер"
 
 #: src/components/_economy/employee/employeeStats.tsx:199
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:168
 msgid "Training"
-msgstr ""
+msgstr "Навчання"
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:141
 msgid "Training cards"
-msgstr ""
+msgstr "Навчальні карти"
 
 #: src/components/_economy/employee/TrainingDraftModal.tsx:397
 msgid "Training complete."
-msgstr ""
+msgstr "Навчання завершено."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:162
 msgid "Training costs <0>Energy</0> and makes them better."
@@ -16387,18 +16387,18 @@ msgstr ""
 
 #: src/components/_economy/employee/TrainingHistory.tsx:244
 msgid "Training history"
-msgstr ""
+msgstr "Історія навчання"
 
 #: src/components/_economy/employee/employeeTags.tsx:58
 #: src/components/_economy/employee/EmployeeTooltip.tsx:144
 #: src/components/_economy/employee/TrainingCard.tsx:302
 #: src/components/_economy/employee/TrainingDraftModal.tsx:267
 msgid "Training potential"
-msgstr ""
+msgstr "Навчальний потенціал"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:183
 msgid "Training potential left"
-msgstr ""
+msgstr "Залишилось навчального потенціалу"
 
 #. placeholder {0}: outcome.potentialMax
 #: src/components/_economy/employee/TrainingHistory.tsx:152
@@ -16413,7 +16413,7 @@ msgstr ""
 #: src/components/_economy/employee/EmployeeTooltip.tsx:155
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:163
 msgid "Traits"
-msgstr ""
+msgstr "Риси"
 
 #: src/components/_user/user/UserHeader.tsx:232
 msgid "Transac."
@@ -16540,7 +16540,7 @@ msgstr "Незібраних кейсів, що чекають на мапі, м
 #: src/components/_economy/employee/employeeStats.tsx:130
 #: src/components/_user/user/EcoSkillEffects.tsx:26
 msgid "Uncommon"
-msgstr ""
+msgstr "Незвичайне"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1589
 msgid "Uncursed, certified, and the exorcist fixed the squeak too."
@@ -16617,7 +16617,7 @@ msgstr "Сприячі заворушенням"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:121
 msgid "Unrestricted chat"
-msgstr ""
+msgstr "Спілкування без обмежень"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:278
 msgid "Unselect all"
@@ -16654,7 +16654,7 @@ msgstr "Поліпшити автоматичний двигун"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:371
 msgid "Upgrade break room"
-msgstr ""
+msgstr "Покращити кімнату відпочинку"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:580
 msgid "Upgrade Company"
@@ -17016,7 +17016,7 @@ msgstr "Підтверджуємо, що ви людина..."
 
 #: src/components/_economy/employee/employee.traitMeta.ts:115
 msgid "Veteran"
-msgstr ""
+msgstr "Ветеран"
 
 #: src/components/_layout/LayoutOptions.tsx:213
 msgid "Vibrations"
@@ -17064,7 +17064,7 @@ msgstr "Проголосуйте на виборах"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:151
 msgid "Vote in elections"
-msgstr ""
+msgstr "Голосування на виборах"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:103
 msgid "Voter"
@@ -17103,7 +17103,7 @@ msgstr "Запропоновано зменшення зарплати"
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:61
 msgid "Wages"
-msgstr ""
+msgstr "Зарплати"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3162
 msgid "Wait for it to restart"
@@ -17247,11 +17247,11 @@ msgstr ""
 
 #: src/components/_social/poll/PollEditorModal.tsx:188
 msgid "What do you want to ask?"
-msgstr ""
+msgstr "Що хочете запитати?"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:246
 msgid "What each level opens"
-msgstr ""
+msgstr "Що відкриває кожен рівень"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:172
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
@@ -17271,7 +17271,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:315
 msgid "Who's winning?"
-msgstr ""
+msgstr "Хто перемагає?"
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:134
 #: src/components/_political/law/LawFormModal.tsx:213
@@ -17385,7 +17385,7 @@ msgstr "Працювати"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:184
 msgid "Work 3 times. Each one costs <0>Energy</0>."
-msgstr ""
+msgstr "Попрацюйте 3 рази. Кожен витрачає <0>Енергію</0>."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1473
 msgid "Work anniversary"
@@ -17401,7 +17401,7 @@ msgstr "Робітники"
 
 #: src/pages/companies.tsx:103
 msgid "Workforce"
-msgstr ""
+msgstr "Робоча сила"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:115
 msgid "Workforce chart"
@@ -17440,7 +17440,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Working fills its <0>Production</0> bar."
-msgstr ""
+msgstr "Робота заповнює шкалу <0>Виробництва</0>."
 
 #. placeholder {0}: 2
 #. placeholder {1}: 10
@@ -17454,7 +17454,7 @@ msgstr ""
 
 #: src/components/_economy/employee/EmployeeModal.tsx:212
 msgid "Works alone"
-msgstr ""
+msgstr "Працює один"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:144
 msgid "World"
@@ -17488,11 +17488,11 @@ msgstr "Створити закон"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:49
 msgid "Write articles"
-msgstr ""
+msgstr "Написання статей"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:436
 msgid "Written by players. Tap News."
-msgstr ""
+msgstr "Написані гравцями. Натисність кнопку «Новини»."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:65
 msgid "Wtf"
@@ -17508,7 +17508,7 @@ msgstr "X. Покарання та апеляції"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:88
 msgid "Xenophobe"
-msgstr ""
+msgstr "Ксенофоб"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:55
 msgid "XP"
@@ -17524,15 +17524,15 @@ msgstr "XP отримано"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:247
 msgid "XP raises your level. Tap Levels."
-msgstr ""
+msgstr "XP збільшує ваш рівень. Натисність «Рівні»"
 
 #: src/components/_user/notification/NotificationList.tsx:90
 msgid "Yesterday"
-msgstr ""
+msgstr "Вчора"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:183
 msgid "You already got its reward."
-msgstr ""
+msgstr "Ви вже отримали нагороду за нього."
 
 #. placeholder {0}: companiesLimit ?? 1
 #: src/components/_economy/company/CompanyDropdown.tsx:451
@@ -17725,11 +17725,11 @@ msgstr "Ви спожили <0>{0}</0>, дія починається зараз
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:486
 msgid "You have enough Concrete for one."
-msgstr ""
+msgstr "У вас достатньо бетону для однієї"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:255
 msgid "You have no employees yet"
-msgstr ""
+msgstr "У вас ще немає працівників"
 
 #: src/components/_economy/employee/MoveShell.tsx:90
 msgid "You have no other company to move them to"
@@ -17737,7 +17737,7 @@ msgstr ""
 
 #: src/components/_economy/itemOffer/MyItemOffers.tsx:55
 msgid "You have nothing on sale"
-msgstr ""
+msgstr "Ви нічого не продаєте"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1934
 msgid "You have prestiged! Enjoy your permanent XP bonus and prestige point."
@@ -17830,11 +17830,11 @@ msgstr "Ви оплатили рахунки розробника <3 (топ 3 �
 
 #: src/components/_economy/employee/CostPerPp.tsx:63
 msgid "You pay"
-msgstr ""
+msgstr "Ви платите"
 
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:169
 msgid "You pay, tax included"
-msgstr ""
+msgstr "Ви платите, включно з податком"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1249
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
@@ -18047,7 +18047,7 @@ msgstr "Ваш банер \"{0}\" був прийнятий, і тепер до�
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:398
 msgid "Your bars"
-msgstr ""
+msgstr "Ваші атрибути"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:880
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
@@ -18124,7 +18124,7 @@ msgstr "Ваша пошта"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:141
 msgid "Your employee's stats"
-msgstr ""
+msgstr "Характеристики працівника"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:514
 msgid "Your employees' estimated daily profit, at market prices."
@@ -18158,7 +18158,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:537
 msgid "Your gear boosts them all."
-msgstr ""
+msgstr "Спорядження поліпшує усі навички."
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:251
 msgid "Your government asks you to push the resistance here."
@@ -18170,11 +18170,11 @@ msgstr "Ваша інформація була збережена."
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:171
 msgid "Your Leadership"
-msgstr ""
+msgstr "Ваше лідерство"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:87
 msgid "Your Leadership {value}"
-msgstr ""
+msgstr "Ваше лідерство {value}"
 
 #: src/components/_military/hit/HitButton.tsx:460
 msgid "Your location"
@@ -18195,11 +18195,11 @@ msgstr "Твоя удача взяла відпустку"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:289
 msgid "Your milestones"
-msgstr ""
+msgstr "Ваші відзнаки"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:525
 msgid "Your military skills"
-msgstr ""
+msgstr "Ваші військові навички"
 
 #: src/components/_military/mu/MuFormModal.tsx:106
 msgid "Your military unit name"
@@ -18269,11 +18269,11 @@ msgstr "Ваша підписка скінчилась!"
 
 #: src/components/_other/tour/TutorialStep.tsx:432
 msgid "Your progress is kept. Finish it later to earn the reward."
-msgstr ""
+msgstr "Ваш прогрес збережено. Завершіть його пізніше, щоб отримати нагороду."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:223
 msgid "Your progression"
-msgstr ""
+msgstr "Ваша прогресія."
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:195
 msgid "Your rank"
@@ -18285,7 +18285,7 @@ msgstr "Ваше реферальне посилання"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:251
 msgid "Your reward"
-msgstr ""
+msgstr "Ваша нагорода"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1581
 msgid "Your team <0/> has been eliminated from the <1/>"
@@ -18315,7 +18315,7 @@ msgstr "Ваші щотижневі місії було скинуто! Заве
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:512
 msgid "Your workforce"
-msgstr ""
+msgstr "Ваша робоча сила"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "your@email.com"
