@@ -13117,11 +13117,15 @@ msgstr "Odbiorca"
 msgid "Recommended regions"
 msgstr "Polecane regiony"
 
-#: src/components/_economy/employee/EmployeeList.tsx:354
-#: src/components/_economy/employee/RecruitModal.tsx:226
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:21
 msgid "Recruit"
 msgstr "Rekrut"
+
+#: src/components/_economy/employee/EmployeeList.tsx:354
+#: src/components/_economy/employee/RecruitModal.tsx:229
+msgctxt "verb: hire employees"
+msgid "Recruit"
+msgstr ""
 
 #: src/components/_economy/employee/employee.traitMeta.ts:143
 msgid "Recruiter"

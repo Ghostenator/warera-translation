@@ -13117,11 +13117,15 @@ msgstr "प्राप्तकर्ता"
 msgid "Recommended regions"
 msgstr "अनुशंसित क्षेत्र"
 
-#: src/components/_economy/employee/EmployeeList.tsx:354
-#: src/components/_economy/employee/RecruitModal.tsx:226
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:21
 msgid "Recruit"
 msgstr "भर्ती"
+
+#: src/components/_economy/employee/EmployeeList.tsx:354
+#: src/components/_economy/employee/RecruitModal.tsx:229
+msgctxt "verb: hire employees"
+msgid "Recruit"
+msgstr ""
 
 #: src/components/_economy/employee/employee.traitMeta.ts:143
 msgid "Recruiter"
