@@ -2700,7 +2700,7 @@ msgstr "<0>Emotes</0> e GIFs no chat"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:403
 msgid "<0>Energy</0> to work, <1>Stamina</1> to travel."
-msgstr ""
+msgstr "<0>Energia</0> para trabalhar, <1>Stamina</1> para viajar."
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
@@ -2725,7 +2725,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:400
 msgid "<0>Health</0> to fight, <1>Hunger</1> to eat."
-msgstr ""
+msgstr "<0>Vida</0> para combater, <1>Fome</1> para comer."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:151
 msgid "<0>Luck</0>: finds toolboxes."
@@ -4759,7 +4759,7 @@ msgstr "Dano bónus"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:265
 msgid "Boost your Energy!"
-msgstr ""
+msgstr "Energiza-te!"
 
 #: src/components/_economy/inventory/Inventory.tsx:502
 #: src/components/_user/UserEquipments.tsx:288
@@ -6837,11 +6837,11 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:377
 msgid "Each meal refills your <0>Health</0> and uses <1>Hunger</1>."
-msgstr ""
+msgstr "Comer recupera <0>Vida</0> e consome <1>Fome</1>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:575
 msgid "Each one leads to the next."
-msgstr ""
+msgstr "Cada caixa leva-te à seguinte."
 
 #: src/components/_user/user/SkillUpgrade.tsx:319
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -6882,7 +6882,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:375
 msgid "Eat up to 3 times!"
-msgstr ""
+msgstr "Come até 3 vezes!"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:20
 msgid "Eco Mode"
@@ -7294,7 +7294,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:336
 msgid "Every 2 minutes, the side with more <0>Damages</0> gains <1>Ground</1>. Your hits count."
-msgstr ""
+msgstr "A cada 2 minutos, o lado que causar mais <0>Dano</0> ganha <1>Terreno</1>. Cada ataque teu faz a diferença."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:650
 msgid "Every coworker can train twice a day instead of once."
@@ -7761,7 +7761,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:325
 msgid "First side to reach <0>{pointsToWinRound}</0> Ground wins the round."
-msgstr ""
+msgstr "Ganha a ronda quem chegar primeiro aos <0>{pointsToWinRound}</0> pontos."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:317
 msgid "First side to win {roundsToWin} rounds wins the battle."
@@ -8365,7 +8365,7 @@ msgstr "Colete GSG9"
 
 #: src/components/_other/tour/TutorialFloatingGuide.tsx:55
 msgid "Guide"
-msgstr ""
+msgstr "Guia"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:172
 msgid "Guide complete!"
@@ -8373,7 +8373,7 @@ msgstr "Guia concluído!"
 
 #: src/components/_other/tour/tutorial.hooks.ts:283
 msgid "Guide paused"
-msgstr ""
+msgstr "Guia pausado"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:170
 msgid "Guide replayed"
@@ -8649,7 +8649,7 @@ msgstr "Acerta"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:388
 msgid "Hit until your <0>Health</0> runs out again."
-msgstr ""
+msgstr "Continua a combater até ficares novamente sem <0>Vida</0>."
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
 #: src/components/_military/battle/BattleSystem.tsx:916
@@ -10479,7 +10479,7 @@ msgstr "Mais"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:267
 msgid "More <0>Energy</0> means more work, hires and training. Put 5 points in it."
-msgstr ""
+msgstr "<0>Energia</0> permite-te trabalhar, contratar e treinar os teus trabalhadores. Investe 5 pontos nela."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:470
 msgid "More employees, more production."
@@ -11858,7 +11858,7 @@ msgstr "Outras"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:369
 msgid "Out of Health?"
-msgstr ""
+msgstr "Sem forças para continuar?"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:72
 #: src/components/_political/law/Law.tsx:78
@@ -12258,7 +12258,7 @@ msgstr "Escolhe uma batalha!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:347
 msgid "Pick a side and hit until your <0>Health</0> runs out."
-msgstr ""
+msgstr "Escolhe um lado e combate até ficares sem <0>Vida</0>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:441
 msgid "Pick an article!"
@@ -15774,7 +15774,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:407
 msgid "They regenerate {regenPercent}% every hour. Next in <0/>."
-msgstr ""
+msgstr "Recuperam {regenPercent}% por hora. Faltam <0/> para recuperarem novamente."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:886
 msgid "They shake hands, grudgingly."
@@ -18047,7 +18047,7 @@ msgstr "O teu banner \"{0}\" foi aceite e já está disponível na loja! Foi aut
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:398
 msgid "Your bars"
-msgstr ""
+msgstr "As tuas barras"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:880
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
