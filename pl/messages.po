@@ -446,15 +446,15 @@ msgstr "{draftPrestigeCount} punkt(y) prestiżu dla tej umiejętności ({savedPr
 
 #: src/components/_economy/inventory/DismantleModal.tsx:217
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
-msgstr "\"{equippedCount, plural, one {# z nich znajduje się w użyciu} other {# z nich znajdują się w użyciu}}\""
+msgstr "{equippedCount, plural, one {# z nich znajduje się w użyciu} other {# z nich znajdują się w użyciu}}""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:577
 msgid "{finder} and others found {toolboxes} for you to claim."
-msgstr "{finder} oraz pozostali znaleźli {toolboxes} do Twojego odebrania."
+msgstr "{finder} oraz pozostali znaleźli {toolboxes} do odebrania."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:581
 msgid "{finder} found {toolboxes} for you to claim."
-msgstr "{finder} znalazł {toolboxes} do Twojego odebrania."
+msgstr "{finder} znalazł {toolboxes} do odebrania."
 
 #: src/components/_economy/company/CompanyDropdown.tsx:311
 #: src/components/_economy/company/MoveCompanyForm.tsx:105
@@ -463,79 +463,79 @@ msgstr "{freeMoves} za darmo"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1169
 msgid "{gender, select, male {{name} accepts mixed grapes, under protest.} female {{name} accepts mixed grapes, under protest.} other {{name} accepts mixed grapes, under protest.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przyjmuje mieszane winogrona, z oporem.} female {{name} przyjmuje mieszane winogrona, z oporem.} other {{name} przyjmuje mieszane winogrona, z oporem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:847
 msgid "{gender, select, male {{name} and {partnerName} have been eating lunch together every day. He clearly enjoys it.} female {{name} and {partnerName} have been eating lunch together every day. She clearly enjoys it.} other {{name} and {partnerName} have been eating lunch together every day.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} i {partnerName} jedzą razem obiad każdego dnia. On ewidentnie to lubi.} female {{name} i {partnerName} jedzą razem obiad każdego dnia. Ona ewidentnie to lubi.} other {{name} i {partnerName} jedzą razem obiad każdego dnia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1258
 msgid "{gender, select, male {{name} apologizes harder.} female {{name} apologizes harder.} other {{name} apologizes harder.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przeprasza jeszcze bardziej.} female {{name} przeprasza jeszcze bardziej.} other {{name} przeprasza jeszcze bardziej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1291
 msgid "{gender, select, male {{name} apologizes until the end of the shift.} female {{name} apologizes until the end of the shift.} other {{name} apologizes until the end of the shift.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przeprasza aż do końca zmiany.} female {{name} przeprasza aż do końca zmiany.} other {{name} przeprasza aż do końca zmiany.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3851
 msgid "{gender, select, male {{name} ate the bait by mistake, and needs the afternoon off.} female {{name} ate the bait by mistake, and needs the afternoon off.} other {{name} ate the bait by mistake, and needs the afternoon off.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przez pomyłkę zjadł przynętę i potrzebuje wolnego popołudnia.} female {{name} przez pomyłkę zjadła przynętę i potrzebuje wolnego popołudnia.} other {{name} przez pomyłkę zjada przynętę i potrzebuje wolnego popołudnia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1431
 msgid "{gender, select, male {{name} beams, and rolls up his sleeves for the rest of the week.} female {{name} beams, and rolls up her sleeves for the rest of the week.} other {{name} beams, and rolls up their sleeves for the rest of the week.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} promienieje i zakasuje rękawy na resztę tygodnia.} female {{name} promienieje i zakasuje rękawy na resztę tygodnia.} other {{name} promienieje i zakasuje rękawy na resztę tygodnia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:736
 msgid "{gender, select, male {{name} bought a motorbike, dyed his hair and wants to reinvent himself.} female {{name} bought a motorbike, dyed her hair and wants to reinvent herself.} other {{name} bought a motorbike, dyed their hair and wants to reinvent themselves.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} kupił motocykl, przefarbował włosy i chce wymyślić siebie na nowo.} female {{name} kupiła motocykl, przefarbowała włosy i chce wymyślić siebie na nowo.} other {{name} kupuje motocykl, farbuje włosy i chce wymyślić siebie na nowo.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1064
 msgid "{gender, select, male {{name} bows and hands you the title. The workshop talks of nothing else.} female {{name} bows and hands you the title. The workshop talks of nothing else.} other {{name} bows and hands you the title. The workshop talks of nothing else.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} kłania się i wręcza Ci tytuł. Warsztat nie mówi o niczym innym.} female {{name} kłania się i wręcza Ci tytuł. Warsztat nie mówi o niczym innym.} other {{name} kłania się i wręcza Ci tytuł. Warsztat nie mówi o niczym innym.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:541
 msgid "{gender, select, male {{name} breaks down. It will stay with him.} female {{name} breaks down. It will stay with her.} other {{name} breaks down. It will stay with them.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} załamuje się. To zostanie z nim na zawsze.} female {{name} załamuje się. To zostanie z nią na zawsze.} other {{name} załamuje się. To zostanie z tą osobą na zawsze.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3009
 msgid "{gender, select, male {{name} brings the house down, solo, and talks about it all week.} female {{name} brings the house down, solo, and talks about it all week.} other {{name} brings the house down, solo, and talks about it all week.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} daje porywający występ solo i mówi o tym przez cały tydzień.} female {{name} daje porywający występ solo i mówi o tym przez cały tydzień.} other {{name} daje porywający występ solo i mówi o tym przez cały tydzień.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3284
 msgid "{gender, select, male {{name} brought a snack from home to share. It is either a delicacy or a war crime.} female {{name} brought a snack from home to share. It is either a delicacy or a war crime.} other {{name} brought a snack from home to share. It is either a delicacy or a war crime.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przyniósł z domu przekąskę do podziału. To albo przysmak, albo zbrodnia wojenna.} female {{name} przyniosła z domu przekąskę do podziału. To albo przysmak, albo zbrodnia wojenna.} other {{name} przynosi z domu przekąskę do podziału. To albo przysmak, albo zbrodnia wojenna.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1754
 msgid "{gender, select, male {{name} brought his kid to work. By ten o'clock, the kid had reorganized the storeroom and sold something to a passerby.} female {{name} brought her kid to work. By ten o'clock, the kid had reorganized the storeroom and sold something to a passerby.} other {{name} brought their kid to work. By ten o'clock, the kid had reorganized the storeroom and sold something to a passerby.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przyprowadził dziecko do pracy. Do dziesiątej maluch zreorganizował magazyn i coś sprzedał przechodniowi.} female {{name} przyprowadziła dziecko do pracy. Do dziesiątej maluch zreorganizował magazyn i coś sprzedał przechodniowi.} other {{name} przyprowadza dziecko do pracy. Do dziesiątej maluch reorganizuje magazyn i coś sprzedaje przechodniowi.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:363
 msgid "{gender, select, male {{name} burns out completely, and it will stay with him.} female {{name} burns out completely, and it will stay with her.} other {{name} burns out completely, and it will stay with them.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} całkowicie się wypala i to zostanie z nim na zawsze.} female {{name} całkowicie się wypala i to zostanie z nią na zawsze.} other {{name} całkowicie się wypala i to zostanie z tą osobą na zawsze.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:291
 msgid "{gender, select, male {{name} bursts into your office: he has an idea to change how the work is done, and needs a little room to try it.} female {{name} bursts into your office: she has an idea to change how the work is done, and needs a little room to try it.} other {{name} bursts into your office: they have an idea to change how the work is done, and need a little room to try it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wpada do Twojego biura: ma pomysł, jak zmienić sposób wykonywania pracy i potrzebuje trochę przestrzeni, by go wypróbować.} female {{name} wpada do Twojego biura: ma pomysł, jak zmienić sposób wykonywania pracy i potrzebuje trochę przestrzeni, by go wypróbować.} other {{name} wpada do Twojego biura: ma pomysł, jak zmienić sposób wykonywania pracy i potrzebuje trochę przestrzeni, by go wypróbować.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3131
 msgid "{gender, select, male {{name} calms down and breathes. The lift starts again on its own.} female {{name} calms down and breathes. The lift starts again on its own.} other {{name} calms down and breathes. The lift starts again on its own.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} uspokaja się i bierze głęboki oddech. Winda rusza sama z siebie.} female {{name} uspokaja się i bierze głęboki oddech. Winda rusza sama z siebie.} other {{name} uspokaja się i bierze głęboki oddech. Winda rusza sama z siebie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3137
 msgid "{gender, select, male {{name} calms down so well that small rooms no longer scare him at all.} female {{name} calms down so well that small rooms no longer scare her at all.} other {{name} calms down so well that small rooms no longer scare them at all.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} uspokaja się tak bardzo, że małe pomieszczenia wcale go już nie przerażają.} female {{name} uspokaja się tak bardzo, że małe pomieszczenia wcale jej już nie przerażają.} other {{name} uspokaja się tak bardzo, że małe pomieszczenia wcale już nie przerażają.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1443
 msgid "{gender, select, male {{name} can tell.} female {{name} can tell.} other {{name} can tell.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} widzi różnicę.} female {{name} widzi różnicę.} other {{name} widzi różnicę.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2879
 msgid "{gender, select, male {{name} cannot do it while anyone is watching, the teacher included.} female {{name} cannot do it while anyone is watching, the teacher included.} other {{name} cannot do it while anyone is watching, the teacher included.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie potrafi tego zrobić, gdy ktoś patrzy, wliczając w to nauczyciela.} female {{name} nie potrafi tego zrobić, gdy ktoś patrzy, wliczając w to nauczyciela.} other {{name} nie potrafi tego zrobić, gdy ktoś patrzy, wliczając w to nauczyciela.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3910
 msgid "{gender, select, male {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.} female {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.} other {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wszedł do szybów wentylacyjnych, żeby przyciąć Kevina, i utknął tam na całe popołudnie.} female {{name} weszła do szybów wentylacyjnych, żeby przyciąć Kevina, i utknęła tam na całe popołudnie.} other {{name} wchodzi do szybów wentylacyjnych, żeby przyciąć Kevina, i utyka tam na całe popołudnie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:668
 msgid "{gender, select, male {{name} comes back a day later, proud and steadier than before.} female {{name} comes back a day later, proud and steadier than before.} other {{name} comes back a day later, proud and steadier than before.}}"
@@ -543,151 +543,151 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:674
 msgid "{gender, select, male {{name} comes back wounded, and shaken.} female {{name} comes back wounded, and shaken.} other {{name} comes back wounded, and shaken.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wraca dzień później, dumny i pewniejszy siebie niż wcześniej.} female {{name} wraca dzień później, dumna i pewniejsza siebie niż wcześniej.} other {{name} wraca dzień później, dumni i pewniejsi siebie niż wcześniej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1016
 msgid "{gender, select, male {{name} comes out changed, and not for the better.} female {{name} comes out changed, and not for the better.} other {{name} comes out changed, and not for the better.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wychodzi z tego zmieniony i nie na lepsze.} female {{name} wychodzi z tego zmieniona i nie na lepsze.} other {{name} wychodzi z tego ze zmianą, i to nie na lepsze.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1328
 msgid "{gender, select, male {{name} copes. Barely.} female {{name} copes. Barely.} other {{name} copes. Barely.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} daje radę. Ledwo.} female {{name} daje radę. Ledwo.} other {{name} daje radę. Ledwo.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1818
 msgid "{gender, select, male {{name} crosses out “Supreme” and keeps drafting.} female {{name} crosses out “Supreme” and keeps drafting.} other {{name} crosses out “Supreme” and keeps drafting.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wykreśla „Najwyższy” i szkicuje dalej.} female {{name} wykreśla „Najwyższy” i szkicuje dalej.} other {{name} wykreśla „Najwyższy” i szkicuje dalej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2244
 msgid "{gender, select, male {{name} denies everything, and avoids you all week.} female {{name} denies everything, and avoids you all week.} other {{name} denies everything, and avoids you all week.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wszystkiemu zaprzecza i unika Cię przez cały tydzień.} female {{name} wszystkiemu zaprzecza i unika Cię przez cały tydzień.} other {{name} wszystkiemu zaprzecza i unika Cię przez cały tydzień.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1633
 msgid "{gender, select, male {{name} denies everything. The mustache stays on.} female {{name} denies everything. The mustache stays on.} other {{name} denies everything. The mustache stays on.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wszystkiemu zaprzecza. Wąsy zostają.} female {{name} wszystkiemu zaprzecza. Wąsy zostają.} other {{name} wszystkiemu zaprzecza. Wąsy zostają.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:680
 msgid "{gender, select, male {{name} did not come back.} female {{name} did not come back.} other {{name} did not come back.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie wrócił.} female {{name} nie wróciła.} other {{name} nie wraca.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1123
 msgid "{gender, select, male {{name} did not laugh.} female {{name} did not laugh.} other {{name} did not laugh.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie zaśmiał się.} female {{name} nie zaśmiała się.} other {{name} nie śmieje się.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3475
 msgid "{gender, select, male {{name} did not want to know, and is taking it hard.} female {{name} did not want to know, and is taking it hard.} other {{name} did not want to know, and is taking it hard.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie chciał wiedzieć i mocno to przeżywa.} female {{name} nie chciała wiedzieć i mocno to przeżywa.} other {{name} nie chce wiedzieć i mocno to przeżywa.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2169
 msgid "{gender, select, male {{name} digs in and stays out on the picket line.} female {{name} digs in and stays out on the picket line.} other {{name} digs in and stays out on the picket line.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} okopuje się i zostaje na pikiecie.} female {{name} okopuje się i zostaje na pikiecie.} other {{name} okopuje się i zostaje na pikiecie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1081
 msgid "{gender, select, male {{name} does an impression of you banning impressions.} female {{name} does an impression of you banning impressions.} other {{name} does an impression of you banning impressions.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} robi parodię tego, jak zakazujesz parodii.} female {{name} robi parodię tego, jak zakazujesz parodii.} other {{name} robi parodię tego, jak zakazujesz parodii.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1340
 msgid "{gender, select, male {{name} does not agree that it is just a chair.} female {{name} does not agree that it is just a chair.} other {{name} does not agree that it is just a chair.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie zgadza się, że to tylko krzesło.} female {{name} nie zgadza się, że to tylko krzesło.} other {{name} nie zgadza się, że to tylko krzesło.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3366
 msgid "{gender, select, male {{name} does push-ups alone by the machine, disappointed.} female {{name} does push-ups alone by the machine, disappointed.} other {{name} does push-ups alone by the machine, disappointed.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} robi pompki samotnie przy maszynie, rozczarowany.} female {{name} robi pompki samotnie przy maszynie, rozczarowana.} other {{name} robi pompki samotnie przy maszynie, rozczarowanie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2794
 msgid "{gender, select, male {{name} dreamed the solution to everything and wrote it on his arm before it faded. It is smudged.} female {{name} dreamed the solution to everything and wrote it on her arm before it faded. It is smudged.} other {{name} dreamed the solution to everything and wrote it on their arm before it faded. It is smudged.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} śnił o rozwiązaniu wszystkiego i zapisał je na ramieniu, zanim zatarło się w pamięci. Jest rozmazane.} female {{name} śniła o rozwiązaniu wszystkiego i zapisała je na ramieniu, zanim zatarło się w pamięci. Jest rozmazane.} other {{name} śni o rozwiązaniu wszystkiego i zapisuje je na ramieniu, zanim zatarłoby się w pamięci. Jest rozmazane.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2631
 msgid "{gender, select, male {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all him.} female {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all her.} other {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all them.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} upuścił kanapkę do maszyny, a wydajność wzrosła. Nikt nie wie dlaczego, a najmniej on sam.} female {{name} upuściła kanapkę do maszyny, a wydajność wzrosła. Nikt nie wie dlaczego, a najmniej ona sama.} other {{name} upuszcza kanapkę do maszyny, a wydajność rośnie. Nikt nie wie dlaczego, a najmniej ta osoba.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3322
 msgid "{gender, select, male {{name} eats it alone, looking a little homesick.} female {{name} eats it alone, looking a little homesick.} other {{name} eats it alone, looking a little homesick.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} je sam, wyglądając na trochę stęsknionego za domem.} female {{name} je sama, wyglądając na trochę stęsknioną za domem.} other {{name} je samotnie, wyglądając na trochę stęsknioną za domem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2665
 msgid "{gender, select, male {{name} eats lunch outside, glaring at the machine.} female {{name} eats lunch outside, glaring at the machine.} other {{name} eats lunch outside, glaring at the machine.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} je obiad na zewnątrz, piorunując wzrokiem maszynę.} female {{name} je obiad na zewnątrz, piorunując wzrokiem maszynę.} other {{name} je obiad na zewnątrz, piorunując wzrokiem maszynę.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1158
 msgid "{gender, select, male {{name} eats one grape, nods, and works like a star.} female {{name} eats one grape, nods, and works like a star.} other {{name} eats one grape, nods, and works like a star.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zjada jedno winogrono, kiwa głową i pracuje jak złoto.} female {{name} zjada jedno winogrono, kiwa głową i pracuje jak złoto.} other {{name} zjada jedno winogrono, kiwa głową i pracuje jak złoto.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1175
 msgid "{gender, select, male {{name} eats the red ones one at a time, staring at you.} female {{name} eats the red ones one at a time, staring at you.} other {{name} eats the red ones one at a time, staring at you.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zjada czerwone po jednym, wpatrując się w Ciebie.} female {{name} zjada czerwone po jednym, wpatrując się w Ciebie.} other {{name} zjada czerwone po jednym, wpatrując się w Ciebie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:999
 msgid "{gender, select, male {{name} emerges with a masterpiece.} female {{name} emerges with a masterpiece.} other {{name} emerges with a masterpiece.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wyłania się z arcydziełem.} female {{name} wyłania się z arcydziełem.} other {{name} wyłania się z arcydziełem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1005
 msgid "{gender, select, male {{name} emerges with fine work, if not quite the masterpiece he saw.} female {{name} emerges with fine work, if not quite the masterpiece she saw.} other {{name} emerges with fine work, if not quite the masterpiece they saw.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wyłania się ze świetną robotą, choć to nie do końca arcydzieło, które widział w oczach wyobraźni.} female {{name} wyłania się ze świetną robotą, choć to nie do końca arcydzieło, które widziała w oczach wyobraźni.} other {{name} wyłania się ze świetną robotą, choć to nie do końca arcydzieło, które jawiło się w wizji.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3380
 msgid "{gender, select, male {{name} emptied the suggestion box for the first time in three years. Forty notes say “more chairs”, one says “fire Gerald”, and there is no Gerald.} female {{name} emptied the suggestion box for the first time in three years. Forty notes say “more chairs”, one says “fire Gerald”, and there is no Gerald.} other {{name} emptied the suggestion box for the first time in three years. Forty notes say “more chairs”, one says “fire Gerald”, and there is no Gerald.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} opróżnił skrzynkę na sugestie pierwszy raz od trzech lat. Czterdzieści karteczek mówi „więcej krzeseł”, jedna „zwolnić Geralda”, a żadnego Geralda tu nie ma.} female {{name} opróżniła skrzynkę na sugestie pierwszy raz od trzech lat. Czterdzieści karteczek mówi „więcej krzeseł”, jedna „zwolnić Geralda”, a żadnego Geralda tu nie ma.} other {{name} opróżnia skrzynkę na sugestie pierwszy raz od trzech lat. Czterdzieści karteczek mówi „więcej krzeseł”, jedna „zwolnić Geralda”, a żadnego Geralda tu nie ma.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:513
 msgid "{gender, select, male {{name} fell asleep at his station today. He says he is fine.} female {{name} fell asleep at her station today. She says she is fine.} other {{name} fell asleep at their station today, and says they are fine.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zasnął dziś na swoim stanowisku. Twierdzi, że wszystko w porządku.} female {{name} zasnęła dziś na swoim stanowisku. Twierdzi, że wszystko w porządku.} other {{name} zasypia dziś na swoim stanowisku i twierdzi, że wszystko w porządku.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2857
 msgid "{gender, select, male {{name} fixed the machine with a paperclip in four seconds, then looked more surprised than anyone.} female {{name} fixed the machine with a paperclip in four seconds, then looked more surprised than anyone.} other {{name} fixed the machine with a paperclip in four seconds, then looked more surprised than anyone.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} naprawił maszynę spinaczem w cztery sekundy, po czym wyglądał na bardziej zaskoczonego niż cokolwiek innego.} female {{name} naprawiła maszynę spinaczem w cztery sekundy, po czym wyglądała na bardziej zaskoczoną niż cokolwiek innego.} other {{name} naprawia maszynę spinaczem w cztery sekundy, po czym wygląda na bardziej zaskoczenie niż cokolwiek innego.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2890
 msgid "{gender, select, male {{name} fixes small things around the workshop with paperclips, very happily.} female {{name} fixes small things around the workshop with paperclips, very happily.} other {{name} fixes small things around the workshop with paperclips, very happily.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} z wielką radością naprawia drobne rzeczy w warsztacie za pomocą spinaczy.} female {{name} z wielką radością naprawia drobne rzeczy w warsztacie za pomocą spinaczy.} other {{name} z wielką radością naprawia drobne rzeczy w warsztacie za pomocą spinaczy.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3015
 msgid "{gender, select, male {{name} forgot the words in the first line, and the tune in the second.} female {{name} forgot the words in the first line, and the tune in the second.} other {{name} forgot the words in the first line, and the tune in the second.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zapomniał słów w pierwszej linijce, a melodii w drugiej.} female {{name} zapomniała słów w pierwszej linijce, a melodii w drugiej.} other {{name} zapomina słów w pierwszej linijce, a melodii w drugiej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:388
 msgid "{gender, select, male {{name} found a course that runs after work. He wants to learn, if you will help.} female {{name} found a course that runs after work. She wants to learn, if you will help.} other {{name} found a course that runs after work and wants to learn, if you will help.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} znalazł kurs, który odbywa się po pracy. Chce się uczyć, jeśli mu pomożesz.} female {{name} znalazła kurs, który odbywa się po pracy. Chce się uczyć, jeśli jej pomożesz.} other {{name} znajduje kurs, który odbywa się po pracy, i chce się uczyć, jeśli pomożesz.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1269
 msgid "{gender, select, male {{name} frames it, then apologizes for framing it.} female {{name} frames it, then apologizes for framing it.} other {{name} frames it, then apologizes for framing it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} oprawia to w ramkę, po czym przeprasza, że to oprawił.} female {{name} oprawia to w ramkę, po czym przeprasza, że to oprawiła.} other {{name} oprawia to w ramkę, po czym przeprasza za oprawienie tego.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2152
 msgid "{gender, select, male {{name} gets a bonus, the chair and the parking spot. There is still no car.} female {{name} gets a bonus, the chair and the parking spot. There is still no car.} other {{name} gets a bonus, the chair and the parking spot. There is still no car.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} dostaje premię, krzesło i miejsce parkingowe. Samochodu wciąż brak.} female {{name} dostaje premię, krzesło i miejsce parkingowe. Samochodu wciąż brak.} other {{name} dostaje premię, krzesło i miejsce parkingowe. Samochodu wciąż brak.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:357
 msgid "{gender, select, male {{name} gets a lot done, then crashes. He is exhausted.} female {{name} gets a lot done, then crashes. She is exhausted.} other {{name} gets a lot done, then crashes, exhausted.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} robi bardzo dużo, po czym odpada z sił. Jest wykończony.} female {{name} robi bardzo dużo, po czym odpada z sił. Jest wykończona.} other {{name} robi bardzo dużo, po czym odpada z sił od wycieńczenia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2348
 msgid "{gender, select, male {{name} gives it a whack in the right place. The smoke clears.} female {{name} gives it a whack in the right place. The smoke clears.} other {{name} gives it a whack in the right place. The smoke clears.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} uderza w odpowiednie miejsce. Dym opada.} female {{name} uderza w odpowiednie miejsce. Dym opada.} other {{name} uderza w odpowiednie miejsce. Dym opada.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3218
 msgid "{gender, select, male {{name} glares at the van every time it passes.} female {{name} glares at the van every time it passes.} other {{name} glares at the van every time it passes.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} piorunuje wzrokiem furgonetkę za każdym razem, gdy przejeżdża.} female {{name} piorunuje wzrokiem furgonetkę za każdym razem, gdy przejeżdża.} other {{name} piorunuje wzrokiem furgonetkę za każdym razem, gdy przejeżdża.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3242
 msgid "{gender, select, male {{name} glows. The others lose the afternoon to an army of ten thousand.} female {{name} glows. The others lose the afternoon to an army of ten thousand.} other {{name} glows. The others lose the afternoon to an army of ten thousand.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} promienieje. Reszta traci popołudnie przez dziesięciotysięczną armię.} female {{name} promienieje. Reszta traci popołudnie przez dziesięciotysięczną armię.} other {{name} promienieje. Reszta traci popołudnie przez dziesięciotysięczną armię.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2605
 msgid "{gender, select, male {{name} goes all night, and comes out changed for the better, in more ways than one.} female {{name} goes all night, and comes out changed for the better, in more ways than one.} other {{name} goes all night, and comes out changed for the better, in more ways than one.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pracuje całą noc i wychodzi z tego odmieniony na lepsze na więcej niż jeden sposób.} female {{name} pracuje całą noc i wychodzi z tego odmieniona na lepsze na więcej niż jeden sposób.} other {{name} pracuje całą noc i wychodzi z tego na lepsze pod wieloma względami.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2780
 msgid "{gender, select, male {{name} goes back to the slow way, sulking.} female {{name} goes back to the slow way, sulking.} other {{name} goes back to the slow way, sulking.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wraca do wolniejszej metody, dąsając się.} female {{name} wraca do wolniejszej metody, dąsając się.} other {{name} wraca do wolniejszej metody, dąsając się.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:330
 msgid "{gender, select, male {{name} goes back to work, the idea filed away for later.} female {{name} goes back to work, the idea filed away for later.} other {{name} goes back to work, the idea filed away for later.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wraca do pracy, odkładając ten pomysł na później.} female {{name} wraca do pracy, odkładając ten pomysł na później.} other {{name} wraca do pracy, odkładając ten pomysł na później.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1390
 msgid "{gender, select, male {{name} goes underground. The party lives on.} female {{name} goes underground. The party lives on.} other {{name} goes underground. The party lives on.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} schodzi do podziemia. Impreza trwa nadal.} female {{name} schodzi do podziemia. Impreza trwa nadal.} other {{name} schodzi do podziemia. Impreza trwa nadal.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:697
 msgid "{gender, select, male {{name} got a letter from his family. He reads it at every break.} female {{name} got a letter from her family. She reads it at every break.} other {{name} got a letter from their family, and reads it at every break.}}"
@@ -695,571 +695,571 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1416
 msgid "{gender, select, male {{name} got the company logo tattooed on his forearm. It is spelled wrong.} female {{name} got the company logo tattooed on her forearm. It is spelled wrong.} other {{name} got the company logo tattooed on their forearm. It is spelled wrong.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} dostał list od rodziny. Czyta go na każdej przerwie.} female {{name} dostała list od rodziny. Czyta go na każdej przerwie.} other {{name} dostaje list od rodziny i czyta go na każdej przerwie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:374
 msgid "{gender, select, male {{name} grumbles, then comes back rested and grateful.} female {{name} grumbles, then comes back rested and grateful.} other {{name} grumbles, then comes back rested and grateful.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} narzeka, ale wraca wypoczęty i wdzięczny.} female {{name} narzeka, ale wraca wypoczęta i wdzięczna.} other {{name} narzeka, ale wraca po wypoczynku z wdzięcznością.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3454
 msgid "{gender, select, male {{name} has adopted the office plant, named it Kevin, and talks to it more than to any coworker. Kevin is plastic.} female {{name} has adopted the office plant, named it Kevin, and talks to it more than to any coworker. Kevin is plastic.} other {{name} has adopted the office plant, named it Kevin, and talks to it more than to any coworker. Kevin is plastic.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zaadoptował biurową roślinkę, nazwał ją Kevin i rozmawia z nią częściej niż z jakimkolwiek współpracownikiem. Kevin jest z plastiku.} female {{name} zaadoptowała biurową roślinkę, nazwała ją Kevin i rozmawia z nią częściej niż z jakimkolwiek współpracownikiem. Kevin jest z plastiku.} other {{name} zaadoptował_a biurową roślinkę, nazwał_a ją Kevin i rozmawia z nią częściej niż z jakimkolwiek współpracownikiem. Kevin jest z plastiku.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1037
 msgid "{gender, select, male {{name} has been doing impressions of you at lunch. They are very good.} female {{name} has been doing impressions of you at lunch. They are very good.} other {{name} has been doing impressions of you at lunch. They are very good.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} udawał cię podczas obiadu. Wychodzi mu to bardzo dobrze.} female {{name} udawała cię podczas obiadu. Wychodzi jej to bardzo dobrze.} other {{name} udaje cię podczas obiadu. Wychodzi to bardzo dobrze.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1612
 msgid "{gender, select, male {{name} has been seen working evenings at a rival firm, in a fake mustache. It is not fooling anyone.} female {{name} has been seen working evenings at a rival firm, in a fake mustache. It is not fooling anyone.} other {{name} has been seen working evenings at a rival firm, in a fake mustache. It is not fooling anyone.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} był widziany, jak pracuje wieczorami w konkurencyjnej firmie w przyklejonych wąsach. Nikogo tym nie nabiera.} female {{name} była widziana, jak pracuje wieczorami w konkurencyjnej firmie w przyklejonych wąsach. Nikogo tym nie nabiera.} other {{name} pojawia się wieczorami w konkurencyjnej firmie w przyklejonych wąsach. Nikogo tym nie nabiera.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:764
 msgid "{gender, select, male {{name} has been talking about retirement. He is ready to hang up his apron.} female {{name} has been talking about retirement. She is ready to hang up her apron.} other {{name} has been talking about retirement, and is ready to hang up their apron.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przebąkuje o emeryturze. Jest gotów powiesić fartuch na kołku.} female {{name} przebąkuje o emeryturze. Jest gotowa powiesić fartuch na kołku.} other {{name} przebąkuje o emeryturze i gotowość do powieszenia fartucha na kołku.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:344
 msgid "{gender, select, male {{name} has been working like a man possessed all week. He asks to keep going through the night.} female {{name} has been working like a woman possessed all week. She asks to keep going through the night.} other {{name} has been working like someone possessed all week, and asks to keep going through the night.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pracował cały tydzień jak opętany. Prosi, by móc kontynuować pracę przez całą noc.} female {{name} pracowała cały tydzień jak opętana. Prosi, by móc kontynuować pracę przez całą noc.} other {{name} pracuje cały tydzień jak opętany_a i prosi, by móc kontynuować pracę przez całą noc.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1794
 msgid "{gender, select, male {{name} has business cards printed before lunch.} female {{name} has business cards printed before lunch.} other {{name} has business cards printed before lunch.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} ma wydrukowane wizytówki jeszcze przed obiadem.} female {{name} ma wydrukowane wizytówki jeszcze przed obiadem.} other {{name} ma wydrukowane wizytówki jeszcze przed obiadem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3179
 msgid "{gender, select, male {{name} has challenged the delivery van to a race, to the depot and back. The driver accepted.} female {{name} has challenged the delivery van to a race, to the depot and back. The driver accepted.} other {{name} has challenged the delivery van to a race, to the depot and back. The driver accepted.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wyzwał furgonetkę dostawczą na wyścig do zajezdni i z powrotem. Kierowca przyjął wyzwanie.} female {{name} wyzwała furgonetkę dostawczą na wyścig do zajezdni i z powrotem. Kierowca przyjął wyzwanie.} other {{name} rzuca wyzwanie kierowcy furgonetki dostawczej na wyścig do zajezdni i z powrotem. Kierowca je przyjął.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2741
 msgid "{gender, select, male {{name} has found a faster way to do the job. It involves a ramp, and a running start.} female {{name} has found a faster way to do the job. It involves a ramp, and a running start.} other {{name} has found a faster way to do the job. It involves a ramp, and a running start.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} znalazł szybszy sposób na wykonanie pracy. Wymaga rampy i rozbiegu.} female {{name} znalazła szybszy sposób na wykonanie pracy. Wymaga rampy i rozbiegu.} other {{name} znajduje szybszy sposób na wykonanie pracy, wymagający rampy i rozbiegu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1365
 msgid "{gender, select, male {{name} has founded a political party. Membership: {name}.} female {{name} has founded a political party. Membership: {name}.} other {{name} has founded a political party. Membership: {name}.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} założył partię polityczną. Liczba członków: {name}.} female {{name} założyła partię polityczną. Liczba członków: {name}.} other {{name} zakłada partię polityczną. Liczba członków: {name}.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2059
 msgid "{gender, select, male {{name} has founded a union. Membership: one. His demands: a raise, a better chair and a parking spot. He does not have a car.} female {{name} has founded a union. Membership: one. Her demands: a raise, a better chair and a parking spot. She does not have a car.} other {{name} has founded a union. Membership: one. Their demands: a raise, a better chair and a parking spot. They do not have a car.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} założył związek zawodowy. Liczba członków: jeden. Jego żądania: podwyżka, lepsze krzesło i miejsce parkingowe. Nie ma samochodu.} female {{name} założyła związek zawodowy. Liczba członków: jeden. Jej żądania: podwyżka, lepsze krzesło i miejsce parkingowe. Nie ma samochodu.} other {{name} zakłada związek zawodowy. Liczba członków: jeden. Żądania: podwyżka, lepsze krzesło i miejsce parkingowe. Brak samochodu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1334
 msgid "{gender, select, male {{name} has grown as a person.} female {{name} has grown as a person.} other {{name} has grown as a person.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} rozwinął się jako człowiek.} female {{name} rozwinęła się jako człowiek.} other {{name} rozwinął_a się jako człowiek.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3516
 msgid "{gender, select, male {{name} has hung a kitten poster above every workstation. Every kitten says “Hang in there”.} female {{name} has hung a kitten poster above every workstation. Every kitten says “Hang in there”.} other {{name} has hung a kitten poster above every workstation. Every kitten says “Hang in there”.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} powiesił plakat z kotkiem nad każdym stanowiskiem pracy. Każdy kotek głosi: „Nie poddawaj się!”.} female {{name} powiesiła plakat z kotkiem nad każdym stanowiskiem pracy. Każdy kotek głosi: „Nie poddawaj się!”.} other {{name} wiesza plakat z kotkiem nad każdym stanowiskiem pracy. Każdy kotek głosi: „Nie poddawaj się!”.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1095
 msgid "{gender, select, male {{name} has made a chart of everyone's breaks. It is color-coded, laminated, and has a legend.} female {{name} has made a chart of everyone's breaks. It is color-coded, laminated, and has a legend.} other {{name} has made a chart of everyone's breaks. It is color-coded, laminated, and has a legend.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przygotował grafik przerw dla wszystkich. Jest zaznaczony kolorami, zalaminowany i ma legendę.} female {{name} przygotowała grafik przerw dla wszystkich. Jest zaznaczony kolorami, zalaminowany i ma legendę.} other {{name} przygotowuje grafik przerw dla wszystkich — zaznaczony kolorami, zalaminowany i z legendą.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:966
 msgid "{gender, select, male {{name} has not slept. He stares at the workshop door, muttering about something only he can see.} female {{name} has not slept. She stares at the workshop door, muttering about something only she can see.} other {{name} has not slept, staring at the workshop door and muttering about something no one else can see.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie spał. Wpatruje się w drzwi warsztatu, mrucząc o czymś, co tylko on widzi.} female {{name} nie spała. Wpatruje się w drzwi warsztatu, mrucząc o czymś, co tylko ona widzi.} other {{name} nie śpi, wpatrując się w drzwi warsztatu i mrucząc o czymś, czego nikt inny nie widzi.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3336
 msgid "{gender, select, male {{name} has started a workout club at six in the morning, before the shift. He is already shouting encouragement at the door.} female {{name} has started a workout club at six in the morning, before the shift. She is already shouting encouragement at the door.} other {{name} has started a workout club at six in the morning, before the shift. They are already shouting encouragement at the door.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} założył klub treningowy o szóstej rano, przed zmianą. Już przy drzwiach wykrzykuje słowa zachęty.} female {{name} założyła klub treningowy o szóstej rano, przed zmianą. Już przy drzwiach wykrzykuje słowa zachęty.} other {{name} zakłada klub treningowy o szóstej rano, przed zmianą, i już przy drzwiach wykrzykuje słowa zachęty.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3638
 msgid "{gender, select, male {{name} is back from the dump with a bag of “perfectly good stuff”.} female {{name} is back from the dump with a bag of “perfectly good stuff”.} other {{name} is back from the dump with a bag of “perfectly good stuff”.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wraca wysypiska ze torbą „całkiem dobrych rzeczy”.} female {{name} wraca wysypiska ze torbą „całkiem dobrych rzeczy”.} other {{name} wraca z wysypiska z torbą „całkiem dobrych rzeczy”.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1569
 msgid "{gender, select, male {{name} is certain his tool is cursed. It squeaked at him. Twice.} female {{name} is certain her tool is cursed. It squeaked at her. Twice.} other {{name} is certain their tool is cursed. It squeaked at them. Twice.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} jest pewien, że jego narzędzie jest przeklęte. Pisnęło na niego. Dwa razy.} female {{name} jest pewna, że jej narzędzie jest przeklęte. Pisnęło na nią. Dwa razy.} other {{name} ma pewność, że to narzędzie jest przeklęte — pisnęło dwa razy.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1437
 msgid "{gender, select, male {{name} is moved to tears. He is with you for life, spelling and all.} female {{name} is moved to tears. She is with you for life, spelling and all.} other {{name} is moved to tears, and with you for life, spelling and all.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} jest wzruszony do łez. Zostanie z Tobą na całe życie, ze swoimi błędami ortograficznymi i wszystkim innym.} female {{name} jest wzruszona do łez. Zostanie z Tobą na całe życie, ze swoimi błędami ortograficznymi i wszystkim innym.} other {{name} wzrusza się do łez i pozostaje z Tobą na całe życie, wraz ze swoimi błędami i całej reszcie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2128
 msgid "{gender, select, male {{name} is not giving up. Someone saw him painting a sign.} female {{name} is not giving up. Someone saw her painting a sign.} other {{name} is not giving up. Someone saw them painting a sign.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie daje za wygraną. Ktoś widział, jak malował transparent.} female {{name} nie daje za wygraną. Ktoś widział, jak malowała transparent.} other {{name} nie daje za wygraną. Ktoś widzi, jak maluje transparent.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3259
 msgid "{gender, select, male {{name} is offended: you do not ask how a war ends.} female {{name} is offended: you do not ask how a war ends.} other {{name} is offended: you do not ask how a war ends.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} jest obrażony: nie pyta się, jak kończy się wojna.} female {{name} jest obrażona: nie pyta się, jak kończy się wojna.} other {{name} czuje się obrażony_a: nie pyta się, jak kończy się wojna.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1677
 msgid "{gender, select, male {{name} is running laps of the workshop, waving a lottery ticket and shouting that he won.} female {{name} is running laps of the workshop, waving a lottery ticket and shouting that she won.} other {{name} is running laps of the workshop, waving a lottery ticket and shouting that they won.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} biega wkoło po warsztacie, machając kuponem loteryjnym i krzycząc, że wygrał.} female {{name} biega wkoło po warsztacie, machając kuponem loteryjnym i krzycząc, że wygrała.} other {{name} biega wkoło po warsztacie, machając kuponem loteryjnym i krzycząc o wygranej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2389
 msgid "{gender, select, male {{name} is selling “business opportunities” to his coworkers. It is a pyramid, and he is at the top.} female {{name} is selling “business opportunities” to her coworkers. It is a pyramid, and she is at the top.} other {{name} is selling “business opportunities” to their coworkers. It is a pyramid, and they are at the top.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} sprzedaje współpracownikom „okazje biznesowe”. To piramida, a on jest na samym szczycie.} female {{name} sprzedaje współpracowniczkom i współpracownikom „okazje biznesowe”. To piramida, a ona jest na samym szczycie.} other {{name} sprzedaje współpracownikom „okazje biznesowe”. To piramida, z nim_nią na samym szczycie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3311
 msgid "{gender, select, male {{name} is so proud. The whole company eats the snack now, whatever it is.} female {{name} is so proud. The whole company eats the snack now, whatever it is.} other {{name} is so proud. The whole company eats the snack now, whatever it is.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} duma rozpiera. Teraz cała firma je tę przekąskę, czymkolwiek ona jest.} female {{name} rozpiera duma. Teraz cała firma je tę przekąskę, czymkolwiek ona jest.} other {{name} rozpiera duma — cała firma je teraz tę przekąskę, czymkolwiek ona jest.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3232
 msgid "{gender, select, male {{name} is telling his war story again, for the fortieth time. The enemy army gets bigger every time.} female {{name} is telling her war story again, for the fortieth time. The enemy army gets bigger every time.} other {{name} is telling their war story again, for the fortieth time. The enemy army gets bigger every time.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} opowiada swoją historię wojenną po raz czterdziesty. Armia wroga rośnie z każdym razem.} female {{name} opowiada swoją historię wojenną po raz czterdziesty. Armia wroga rośnie z każdym razem.} other {{name} opowiada swoją historię wojenną po raz czterdziesty. Armia wroga rośnie z każdym razem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2105
 msgid "{gender, select, male {{name} is thrilled: membership has doubled.} female {{name} is thrilled: membership has doubled.} other {{name} is thrilled: membership has doubled.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} jest zachwycony: liczba członków podwoiła się.} female {{name} jest zachwycona: liczba członków podwoiła się.} other {{name} zachwyca się — liczba członków podwoiła się.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:447
 msgid "{gender, select, male {{name} is touched, and stays.} female {{name} is touched, and stays.} other {{name} is touched, and stays.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} jest wzruszony i zostaje.} female {{name} jest wzruszona i zostaje.} other {{name} wzrusza się i zostaje.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2832
 msgid "{gender, select, male {{name} is touched, and writes in it every morning. Mostly about dreams.} female {{name} is touched, and writes in it every morning. Mostly about dreams.} other {{name} is touched, and writes in it every morning. Mostly about dreams.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} jest wzruszony i pisze w nim każdego ranka. Głównie o snach.} female {{name} jest wzruszona i pisze w nim każdego ranka. Głównie o snach.} other {{name} wzrusza się i pisze w nim każdego ranka, głównie o snach.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3502
 msgid "{gender, select, male {{name} is touched. Kevin is unchanged.} female {{name} is touched. Kevin is unchanged.} other {{name} is touched. Kevin is unchanged.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} jest wzruszony. Kevin pozostaje bez zmian.} female {{name} jest wzruszona. Kevin pozostaje bez zmian.} other {{name} wzrusza się. Kevin pozostaje bez zmian.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1280
 msgid "{gender, select, male {{name} is visibly relieved.} female {{name} is visibly relieved.} other {{name} is visibly relieved.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} odczuwa widoczną ulgę.} female {{name} odczuwa widoczną ulgę.} other {{name} odczuwa widoczną ulgę.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1663
 msgid "{gender, select, male {{name} keeps both jobs, and yawns through this one.} female {{name} keeps both jobs, and yawns through this one.} other {{name} keeps both jobs, and yawns through this one.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zachowuje obie prace i ziewa w trakcie tej.} female {{name} zachowuje obie prace i ziewa w trakcie tej.} other {{name} zachowuje obie prace i ziewa w trakcie tej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2599
 msgid "{gender, select, male {{name} keeps going through the night, and comes out better, with more left to train.} female {{name} keeps going through the night, and comes out better, with more left to train.} other {{name} keeps going through the night, and comes out better, with more left to train.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pracuje całą noc i wychodzi z tego lepszy, z jeszcze większym potencjałem do rozwoju.} female {{name} pracuje całą noc i wychodzi z tego lepsza, z jeszcze większym potencjałem do rozwoju.} other {{name} kontynuuje pracę przez całą noc i kończy z jeszcze większym potencjałem do rozwoju.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2843
 msgid "{gender, select, male {{name} keeps the arm out of the shower for a week, just in case.} female {{name} keeps the arm out of the shower for a week, just in case.} other {{name} keeps the arm out of the shower for a week, just in case.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} na wszelki wypadek nie moczy ręki pod prysznicem przez tydzień.} female {{name} na wszelki wypadek nie moczy ręki pod prysznicem przez tydzień.} other {{name} na wszelki wypadek nie moczy ręki pod prysznicem przez tydzień.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2652
 msgid "{gender, select, male {{name} keeps the machine fed, and works faster beside it.} female {{name} keeps the machine fed, and works faster beside it.} other {{name} keeps the machine fed, and works faster beside it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} dba o stały dopływ materiału do maszyny i pracuje przy niej szybciej.} female {{name} dba o stały dopływ materiału do maszyny i pracuje przy niej szybciej.} other {{name} dba o stały dopływ materiału do maszyny i pracuje przy niej szybciej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1598
 msgid "{gender, select, male {{name} keeps working, and keeps an eye on the tool.} female {{name} keeps working, and keeps an eye on the tool.} other {{name} keeps working, and keeps an eye on the tool.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pracuje dalej i nie spuszcza narzędzia z oka.} female {{name} pracuje dalej i nie spuszcza narzędzia z oka.} other {{name} pracuje dalej i nie spuszcza narzędzia z oka.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:801
 msgid "{gender, select, male {{name} laughs, and agrees to {retirementStayYears} more years.} female {{name} laughs, and agrees to {retirementStayYears} more years.} other {{name} laughs, and agrees to {retirementStayYears} more years.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} śmieje się i zgadza się zostać na kolejne lata ({retirementStayYears}).} female {{name} śmieje się i zgadza się zostać na kolejne lata ({retirementStayYears}).} other {{name} śmieje się i zgadza się zostać na kolejne lata ({retirementStayYears}).}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2617
 msgid "{gender, select, male {{name} learned something, but the second shift burned him out.} female {{name} learned something, but the second shift burned her out.} other {{name} learned something, but the second shift burned them out.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} czegoś się nauczył, ale druga zmiana go wypaliła.} female {{name} czegoś się nauczyła, ale druga zmiana ją wypaliła.} other {{name} wynosi z tego nauczkę, ale druga zmiana doprowadza do wypalenia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:476
 msgid "{gender, select, male {{name} leaves on good terms, and the rival pays you for him.} female {{name} leaves on good terms, and the rival pays you for her.} other {{name} leaves on good terms, and the rival pays you for them.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} odchodzi w dobrych relacjach, a konkurencja Ci za niego płaci.} female {{name} odchodzi w dobrych relacjach, a konkurencja Ci za nią płaci.} other {{name} odchodzi w dobrych relacjach, a konkurencja wykupuje ten kontrakt.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:568
 msgid "{gender, select, male {{name} lost big at cards and asks you for an advance on his wages.} female {{name} lost big at cards and asks you for an advance on her wages.} other {{name} lost big at cards and asks you for an advance on their wages.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przegrał dużo w karty i prosi Cię o zaliczkę na poczet pensji.} female {{name} przegrała dużo w karty i prosi Cię o zaliczkę na poczet pensji.} other {{name} ponosi dużą stratę w kartach i prosi Cię o zaliczkę na poczet pensji.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2163
 msgid "{gender, select, male {{name} lowers the sign and comes back in, grumbling.} female {{name} lowers the sign and comes back in, grumbling.} other {{name} lowers the sign and comes back in, grumbling.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} opuszcza transparent i wraca do środka, marudząc pod nosem.} female {{name} opuszcza transparent i wraca do środka, marudząc pod nosem.} other {{name} opuszcza transparent i wraca do środka z mrukiem niezadowolenia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2553
 msgid "{gender, select, male {{name} mostly enjoys the comics on the back.} female {{name} mostly enjoys the comics on the back.} other {{name} mostly enjoys the comics on the back.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} najbardziej lubi komiksy na ostatniej stronie.} female {{name} najbardziej lubi komiksy na ostatniej stronie.} other {{name} najbardziej lubi komiksy na ostatniej stronie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1943
 msgid "{gender, select, male {{name} now signs every memo as Supreme Commander of {good}, and asks when his pay will catch up with the title.} female {{name} now signs every memo as Supreme Commander of {good}, and asks when her pay will catch up with the title.} other {{name} now signs every memo as Supreme Commander of {good}, and asks when their pay will catch up with the title.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} podpisuje teraz każdą notatkę jako Naczelny Dowódca ds. {good} i pyta, kiedy jego pensja zrówna się z tytułem.} female {{name} podpisuje teraz każdą notatkę jako Naczelna Dowódczyni ds. {good} i pyta, kiedy jej pensja zrówna się z tytułem.} other {{name} podpisuje teraz każdą notatkę jako Osoba Dowodząca ds. {good} i pyta, kiedy wynagrodzenie zrówna się z tym tytułem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:903
 msgid "{gender, select, male {{name} offers to take {partnerName} under his wing, if you let him spend work time on it.} female {{name} offers to take {partnerName} under her wing, if you let her spend work time on it.} other {{name} offers to take {partnerName} under their wing, if you allow work time for it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} oferuje, że weźmie osobę {partnerName} pod swoje skrzydła, jeśli pozwolisz mu poświęcić na to czas w pracy.} female {{name} oferuje, że weźmie osobę {partnerName} pod swoje skrzydła, jeśli pozwolisz jej poświęcić na to czas w pracy.} other {{name} oferuje wzięcie osoby {partnerName} pod swoje skrzydła, jeśli pozwolisz na poświęcenie na to czasu w pracy.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2679
 msgid "{gender, select, male {{name} overheard a rival company's trade secret at the bar. It was not hard: their foreman was shouting it.} female {{name} overheard a rival company's trade secret at the bar. It was not hard: their foreman was shouting it.} other {{name} overheard a rival company's trade secret at the bar. It was not hard: their foreman was shouting it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} podsłuchał w barze tajemnicę handlową konkurencji. Nie było to trudne: ich brygadzista wykrzykiwał ją na cały głos.} female {{name} podsłuchała w barze tajemnicę handlową konkurencji. Nie było to trudne: ich brygadzista wykrzykiwał ją na cały głos.} other {{name} przypadkowo poznaje w barze tajemnicę handlową konkurencji. Nie było to trudne: ich brygadzista wykrzykiwał ją na cały głos.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:578
 msgid "{gender, select, male {{name} pays you back in full, and will not forget it.} female {{name} pays you back in full, and will not forget it.} other {{name} pays you back in full, and will not forget it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} oddaje Ci całą kwotę i nie zapomni tego gestu.} female {{name} oddaje Ci całą kwotę i nie zapomni tego gestu.} other {{name} oddaje Ci całą kwotę i nie zapomni tego gestu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2186
 msgid "{gender, select, male {{name} pickets until dark, then comes back the next morning, cold and grumpy.} female {{name} pickets until dark, then comes back the next morning, cold and grumpy.} other {{name} pickets until dark, then comes back the next morning, cold and grumpy.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pikietuje do zmroku, po czym wraca następnego ranka, zmarznięty i zrzędliwy.} female {{name} pikietuje do zmroku, po czym wraca następnego ranka, zmarznięta i zrzędliwa.} other {{name} pikietuje do zmroku, po czym wraca następnego ranka, zmarznięty(a) i zrzędliwy(a).}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1485
 msgid "{gender, select, male {{name} pretends not to be moved. It does not work.} female {{name} pretends not to be moved. It does not work.} other {{name} pretends not to be moved. It does not work.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} udaje, że go to nie wzrusza. Bez skutku.} female {{name} udaje, że ją to nie wzrusza. Bez skutku.} other {{name} udaje brak wzruszenia. Bez skutku.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2305
 msgid "{gender, select, male {{name} proudly points out the fire exit. The inspector orders a day of safety drills.} female {{name} proudly points out the fire exit. The inspector orders a day of safety drills.} other {{name} proudly points out the fire exit. The inspector orders a day of safety drills.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} z dumą wskazuje wyjście ewakuacyjne. Inspektor nakazuje dzień ćwiczeń przeciwpożarowych.} female {{name} z dumą wskazuje wyjście ewakuacyjne. Inspektor nakazuje dzień ćwiczeń przeciwpożarowych.} other {{name} z dumą wskazuje wyjście ewakuacyjne. Inspektor nakazuje dzień ćwiczeń przeciwpożarowych.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3355
 msgid "{gender, select, male {{name} pulled a muscle showing the first exercise, and needs half a day to walk again.} female {{name} pulled a muscle showing the first exercise, and needs half a day to walk again.} other {{name} pulled a muscle showing the first exercise, and needs half a day to walk again.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} naciągnął mięsień, pokazując pierwsze ćwiczenie, i potrzebuje pół dnia, żeby znowu zacząć chodzić.} female {{name} naciągnęła mięsień, pokazując pierwsze ćwiczenie, i potrzebuje pół dnia, żeby znowu zacząć chodzić.} other {{name} naciąga mięsień przy pierwszym ćwiczeniu i potrzebuje pół dnia, żeby znowu zacząć chodzić.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2901
 msgid "{gender, select, male {{name} puts the paperclip away and goes back to work, a little puzzled.} female {{name} puts the paperclip away and goes back to work, a little puzzled.} other {{name} puts the paperclip away and goes back to work, a little puzzled.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} odkłada spinacz i wraca do pracy, nieco zdziwiony.} female {{name} odkłada spinacz i wraca do pracy, nieco zdziwiona.} other {{name} odkłada spinacz i wraca do pracy z lekkim zdziwieniem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1627
 msgid "{gender, select, male {{name} quits the other job, and is well rested now.} female {{name} quits the other job, and is well rested now.} other {{name} quits the other job, and is well rested now.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} rzuca drugą pracę i w końcu jest wypoczęty.} female {{name} rzuca drugą pracę i w końcu jest wypoczęta.} other {{name} rezygnuje z drugiej pracy i w końcu jest wypoczęty(a).}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2559
 msgid "{gender, select, male {{name} reads every word, and starts wondering about life on the other side.} female {{name} reads every word, and starts wondering about life on the other side.} other {{name} reads every word, and starts wondering about life on the other side.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} czyta każde słowo i zaczyna zastanawiać się nad życiem po drugiej stronie.} female {{name} czyta każde słowo i zaczyna zastanawiać się nad życiem po drugiej stronie.} other {{name} czyta każde słowo i zaczyna zastanawiać się nad życiem po drugiej stronie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1687
 msgid "{gender, select, male {{name} really won. He buys everyone dinner, tips you handsomely and retires the next morning.} female {{name} really won. She buys everyone dinner, tips you handsomely and retires the next morning.} other {{name} really won, buys everyone dinner, tips you handsomely and retires the next morning.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} naprawdę wygrał. Stawia wszystkim kolację, daje Ci hojny napiwek i następnego ranka odchodzi na emeryturę.} female {{name} naprawdę wygrała. Stawia wszystkim kolację, daje Ci hojny napiwek i następnego ranka odchodzi na emeryturę.} other {{name} naprawdę wygrywa, stawia wszystkim kolację, daje Ci hojny napiwek i następnego ranka odchodzi na emeryturę.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:277
 msgid "{gender, select, male {{name} reassembles it in silence, a little hurt.} female {{name} reassembles it in silence, a little hurt.} other {{name} reassembles it in silence, a little hurt.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} składa to z powrotem w milczeniu, nieco dotknięty.} female {{name} składa to z powrotem w milczeniu, nieco dotknięta.} other {{name} składa to z powrotem w milczeniu, z lekkim poczuciem urazy.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1513
 msgid "{gender, select, male {{name} remembered, it turns out.} female {{name} remembered, it turns out.} other {{name} remembered, it turns out.}}"
-msgstr ""
+msgstr "{gender, select, male {Okazuje się, że {name} pamiętał.} female {Okazuje się, że {name} pamiętała.} other {Okazuje się, że {name} pamięta.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:780
 msgid "{gender, select, male {{name} retires with a party, after teaching a coworker one last trick.} female {{name} retires with a party, after teaching a coworker one last trick.} other {{name} retires with a party, after teaching a coworker one last trick.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} odchodzi na emeryturę z imprezą po tym, jak uczy współpracownika ostatniej sztuczki.} female {{name} odchodzi na emeryturę z imprezą po tym, jak uczy współpracownika ostatniej sztuczki.} other {{name} odchodzi na emeryturę z imprezą po przekazaniu współpracownikowi ostatniej sztuczki.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:774
 msgid "{gender, select, male {{name} retires with a party, and leaves something of himself behind.} female {{name} retires with a party, and leaves something of herself behind.} other {{name} retires with a party, and leaves something of themselves behind.}}"
-msgstr ""
+msgstr {gender, select, male {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.} female {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.} other {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:786
 msgid "{gender, select, male {{name} retires with a party, and takes his secrets with him.} female {{name} retires with a party, and takes her secrets with her.} other {{name} retires with a party, and takes their secrets with them.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} odchodzi na emeryturę z imprezą i zabiera swoje sekrety ze sobą.} female {{name} odchodzi na emeryturę z imprezą i zabiera swoje sekrety ze sobą.} other {{name} odchodzi na emeryturę z imprezą i zabiera swoje sekrety ze sobą.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2583
 msgid "{gender, select, male {{name} rides it to the end of the shift, and some of it sticks for good.} female {{name} rides it to the end of the shift, and some of it sticks for good.} other {{name} rides it to the end of the shift, and some of it sticks for good.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} dociąga to do końca zmiany i część z tego zostaje na dobre.} female {{name} dociąga to do końca zmiany i część z tego zostaje na dobre.} other {{name} dociąga to do końca zmiany i część z tego zostaje na dobre.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1953
 msgid "{gender, select, male {{name} salutes. The memos continue.} female {{name} salutes. The memos continue.} other {{name} salutes. The memos continue.}}"
-msgstr ""
+msgstr "gender, select, male {{name} salutuje. Memoranda spływają dalej.} female {{name} salutuje. Memoranda spływają dalej.} other {{name} salutuje. Memoranda spływają dalej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3672
 msgid "{gender, select, male {{name} says his cousin would be perfect for the job. The cousin is in the car, and the car is on fire.} female {{name} says her cousin would be perfect for the job. The cousin is in the car, and the car is on fire.} other {{name} says their cousin would be perfect for the job. The cousin is in the car, and the car is on fire.}}"
-msgstr ""
+msgstr "gender, select, male {{name} mówi, że jego kuzyn idealnie nadawałby się do tej pracy. Kuzyn siedzi w samochodzie, a samochód się pali.} female {{name} mówi, że jej kuzyn idealnie nadawałby się do tej pracy. Kuzyn siedzi w samochodzie, a samochód się pali.} other {{name} mówi, że kuzyn idealnie nadawałby się do tej pracy. Kuzyn siedzi w samochodzie, a samochód się pali.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3416
 msgid "{gender, select, male {{name} signed for a delivery of 300 rubber ducks. The invoice is in your name.} female {{name} signed for a delivery of 300 rubber ducks. The invoice is in your name.} other {{name} signed for a delivery of 300 rubber ducks. The invoice is in your name.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pokwitował odbiór przesyłki z 300 gumowymi kaczuszkami. Faktura jest wystawiona na Twoje nazwisko.} female {{name} pokwitowała odbiór przesyłki z 300 gumowymi kaczuszkami. Faktura jest wystawiona na Twoje nazwisko.} other {{name} odbiera przesyłkę z 300 gumowymi kaczuszkami. Faktura jest wystawiona na Twoje nazwisko.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2983
 msgid "{gender, select, male {{name} signed the whole company up for the regional karaoke contest. The first round is tonight.} female {{name} signed the whole company up for the regional karaoke contest. The first round is tonight.} other {{name} signed the whole company up for the regional karaoke contest. The first round is tonight.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zapisał całą firmę do regionalnego konkursu karaoke. Pierwsza runda jest dziś wieczorem.} female {{name} zapisała całą firmę do regionalnego konkursu karaoke. Pierwsza runda jest dziś wieczorem.} other {{name} zapisuje całą firmę do regionalnego konkursu karaoke. Pierwsza runda jest dziś wieczorem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3026
 msgid "{gender, select, male {{name} sings in the storeroom instead, defiantly.} female {{name} sings in the storeroom instead, defiantly.} other {{name} sings in the storeroom instead, defiantly.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} śpiewa zamiast tego w magazynie, z rozmysłem i przekorą.} female {{name} śpiewa zamiast tego w magazynie, z rozmysłem i przekorą.} other {{name} śpiewa zamiast tego w magazynie, przekornie i z wyzwaniem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1351
 msgid "{gender, select, male {{name} spends the day adjusting it by feel.} female {{name} spends the day adjusting it by feel.} other {{name} spends the day adjusting it by feel.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} spędza cały dzień, regulując to na wyczucie.} female {{name} spędza cały dzień, regulując to na wyczucie.} other {{name} spędza cały dzień, regulując to na wyczucie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2930
 msgid "{gender, select, male {{name} spends the day safely in bed. No misfortune occurs.} female {{name} spends the day safely in bed. No misfortune occurs.} other {{name} spends the day safely in bed. No misfortune occurs.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} spędza dzień bezpiecznie w łóżku. Żaden pech się nie przytrafia.} female {{name} spędza dzień bezpiecznie w łóżku. Żaden pech się nie przytrafia.} other {{name} spędza dzień bezpiecznie w łóżku. Żaden pech się nie przytrafia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3684
 msgid "{gender, select, male {{name} spends the night at the hospital with the cousin.} female {{name} spends the night at the hospital with the cousin.} other {{name} spends the night at the hospital with the cousin.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} spędza noc w szpitalu z kuzynem.} female {{name} spędza noc w szpitalu z kuzynem.} other {{name} spędza noc w szpitalu z kuzynem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:952
 msgid "{gender, select, male {{name} starts looking at other jobs.} female {{name} starts looking at other jobs.} other {{name} starts looking at other jobs.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zaczyna rozglądać się za inną pracą.} female {{name} zaczyna rozglądać się za inną pracą.} other {{name} zaczyna rozglądać się za inną pracą.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:232
 msgid "{gender, select, male {{name} stayed after hours again. You find his tool in pieces on the bench, and he swears it will come out better than new.} female {{name} stayed after hours again. You find her tool in pieces on the bench, and she swears it will come out better than new.} other {{name} stayed after hours again. You find their tool in pieces on the bench, and they swear it will come out better than new.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} znowu został po godzinach. Znajdujesz jego narzędzie w częściach na stole, a on przysięga, że będzie jak nowe, a nawet lepsze.} female {{name} znowu została po godzinach. Znajdujesz jej narzędzie w częściach na stole, a ona przysięga, że będzie jak nowe, a nawet lepsze.} other {{name} znowu zostaje po godzinach. Znajdujesz narzędzie w częściach na stole, a padają zapewnienia, że będzie jak nowe, a nawet lepsze.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:436
 msgid "{gender, select, male {{name} stays, and asks for more from now on.} female {{name} stays, and asks for more from now on.} other {{name} stays, and asks for more from now on.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zostaje i od teraz prosi o więcej.} female {{name} zostaje i od teraz prosi o więcej.} other {{name} zostaje i od teraz prosi o więcej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:487
 msgid "{gender, select, male {{name} stays, but feels taken for granted.} female {{name} stays, but feels taken for granted.} other {{name} stays, but feels taken for granted.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zostaje, ale czuje się niedoceniony.} female {{name} zostaje, ale czuje się niedoceniona.} other {{name} zostaje, ale czuje brak docenienia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:807
 msgid "{gender, select, male {{name} stays, but he grumbles about it.} female {{name} stays, but she grumbles about it.} other {{name} stays, but grumbles about it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zostaje, ale na to narzeka.} female {{name} zostaje, ale na to narzeka.} other {{name} zostaje, ale narzeka na to.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:493
 msgid "{gender, select, male {{name} stays, but he kept the rival's card.} female {{name} stays, but she kept the rival's card.} other {{name} stays, but kept the rival's card.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zostaje, ale zachował wizytówkę konkurencji.} female {{name} zostaje, ale zachowała wizytówkę konkurencji.} other {{name} zostaje, ale wizytówka konkurencji zostaje w kieszeni.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:459
 msgid "{gender, select, male {{name} stays, but he resents being guilted into it.} female {{name} stays, but she resents being guilted into it.} other {{name} stays, but resents being guilted into it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zostaje, ale ma żal, że wzbudzono w nim poczucie winy.} female {{name} zostaje, ale ma żal, że wzbudzono w niej poczucie winy.} other {{name} zostaje, ale ma żal o wzbudzanie poczucia winy.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3143
 msgid "{gender, select, male {{name} stops listening after your third joke. It is a long afternoon in there.} female {{name} stops listening after your third joke. It is a long afternoon in there.} other {{name} stops listening after your third joke. It is a long afternoon in there.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przestaje słuchać po Twoim trzecim żarcie. To długie popołudnie.} female {{name} przestaje słuchać po Twoim trzecim żarcie. To długie popołudnie.} other {{name} przestaje słuchać po Twoim trzecim żarcie. To długie popołudnie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1987
 msgid "{gender, select, male {{name} stops signing as Supreme Commander, and starts looking at other jobs.} female {{name} stops signing as Supreme Commander, and starts looking at other jobs.} other {{name} stops signing as Supreme Commander, and starts looking at other jobs.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przestaje podpisywać się jako Naczelny Dowódca i zaczyna rozglądać się za inną pracą.} female {{name} przestaje podpisywać się jako Naczelna Dowódczyni i zaczyna rozglądać się za inną pracą.} other {{name} przestaje podpisywać się jako Naczelny Dowódca i zaczyna rozglądać się za inną pracą.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1981
 msgid "{gender, select, male {{name} stops signing as Supreme Commander, and sulks.} female {{name} stops signing as Supreme Commander, and sulks.} other {{name} stops signing as Supreme Commander, and sulks.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przestaje podpisywać się jako Naczelny Dowódca i dąsają się.} female {{name} przestaje podpisywać się jako Naczelna Dowódczyni i dąsa się.} other {{name} przestaje podpisywać się jako Naczelny Dowódca i dąsa się.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:833
 msgid "{gender, select, male {{name} stops waiting for your blessing and retires, with no send-off.} female {{name} stops waiting for your blessing and retires, with no send-off.} other {{name} stops waiting for your blessing and retires, with no send-off.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przestaje czekać na Twoje błogosławieństwo i odchodzi na emeryturę bez żadnego pożegnania.} female {{name} przestaje czekać na Twoje błogosławieństwo i odchodzi na emeryturę bez żadnego pożegnania.} other {{name} przestaje czekać na Twoje błogosławieństwo i odchodzi na emeryturę bez żadnego pożegnania.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1117
 msgid "{gender, select, male {{name} studies it for a long time, then laughs. Eventually.} female {{name} studies it for a long time, then laughs. Eventually.} other {{name} studies it for a long time, then laughs. Eventually.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} długo temu się przygląda, a potem się śmieje. W końcu.} female {{name} długo temu się przygląda, a potem się śmieje. W końcu.} other {{name} długo temu się przygląda, a potem się śmieje. W końcu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2122
 msgid "{gender, select, male {{name} sulks for a while, then the union quietly folds.} female {{name} sulks for a while, then the union quietly folds.} other {{name} sulks for a while, then the union quietly folds.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} dąsa się przez jakiś czas, po czym związek zawodowy po cichu się rozwiązuje.} female {{name} dąsa się przez jakiś czas, po czym związek zawodowy po cichu się rozwiązuje.} other {{name} dąsa się przez jakiś czas, po czym związek zawodowy po cichu się rozwiązuje.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3270
 msgid "{gender, select, male {{name} sulks, and starts the story again at lunch.} female {{name} sulks, and starts the story again at lunch.} other {{name} sulks, and starts the story again at lunch.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} dąsa się i zaczyna opowiadać tę historię od nowa podczas obiadu.} female {{name} dąsa się i zaczyna opowiadać tę historię od nowa podczas obiadu.} other {{name} dąsa się i zaczyna opowiadać tę historię od nowa podczas obiadu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2111
 msgid "{gender, select, male {{name} suspects you only joined to spy on him.} female {{name} suspects you only joined to spy on her.} other {{name} suspects you only joined to spy on them.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} podejrzewa, że dołączasz tylko po to, żeby go szpiegować.} female {{name} podejrzewa, że dołączasz tylko po to, żeby ją szpiegować.} other {{name} podejrzewa, że dołączasz tylko po to, żeby szpiegować.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1970
 msgid "{gender, select, male {{name} takes being one Supreme Commander among many very badly.} female {{name} takes being one Supreme Commander among many very badly.} other {{name} takes being one Supreme Commander among many very badly.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} bardzo źle znosi bycie jednym z wielu Naczelnych Dowódców.} female {{name} bardzo źle znosi bycie jedną z wielu Naczelnych Dowódczyń.} other {{name} bardzo źle znosi bycie jednym z wielu Naczelnych Dowódców.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2354
 msgid "{gender, select, male {{name} takes it apart and puts it back together as good as new.} female {{name} takes it apart and puts it back together as good as new.} other {{name} takes it apart and puts it back together as good as new.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} rozbiera to na części i składa z powrotem, a rzecz jest jak nowa.} female {{name} rozbiera to na części i składa z powrotem, a rzecz jest jak nowa.} other {{name} rozbiera to na części i składa z powrotem, a rzecz jest jak nowa.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2094
 msgid "{gender, select, male {{name} takes it very personally, and starts reading the job ads.} female {{name} takes it very personally, and starts reading the job ads.} other {{name} takes it very personally, and starts reading the job ads.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} bierze to bardzo do siebie i zaczyna przeglądać ogłoszenia o pracę.} female {{name} bierze to bardzo do siebie i zaczyna przeglądać ogłoszenia o pracę.} other {{name} bierze to bardzo do siebie i zaczyna przeglądać ogłoszenia o pracę.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3469
 msgid "{gender, select, male {{name} takes it well, and keeps talking to Kevin anyway.} female {{name} takes it well, and keeps talking to Kevin anyway.} other {{name} takes it well, and keeps talking to Kevin anyway.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} znosi to dobrze i tak czy owak dalej rozmawia z Kevinem.} female {{name} znosi to dobrze i tak czy owak dalej rozmawia z Kevinem.} other {{name} znosi to dobrze i tak czy owak dalej rozmawia z Kevinem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1134
 msgid "{gender, select, male {{name} takes it well, for someone with three more at home.} female {{name} takes it well, for someone with three more at home.} other {{name} takes it well, for someone with three more at home.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} znosi to dobrze jak na kogoś, kto ma w domu jeszcze trójkę.} female {{name} znosi to dobrze jak na kogoś, kto ma w domu jeszcze trójkę.} other {{name} znosi to dobrze jak na kogoś, kto ma w domu jeszcze trójkę.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:465
 msgid "{gender, select, male {{name} takes the offer. He is gone.} female {{name} takes the offer. She is gone.} other {{name} takes the offer and is gone.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} przyjmuje ofertę. Odchodzi.} female {{name} przyjmuje ofertę. Odchodzi.} other {{name} przyjmuje ofertę i odchodzi.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3546
 msgid "{gender, select, male {{name} takes the posters down one by one, and does not hang in there.} female {{name} takes the posters down one by one, and does not hang in there.} other {{name} takes the posters down one by one, and does not hang in there.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zdejmuje plakaty jeden po drugim i się nie poddaje.} female {{name} zdejmuje plakaty jeden po drugim i się nie poddaje.} other {{name} zdejmuje plakaty jeden po drugim i się nie poddaje.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2232
 msgid "{gender, select, male {{name} talks it through, and feels a lot better.} female {{name} talks it through, and feels a lot better.} other {{name} talks it through, and feels a lot better.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wszystko omawia i czuje się znacznie lepiej.} female {{name} wszystko omawia i czuje się znacznie lepiej.} other {{name} wszystko omawia i czuje się znacznie lepiej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2238
 msgid "{gender, select, male {{name} talks it through, and will not be writing another one.} female {{name} talks it through, and will not be writing another one.} other {{name} talks it through, and will not be writing another one.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wszystko omawia i nie napisze kolejnego memoranda.} female {{name} wszystko omawia i nie napisze kolejnego memoranda.} other {{name} wszystko omawia i nie napisze kolejnego memoranda.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2293
 msgid "{gender, select, male {{name} talks so fast that the inspector signs off just to leave.} female {{name} talks so fast that the inspector signs off just to leave.} other {{name} talks so fast that the inspector signs off just to leave.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} mówi tak szybko, że inspektor BHP podpisuje protokół tylko po to, żeby wyjść.} female {{name} mówi tak szybko, że inspektor BHP podpisuje protokół tylko po to, żeby wyjść.} other {{name} mówi tak szybko, że inspektor BHP podpisuje protokół tylko po to, żeby wyjść.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:813
 msgid "{gender, select, male {{name} thanks you, and retires anyway.} female {{name} thanks you, and retires anyway.} other {{name} thanks you, and retires anyway.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} dziękuje Ci i tak czy owak odchodzi na emeryturę.} female {{name} dziękuje Ci i tak czy owak odchodzi na emeryturę.} other {{name} dziękuje Ci i tak czy owak odchodzi na emeryturę.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2769
 msgid "{gender, select, male {{name} took the ramp too fast. The tool is dented, and so is he, for the afternoon.} female {{name} took the ramp too fast. The tool is dented, and so is she, for the afternoon.} other {{name} took the ramp too fast. The tool is dented, and so are they, for the afternoon.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wjeżdża na rampę zbyt szybko. Narzędzie jest wgniecione, a on pokiereszowany na resztę popołudnia.} female {{name} wjeżdża na rampę zbyt szybko. Narzędzie jest wgniecione, a ona pokiereszowana na resztę popołudnia.} other {{name} wjeżdża na rampę zbyt szybko. Narzędzie jest wgniecione, a stan tej osoby zostawia wiele do życzenia na resztę popołudnia.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2763
 msgid "{gender, select, male {{name} took the ramp. His tool took the damage.} female {{name} took the ramp. Her tool took the damage.} other {{name} took the ramp. Their tool took the damage.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wjeżdża na rampę. Cierpi na tym jego narzędzie.} female {{name} wjeżdża na rampę. Cierpi na tym jej narzędzie.} other {{name} wjeżdża na rampę. Cierpi na tym używane narzędzie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2689
 msgid "{gender, select, male {{name} tries the trick. It works, and he works faster for it.} female {{name} tries the trick. It works, and she works faster for it.} other {{name} tries the trick. It works, and they work faster for it.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wypróbowuje ten trik. Trik działa, a on dzięki temu pracuje szybciej.} female {{name} wypróbowuje ten trik. Trik działa, a ona dzięki temu pracuje szybciej.} other {{name} wypróbowuje ten trik. Trik działa, co pozwala pracować szybciej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2727
 msgid "{gender, select, male {{name} tries to forget it, and hums it all afternoon.} female {{name} tries to forget it, and hums it all afternoon.} other {{name} tries to forget it, and hums it all afternoon.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} próbuje o tym zapomnieć i nuci to przez całe popołudnie.} female {{name} próbuje o tym zapomnieć i nuci to przez całe popołudnie.} other {{name} próbuje o tym zapomnieć i nuci to przez całe popołudnie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:453
 msgid "{gender, select, male {{name} turns the offer down for good: he is with you.} female {{name} turns the offer down for good: she is with you.} other {{name} turns the offer down for good: they are with you.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} odrzuca ofertę raz na zawsze: jest z Tobą.} female {{name} odrzuca ofertę raz na zawsze: jest z Tobą.} other {{name} odrzuca ofertę raz na zawsze: zostaje w Twoim zespole.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2175
 msgid "{gender, select, male {{name} walks off with the sign and never comes back.} female {{name} walks off with the sign and never comes back.} other {{name} walks off with the sign and never comes back.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} odchodzi ze znakiem i nigdy nie wraca.} female {{name} odchodzi ze znakiem i nigdy nie wraca.} other {{name} odchodzi ze znakiem i nigdy nie wraca.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1022
 msgid "{gender, select, male {{name} walks out of the workshop, and out of your company.} female {{name} walks out of the workshop, and out of your company.} other {{name} walks out of the workshop, and out of your company.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wychodzi z warsztatu i odchodzi z Twojej firmy.} female {{name} wychodzi z warsztatu i odchodzi z Twojej firmy.} other {{name} wychodzi z warsztatu i odchodzi z Twojej firmy.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1807
 msgid "{gender, select, male {{name} was hoping for at least “Commander”.} female {{name} was hoping for at least “Commander”.} other {{name} was hoping for at least “Commander”.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} liczył przynajmniej na „Dowódcę”.} female {{name} liczyła przynajmniej na „Dowódczynię”.} other {{name} liczy na przynajmniej „Dowódcę”.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3658
 msgid "{gender, select, male {{name} watches the bag go, sure it was perfectly good stuff.} female {{name} watches the bag go, sure it was perfectly good stuff.} other {{name} watches the bag go, sure it was perfectly good stuff.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} patrzy, jak torba znika, pewien, że w środku były całkiem dobre rzeczy.} female {{name} patrzy, jak torba znika, pewna, że w środku były całkiem dobre rzeczy.} other {{name} patrzy, jak torba znika, mając pewność, że w środku były całkiem dobre rzeczy.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1206
 msgid "{gender, select, male {{name} watches the pencils go, and holds the chicken a little tighter.} female {{name} watches the pencils go, and holds the chicken a little tighter.} other {{name} watches the pencils go, and holds the chicken a little tighter.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} patrzy, jak ołówki znikają, i ściska kurczaka trochę mocniej.} female {{name} patrzy, jak ołówki znikają, i ściska kurczaka trochę mocniej.} other {{name} patrzy, jak ołówki znikają, i ściska kurczaka trochę mocniej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1461
 msgid "{gender, select, male {{name} wears short sleeves all month anyway.} female {{name} wears short sleeves all month anyway.} other {{name} wears short sleeves all month anyway.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} i tak nosi krótki rękaw przez cały miesiąc.} female {{name} i tak nosi krótki rękaw przez cały miesiąc.} other {{name} i tak nosi krótki rękaw przez cały miesiąc.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3486
 msgid "{gender, select, male {{name} welcomes Kevin the Second, and hums at work all week.} female {{name} welcomes Kevin the Second, and hums at work all week.} other {{name} welcomes Kevin the Second, and hums at work all week.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wita Kevina Drugiego i nuci w pracy przez cały tydzień.} female {{name} wita Kevina Drugiego i nuci w pracy przez cały tydzień.} other {{name} wita Kevina Drugiego i nuci w pracy przez cały tydzień.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2360
 msgid "{gender, select, male {{name} whacks it in the wrong place. It smokes more now.} female {{name} whacks it in the wrong place. It smokes more now.} other {{name} whacks it in the wrong place. It smokes more now.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} uderza w złe miejsce. Teraz dymi jeszcze bardziej.} female {{name} uderza w złe miejsce. Teraz dymi jeszcze bardziej.} other {{name} uderza w złe miejsce. Teraz dymi jeszcze bardziej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:939
 msgid "{gender, select, male {{name} will not forget that you kept your word.} female {{name} will not forget that you kept your word.} other {{name} will not forget that you kept your word.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie zapomni, że dotrzymałeś słowa.} female {{name} nie zapomni, że dotrzymałaś słowa.} other {{name} nie zapomni o dotrzymanym słowie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1148
 msgid "{gender, select, male {{name} will not start work until a bowl of green grapes, only green, is waiting at his station.} female {{name} will not start work until a bowl of green grapes, only green, is waiting at her station.} other {{name} will not start work until a bowl of green grapes, only green, is waiting at their station.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} nie rozpocznie pracy, dopóki na jego stanowisku nie będzie czekać miska zielonych winogron — wyłącznie zielonych.} female {{name} nie rozpocznie pracy, dopóki na jej stanowisku nie będzie czekać miska zielonych winogron — wyłącznie zielonych.} other {{name} nie rozpocznie pracy, dopóki na stanowisku tej osoby nie będzie czekać miska zielonych winogron — wyłącznie zielonych.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3194
 msgid "{gender, select, male {{name} wins by a nose. Your bet pays double.} female {{name} wins by a nose. Your bet pays double.} other {{name} wins by a nose. Your bet pays double.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wygrywa o włos. Twój zakład przynosi podwójną wygraną.} female {{name} wygrywa o włos. Twój zakład przynosi podwójną wygraną.} other {{name} wygrywa o włos. Twój zakład przynosi podwójną wygraną.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2069
 msgid "{gender, select, male {{name} wins the better chair, and now expects a better wage too.} female {{name} wins the better chair, and now expects a better wage too.} other {{name} wins the better chair, and now expects a better wage too.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} zdobywa lepsze krzesło, a teraz oczekuje też lepszej pensji.} female {{name} zdobywa lepsze krzesło, a teraz oczekuje też lepszej pensji.} other {{name} zdobywa lepsze krzesło, a teraz oczekuje też lepszej pensji.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3207
 msgid "{gender, select, male {{name} wins, and spends the rest of the day out of breath.} female {{name} wins, and spends the rest of the day out of breath.} other {{name} wins, and spends the rest of the day out of breath.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wygrywa i spędza resztę dnia ze złapaną zadyszką.} female {{name} wygrywa i spędza resztę dnia ze złapaną zadyszką.} other {{name} wygrywa i spędza resztę dnia ze złapaną zadyszką.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:584
 msgid "{gender, select, male {{name} won it back, and pays you with interest.} female {{name} won it back, and pays you with interest.} other {{name} won it back, and pays you with interest.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} odzyskał wygraną i oddaje Ci dług z nawiązką.} female {{name} odzyskała wygraną i oddaje Ci dług z nawiązką.} other {{name} odzyskuje wygraną i oddaje Ci dług z nawiązką.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2963
 msgid "{gender, select, male {{name} works all day, flinching. Nothing happens.} female {{name} works all day, flinching. Nothing happens.} other {{name} works all day, flinching. Nothing happens.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pracuje cały dzień, wzdrygając się co chwilę. Nic się nie dzieje.} female {{name} pracuje cały dzień, wzdrygając się co chwilę. Nic się nie dzieje.} other {{name} pracuje cały dzień, wzdrygając się co chwilę. Nic się nie dzieje.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3072
 msgid "{gender, select, male {{name} works slowly from a safe distance, and his tool gets a rest.} female {{name} works slowly from a safe distance, and her tool gets a rest.} other {{name} works slowly from a safe distance, and their tool gets a rest.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pracuje wolno z bezpiecznej odległości, a jego narzędzie odpoczywa.} female {{name} pracuje wolno z bezpiecznej odległości, a jej narzędzie odpoczywa.} other {{name} pracuje wolno z bezpiecznej odległości, dając odpocząć używanemu narzędziu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1186
 msgid "{gender, select, male {{name} works, but sighs loudly every few minutes.} female {{name} works, but sighs loudly every few minutes.} other {{name} works, but sighs loudly every few minutes.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} pracuje, ale co kilka minut głośno wzdycha.} female {{name} pracuje, ale co kilka minut głośno wzdycha.} other {{name} pracuje, ale co kilka minut głośno wzdycha.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1784
 msgid "{gender, select, male {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is his favorite.} female {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is her favorite.} other {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is their favorite.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} chce mieć nową nazwę stanowiska i przygotował już kilka propozycji. „Naczelny Dowódca od {good}” to jego faworyt.} female {{name} chce mieć nową nazwę stanowiska i przygotowała już kilka propozycji. „Naczelna Dowódczyni od {good}” to jej faworytka.} other {{name} chce mieć nową nazwę stanowiska i przygotowuje kilka propozycji. „Naczelne Dowództwo od {good}” to faworyt tej osoby.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2200
 msgid "{gender, select, male {{name} wrote a resignation letter, then lost it somewhere in the building. He is looking for it, very casually.} female {{name} wrote a resignation letter, then lost it somewhere in the building. She is looking for it, very casually.} other {{name} wrote a resignation letter, then lost it somewhere in the building. They are looking for it, very casually.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} napisał wypowiedzenie, a potem zgubił je gdzieś w budynku. Szuka go, starając się zachować pełny spokój.} female {{name} napisała wypowiedzenie, a potem zgubiła je gdzieś w budynku. Szuka go, starając się zachować pełny spokój.} other {{name} napisał(a) wypowiedzenie, a potem zgubił(a) je gdzieś w budynku. Szuka go nieustannie, starając się nie zwracać na siebie uwagi.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2915
 msgid "{gender, select, male {{name}'s horoscope promises a great misfortune at work today. He refuses to touch the machine.} female {{name}'s horoscope promises a great misfortune at work today. She refuses to touch the machine.} other {{name}'s horoscope promises a great misfortune at work today. They refuse to touch the machine.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wyczytał w horoskopie, że czeka go dziś wielkie nieszczęście w pracy. Odmawia dotknięcia maszyny.} female {{name} wyczytała w horoskopie, że czeka ją dziś wielkie nieszczęście w pracy. Odmawia dotknięcia maszyny.} other {{name} ma w horoskopie przepowiednię wielkiego nieszczęścia w pracy i odmawia dotknięcia maszyny.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2326
 msgid "{gender, select, male {{name}'s tool is smoking. He keeps working, and insists it has always done that.} female {{name}'s tool is smoking. She keeps working, and insists it has always done that.} other {{name}'s tool is smoking. They keep working, and insist it has always done that.}}"
-msgstr ""
+msgstr "{gender, select, male {Narzędzie gracza {name} dymi. {name} pracuje dalej i twierdzi, że ono od zawsze tak robiło.} female {Narzędzie gracza {name} dymi. {name} pracuje dalej i twierdzi, że ono od zawsze tak robiło.} other {Narzędzie osoby {name} dymi. {name} kontynuuje pracę, twierdząc, że ono od zawsze tak robiło.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:989
 msgid "{gender, select, male {A note slides under the workshop door: {name} needs materials, and will not come out without them.} female {A note slides under the workshop door: {name} needs materials, and will not come out without them.} other {A note slides under the workshop door: {name} needs materials, and will not come out without them.}}"
-msgstr ""
+msgstr "{gender, select, male {Spod drzwi warsztatu wysuwa się karteczka: {name} potrzebuje materiałów i bez nich nie wyjdzie.} female {Spod drzwi warsztatu wysuwa się karteczka: {name} potrzebuje materiałów i bez nich nie wyjdzie.} other {Spod drzwi warsztatu wysuwa się karteczka: {name} potrzebuje materiałów i bez nich nie wyjdzie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1714
 msgid "{gender, select, male {A pigeon has moved into the rafters. {name} has named it General Coo and insists it outranks you.} female {A pigeon has moved into the rafters. {name} has named it General Coo and insists it outranks you.} other {A pigeon has moved into the rafters. {name} has named it General Coo and insists it outranks you.}}"
-msgstr ""
+msgstr "{gender, select, male {Pod krokwiami zamieszkał gołąb. {name} nazwał go Generałem Gruu i twierdzi, że ma on wyższy rangą stopień niż Ty.} female {Pod krokwiami zamieszkał gołąb. {name} nazwała go Generałem Gruu i twierdzi, że ma on wyższy rangą stopień niż Ty.} other {Pod krokwiami zamieszkał gołąb. {name} nadaje mu imię Generał Gruu i twierdzi, że ma on wyższą rangę niż Ty.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:426
 msgid "{gender, select, male {A rival firm has offered {name} a job. He has not said yes, but he has not said no either.} female {A rival firm has offered {name} a job. She has not said yes, but she has not said no either.} other {A rival firm has offered {name} a job. They have not said yes, but they have not said no either.}}"
-msgstr ""
+msgstr "{gender, select, male {Konkurencyjna firma zaoferowała {name} pracę. Nie powiedział „tak”, ale nie powiedział też „nie”.} female {Konkurencyjna firma zaoferowała {name} pracę. Nie powiedziała „tak”, ale nie powiedziała też „nie”.} other {Konkurencyjna firma zaoferowała pracę dla {name}. Nie pada jasna odpowiedź ani na „tak”, ani na „nie”.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:929
 msgid "{gender, select, male {A week has passed. {name} is packing, trusting your promise of a trip home.} female {A week has passed. {name} is packing, trusting your promise of a trip home.} other {A week has passed. {name} is packing, trusting your promise of a trip home.}}"
-msgstr ""
+msgstr {gender, select, male {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.} female {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.} other {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.}}""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2472
 msgid "{gender, select, male {A window blows in nearby. {name} is only scratched, but stays home for a while to calm down.} female {A window blows in nearby. {name} is only scratched, but stays home for a while to calm down.} other {A window blows in nearby. {name} is only scratched, but stays home for a while to calm down.}}"
-msgstr ""
+msgstr "{gender, select, male {W pobliżu wylatuje okno. {name} ma tylko zadrapania, ale zostaje na jakiś czas w domu, żeby dojść do siebie.} female {W pobliżu wylatuje okno. {name} ma tylko zadrapania, ale zostaje na jakiś czas w domu, żeby dojść do siebie.} other {W pobliżu wylatuje okno. {name} ma tylko zadrapania, ale zostaje na jakiś czas w domu, żeby dojść do siebie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2416
 msgid "{gender, select, male {Against all odds, it pays out. {name} is delighted.} female {Against all odds, it pays out. {name} is delighted.} other {Against all odds, it pays out. {name} is delighted.}}"
-msgstr ""
+msgstr "{gender, select, male {Wbrew wszelkim przewidywaniom to się opłaciło. {name} jest zachwycony.} female {Wbrew wszelkim przewidywaniom to się opłaciło. {name} jest zachwycona.} other {Wbrew wszelkim przewidywaniom to się opłaciło. {name} nie kryje zachwytu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2941
 msgid "{gender, select, male {Another paper promises a day of great success. {name} believes it, and works faster.} female {Another paper promises a day of great success. {name} believes it, and works faster.} other {Another paper promises a day of great success. {name} believes it, and works faster.}}"
-msgstr ""
+msgstr "{gender, select, male {Kolejna gazeta obiecuje dzień wielkiego sukcesu. {name} wierzy w to i pracuje szybciej.} female {Kolejna gazeta obiecuje dzień wielkiego sukcesu. {name} wierzy w to i pracuje szybciej.} other {Kolejna gazeta obiecuje dzień wielkiego sukcesu. {name} wierzy w to i pracuje szybciej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2592
 msgid "{gender, select, male {Ask him for a second shift} female {Ask her for a second shift} other {Ask them for a second shift}}"
-msgstr ""
+msgstr "{gender, select, male {Poproś go o drugą zmianę} female {Poproś ją o drugą zmianę} other {Poproś tę osobę o drugą zmianę}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2225
 msgid "{gender, select, male {Ask him why} female {Ask her why} other {Ask them why}}"
-msgstr ""
+msgstr "{gender, select, male {Zapytaj go, dlaczego} female {Zapytaj ją, dlaczego} other {Zapytaj tę osobę, dlaczego}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3596
 msgid "{gender, select, male {Before every shift, coworkers queue to rub {name}'s head for luck. The queue gets longer every day.} female {Before every shift, coworkers queue to rub {name}'s head for luck. The queue gets longer every day.} other {Before every shift, coworkers queue to rub {name}'s head for luck. The queue gets longer every day.}}"
-msgstr ""
+msgstr "{gender, select, male {Przed każdą zmianą współpracownicy ustawiają się w kolejce, by pogłaskać {name} po głowie na szczęście. Kolejka z każdym dniem robi się dłuższa.} female {Przed każdą zmianą współpracownicy ustawiają się w kolejce, by pogłaskać {name} po głowie na szczęście. Kolejka z każdym dniem robi się dłuższa.} other {Przed każdą zmianą współpracownicy ustawiają się w kolejce, by pogłaskać postać {name} po głowie na szczęście. Kolejka z każdym dniem robi się dłuższa.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3187
 msgid "{gender, select, male {Bet on him} female {Bet on her} other {Bet on them}}"
-msgstr ""
+msgstr "{gender, select, male {Postaw na niego} female {Postaw na nią} other {Postaw na tę osobę}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:249
 msgid "{gender, select, male {Better than new: {name} found a trick of his own and works faster for it.} female {Better than new: {name} found a trick of her own and works faster for it.} other {Better than new: {name} found a trick of their own and works faster for it.}}"
-msgstr ""
+msgstr "{gender, select, male {Lepszy niż nowy: {name} odkrył własny patent i dzięki temu pracuje szybciej.} female {Lepsza niż nowa: {name} odkryła własny patent i dzięki temu pracuje szybciej.} other {Lepsze niż nowe: {name} odkrywa własny patent i dzięki temu pracuje szybciej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2825
 msgid "{gender, select, male {Buy him a notebook} female {Buy her a notebook} other {Buy them a notebook}}"
-msgstr ""
+msgstr "{gender, select, male {Kup mu notes} female {Kup jej notes} other {Kup notes tej osobie}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1620
 msgid "{gender, select, male {Confront him} female {Confront her} other {Confront them}}"
-msgstr ""
+msgstr "{gender, select, male {Staw mu czoła} female {Staw jej czoła} other {Staw czoła tej osobie}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1051
 msgid "{gender, select, male {Do an impression of him} female {Do an impression of her} other {Do an impression of them}}"
-msgstr ""
+msgstr "{gender, select, male {Zrób jego parodię} female {Zrób jej parodię} other {Zrób parodię tej osoby}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2522
 msgid "{gender, select, male {Enemy planes dropped propaganda leaflets all over the workshop. {name} is reading one with great interest.} female {Enemy planes dropped propaganda leaflets all over the workshop. {name} is reading one with great interest.} other {Enemy planes dropped propaganda leaflets all over the workshop. {name} is reading one with great interest.}}"
-msgstr ""
+msgstr "{gender, select, male {Wrogie samoloty zrzuciły ulotki propagandowe na cały warsztat. {name} czyta jedną z nich z dużym zainteresowaniem.} female {Wrogie samoloty zrzuciły ulotki propagandowe na cały warsztat. {name} czyta jedną z nich z dużym zainteresowaniem.} other {Wrogie samoloty zrzuciły ulotki propagandowe na cały warsztat. {name} czyta jedną z nich z dużym zainteresowaniem.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2947
 msgid "{gender, select, male {Every paper agrees: doom. {name} is more worried than before.} female {Every paper agrees: doom. {name} is more worried than before.} other {Every paper agrees: doom. {name} is more worried than before.}}"
-msgstr ""
+msgstr "{gender, select, male {Każda gazeta twierdzi to samo: zagłada. {name} niepokoi się bardziej niż wcześniej.} female {Każda gazeta twierdzi to samo: zagłada. {name} niepokoi się bardziej niż wcześniej.} other {Każda gazeta twierdzi to samo: zagłada. {name} niepokoi się bardziej niż wcześniej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3617
 msgid "{gender, select, male {Everyone feels luckier. {name} gets little work done between rubs.} female {Everyone feels luckier. {name} gets little work done between rubs.} other {Everyone feels luckier. {name} gets little work done between rubs.}}"
-msgstr ""
+msgstr "{gender, select, male {Wszyscy czują się większymi szczęściarzami. {name} niewiele udaje się zrobić między kolejnymi głaskaniami.} female {Wszyscy czują się większymi szczęściarzami. {name} niewiele udaje się zrobić między kolejnymi głaskaniami.} other {Wszyscy czują się większymi szczęściarzami. {name} niewiele udaje się zrobić między kolejnymi głaskaniami.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3253
 msgid "{gender, select, male {For once, {name} reaches the ending. The others applaud, mostly from relief.} female {For once, {name} reaches the ending. The others applaud, mostly from relief.} other {For once, {name} reaches the ending. The others applaud, mostly from relief.}}"
-msgstr ""
+msgstr "{gender, select, male {Tym razem {name} dociera do końca. Inni klaszczą, głównie z ulgi.} female {Tym razem {name} dociera do końca. Inni klaszczą, głównie z ulgi.} other {Tym razem {name} dociera do końca. Inni klaszczą, głównie z ulgi.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2573
 msgid "{gender, select, male {For one shift, {name} works like a legend. Everything he touches comes out right.} female {For one shift, {name} works like a legend. Everything she touches comes out right.} other {For one shift, {name} works like a legend. Everything they touch comes out right.}}"
-msgstr ""
+msgstr "{gender, select, male {Przez jedną zmianę {name} pracuje jak legenda. Czego się nie dotknie, wychodzi idealnie.} female {Przez jedną zmianę {name} pracuje jak legenda. Czego się nie dotknie, wychodzi idealnie.} other {Przez jedną zmianę {name} pracuje jak legenda. Czego tylko dotknie, wychodzi idealnie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2923
 msgid "{gender, select, male {Give him the day off} female {Give her the day off} other {Give them the day off}}"
-msgstr ""
+msgstr "{gender, select, male {Daj mu dzień wolnego} female {Daj jej dzień wolnego} other {Daj tej osobie dzień wolnego}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:264
 msgid "{gender, select, male {Good as new, and {name} is so pleased with it that he works faster.} female {Good as new, and {name} is so pleased with it that she works faster.} other {Good as new, and {name} is so pleased with it that they work faster.}}"
-msgstr ""
+msgstr "{gender, select, male {Jak nowy, a {name} jest z tego tak zadowolony, że pracuje szybciej.} female {Jak nowy, a {name} jest z tego tak zadowolona, że pracuje szybciej.} other {Jak nowy, a {name} cieszy się z tego tak bardzo, że pracuje szybciej.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2286
 msgid "{gender, select, male {Have {name} give the tour} female {Have {name} give the tour} other {Have {name} give the tour}}"
@@ -3373,7 +3373,7 @@ msgstr "Wyłączone firmy nic nie produkują, więc menedżer w nich nic nie zar
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3444
 msgid "A duck on every desk. Everyone is happier, and a little distracted."
-msgstr "Kaczka na każdym biurku. Każdy jest szczęśliwszy, a także trochę rozkojarzony."
+msgstr "Kaczuszki na każdym biurku. Każdy jest szczęśliwszy, a także trochę rozkojarzony."
 
 #. placeholder {0}: contract.acceptanceFee
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:97
@@ -4480,11 +4480,11 @@ msgstr "Piłka"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3625
 msgid "Ban head rubbing"
-msgstr ""
+msgstr "Zakaż głaskania po głowie"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1078
 msgid "Ban impressions"
-msgstr "Zakaż wywierania wrażenia"
+msgstr "Zakaż parodiowania"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1387
 msgid "Ban politics at work"
@@ -9833,7 +9833,7 @@ msgstr "Mianuj <0/> jako nowego lidera sojuszu.Lider może bezpośrednio edytowa
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1961
 msgid "Make everyone a Supreme Commander"
-msgstr "Uczyń wszystkich Wodzem Naczelnym"
+msgstr "Uczyń wszystkich Naczelnym Dowódcą"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:416
 msgid "Make room for more staff!"
@@ -11371,7 +11371,7 @@ msgstr "Nikt nie beirze żadnego. Pięć kociaków żyje teraz w schowku."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3437
 msgid "Nobody wants the ducks. They melt down into scrap."
-msgstr "Nikt nie chce kaczek. Przetapiają się na złom."
+msgstr "Nikt nie chce kaczuszek. Przetapiają się na złom."
 
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:265
 msgid "Nobody works here yet"
@@ -15274,11 +15274,11 @@ msgstr "Drzwi zatrzaskują się za nimi. Wkrótce nadejdą żądania."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3414
 msgid "The ducks"
-msgstr "Kaczki"
+msgstr "Kaczuszki"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3426
 msgid "The ducks go back. One of them is missing."
-msgstr "Kaczki wracają. Brakuje jednej z nich."
+msgstr "Kaczuszki wracają. Brakuje jednej z nich."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:895
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
@@ -15358,7 +15358,7 @@ msgstr "Całkowity koszt roboczogodziny – pracowników i kierownika – podzie
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1035
 msgid "The impression"
-msgstr "Wrażenie"
+msgstr "Parodiowanie"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2316
 msgid "The inspector comes back with a clipboard and a long list of safety drills."
@@ -15453,11 +15453,11 @@ msgstr "Wąs"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3433
 msgid "The neighbors buy every duck. You do not ask why."
-msgstr "Sąsiedzi kupują wszystkie kaczki. Nie pytasz dlaczego."
+msgstr "Sąsiedzi kupują wszystkie kaczuszki. Nie pytasz dlaczego."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3435
 msgid "The neighbors want more ducks. You have made a profit on ducks."
-msgstr "Sąsiedzi chcą więcej kaczek. Zarobiłeś sprzedając je."
+msgstr "Sąsiedzi chcą więcej kaczuszek. Zarobiłeś sprzedając je."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3533
 msgid "The new poster is magnificent: a kitten in armor, hanging in there."
