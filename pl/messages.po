@@ -918,7 +918,7 @@ msgstr "{gender, select, male {{name} odchodzi na emeryturę z imprezą po tym, 
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:774
 msgid "{gender, select, male {{name} retires with a party, and leaves something of himself behind.} female {{name} retires with a party, and leaves something of herself behind.} other {{name} retires with a party, and leaves something of themselves behind.}}"
-msgstr {gender, select, male {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.} female {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.} other {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.}}"
+msgstr "{gender, select, male {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.} female {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.} other {{name} odchodzi na emeryturę z imprezą i zostawia coś po sobie.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:786
 msgid "{gender, select, male {{name} retires with a party, and takes his secrets with him.} female {{name} retires with a party, and takes her secrets with her.} other {{name} retires with a party, and takes their secrets with them.}}"
@@ -1182,7 +1182,7 @@ msgstr "{gender, select, male {Konkurencyjna firma zaoferowała {name} pracę. N
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:929
 msgid "{gender, select, male {A week has passed. {name} is packing, trusting your promise of a trip home.} female {A week has passed. {name} is packing, trusting your promise of a trip home.} other {A week has passed. {name} is packing, trusting your promise of a trip home.}}"
-msgstr {gender, select, male {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.} female {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.} other {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.}}"
+msgstr "{gender, select, male {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.} female {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.} other {Minął tydzień. {name} pakuje się, ufając Twojej obietnicy wyjazdu do domu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2472
 msgid "{gender, select, male {A window blows in nearby. {name} is only scratched, but stays home for a while to calm down.} female {A window blows in nearby. {name} is only scratched, but stays home for a while to calm down.} other {A window blows in nearby. {name} is only scratched, but stays home for a while to calm down.}}"
@@ -1592,7 +1592,7 @@ msgstr "{grainPerBread} <0>{0}</0> tworzy jeden <1>{1}</1>, {ironPerSteel} <2>{2
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:326
 msgid "{homeRegionsAway, plural, one {# region away} other {# regions away}}"
-msgstr {homeRegionsAway, plural, one {# region stąd} other {# regionów stąd}}"
+msgstr "{homeRegionsAway, plural, one {# region stąd} other {# regionów stąd}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:62
 msgid "{hours, plural, one {# hour} other {# hours}}"
@@ -1612,7 +1612,7 @@ msgstr "{lead} i pozostali czekają na Twoją decyzję."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:532
 msgid "{lead} is waiting for your decision."
-msgstr {lead} czeka na Twoją decyzję.
+msgstr "{lead} czeka na Twoją decyzję."
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:438
 msgid "{managerTax}% manager tax is withheld from this pay when the manager collects it, for the country the company sits in."
@@ -4020,7 +4020,7 @@ msgstr "Email z kodem weryfikacyjnym został wysłany na {email}"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:555
 msgid "An event about {lead} was decided while you were away."
-msgstr "Wydarzenia dotyczące {lead }zostało rozstrzygnięte pod Twoją nieobecność"
+msgstr "Wydarzenia dotyczące {lead} zostało rozstrzygnięte pod Twoją nieobecność"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:358
 msgid "An occupied capital revolts on its own at full resistance"
@@ -8430,11 +8430,11 @@ msgstr "Zadowolenie"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:148
 msgid "Happiness {mood} or less, or {burnout} or {wornOut}."
-msgstr "Zadowwolenie {modd} albo mniejsze, bądź {burnout} albo {wornOut}."
+msgstr "Zadowwolenie {mood} albo mniejsze, bądź {burnout} albo {wornOut}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:137
 msgid "Happiness {mood} or less, Production {output} or more, or {climber}. Always possible for a {flightRisk}, and twice as likely."
-msgstr "Zadowolenie {mood} albo mniejszem Produkcja {output} albo większa, bądź {climber}. Zawsze możliwe dla {flightRisk}, i dwukrotnie bardziej prawdopodobne.
+msgstr "Zadowolenie {mood} albo mniejszem Produkcja {output} albo większa, bądź {climber}. Zawsze możliwe dla {flightRisk}, i dwukrotnie bardziej prawdopodobne."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:282
 msgid "Happiness {mood} or more, after 14 days in the company."
@@ -8442,7 +8442,7 @@ msgstr "Zadowolenie {mood} albo większe, po 14 dniach w firmie."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:118
 msgid "Happiness {mood} or more, and either 5 days of experience in the company's good or {quickStudy}."
-msgstr "Zadowolenie {modd} albo większe, a także 5 dni doświadczenia w towarach firmy albo {quickStudy}."
+msgstr "Zadowolenie {mood} albo większe, a także 5 dni doświadczenia w towarach firmy albo {quickStudy}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:126
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:459
@@ -8617,7 +8617,7 @@ msgstr "Zatrudniony 7 dni temu bądź więcej, a także {greedy}, {climber} albo
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:402
 msgid "Hired 7 days ago or more, with happiness {mood} or less. Always possible for a {flightRisk}, and twice as likely."
-msgstr "Zatrudniony 7 dni temu bądź więcej, z zadowoleniem {modd} albo niższym. Zawsze możliwe dla {flightRisk}, i dwukrotnie bardziej prawdopodobne."
+msgstr "Zatrudniony 7 dni temu bądź więcej, z zadowoleniem {mood} albo niższym. Zawsze możliwe dla {flightRisk}, i dwukrotnie bardziej prawdopodobne."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:392
 msgid "Hired 7 days ago or more, with happiness {mood} or less. Always possible for a {greedy}, and twice as likely."
@@ -11549,7 +11549,7 @@ msgstr "z"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1802
 msgid "Offer “Senior Worker” instead"
-msgstr "Zaoferuj "Starszego Pracownika" w zamian"
+msgstr "Zaoferuj “Starszego Pracownika” w zamian"
 
 #: src/components/_economy/itemOffer/itemOffer.hooks.ts:48
 msgid "Offer withdrawn"
@@ -12855,7 +12855,7 @@ msgstr "Szybki ekwipunek: załóż najlepsze przedmioty dowolnego poziomu"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:477
 msgid "Quick move & collect on case click"
-msgstr "Szybkie "Idź i zbierz" skrzynki jednym kliknięciem"
+msgstr "Szybkie “Idź i zbierz” skrzynki jednym kliknięciem"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:110
 msgid "Quick Study"
@@ -13639,7 +13639,7 @@ msgstr "Wznów samouczka"
 
 #: src/components/_other/tour/tutorial.hooks.ts:275
 msgid "Resume it anytime from the Battles page to earn its reward."
-msgstr "Wzów je w dowolnym momencie w zakładce "Bitwy", aby zdobyć nagrodę."
+msgstr "Wzów je w dowolnym momencie w zakładce “Bitwy”, aby zdobyć nagrodę."
 
 #: src/components/_other/tour/tutorial.hooks.ts:272
 msgid "Resume it anytime from the Companies page to earn its reward."
@@ -13647,7 +13647,7 @@ msgstr "Wznów je w dowolnym momencie na stronie „Firmy”, aby zdobyć nagrod
 
 #: src/components/_other/tour/tutorial.hooks.ts:281
 msgid "Resume it anytime from the Guides tab of the Progression page to earn its reward."
-msgstr "Wznów je w dowolnym momencie w zakładce „Samouczek” na stronie „Postępy”, aby zdobyć nagrodę."
+msgstr "Wznów je w dowolnym momencie w zakładce “Samouczek” na stronie „Postępy”, aby zdobyć nagrodę."
 
 #: src/components/_other/tour/tutorial.hooks.ts:278
 msgid "Resume it anytime from your inventory to earn its reward."
@@ -15206,7 +15206,7 @@ msgstr "Koszt stanowi cenę bazową prawa pomnożoną przez współczynnik śred
 
 #: src/components/_economy/strategicResource/StrategicResource.tsx:34
 msgid "The country holding this region earns, every day, money equal to the core <0>Development</0> of the country it originally belonged to."
-msgstr "Kraj kontrolujący ten region otrzymuje, każdego dnia, pieniądze równe bazowemu <0>Rozwojowi<0/> kraju do którego ten region pierwotnie należał."
+msgstr "Kraj kontrolujący ten region otrzymuje, każdego dnia, pieniądze równe bazowemu <0>Rozwojowi</0> kraju do którego ten region pierwotnie należał."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:398
 msgid "The course opens doors: there is more to train now."
@@ -15391,7 +15391,7 @@ msgstr "I kto się teraz śmieje?"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1767
 msgid "The kid “fixed” the tool."
-msgstr "Dzieciak "naprawił" narzędzie."
+msgstr "Dzieciak “naprawił” narzędzie."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1774
 msgid "The kid draws the whole workshop. You are in it, with horns."
@@ -15469,7 +15469,7 @@ msgstr "Nowy plakat jest zjawiskowy: kociak w zbroi, który się nie poddaje"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:746
 msgid "The new them is an improvement, and an old habit is gone."
-msgstr "Nowe "Oni" to duże usprawnienie. Stara cecha jest przeszłością."
+msgstr "Nowe “Oni” to duże usprawnienie. Stara cecha jest przeszłością."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:293
 msgid "The next tier opens right away."
@@ -18001,7 +18001,7 @@ msgstr "Osiągnąłeś maksymalny poziom!"
 
 #: src/components/_layout/LoadingWelcomeCard.tsx:34
 msgid "Your <0>Energy</0> is full. Spend it before it goes to waste."
-msgstr "Twoja <0>Energia<0/> jest pełna. Użyj jej zanim się zmarnuje."
+msgstr "Twoja <0>Energia</0> jest pełna. Użyj jej zanim się zmarnuje."
 
 #: src/components/_layout/loadingTips.tsx:105
 msgid "Your <0>Energy</0>, <1>Health</1> and <2>Hunger</2> refill by {hourlyRegenPercent}% of their max every hour. A full bar wastes that regen, so spend it first."
