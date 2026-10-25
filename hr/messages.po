@@ -15,7 +15,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1220
 msgid "You find nothing but resentment."
-msgstr ""
+msgstr "Našli ste ništa osim ogorčenosti."
 
 #: src/components/_common/GameRules.tsx:99
 msgid "  a. Trading equipment"
@@ -4751,7 +4751,7 @@ msgstr "Bonus šteta"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:255
 msgid "Boost your Management!"
-msgstr ""
+msgstr "Pojačajte vašu vještinu Upravljanja!"
 
 #: src/components/_economy/inventory/Inventory.tsx:502
 #: src/components/_user/UserEquipments.tsx:288
@@ -4883,7 +4883,7 @@ msgstr "Izgradi vojnu jedinicu"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:108
 msgid "Bulk dismantle"
-msgstr ""
+msgstr "Rastavljanje predmeta na veliko"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:97
 msgid "Bully"
@@ -6013,7 +6013,7 @@ msgstr "Izrađeni predmeti"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:96
 msgid "Craft items"
-msgstr ""
+msgstr "Izrada predmeta"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:108
 msgid "Craftsman"
@@ -6814,11 +6814,11 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:244
 msgid "Each level opens something new."
-msgstr ""
+msgstr "Svaka nova razina otključava nešto novo."
 
 #: src/components/_user/user/EcoSkillEffects.tsx:85
 msgid "Each Management point adds <0>{perPoint}</0> to the production bonus of every one of your employees, and is what a manager position pays you for."
-msgstr ""
+msgstr "Upravljanje dodaje <0>{perPoint}</0> bonusa proizvodnje svakome vašem zaposleniku i povećava iznos vaše plaće na poziciji upravitelja."
 
 #. placeholder {0}: ts.bread
 #. placeholder {1}: ts.steak
@@ -7179,7 +7179,7 @@ msgstr ""
 #: src/components/_economy/employee/employeeStats.tsx:132
 #: src/components/_user/user/EcoSkillEffects.tsx:28
 msgid "Epic"
-msgstr ""
+msgstr "Epski"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:838
 msgid "Equip a Tool"
@@ -7353,7 +7353,7 @@ msgstr ""
 
 #: src/components/_user/level/LevelTrack.tsx:88
 msgid "Every level gives skill points and opens something new. Here is the way to the top."
-msgstr ""
+msgstr "Prikaz svih razina koje vam daju poene vještine i otključavaju nove značajke igre."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:250
 msgid "Every level gives skill points. Tap Skills."
@@ -8200,7 +8200,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:525
 msgid "Grab your wooden cases!"
-msgstr ""
+msgstr "Pokupite drvene kutije!"
 
 #: src/components/_user/user/UserEffectSelector.tsx:59
 msgid "Gradient"
@@ -9125,7 +9125,7 @@ msgstr "Pridružite se VJ"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:126
 msgid "Join resistances"
-msgstr ""
+msgstr "Pridruživanje pokretu otpora"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1372
 msgid "Join the party"
@@ -9145,7 +9145,7 @@ msgstr "Pridružite se svijetu"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:132
 msgid "Join unrest"
-msgstr ""
+msgstr "Doprinos nemirima"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:382
 msgid "Join your country chat!"
@@ -9296,7 +9296,7 @@ msgstr "Zadnji pokloni"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:272
 msgid "Last one! Tap Milestones."
-msgstr ""
+msgstr "I konačno, dodirnite Ciljevi."
 
 #: src/pages/shop/index.tsx:122
 msgid "Last skin gifts"
@@ -9378,7 +9378,7 @@ msgstr "Lider"
 #: src/components/_user/user/skills.frontConfig.tsx:214
 #: src/components/_user/user/skills.frontConfig.tsx:215
 msgid "Leadership"
-msgstr ""
+msgstr "Vodstvo"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2520
 msgid "Leaflets from the sky"
@@ -9443,7 +9443,7 @@ msgstr "Legendarna oprema uočena!"
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:148
 #: src/components/_user/user/EcoSkillEffects.tsx:29
 msgid "Legendary"
-msgstr ""
+msgstr "Legendaran"
 
 #: src/utils/translations.tsx:217
 msgid "Legendary Boots"
@@ -9752,7 +9752,7 @@ msgstr "Nagrada plijena"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:517
 msgid "Loot the map!"
-msgstr ""
+msgstr "Putujte po mapi!"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:23
 msgid "Love Paper Jet"
@@ -9848,7 +9848,7 @@ msgstr "Upravljaj Pretplatom"
 #: src/components/_user/user/skills.frontConfig.tsx:206
 #: src/components/_user/user/skills.frontConfig.tsx:207
 msgid "Management"
-msgstr "Menadžment"
+msgstr "Upravljanje"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:91
 msgid "Management {value}"
@@ -10392,7 +10392,7 @@ msgstr "Vaše misije, ciljevi, leveli i vještine. Dodirnite ovdje."
 
 #: src/components/_user/mission/ProgressHeader.tsx:62
 msgid "Missions, milestones, levels, skills & guides"
-msgstr ""
+msgstr "Misije, Ciljevi, Razine, Vještine & Vodiči"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:128
 msgid "Mobile phone number"
@@ -10601,7 +10601,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:529
 msgid "Moving costs <0>Stamina</0>, then Oil."
-msgstr ""
+msgstr "Kretanje po regijama troši <0>Kondiciju</0>, a zatim Petrol."
 
 #: src/components/_layout/loadingTips.tsx:270
 msgid "Moving your home to another region costs <0>{homeMoveConcreteCost}</0>."
@@ -11729,7 +11729,7 @@ msgstr ""
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:102
 msgid "Open all cases"
-msgstr ""
+msgstr "Otvaranje svih kutija"
 
 #: src/components/_economy/transaction/TransactionList.tsx:89
 msgid "Open Case"
@@ -12084,7 +12084,7 @@ msgstr "Pauzirano"
 #. placeholder {1}: position.total
 #: src/components/_other/tour/TutorialGuidesList.tsx:50
 msgid "Paused at step {0} of {1}"
-msgstr ""
+msgstr "Pauzirano na koraku {0} od {1}"
 
 #: src/components/_economy/manager/MoveManagerModal.tsx:88
 msgid "Paused: nobody manages here"
@@ -12612,7 +12612,7 @@ msgstr "Proizvedi"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:90
 msgid "Produce all"
-msgstr ""
+msgstr "Proizvodnja u svim kompanijama"
 
 #: src/components/_economy/company/ProduceAllButton.tsx:128
 msgid "Produce All"
@@ -12908,7 +12908,7 @@ msgstr "Rangiranja"
 #: src/components/_economy/employee/employeeStats.tsx:131
 #: src/components/_user/user/EcoSkillEffects.tsx:27
 msgid "Rare"
-msgstr ""
+msgstr "Rijedak"
 
 #: src/components/_economy/strategicResource/strategicResource.frontConfig.ts:13
 msgid "Rare earths"
@@ -12932,7 +12932,7 @@ msgstr ""
 
 #: src/components/_user/user/EcoSkillEffects.tsx:98
 msgid "Rarer cards when you train your employees. Each level moves card odds off Common: <0/>."
-msgstr ""
+msgstr "Povećava šansu za rijeđe bonuse prilikom obuke zaposlenika. Svaka razina vještine povećava izglede za: <0/>."
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:175
 msgid "Rate"
@@ -12954,7 +12954,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:281
 msgid "Reach a tier, claim its XP."
-msgstr ""
+msgstr "Dosegnite etape i preuzmite XP."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:592
 msgid "Reach level 10"
@@ -13443,7 +13443,7 @@ msgstr "Zamijena člana"
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:60
 msgid "Replay"
-msgstr ""
+msgstr "Ponovi"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:66
 msgid "Report"
@@ -13623,7 +13623,7 @@ msgstr ""
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:59
 msgid "Resume"
-msgstr ""
+msgstr "Nastavi"
 
 #: src/components/_other/tour/TutorialFloatingGuide.tsx:55
 msgid "Resume guide"
@@ -13800,7 +13800,7 @@ msgstr "Vladajuća Stranka"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:120
 msgid "Run in elections"
-msgstr ""
+msgstr "Kandidatura na izborima"
 
 #: src/components/_economy/employee/employeeStats.tsx:913
 msgid "Running"
@@ -13840,7 +13840,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:265
 msgid "Save!"
-msgstr ""
+msgstr "Sačuvajte!"
 
 #: src/components/_social/Article.tsx:159
 #: src/components/_social/ArticleList.tsx:238
@@ -14516,7 +14516,7 @@ msgstr "Troškovi"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:75
 msgid "Spent to work your companies, hire and train employees, build constructions, and push resistance or unrest bars."
-msgstr ""
+msgstr "Omogućuje rad u vlastitim kompanijama, zaposlenje i obuku zaposlenika, doprinos gradnji građevinskih projekata i podizanje statusne trake otpora ili nemira."
 
 #: src/components/_user/user/skills.frontConfig.tsx:108
 msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
@@ -14897,7 +14897,7 @@ msgstr "Preuzmite kontrolu"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:150
 msgid "Take control of a country"
-msgstr ""
+msgstr "Mogućnost preuzimanja kontrole nad državom."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1277
 msgid "Take it back"
@@ -14966,7 +14966,7 @@ msgstr "Dodirnite članak da ga pročitate."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:266
 msgid "Tap Save to keep your points."
-msgstr ""
+msgstr "Dodirnite da sačuvate vaš odabir."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:377
 msgid "Tap the chat."
@@ -14982,7 +14982,7 @@ msgstr "Dodirnite slot kako bi odabrali vaše novo oružje ili opremu."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:527
 msgid "Tap to go to the nearest one and loot it."
-msgstr ""
+msgstr "Dodirnite za prijelaz u regiju gdje se nalazi drvena kutiju."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:205
 msgid "Tap to see what's inside."
@@ -15469,7 +15469,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:282
 msgid "The next tier opens right away."
-msgstr ""
+msgstr "Svaka iduća etapa se momentalno otključava."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:230
 msgid "The night shift tinkerer"
@@ -15766,7 +15766,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:280
 msgid "They never reset."
-msgstr ""
+msgstr "Ciljevi se nikada ne resetiraju."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:629
 msgid "They put it to work on their own tool straight away."
@@ -16536,7 +16536,7 @@ msgstr "Broj nepokupljenih drvenih kutija u svijetu od maksimalnih {maxLoots}."
 #: src/components/_economy/employee/employeeStats.tsx:130
 #: src/components/_user/user/EcoSkillEffects.tsx:26
 msgid "Uncommon"
-msgstr ""
+msgstr "Neobičan"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1589
 msgid "Uncursed, certified, and the exorcist fixed the squeak too."
@@ -17056,7 +17056,7 @@ msgstr "Glasajte na izborima"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:144
 msgid "Vote in elections"
-msgstr ""
+msgstr "Pravo glasanja na izborima"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:103
 msgid "Voter"
@@ -17355,7 +17355,7 @@ msgstr "Drvena Kutija"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:519
 msgid "Wooden cases are waiting near you. Open this menu."
-msgstr ""
+msgstr "Drvene kutije čekaju biti pokupljene. Otvorite ovaj izbornik."
 
 #: src/components/_layout/loadingTips.tsx:292
 msgid "Wooden cases vanish after {woodenCaseExpiryHours}h, and no new one drops while {maxWoodenCases} are waiting. Go collect them!"
@@ -17393,11 +17393,11 @@ msgstr "Radnici"
 
 #: src/pages/companies.tsx:103
 msgid "Workforce"
-msgstr ""
+msgstr "Radna snaga"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:114
 msgid "Workforce chart"
-msgstr ""
+msgstr "Grafikon radne snage"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:515
 msgid "Working abroad, an {expat} or a {cosmopolitan}, with at least one coworker."
@@ -18183,7 +18183,7 @@ msgstr "Netko izgubi dobitak, ali dobije gubitak.."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:278
 msgid "Your milestones"
-msgstr ""
+msgstr "Vaši ciljevi"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:484
 msgid "Your military skills"
