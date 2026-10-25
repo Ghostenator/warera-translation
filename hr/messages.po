@@ -74,15 +74,15 @@ msgstr "-1 za svaku vještinu svakih 20 dana u istoj kompaniji sve do maksimalni
 
 #: src/components/_economy/employee/training.frontConfig.tsx:135
 msgid "-10% on the wage they expect."
-msgstr ""
+msgstr "-10% na plaću koju očekuju."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:136
 msgid "-20% on the wage they expect."
-msgstr ""
+msgstr "-20% na plaću koju očekuju."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:134
 msgid "-5% on the wage they expect."
-msgstr ""
+msgstr "-5% na plaću koju očekuju."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1805
 msgid "“Senior Worker” it is. It will do, for now."
@@ -1998,7 +1998,7 @@ msgstr "+1 jednoj vještini svakih 10 dana u istoj kompaniji do maksimalnih +4."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:47
 msgid "+1 to one stat."
-msgstr ""
+msgstr "+1 na željenu vještinu."
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:207
 msgid "+1% per {happinessDivisor} happiness above 50, -1% per {happinessDivisor} under."
@@ -2006,27 +2006,27 @@ msgstr ""
 
 #: src/components/_economy/employee/training.frontConfig.tsx:48
 msgid "+2 to one stat."
-msgstr ""
+msgstr "+2 na željenu vještinu."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:145
 msgid "+2 training potential: one session more than the draw just spent."
-msgstr ""
+msgstr "+2 trening potencijala: jedna trening sesija više."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:49
 msgid "+3 to one stat."
-msgstr ""
+msgstr "+3 na željenu vještinu."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:150
 msgid "+3 training potential: two sessions more than the draw just spent."
-msgstr ""
+msgstr "+3 trening potencijala: dvije trening sesije više."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:50
 msgid "+4 to one stat."
-msgstr ""
+msgstr "+4 na željenu vještinu."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:155
 msgid "+4 training potential: three sessions more than the draw just spent."
-msgstr ""
+msgstr "+4 trening potencijala: tri trening sesije više."
 
 #: src/components/_economy/employeeEvent/EmployeeEventText.tsx:31
 msgid "<0/> & <1/>"
@@ -3288,7 +3288,7 @@ msgstr ""
 
 #: src/components/_economy/employee/TrainingCardList.tsx:132
 msgid "A card's rarity is its outline as well as its colour: a circle is Common, and it gains an edge at every tier up to the Legendary gem."
-msgstr ""
+msgstr "Raritet karte za obuku je također određen svojim obrubom i bojom."
 
 #: src/components/_political/event/event.frontConfig.tsx:478
 msgid "A civil war has started by <0/> in <1/>"
@@ -3476,7 +3476,7 @@ msgstr ""
 
 #: src/components/_economy/employee/training.frontConfig.tsx:122
 msgid "A random trait, good or bad, revealed only once picked, and +1 to a random stat."
-msgstr ""
+msgstr "Dodaje +1 na željenu vještinu i dodijeljuje se nasumična osobina  zaposleniku. "
 
 #: src/components/_layout/loadingTips.tsx:364
 msgid "A region's <0>Development</0> turns into daily <1>Money</1> for the country that owns it."
@@ -5131,7 +5131,7 @@ msgstr ""
 
 #: src/components/_economy/employee/TrainingCardList.tsx:139
 msgid "Cards"
-msgstr ""
+msgstr "Karte za obuku"
 
 #: src/components/_economy/manager/ManagerCareButton.tsx:67
 msgid "Care"
@@ -5443,19 +5443,19 @@ msgstr "Poništi izbor"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:80
 msgid "Clears every bad trait at once."
-msgstr ""
+msgstr "Uklanja sve loše osobine zaposlenika odjednom."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:83
 msgid "Clears every bad trait they carry, in one card. Only dealt to an employee with at least two of them. Mixed traits are left alone."
-msgstr ""
+msgstr "Uklanja sve loše osobine ako ih zaposlenik ima barem dvije. Mješovite osobine se ne uklanjaju."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:73
 msgid "Clears one bad trait, such as Xenophobe or Burnout."
-msgstr ""
+msgstr "Uklanja jednu lošu osobinu poput Ksenofob ili Izgaranje."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:70
 msgid "Clears one mixed trait, such as Sociable or Comic."
-msgstr ""
+msgstr "Uklanja jednu mješovitu osobinu poput Druželjubiv ili Šaljivčina."
 
 #: src/components/_economy/inventory/ConsumeItems.tsx:180
 msgid "Click to consume."
@@ -6782,7 +6782,7 @@ msgstr "Otmjenost koja ubija."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:43
 msgid "Drill"
-msgstr ""
+msgstr "Trening"
 
 #: src/components/_economy/employee/employeeStats.tsx:547
 msgid "Drops too low and they can quit."
@@ -8879,7 +8879,7 @@ msgstr ""
 
 #: src/components/_economy/employee/training.frontConfig.tsx:41
 msgid "Intensive drill"
-msgstr ""
+msgstr "Intenzivni trening"
 
 #: src/components/_common/GameRules.tsx:81
 msgid "Intentional or repeated violations of this policy will result in a permanent ban."
@@ -10784,7 +10784,7 @@ msgstr ""
 #: src/components/_economy/employee/employeeTags.tsx:182
 #: src/components/_economy/employee/training.frontConfig.tsx:131
 msgid "Negotiation"
-msgstr ""
+msgstr "Pregovaranje"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3769
 msgid "Neither of them laughs. Now it is your fault."
@@ -10857,11 +10857,11 @@ msgstr "Prihvaćen novi plaćenički ugovor"
 
 #: src/components/_economy/employee/RecruitModal.tsx:104
 msgid "New employee"
-msgstr ""
+msgstr "Novi zaposlenik"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:93
 msgid "New habit"
-msgstr ""
+msgstr "Nova navika"
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:159
 msgid "New leader"
@@ -12238,11 +12238,11 @@ msgstr "Izaberite kandidata!"
 #: src/components/_economy/employee/EmployeeModal.tsx:397
 #: src/components/_economy/employee/TrainingDraftModal.tsx:478
 msgid "Pick a card"
-msgstr "Izaberite karticu"
+msgstr "Izaberite kartu"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:160
 msgid "Pick a card!"
-msgstr "Izaberite karticu!"
+msgstr "Izaberite kartu!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:297
 msgid "Pick a fight!"
@@ -13261,7 +13261,7 @@ msgstr "Prijave otvorene"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:66
 msgid "Rehab"
-msgstr ""
+msgstr "Rehabilitacija"
 
 #: src/utils/translations.tsx:214
 msgid "Reinforced Boots"
@@ -13927,7 +13927,7 @@ msgstr ""
 
 #: src/components/_economy/employee/training.frontConfig.tsx:141
 msgid "Second wind"
-msgstr ""
+msgstr "Novi polet"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:65
 msgid "See all your employees and companies stats"
@@ -15031,19 +15031,19 @@ msgstr ""
 
 #: src/components/_economy/employee/training.frontConfig.tsx:95
 msgid "Teaches a trait, named on the card. It needs a free trait slot."
-msgstr ""
+msgstr "Dodijeljuje osobinu navedenu na karti. Potreban je slobodan slot  za osobine."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:105
 msgid "Teaches one good trait, no downside."
-msgstr ""
+msgstr "Dodijeljuje jednu dobru osobinu zaposleniku."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:101
 msgid "Teaches one mixed trait: real upside, with a string attached."
-msgstr ""
+msgstr "Dodijeljuje jednu mješovitu osobinu zaposleniku."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:107
 msgid "Teaches two good traits at once. Needs two free slots."
-msgstr ""
+msgstr "Dodijeljuje dvije dobre osobine zaposleniku. Potrebna su 2 slobodna slota za osobine."
 
 #. placeholder {0}: tournamentTeam.number
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:56
@@ -15509,7 +15509,7 @@ msgstr ""
 
 #: src/components/_economy/employee/TrainingCardList.tsx:118
 msgid "The rarity is rolled once for the whole hand, among the rarities the employee has enough cards in. Leadership tilts these odds."
-msgstr ""
+msgstr "Stupanj rariteta je isti za sve izvučene karte. Razina vještine Vodstva mijenje ove izglede."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:507
 msgid "The region menu"
@@ -16141,7 +16141,7 @@ msgstr "Alati"
 
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:137
 msgid "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, looted in battles or found in <2>Wooden Cases</2>."
-msgstr ""
+msgstr "Alati daju bonus na <0>produkciju</0>. Moguće ih je pronaći u <1>kutijama za alat</1> koje je moguće osvojiti u bitkama ili pronaći u <2>drvenim kutijama</2>."
 
 #: src/components/_social/ArticleList.tsx:218
 msgid "Top"
@@ -16359,15 +16359,15 @@ msgstr "Mentor"
 #: src/components/_economy/employee/employeeStats.tsx:199
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:168
 msgid "Training"
-msgstr ""
+msgstr "Obuka"
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:141
 msgid "Training cards"
-msgstr ""
+msgstr "Karte za obuku"
 
 #: src/components/_economy/employee/TrainingDraftModal.tsx:397
 msgid "Training complete."
-msgstr ""
+msgstr "Obuka završena."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:152
 msgid "Training costs <0>Energy</0> and makes them better."
@@ -16375,7 +16375,7 @@ msgstr "Obuka troši vašu <0>Energiju</0> i unaprijeđuje vještine zaposlenika
 
 #: src/components/_economy/employee/TrainingCardList.tsx:109
 msgid "Training deals a hand of {handSize} of these, all at the same rarity, and you keep one."
-msgstr ""
+msgstr "Obuka daje na izbor jedne od {handSize} karte za obuku jednakog rariteta."
 
 #: src/components/_economy/employee/employeeStats.tsx:374
 msgid "Training draw, before your Leadership"
@@ -16383,7 +16383,7 @@ msgstr ""
 
 #: src/components/_economy/employee/TrainingHistory.tsx:244
 msgid "Training history"
-msgstr ""
+msgstr "Povijest obuke"
 
 #: src/components/_economy/employee/employeeTags.tsx:58
 #: src/components/_economy/employee/EmployeeTooltip.tsx:144
@@ -17272,7 +17272,7 @@ msgstr "Zašto želite predložiti ovaj zakon?"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:113
 msgid "Wild card"
-msgstr ""
+msgstr "Džoker karta"
 
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:39
 msgid "Winner"
