@@ -5306,7 +5306,7 @@ msgstr "Pobierz opłatę"
 
 #: src/components/_economy/itemOffer/itemOffer.frontConfig.tsx:9
 msgid "Cheapest"
-msgstr "Najtańszy"
+msgstr "Najtańsze"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1697
 msgid "Check the numbers first"
@@ -10525,7 +10525,7 @@ msgstr "Więcej szkoleń dla tego pracownika."
 
 #: src/components/_economy/itemOffer/itemOffer.frontConfig.tsx:11
 msgid "Most expensive"
-msgstr "Najdroższy"
+msgstr "Najdroższe"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3647
 msgid "Mostly scrap, but good scrap."
@@ -10550,7 +10550,7 @@ msgstr "Uchwały"
 #: src/components/_political/region/MoveButton.tsx:119
 #: src/components/_political/region/MoveButton.tsx:131
 msgid "Move"
-msgstr "Przejdź tutaj"
+msgstr "Zmień lokalizację"
 
 #. placeholder {0}: target.name
 #. placeholder {1}: -happinessPenalty
@@ -10866,7 +10866,7 @@ msgstr "Nigdy nie odchodzi. Poniżej {quitThreshold} zadowolenia, pracuje o poł
 #: src/components/_social/ArticleList.tsx:198
 #: src/components/_user/notification/NotificationList.tsx:81
 msgid "New"
-msgstr "Najnowszy"
+msgstr "Nowe"
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:170
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:171
