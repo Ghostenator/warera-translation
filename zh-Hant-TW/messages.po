@@ -5609,7 +5609,7 @@ msgstr "社群"
 
 #: src/components/_layout/LayoutMenu.tsx:190
 #: src/components/_political/region/RegionHeader.tsx:111
-#: src/components/_user/user/MyAvatar.tsx:47
+#: src/components/_user/user/MyAvatar.tsx:50
 #: src/components/_user/user/UserHeader.tsx:238
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:141
@@ -8929,7 +8929,7 @@ msgstr ""
 
 #: src/components/_layout/LayoutMenu.tsx:99
 #: src/components/_layout/LayoutUserMenu.tsx:169
-#: src/components/_user/user/MyAvatar.tsx:35
+#: src/components/_user/user/MyAvatar.tsx:38
 #: src/components/_user/user/UserHeader.tsx:177
 #: src/pages/companies.tsx:126
 #: src/pages/country/[countryId]/account.tsx:25
@@ -9746,7 +9746,7 @@ msgstr ""
 msgid "Login"
 msgstr "登入"
 
-#: src/components/_user/user/MyAvatar.tsx:59
+#: src/components/_user/user/MyAvatar.tsx:74
 msgid "Logout"
 msgstr "登出"
 
@@ -12709,7 +12709,7 @@ msgstr "僅限專家"
 msgid "Professionals only (5+ rep)"
 msgstr "僅限專家（名聲 5 以上）"
 
-#: src/components/_user/user/MyAvatar.tsx:29
+#: src/components/_user/user/MyAvatar.tsx:32
 msgid "Profile"
 msgstr "個人檔案"
 
@@ -13189,6 +13189,7 @@ msgstr "已設定推薦人"
 msgid "Referrer username"
 msgstr "推薦人用戶名稱"
 
+#: src/components/_user/user/MyAvatar.tsx:63
 #: src/components/_user/user/UserDropdown.tsx:301
 msgid "Refresh app"
 msgstr ""
@@ -14210,7 +14211,7 @@ msgid "Set your username"
 msgstr "設置你的用戶名稱"
 
 #: src/components/_military/mu/MuHeader.tsx:191
-#: src/components/_user/user/MyAvatar.tsx:53
+#: src/components/_user/user/MyAvatar.tsx:56
 #: src/components/_user/user/UserHeader.tsx:258
 msgid "Settings"
 msgstr "設定"
@@ -14355,7 +14356,7 @@ msgid "Skillet"
 msgstr ""
 
 #: src/components/_user/mission/ProgressHeader.tsx:90
-#: src/components/_user/user/MyAvatar.tsx:41
+#: src/components/_user/user/MyAvatar.tsx:44
 #: src/components/_user/user/UserHeader.tsx:192
 #: src/pages/user/[userId]/index.tsx:180
 msgid "Skills"
@@ -16079,6 +16080,7 @@ msgid "Tiny Pixel Tank"
 msgstr "迷你像素坦克"
 
 #: src/components/_layout/LoadingTip.tsx:46
+msgctxt "noun: loading screen hint"
 msgid "Tip"
 msgstr ""
 

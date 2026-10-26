@@ -5607,7 +5607,7 @@ msgstr "Community"
 
 #: src/components/_layout/LayoutMenu.tsx:190
 #: src/components/_political/region/RegionHeader.tsx:111
-#: src/components/_user/user/MyAvatar.tsx:47
+#: src/components/_user/user/MyAvatar.tsx:50
 #: src/components/_user/user/UserHeader.tsx:238
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:141
@@ -8927,7 +8927,7 @@ msgstr ""
 
 #: src/components/_layout/LayoutMenu.tsx:99
 #: src/components/_layout/LayoutUserMenu.tsx:169
-#: src/components/_user/user/MyAvatar.tsx:35
+#: src/components/_user/user/MyAvatar.tsx:38
 #: src/components/_user/user/UserHeader.tsx:177
 #: src/pages/companies.tsx:126
 #: src/pages/country/[countryId]/account.tsx:25
@@ -9744,7 +9744,7 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: src/components/_user/user/MyAvatar.tsx:59
+#: src/components/_user/user/MyAvatar.tsx:74
 msgid "Logout"
 msgstr "Deconectare"
 
@@ -12707,7 +12707,7 @@ msgstr "Doar profesioniști"
 msgid "Professionals only (5+ rep)"
 msgstr "Doar profesioniști (reputație peste 5)"
 
-#: src/components/_user/user/MyAvatar.tsx:29
+#: src/components/_user/user/MyAvatar.tsx:32
 msgid "Profile"
 msgstr "Profil"
 
@@ -13187,6 +13187,7 @@ msgstr "Recomandatorul a fost setat"
 msgid "Referrer username"
 msgstr "Numele celui care ți-a recomandat jocul"
 
+#: src/components/_user/user/MyAvatar.tsx:63
 #: src/components/_user/user/UserDropdown.tsx:301
 msgid "Refresh app"
 msgstr ""
@@ -14208,7 +14209,7 @@ msgid "Set your username"
 msgstr "Setează-ți numele de utilizator"
 
 #: src/components/_military/mu/MuHeader.tsx:191
-#: src/components/_user/user/MyAvatar.tsx:53
+#: src/components/_user/user/MyAvatar.tsx:56
 #: src/components/_user/user/UserHeader.tsx:258
 msgid "Settings"
 msgstr "Setări"
@@ -14353,7 +14354,7 @@ msgid "Skillet"
 msgstr ""
 
 #: src/components/_user/mission/ProgressHeader.tsx:90
-#: src/components/_user/user/MyAvatar.tsx:41
+#: src/components/_user/user/MyAvatar.tsx:44
 #: src/components/_user/user/UserHeader.tsx:192
 #: src/pages/user/[userId]/index.tsx:180
 msgid "Skills"
@@ -16077,6 +16078,7 @@ msgid "Tiny Pixel Tank"
 msgstr ""
 
 #: src/components/_layout/LoadingTip.tsx:46
+msgctxt "noun: loading screen hint"
 msgid "Tip"
 msgstr ""
 
