@@ -286,7 +286,7 @@ msgstr "Entreprises de {0}"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:435
+#: src/components/_economy/company/CompanyDropdown.tsx:439
 msgid "{0}/{1} active"
 msgstr "{0}/{1} actives"
 
@@ -296,7 +296,7 @@ msgid "{0}% base chance, plus your Luck skill"
 msgstr "{0}% de chance de base, plus ta compétence Chance"
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:508
+#: src/components/_economy/company/CompanyDropdown.tsx:512
 msgid "{0}% of invested"
 msgstr "{0}% de l'investissement"
 
@@ -307,7 +307,7 @@ msgid "{0}d worked: <0>{1}</0>"
 msgstr "{0}j travaillés: <0>{1}</0>"
 
 #. placeholder {0}: contract.unpaidHours
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:220
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:223
 msgid "{0}h unpaid"
 msgstr "{0}h non payées"
 
@@ -456,7 +456,7 @@ msgstr "{finder} et d’autres personnes ont trouvé des {toolboxes} que tu peux
 msgid "{finder} found {toolboxes} for you to claim."
 msgstr "{finder} a trouvé des {toolboxes} que tu peux récupérer."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:311
+#: src/components/_economy/company/CompanyDropdown.tsx:315
 #: src/components/_economy/company/MoveCompanyForm.tsx:105
 msgid "{freeMoves} free"
 msgstr "{freeMoves} gratuit"
@@ -1619,11 +1619,11 @@ msgstr "{lead} et d’autres attendent ta décision."
 msgid "{lead} is waiting for your decision."
 msgstr "{lead} attend votre décision."
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:438
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:441
 msgid "{managerTax}% manager tax is withheld from this pay when the manager collects it, for the country the company sits in."
 msgstr "Une taxe de {managerTax}% est prélevée sur cette rémunération au moment où le manager la perçoit, conformément à la législation du pays où l'entreprise est établie."
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:159
+#: src/components/_economy/manager/ManagerOfferRow.tsx:162
 msgid "{managerTax}% manager tax is withheld when you collect your pay in this country."
 msgstr "Une taxe de {managerTax}% est prélevée lorsque tu reçois ta rémunération dans ce pays."
 
@@ -1809,7 +1809,7 @@ msgstr ""
 
 #. placeholder {0}: employee.potential
 #. placeholder {1}: employee.potentialMax
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:294
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:317
 msgid "{trainingsLeft} training sessions left ({0}/{1} used)."
 msgstr ""
 
@@ -1839,7 +1839,7 @@ msgstr ""
 msgid "{value} training potential left"
 msgstr ""
 
-#: src/components/_economy/employee/employeeCards.tsx:184
+#: src/components/_economy/employee/employeeCards.tsx:215
 #: src/components/_economy/employee/EmployeeTooltip.tsx:142
 msgid "{wage} / day"
 msgstr ""
@@ -1946,8 +1946,8 @@ msgstr "*Peut brûler"
 msgid "/{max, plural, one {# slot} other {# slots}}"
 msgstr "/{max, plural, one {# slot} other {# slots}}"
 
-#: src/components/_economy/employee/EmployeeList.tsx:225
-#: src/components/_economy/employee/EmployeeList.tsx:231
+#: src/components/_economy/employee/EmployeeList.tsx:229
+#: src/components/_economy/employee/EmployeeList.tsx:235
 #: src/components/_economy/employee/EstimatedProfit.tsx:143
 #: src/components/_economy/employee/WorkforceSummary.tsx:520
 #: src/components/_economy/employee/WorkforceSummary.tsx:555
@@ -1955,10 +1955,10 @@ msgstr "/{max, plural, one {# slot} other {# slots}}"
 msgid "/day"
 msgstr "/jour"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:426
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:453
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:429
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:456
 #: src/components/_economy/manager/ManagerBestOfferLine.tsx:41
-#: src/components/_economy/manager/ManagerOfferRow.tsx:189
+#: src/components/_economy/manager/ManagerOfferRow.tsx:192
 #: src/components/_economy/manager/ManagerRateReductionAlert.tsx:45
 #: src/components/_economy/manager/MoveManagerModal.tsx:62
 msgid "/h"
@@ -1968,7 +1968,7 @@ msgstr "/h"
 msgid "/h at {points} Management points"
 msgstr "/h à {points} points de Gestion"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:380
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:383
 msgid "/h max"
 msgstr "/h maximum"
 
@@ -2045,7 +2045,7 @@ msgstr "<0/> a demandé à rejoindre <1/>"
 
 #. placeholder {0}: myJob.data.hourlyWage
 #. placeholder {1}: managerTax > 0 && ( <Typo as='span' opacity={0.7}> {' ('} <Money static color='yellowText'> {wageAfterTax} </Money> {' after taxes)'} </Typo> )
-#: src/components/_economy/manager/ManagerOfferList.tsx:102
+#: src/components/_economy/manager/ManagerOfferList.tsx:103
 msgid "<0/> at <1>{0}</1> /h.{1}"
 msgstr "<0/> à <1>{0}</1> /h.{1}"
 
@@ -2072,12 +2072,12 @@ msgid "<0/> bought your banner{0}!"
 msgstr "<0/> a acheté ta bannière{0} !"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:460
+#: src/components/_political/law/law.frontConfig.tsx:462
 msgid "<0/> buys <1/> for <2>{0}</2>"
 msgstr "<0/> achète <1/> pour <2>{0}</2>"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:471
+#: src/components/_political/law/law.frontConfig.tsx:473
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> achète votre région <1/> pour <2>{0}</2>"
 
@@ -2215,7 +2215,7 @@ msgstr "<0/> a financé la résistance en <1/>"
 msgid "<0/> has formed an alliance with <1/>"
 msgstr "<0/> a formé une alliance avec <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:409
+#: src/components/_political/law/law.frontConfig.tsx:411
 msgid "<0/> has invited your country to join."
 msgstr "<0/> a invité ton pays à rejoindre."
 
@@ -2264,7 +2264,7 @@ msgstr "<0/> attaque à <1/>"
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> attaque ton pays dans <1/>"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:246
+#: src/components/_economy/employee/TrainingDraftModal.tsx:247
 #: src/components/_economy/employee/TrainingHistory.tsx:133
 msgid "<0/> is gone"
 msgstr "<0/> a disparu"
@@ -2349,7 +2349,7 @@ msgstr "<0/> de frais payés"
 msgid "<0/> Priority ends in <1/>"
 msgstr "La priorité de <0/> se termine dans <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:313
+#: src/components/_political/law/law.frontConfig.tsx:315
 msgid "<0/> proposed a mutual defensive pact to your country."
 msgstr "<0/> a proposé un pacte de défense mutuel à votre pays."
 
@@ -2408,11 +2408,11 @@ msgstr "<0/> a pris le contrôle de <1/>"
 msgid "<0/> vs <1/> war"
 msgstr "Guerre <0/> vs <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:111
+#: src/components/_political/law/law.frontConfig.tsx:113
 msgid "<0/> wants peace"
 msgstr "<0/> veut la paix"
 
-#: src/components/_political/law/law.frontConfig.tsx:121
+#: src/components/_political/law/law.frontConfig.tsx:123
 msgid "<0/> wants to make peace with your country"
 msgstr "<0/> propose un traité de paix avec ton pays"
 
@@ -2720,7 +2720,7 @@ msgstr "<0>À chaque <1/> point de dégâts total infligé par les deux camps aj
 #. placeholder {0}: contract.productionBonusPercent
 #. placeholder {1}: employeeConfig.skills.managementBonusPercentPerLevel
 #. placeholder {2}: contract.isInactive && ( <p>They are away, so none of it applies right now.</p> )
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:169
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:172
 msgid "<0>Every employee of this company produces <1>{0}</1> more.</0><2><3>{1}</3> per Management point, and they have <4/>.</2>{2}"
 msgstr "<0>Chaque employé de cette entreprise produit <1>{0}</1> de plus.</0><2><3>{1}</3> par point de gestion, et ils disposent de <4/>.</2>{2}"
 
@@ -3339,7 +3339,7 @@ msgstr ""
 msgid "A company's Break Room level is the number of employees it can hold."
 msgstr ""
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:219
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:222
 msgid "A core region of your country: your employees here get +{coreRegionBonusPercent}% production."
 msgstr ""
 
@@ -3388,7 +3388,7 @@ msgstr ""
 msgid "A desk is free"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:175
+#: src/components/_economy/manager/ManagerOfferRow.tsx:178
 msgid "A disabled company produces nothing, so a manager there earns nothing until the owner re-enables it."
 msgstr ""
 
@@ -3613,11 +3613,11 @@ msgstr "Abuser de ce pouvoir pour avantager un autre pays entraînera une <0>sus
 msgid "Accept"
 msgstr "Pour"
 
-#: src/components/_political/law/law.frontConfig.tsx:304
+#: src/components/_political/law/law.frontConfig.tsx:306
 msgid "Accept a defensive pact with <0/>"
 msgstr "Accepter un pacte de défense avec <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:298
+#: src/components/_political/law/law.frontConfig.tsx:300
 #: src/components/_political/law/lawNames.tsx:41
 msgid "Accept defensive pact"
 msgstr "Accepter le pacte de défense"
@@ -3626,16 +3626,16 @@ msgstr "Accepter le pacte de défense"
 msgid "Accept its command"
 msgstr "Accepte son ordre"
 
-#: src/components/_political/law/law.frontConfig.tsx:456
+#: src/components/_political/law/law.frontConfig.tsx:458
 msgid "Accept or reject a region buy offer"
 msgstr "Accepter ou refuser une offre d'achat de région"
 
-#: src/components/_political/law/law.frontConfig.tsx:106
+#: src/components/_political/law/law.frontConfig.tsx:108
 #: src/components/_political/law/lawNames.tsx:13
 msgid "Accept peace"
 msgstr "Accepter la paix"
 
-#: src/components/_political/law/law.frontConfig.tsx:107
+#: src/components/_political/law/law.frontConfig.tsx:109
 msgid "Accept to make peace with the other country"
 msgstr "Accepter de faire la paix avec l'autre pays"
 
@@ -3861,7 +3861,7 @@ msgstr "Tout sur le mobile"
 msgid "All Parties"
 msgstr "Tous les partis"
 
-#: src/components/_economy/manager/ManagerOfferList.tsx:132
+#: src/components/_economy/manager/ManagerOfferList.tsx:133
 msgid "All positions"
 msgstr "Tous les postes"
 
@@ -3946,7 +3946,7 @@ msgstr "Nom de l'alliance"
 msgid "Alliance upkeep {0}"
 msgstr "Entretien de l'alliance {0}"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:160
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:163
 #: src/components/_military/battle/ActiveBattlesList.tsx:101
 #: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
@@ -3968,7 +3968,7 @@ msgstr "Presque prêt..."
 msgid "Alpha Tester"
 msgstr "Testeur Alpha"
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:221
+#: src/components/_economy/manager/ManagerOfferRow.tsx:224
 msgid "Already employed"
 msgstr "Déjà en poste"
 
@@ -3994,7 +3994,7 @@ msgstr "Munitions :"
 msgid "Amount"
 msgstr "Montant"
 
-#: src/components/_economy/company/CompanyTags.tsx:168
+#: src/components/_economy/company/CompanyTags.tsx:175
 msgid "Amount of <0>Production Points</0> that can be stored inside the company before production stops."
 msgstr "Quantité de <0>Points de Production</0> pouvant être stockée dans l'entreprise avant que la production ne s'arrête."
 
@@ -4015,7 +4015,7 @@ msgstr "Une alliance a été brisée"
 msgid "An alliance has been formed"
 msgstr "Une alliance a été formée"
 
-#: src/components/_political/law/law.frontConfig.tsx:396
+#: src/components/_political/law/law.frontConfig.tsx:398
 msgid "An alliance has invited your country to join"
 msgstr "Une alliance a invité votre pays à rejoindre"
 
@@ -4051,7 +4051,7 @@ msgstr "Annonce"
 msgid "Announcements"
 msgstr "Annonces"
 
-#: src/components/_political/law/law.frontConfig.tsx:299
+#: src/components/_political/law/law.frontConfig.tsx:301
 msgid "Another country proposed a defensive pact to yours"
 msgstr "Un autre pays a proposé un pacte de défense à vous"
 
@@ -4132,7 +4132,7 @@ msgstr "Candidatures"
 msgid "Applied on top of the above."
 msgstr "Appliqué par-dessus ce qui précède."
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:223
+#: src/components/_economy/manager/ManagerOfferRow.tsx:226
 #: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:56
 #: src/pages/country/[countryId]/citizenship.tsx:49
 msgid "Apply"
@@ -4342,7 +4342,7 @@ msgstr "À la fin du timer, <0>{actualTickPoints}</0> seront attribués au camp 
 msgid "At war with"
 msgstr "En guerre avec"
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:185
+#: src/components/_economy/manager/ManagerOfferRow.tsx:188
 msgid "At your Management level"
 msgstr "À votre niveau de Direction"
 
@@ -4406,7 +4406,7 @@ msgstr "Approbation automatique"
 msgid "Auto-equip when item breaks"
 msgstr "Équiper automatiquement lorsque l'objet se casse"
 
-#: src/components/_economy/company/CompanyTags.tsx:157
+#: src/components/_economy/company/CompanyTags.tsx:164
 msgid "Auto-generates <0>Production Points</0> over time, without the need to work."
 msgstr "Génère automatiquement des <0>Points de Production</0> au fil du temps, sans avoir besoin de travailler."
 
@@ -4418,7 +4418,7 @@ msgstr "Achat automatique quand c'est vide"
 msgid "Autocracy"
 msgstr "Autocratie"
 
-#: src/components/_economy/company/CompanyTags.tsx:155
+#: src/components/_economy/company/CompanyTags.tsx:162
 msgid "Automated engine"
 msgstr "Machine automatisée"
 
@@ -4446,11 +4446,11 @@ msgstr "Avatar supprimé"
 msgid "Average development"
 msgstr "Développement moyen"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:285
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:230
 msgid "Away"
 msgstr "Absent"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:278
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:224
 msgid "Away for <0/>: no work, no wage."
 msgstr "Absent pour <0/>: pas de travail, pas de salaire."
 
@@ -4762,7 +4762,7 @@ msgid "Bone Club"
 msgstr "Bâton en os"
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:62
-#: src/components/_political/law/law.frontConfig.tsx:252
+#: src/components/_political/law/law.frontConfig.tsx:254
 msgid "Bonus damages"
 msgstr "Dégâts bonus"
 
@@ -4821,17 +4821,17 @@ msgstr "Pied à coulisse en laiton"
 msgid "Bread"
 msgstr "Pain"
 
-#: src/components/_political/law/law.frontConfig.tsx:323
+#: src/components/_political/law/law.frontConfig.tsx:325
 #: src/components/_political/law/lawNames.tsx:42
 msgid "Break defensive pact"
 msgstr "Briser le pacte de défense"
 
-#: src/components/_economy/company/CompanyTags.tsx:177
+#: src/components/_economy/company/CompanyTags.tsx:184
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:137
 msgid "Break room"
 msgstr "Salle de pause"
 
-#: src/components/_political/law/law.frontConfig.tsx:329
+#: src/components/_political/law/law.frontConfig.tsx:331
 msgid "Break the defensive pact with <0/>"
 msgstr "Briser le pacte de défense avec <0/>"
 
@@ -4851,7 +4851,7 @@ msgstr "Ce mec a gagné le dernier tournoi."
 msgid "broken"
 msgstr "cassé"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:332
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:356
 #: src/components/_economy/inventory/Inventory.tsx:772
 msgid "Broken"
 msgstr "Cassé"
@@ -4943,7 +4943,7 @@ msgid "Buy <0/>"
 msgstr "Acheter <0/>"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:488
+#: src/components/_political/law/law.frontConfig.tsx:490
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
 msgstr "Acheter <0/> à <1/> pour <2>{0}</2>"
 
@@ -5107,7 +5107,7 @@ msgstr "Annulé par un administrateur"
 msgid "Candidacy is open for <0/>"
 msgstr "Les candidatures sont ouvertes pour <0/>"
 
-#: src/components/_economy/employee/employeeCards.tsx:180
+#: src/components/_economy/employee/employeeCards.tsx:211
 #: src/components/_political/election/CandidateFormModal.tsx:82
 msgid "Candidate"
 msgstr "Candidat"
@@ -5219,15 +5219,15 @@ msgstr "Chance de toucher la cible.<0/>Les ratés ne peuvent pas être critiques
 msgid "Chance to quit"
 msgstr "Chance de quitter"
 
-#: src/components/_political/law/law.frontConfig.tsx:97
+#: src/components/_political/law/law.frontConfig.tsx:99
 msgid "Change {taxName} to"
 msgstr "Change {taxName} à"
 
-#: src/components/_political/law/law.frontConfig.tsx:86
+#: src/components/_political/law/law.frontConfig.tsx:87
 msgid "Change {taxName} to <0/>"
 msgstr "Change {taxName} à <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:81
+#: src/components/_political/law/law.frontConfig.tsx:82
 msgid "Change a country tax"
 msgstr "Modifier les taxes du pays"
 
@@ -5249,7 +5249,7 @@ msgstr "Changer la rémunération du manager"
 msgid "Change nationality"
 msgstr "Changer la nationalité"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:243
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:246
 msgid "Change pay"
 msgstr "Modifier la rémunération"
 
@@ -5258,11 +5258,11 @@ msgstr "Modifier la rémunération"
 msgid "Change produced item"
 msgstr "Changer l'objet produit"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:321
+#: src/components/_economy/company/CompanyDropdown.tsx:325
 msgid "Change production"
 msgstr "Changer la production"
 
-#: src/components/_political/law/law.frontConfig.tsx:80
+#: src/components/_political/law/law.frontConfig.tsx:81
 #: src/components/_political/law/lawNames.tsx:12
 msgid "Change tax"
 msgstr "Modifier la taxe"
@@ -5276,21 +5276,21 @@ msgstr "Change immédiatement le schéma de couleurs de l'alliance en <0>{0}</0>
 msgid "Change the color scheme of the alliance."
 msgstr "Changer la palette de couleurs de l'alliance."
 
-#: src/components/_political/law/law.frontConfig.tsx:562
+#: src/components/_political/law/law.frontConfig.tsx:564
 msgid "Change the country color scheme"
 msgstr "Changer la palette de couleurs du pays"
 
 #. placeholder {0}: law.data.scheme
 #. placeholder {1}: law.data.mapAccent
-#: src/components/_political/law/law.frontConfig.tsx:568
+#: src/components/_political/law/law.frontConfig.tsx:570
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "Changer la palette de couleurs du pays en <0>{0}</0> avec un accent de carte <1>{1}</1>"
 
-#: src/components/_political/law/law.frontConfig.tsx:646
+#: src/components/_political/law/law.frontConfig.tsx:648
 msgid "Change the government type to <0/>. It can't change again for {GOV_TYPE_CHANGE_COOLDOWN_DAYS} days."
 msgstr "Changer le régime politique pour <0/>. Il ne pourra pas être modifié à nouveau avant {GOV_TYPE_CHANGE_COOLDOWN_DAYS} jours."
 
-#: src/components/_political/law/law.frontConfig.tsx:629
+#: src/components/_political/law/law.frontConfig.tsx:631
 msgid "Change the government type, then wait {GOV_TYPE_CHANGE_COOLDOWN_DAYS, plural, one {# day} other {# days}} before the next change"
 msgstr "Changer le régime politique, puis patienter {GOV_TYPE_CHANGE_COOLDOWN_DAYS, plural, one {# jour} other {# jours}} avant le prochain changement."
 
@@ -5612,7 +5612,7 @@ msgstr "Communauté"
 #: src/components/_user/user/MyAvatar.tsx:50
 #: src/components/_user/user/UserHeader.tsx:238
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:141
+#: src/pages/companies.tsx:144
 msgid "Companies"
 msgstr "Entreprises"
 
@@ -5630,21 +5630,21 @@ msgstr "Limite d'entreprises"
 msgid "Companies limit reached"
 msgstr "Limite d'entreprises atteinte"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:119
+#: src/components/_economy/company/CompanyDropdown.tsx:123
 msgid "Company destroyed!"
 msgstr "Entreprise détruite !"
 
-#: src/components/_economy/company/CompanyTags.tsx:105
+#: src/components/_economy/company/CompanyTags.tsx:112
 #: src/components/_economy/employee/WorkforceSummary.tsx:136
-#: src/components/_economy/manager/ManagerOfferRow.tsx:174
+#: src/components/_economy/manager/ManagerOfferRow.tsx:177
 msgid "Company disabled"
 msgstr "Entreprise désactivée"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:146
+#: src/components/_economy/company/CompanyDropdown.tsx:150
 msgid "Company disabled!"
 msgstr "Entreprise désactivée !"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:145
+#: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company enabled!"
 msgstr "Entreprise activée !"
 
@@ -5660,7 +5660,7 @@ msgstr "Stockage de production"
 msgid "Company renamed!"
 msgstr "Entreprise renommée !"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:173
+#: src/components/_economy/company/CompanyDropdown.tsx:177
 msgid "Company upgraded!"
 msgstr "Entreprise améliorée !"
 
@@ -5810,7 +5810,7 @@ msgstr "Modo de contenu"
 msgid "Contextual borders"
 msgstr "Frontières contextuelles"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:458
+#: src/components/_economy/employee/TrainingDraftModal.tsx:463
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:697
 msgid "Continue"
 msgstr "Continuer"
@@ -5901,7 +5901,7 @@ msgstr "Développement interne"
 msgid "Core development of <0/>"
 msgstr "Développement des régions légitimes de <0/>"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:218
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:221
 #: src/components/_economy/employee/employeeStats.tsx:586
 msgid "Core region"
 msgstr "Région légitime"
@@ -5948,7 +5948,7 @@ msgstr "pays"
 msgid "Countries"
 msgstr "Pays"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:152
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:155
 #: src/components/_layout/LayoutRightIcons.tsx:231
 #: src/components/_layout/MoreButtonNav.tsx:128
 #: src/components/_military/battle/BattleCountrySide.tsx:73
@@ -5994,7 +5994,7 @@ msgstr "Le pays a payé <0>{0}</0> pour les dommages causés."
 msgid "Country President"
 msgstr "Président du pays"
 
-#: src/components/_political/law/law.frontConfig.tsx:608
+#: src/components/_political/law/law.frontConfig.tsx:610
 msgid "Country specializations were removed from the game"
 msgstr "Les spécialisations par pays ont été retirées du jeu"
 
@@ -6018,7 +6018,7 @@ msgstr "Guerres entre pays"
 msgid "Coworker fired"
 msgstr "Collègue licencié"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:209
+#: src/components/_economy/employee/EmployeeModal.tsx:190
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:45
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:141
 msgid "Coworkers"
@@ -6064,7 +6064,7 @@ msgstr "Créer une entreprise"
 
 #. placeholder {0}: law.data.name
 #. placeholder {1}: law.data.scheme
-#: src/components/_political/law/law.frontConfig.tsx:359
+#: src/components/_political/law/law.frontConfig.tsx:361
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr "Créer une nouvelle alliance nommée <0>{0}</0> avec un schéma de couleurs <1>{1}</1>."
 
@@ -6077,13 +6077,13 @@ msgstr "Créer une nouvelle entreprise"
 msgid "Create a party"
 msgstr "Créer un parti"
 
-#: src/components/_political/law/law.frontConfig.tsx:348
+#: src/components/_political/law/law.frontConfig.tsx:350
 #: src/components/_political/law/lawNames.tsx:25
 msgid "Create alliance"
 msgstr "Créer une alliance"
 
 #. placeholder {0}: law.data.name
-#: src/components/_political/law/law.frontConfig.tsx:353
+#: src/components/_political/law/law.frontConfig.tsx:355
 msgid "Create alliance {0}"
 msgstr "Créer une alliance {0}"
 
@@ -6233,19 +6233,19 @@ msgstr "Entretien quotidien"
 msgid "Daily Missions Reset"
 msgstr "Réinitialisation des missions quotidiennes"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:778
+#: src/components/_economy/employee/EmployeeModal.tsx:811
 msgid "Daily output"
 msgstr "Production quotidienne"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:511
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:514
 msgid "Daily pay"
 msgstr "Paiement quotidien"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:163
+#: src/components/_economy/employee/EmployeeModal.tsx:144
 msgid "Daily production"
 msgstr "Production quotidienne"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:792
+#: src/components/_economy/employee/EmployeeModal.tsx:825
 msgid "Daily profit"
 msgstr "Profit quotidien"
 
@@ -6253,7 +6253,7 @@ msgstr "Profit quotidien"
 msgid "Daily revenue"
 msgstr "Revenu quotidien"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:787
+#: src/components/_economy/employee/EmployeeModal.tsx:820
 msgid "Daily wage"
 msgstr "Salaire quotidien"
 
@@ -6389,17 +6389,17 @@ msgstr "Malus:"
 msgid "Decides on its own in <0/>"
 msgstr "Prend ses décisions de manière autonome en <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:131
+#: src/components/_political/law/law.frontConfig.tsx:133
 #: src/components/_political/law/lawNames.tsx:14
 msgid "Declare war"
 msgstr "Déclarer la guerre"
 
-#: src/components/_political/law/law.frontConfig.tsx:136
-#: src/components/_political/law/law.frontConfig.tsx:145
+#: src/components/_political/law/law.frontConfig.tsx:138
+#: src/components/_political/law/law.frontConfig.tsx:147
 msgid "Declare war to <0/>"
 msgstr "Déclarer la guerre à <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:132
+#: src/components/_political/law/law.frontConfig.tsx:134
 msgid "Declare war to another country"
 msgstr "Déclarer la guerre à un autre pays"
 
@@ -6462,19 +6462,19 @@ msgstr "Pacte de défense ratifé"
 msgid "Defensive pacts"
 msgstr "Pactes de défense"
 
-#: src/components/_political/law/law.frontConfig.tsx:245
+#: src/components/_political/law/law.frontConfig.tsx:247
 msgid "Define <0/> as an enemy, increasing damages when fighting them"
 msgstr "Déclarer <0/> comme un ennemi, augmentant les dégâts lors du combat contre eux"
 
-#: src/components/_political/law/law.frontConfig.tsx:235
+#: src/components/_political/law/law.frontConfig.tsx:237
 msgid "Define <0/> as enemy"
 msgstr "Déclarer <0/> comme ennemi"
 
-#: src/components/_political/law/law.frontConfig.tsx:231
+#: src/components/_political/law/law.frontConfig.tsx:233
 msgid "Define a country as an enemy to get bonus against"
 msgstr "Définir un pays comme ennemi juré pour obtenir un bonus contre"
 
-#: src/components/_political/law/law.frontConfig.tsx:230
+#: src/components/_political/law/law.frontConfig.tsx:232
 #: src/components/_political/law/lawNames.tsx:24
 msgid "Define a sworn enemy"
 msgstr "Déclarer un ennemi juré"
@@ -6550,7 +6550,7 @@ msgstr "Décrire le poste, tes attentes, ce que tu proposes..."
 msgid "Describe your party's goals and values"
 msgstr "Décrire les objectifs et valeurs de ton parti"
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:203
+#: src/components/_economy/manager/ManagerOfferRow.tsx:206
 #: src/components/_political/party/PartyDescriptionModal.tsx:61
 #: src/components/_political/party/PartyFormModal.tsx:102
 #: src/pages/party/[partyId]/index.tsx:39
@@ -6569,7 +6569,7 @@ msgstr "Description supprimée"
 msgid "Description updated!"
 msgstr "Description mise à jour !"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:498
+#: src/components/_economy/company/CompanyDropdown.tsx:502
 msgid "Destruct"
 msgstr "Démolir"
 
@@ -6663,7 +6663,7 @@ msgstr "Diplomatie"
 msgid "Disable"
 msgstr "Désactiver"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:442
+#: src/components/_economy/company/CompanyDropdown.tsx:446
 msgid "Disable company"
 msgstr "Désactiver l'entreprise"
 
@@ -6671,9 +6671,9 @@ msgstr "Désactiver l'entreprise"
 msgid "Disable Order"
 msgstr "Désactiver l'ordre"
 
-#: src/components/_economy/company/CompanyTags.tsx:124
+#: src/components/_economy/company/CompanyTags.tsx:131
 #: src/components/_economy/employee/WorkforceSummary.tsx:145
-#: src/components/_economy/manager/ManagerOfferRow.tsx:178
+#: src/components/_economy/manager/ManagerOfferRow.tsx:181
 msgid "Disabled"
 msgstr "Désactivée"
 
@@ -7046,10 +7046,10 @@ msgstr "Pantalon d'élite"
 msgid "Embrace the curse"
 msgstr "Accepte la malédiction"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:703
+#: src/components/_economy/employee/EmployeeModal.tsx:686
 #: src/components/_economy/employee/EmployeeName.tsx:70
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:166
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:230
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:171
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:251
 #: src/components/_economy/employee/employeeTags.tsx:262
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:86
 msgid "Employee"
@@ -7081,7 +7081,7 @@ msgstr ""
 msgid "Employee Production"
 msgstr "Production des employés"
 
-#: src/components/_economy/employee/employee.hooks.ts:123
+#: src/components/_economy/employee/employee.hooks.ts:111
 msgid "Employee removed from the roster"
 msgstr ""
 
@@ -7089,12 +7089,12 @@ msgstr ""
 msgid "Employee renamed!"
 msgstr ""
 
-#: src/components/_economy/company/CompanyTags.tsx:56
-#: src/components/_economy/company/CompanyTags.tsx:69
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:194
+#: src/components/_economy/company/CompanyTags.tsx:59
+#: src/components/_economy/company/CompanyTags.tsx:72
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:197
 #: src/components/_economy/employee/employeeStats.tsx:741
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/law.frontConfig.tsx:65
+#: src/components/_political/law/law.frontConfig.tsx:66
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:64
 msgid "Employee tax"
 msgstr ""
@@ -7126,7 +7126,7 @@ msgstr "Vide"
 msgid "Empty build"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:432
+#: src/components/_economy/company/CompanyDropdown.tsx:436
 msgid "Enable company"
 msgstr "Activer l'entreprise"
 
@@ -7149,7 +7149,7 @@ msgstr "Pantalon enchanté"
 msgid "Encourage it"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:324
+#: src/components/_political/law/law.frontConfig.tsx:326
 msgid "End an existing defensive pact with another country"
 msgstr "Mettre fin à un pacte défensif existant avec un autre pays"
 
@@ -7157,7 +7157,7 @@ msgstr "Mettre fin à un pacte défensif existant avec un autre pays"
 msgid "End poll"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:338
+#: src/components/_political/law/law.frontConfig.tsx:340
 msgid "End the defensive pact with <0/>."
 msgstr "Mettre fin au pacte de défense avec <0/>."
 
@@ -7354,7 +7354,7 @@ msgstr ""
 
 #. placeholder {0}: contract.productionBonusPercent
 #. placeholder {1}: employeeConfig.skills.managementBonusPercentPerLevel
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:521
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:524
 msgid "Every employee of this company produces <0>{0}</0> more: <1>{1}</1> per Management point, and they have <2/>."
 msgstr ""
 
@@ -7474,7 +7474,7 @@ msgstr ""
 msgid "Everyone who changes company can resign straight afterwards"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:482
+#: src/components/_economy/company/CompanyDropdown.tsx:486
 #: src/components/_economy/manager/ManagerRateReductionAlert.tsx:72
 msgid "Everything you earned is paid out now."
 msgstr ""
@@ -7492,7 +7492,7 @@ msgid "Expected loot"
 msgstr "Butin attendu"
 
 #: src/components/_economy/employee/TrainingCard.tsx:282
-#: src/components/_economy/employee/TrainingDraftModal.tsx:255
+#: src/components/_economy/employee/TrainingDraftModal.tsx:256
 msgid "Expected wage"
 msgstr ""
 
@@ -7693,15 +7693,15 @@ msgstr "Enfin au-dessus de la moyenne !"
 msgid "Finance a resistance battle in <0/>"
 msgstr "Financer une bataille de résistance dans <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:660
+#: src/components/_political/law/law.frontConfig.tsx:662
 msgid "Finance a resistance to liberate an occupied region"
 msgstr "Financer une résistance pour libérer une région occupée"
 
-#: src/components/_political/law/law.frontConfig.tsx:673
+#: src/components/_political/law/law.frontConfig.tsx:675
 msgid "Finance a revolt to liberate <0/>"
 msgstr "Financer une révolte pour libérer <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:659
+#: src/components/_political/law/law.frontConfig.tsx:661
 #: src/components/_political/law/lawNames.tsx:38
 msgid "Finance foreign resistance"
 msgstr "Financer la résistance étrangère"
@@ -7710,7 +7710,7 @@ msgstr "Financer la résistance étrangère"
 msgid "Finance local resistance"
 msgstr "Financer la résistance locale"
 
-#: src/components/_political/law/law.frontConfig.tsx:664
+#: src/components/_political/law/law.frontConfig.tsx:666
 msgid "Finance resistance in <0/>"
 msgstr "Financer la résistance dans <0/>"
 
@@ -7718,7 +7718,7 @@ msgstr "Financer la résistance dans <0/>"
 msgid "Find a better horoscope"
 msgstr "Trouve un meilleur horoscope"
 
-#: src/pages/companies.tsx:80
+#: src/pages/companies.tsx:81
 msgid "Find a job"
 msgstr "Trouver un emploi"
 
@@ -7750,8 +7750,8 @@ msgstr ""
 msgid "Finished: your reward is waiting"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:442
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:261
+#: src/components/_economy/employee/EmployeeModal.tsx:432
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:264
 #: src/components/_political/government/Government.tsx:263
 msgid "Fire"
 msgstr "Licencier"
@@ -7769,7 +7769,7 @@ msgstr ""
 msgid "Fire government member"
 msgstr "Révoquer un membre du gouvernement"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:266
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:269
 msgid "Fire your manager?"
 msgstr ""
 
@@ -7902,7 +7902,7 @@ msgstr ""
 msgid "Found a bug? Report it instead of using it: valuable reports earn the Bug Finder badge."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:350
+#: src/components/_political/law/law.frontConfig.tsx:352
 msgid "Found a new alliance with your country as founding member"
 msgstr "A trouvé une nouvelle alliance avec votre pays en tant que membre fondateur"
 
@@ -8195,7 +8195,7 @@ msgstr ""
 msgid "Good scrap, and at the bottom, a whole toolbox."
 msgstr ""
 
-#: src/components/_other/tour/TutorialStep.tsx:621
+#: src/components/_other/tour/TutorialStep.tsx:630
 msgid "Got it"
 msgstr ""
 
@@ -8444,7 +8444,7 @@ msgstr "Pratique"
 msgid "Hang in there"
 msgstr "Tiens bon"
 
-#: src/components/_economy/company/CompanyTags.tsx:75
+#: src/components/_economy/company/CompanyTags.tsx:78
 #: src/components/_economy/employee/employeeStats.tsx:556
 #: src/components/_economy/employee/employeeStats.tsx:588
 #: src/components/_economy/employee/employeeStats.tsx:966
@@ -8587,7 +8587,7 @@ msgstr "Aider les membres de l'UM"
 msgid "Help the game to grow"
 msgstr "Aide le jeu à grandir"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:849
+#: src/components/_economy/employee/EmployeeModal.tsx:795
 msgid "hidden"
 msgstr "caché"
 
@@ -8608,12 +8608,12 @@ msgstr "Cacher les résultats"
 msgid "High Commander"
 msgstr "Haut Commandant des armées"
 
-#: src/components/_economy/employee/employeeCards.tsx:211
+#: src/components/_economy/employee/employeeCards.tsx:242
 msgid "Hire"
 msgstr "Embaucher"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:295
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:141
+#: src/components/_economy/company/CompanyDropdown.tsx:299
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:144
 msgid "Hire a manager"
 msgstr "Embaucher un manager"
 
@@ -8734,7 +8734,7 @@ msgstr ""
 msgid "Honor their career"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:505
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:508
 msgid "Hourly pay"
 msgstr ""
 
@@ -8767,7 +8767,7 @@ msgstr "Je le sens, la prochaine c'est un mythique !"
 msgid "I heard buying premium boost your chances :3"
 msgstr "Il paraît que le premium boost tes chances :3"
 
-#: src/components/_economy/manager/ManagerOfferList.tsx:126
+#: src/components/_economy/manager/ManagerOfferList.tsx:127
 msgid "I qualify"
 msgstr "Je qualifie"
 
@@ -8783,7 +8783,7 @@ msgstr "Je suis fier de toi"
 msgid "ID No."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:334
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:358
 #: src/components/_economy/inventory/Inventory.tsx:774
 msgid "Idle"
 msgstr ""
@@ -8824,11 +8824,11 @@ msgstr "Imagine si t'arrêtes juste avant le Mythique"
 msgid "Imagine wasting your click on this"
 msgstr "Imagine gaspiller ton clic pour ça"
 
-#: src/components/_political/law/law.frontConfig.tsx:207
+#: src/components/_political/law/law.frontConfig.tsx:209
 msgid "Impeach <0/>"
 msgstr "Destituer <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:201
+#: src/components/_political/law/law.frontConfig.tsx:203
 #: src/components/_political/law/lawNames.tsx:22
 msgid "Impeach congress member"
 msgstr "Destitution d'un parlementaire"
@@ -8837,13 +8837,13 @@ msgstr "Destitution d'un parlementaire"
 msgid "Impeach party leader"
 msgstr "Destituer le chef de parti"
 
-#: src/components/_political/law/law.frontConfig.tsx:193
+#: src/components/_political/law/law.frontConfig.tsx:195
 #: src/components/_political/law/lawNames.tsx:20
 msgid "Impeach president"
 msgstr "Destitution du président"
 
-#: src/components/_political/law/law.frontConfig.tsx:194
 #: src/components/_political/law/law.frontConfig.tsx:196
+#: src/components/_political/law/law.frontConfig.tsx:198
 msgid "Impeach the current president"
 msgstr "Destituer le président actuel"
 
@@ -8873,11 +8873,11 @@ msgstr ""
 msgid "In progress"
 msgstr "En progression"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:213
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:216
 msgid "inactive"
 msgstr "inactif"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:204
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:207
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Inactif"
@@ -8931,7 +8931,7 @@ msgstr "Présente-toi!"
 #: src/components/_layout/LayoutUserMenu.tsx:169
 #: src/components/_user/user/MyAvatar.tsx:38
 #: src/components/_user/user/UserHeader.tsx:177
-#: src/pages/companies.tsx:126
+#: src/pages/companies.tsx:129
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:55
 #: src/pages/user/[userId]/account.tsx:20
@@ -9045,7 +9045,7 @@ msgstr ""
 msgid "It was last week's draw. The champagne was still good."
 msgstr ""
 
-#: src/components/_economy/company/CompanyTags.tsx:115
+#: src/components/_economy/company/CompanyTags.tsx:122
 msgid "It will not gain any production and its employees will not work."
 msgstr ""
 
@@ -9104,11 +9104,11 @@ msgstr "Tank de la boîte surprise"
 msgid "Jinx"
 msgstr ""
 
-#: src/pages/companies.tsx:64
+#: src/pages/companies.tsx:65
 msgid "Job"
 msgstr "Emploi"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:463
+#: src/components/_economy/company/CompanyDropdown.tsx:467
 msgid "Job market"
 msgstr "Marché de l'emploi"
 
@@ -9116,7 +9116,7 @@ msgstr "Marché de l'emploi"
 msgid "Jobs"
 msgstr "Emplois"
 
-#: src/components/_political/law/law.frontConfig.tsx:401
+#: src/components/_political/law/law.frontConfig.tsx:403
 msgid "Join <0/>"
 msgstr "Rejoindre <0/>"
 
@@ -9136,7 +9136,7 @@ msgstr "Rejoindre un parti"
 msgid "Join a political party"
 msgstr "Rejoindre un parti politique"
 
-#: src/components/_political/law/law.frontConfig.tsx:395
+#: src/components/_political/law/law.frontConfig.tsx:397
 #: src/components/_political/law/lawNames.tsx:27
 msgid "Join alliance"
 msgstr "Rejoindre une alliance"
@@ -9346,7 +9346,7 @@ msgstr "Dernière utilisation"
 msgid "Last used:"
 msgstr "Dernière utilisation :"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:182
+#: src/components/_economy/employee/EmployeeModal.tsx:163
 msgid "Last works"
 msgstr ""
 
@@ -9422,15 +9422,15 @@ msgstr ""
 msgid "Leather Sling"
 msgstr "Lanière en cuir"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:475
+#: src/components/_economy/company/CompanyDropdown.tsx:479
 msgid "Leave"
 msgstr "Quitter"
 
-#: src/components/_political/law/law.frontConfig.tsx:376
+#: src/components/_political/law/law.frontConfig.tsx:378
 msgid "Leave <0/>"
 msgstr "Quitter <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:385
+#: src/components/_political/law/law.frontConfig.tsx:387
 msgid "Leave <0/>."
 msgstr "Quitter <0/>."
 
@@ -9438,7 +9438,7 @@ msgstr "Quitter <0/>."
 msgid "Leave a very spicy bait lunch"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:370
+#: src/components/_political/law/law.frontConfig.tsx:372
 #: src/components/_political/law/lawNames.tsx:26
 msgid "Leave alliance"
 msgstr "Quitter l'alliance"
@@ -9461,7 +9461,7 @@ msgstr "Démissionner du gouvernement"
 msgid "Leave it"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:371
+#: src/components/_political/law/law.frontConfig.tsx:373
 msgid "Leave the alliance your country belongs to"
 msgstr "Quitter l'alliance à laquelle appartient votre pays"
 
@@ -9609,15 +9609,15 @@ msgstr "Niveau supérieur !"
 msgid "Levels"
 msgstr "Niveaux"
 
-#: src/components/_political/law/law.frontConfig.tsx:515
+#: src/components/_political/law/law.frontConfig.tsx:517
 msgid "Liberate <0/>"
 msgstr "Libérer <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:524
+#: src/components/_political/law/law.frontConfig.tsx:526
 msgid "Liberate <0/> and return it to its original country"
 msgstr "Libérer <0/> et la rendre à son pays d'origine"
 
-#: src/components/_political/law/law.frontConfig.tsx:510
+#: src/components/_political/law/law.frontConfig.tsx:512
 #: src/components/_political/law/lawNames.tsx:32
 msgid "Liberate a region"
 msgstr "Libérer une région"
@@ -9792,7 +9792,7 @@ msgstr ""
 msgid "Love Paper Jet"
 msgstr "Chasseur en papier d'amour"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:167
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:170
 msgid "Low tax"
 msgstr ""
 
@@ -9885,8 +9885,8 @@ msgid "Management {value}"
 msgstr ""
 
 #: src/components/_economy/employee/employeeStats.tsx:584
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:278
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:486
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:281
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:489
 #: src/pages/company/[companyId]/index.tsx:57
 msgid "Manager"
 msgstr ""
@@ -9911,19 +9911,19 @@ msgstr ""
 msgid "Manager resigned"
 msgstr ""
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:205
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:434
-#: src/components/_political/country/CountryTaxes.tsx:25
-#: src/components/_political/law/law.frontConfig.tsx:66
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:208
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:437
+#: src/components/_political/country/CountryTaxes.tsx:27
+#: src/components/_political/law/law.frontConfig.tsx:67
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:68
 msgid "Manager tax"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:158
+#: src/components/_economy/manager/ManagerOfferRow.tsx:161
 msgid "Manager Tax"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:375
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:378
 msgid "Manager wanted"
 msgstr ""
 
@@ -9965,12 +9965,12 @@ msgstr "Textures de la carte"
 msgid "Market"
 msgstr "Marché"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:199
+#: src/components/_economy/employee/TrainingDraftModal.tsx:200
 msgid "Market rate"
 msgstr "Taux du marché"
 
-#: src/components/_political/country/CountryTaxes.tsx:29
-#: src/components/_political/law/law.frontConfig.tsx:67
+#: src/components/_political/country/CountryTaxes.tsx:33
+#: src/components/_political/law/law.frontConfig.tsx:68
 msgid "Market tax"
 msgstr "TVA"
 
@@ -10003,17 +10003,17 @@ msgstr "Niveau maximum atteint !"
 msgid "Max rarity"
 msgstr "Rareté maximale"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:417
+#: src/components/_economy/employee/EmployeeModal.tsx:407
 msgid "Maxed"
 msgstr "Au maximum"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:345
-#: src/components/_economy/company/CompanyDropdown.tsx:367
-#: src/components/_economy/company/CompanyDropdown.tsx:413
+#: src/components/_economy/company/CompanyDropdown.tsx:349
+#: src/components/_economy/company/CompanyDropdown.tsx:371
+#: src/components/_economy/company/CompanyDropdown.tsx:417
 msgid "Maxed!"
 msgstr "Au maximum !"
 
-#: src/components/_economy/company/CompanyTags.tsx:179
+#: src/components/_economy/company/CompanyTags.tsx:186
 msgid "Maximum number of employees this company can hold."
 msgstr "Nombre maximal d’employés que cette entreprise peut accueillir."
 
@@ -10541,8 +10541,8 @@ msgstr "Motion proposée"
 msgid "Motions"
 msgstr "Motions"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:436
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:252
+#: src/components/_economy/employee/EmployeeModal.tsx:426
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:255
 #: src/components/_political/region/MoveButton.tsx:119
 #: src/components/_political/region/MoveButton.tsx:131
 msgid "Move"
@@ -10567,7 +10567,7 @@ msgstr ""
 msgid "Move a company to another region"
 msgstr "Déplace une entreprise vers une autre région"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:307
+#: src/components/_economy/company/CompanyDropdown.tsx:311
 #: src/components/_economy/company/MoveCompanyForm.tsx:70
 msgid "Move company"
 msgstr "Déplacer l'entreprise"
@@ -10605,7 +10605,7 @@ msgstr ""
 msgid "Move to the battle first (costs <0>Stamina</0>), then hit."
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:422
+#: src/components/_economy/company/CompanyDropdown.tsx:426
 msgid "Move to top"
 msgstr "Déplacer en haut"
 
@@ -10742,7 +10742,7 @@ msgstr "Mythique ?! Ton compte est béni"
 msgid "Name"
 msgstr "Nom"
 
-#: src/components/_economy/employee/employee.hooks.ts:145
+#: src/components/_economy/employee/employee.hooks.ts:133
 msgid "Name reset"
 msgstr ""
 
@@ -10799,7 +10799,7 @@ msgstr ""
 msgid "Needs a tool"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:193
+#: src/components/_economy/manager/ManagerOfferRow.tsx:196
 msgid "Needs Management"
 msgstr ""
 
@@ -10988,7 +10988,7 @@ msgstr "Les plus récents"
 msgid "News"
 msgstr "Actualités"
 
-#: src/components/_other/tour/TutorialStep.tsx:608
+#: src/components/_other/tour/TutorialStep.tsx:617
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:106
 msgid "Next"
 msgstr "Suivant"
@@ -11023,7 +11023,7 @@ msgid "Next tier {currentTier}"
 msgstr "Palier suivant {currentTier}"
 
 #. placeholder {0}: nextToTrain.count
-#: src/components/_economy/employee/EmployeeModal.tsx:468
+#: src/components/_economy/employee/EmployeeModal.tsx:458
 msgid "Next to train ({0} left)"
 msgstr ""
 
@@ -11108,7 +11108,7 @@ msgstr ""
 msgid "No citizens"
 msgstr "Aucun citoyen"
 
-#: src/components/_economy/manager/ManagerOfferList.tsx:139
+#: src/components/_economy/manager/ManagerOfferList.tsx:140
 msgid "No company is looking for a manager right now."
 msgstr ""
 
@@ -11148,7 +11148,7 @@ msgstr "Pas encore de dons"
 msgid "No effects"
 msgstr "Pas d'effets"
 
-#: src/components/_economy/employee/EmployeeList.tsx:343
+#: src/components/_economy/employee/EmployeeList.tsx:351
 msgid "No employees"
 msgstr ""
 
@@ -11290,7 +11290,7 @@ msgstr "Plus de points de prestige; appuis pour réinitialiser les points accumu
 msgid "No prize, but the whole company sang together. Spirits are high."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:173
+#: src/components/_economy/employee/EmployeeModal.tsx:154
 msgid "No production yet"
 msgstr ""
 
@@ -11302,7 +11302,7 @@ msgstr "Pas encore de parrainage"
 msgid "No referrer yet"
 msgstr "Pas encore de parrain"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:122
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:125
 msgid "No region has a lower employee tax than your country."
 msgstr ""
 
@@ -11589,11 +11589,11 @@ msgstr "Baril"
 msgid "Oil the hinge"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:193
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:198
 msgid "OK"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:516
+#: src/components/_economy/employee/EmployeeModal.tsx:506
 msgid "OK, remove them"
 msgstr ""
 
@@ -11621,7 +11621,7 @@ msgstr "À la fin du contrat : +1 rep par <0/> versé."
 msgid "On contract failure: -1 rep per <0/> in budget, and -1 rep per <1/> short of completing the contract."
 msgstr "En cas d'échec du contrat : -1 rep par <0/> dans le budget, et -1 rep par <1/> en moins pour compléter le contrat."
 
-#: src/components/_economy/company/CompanyTags.tsx:76
+#: src/components/_economy/company/CompanyTags.tsx:79
 msgid "On every employee, before Responsibility"
 msgstr ""
 
@@ -12128,7 +12128,7 @@ msgstr ""
 msgid "Paused: nobody produces here"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:146
+#: src/components/_economy/manager/ManagerOfferRow.tsx:149
 msgid "Pay"
 msgstr ""
 
@@ -12137,7 +12137,7 @@ msgstr ""
 msgid "Pay cut"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:225
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:228
 msgid "pay cut pending"
 msgstr ""
 
@@ -12259,7 +12259,7 @@ msgstr "Vérification du téléphone demandée"
 msgid "Phone verification required"
 msgstr "Vérification du téléphone requise"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:476
+#: src/components/_economy/employee/TrainingDraftModal.tsx:481
 msgid "Pick {cardTitle}"
 msgstr ""
 
@@ -12269,8 +12269,8 @@ msgstr ""
 msgid "Pick a candidate!"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:413
-#: src/components/_economy/employee/TrainingDraftModal.tsx:478
+#: src/components/_economy/employee/EmployeeModal.tsx:403
+#: src/components/_economy/employee/TrainingDraftModal.tsx:483
 msgid "Pick a card"
 msgstr ""
 
@@ -12294,7 +12294,7 @@ msgstr ""
 msgid "Pick an option"
 msgstr ""
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:399
+#: src/components/_economy/employee/TrainingDraftModal.tsx:404
 msgid "Pick one card, the other is lost."
 msgstr ""
 
@@ -12460,7 +12460,7 @@ msgstr ""
 msgid "Post announcement"
 msgstr "Publier une annonce"
 
-#: src/components/_economy/employee/employeeCards.tsx:195
+#: src/components/_economy/employee/employeeCards.tsx:226
 msgid "Potential"
 msgstr ""
 
@@ -12639,7 +12639,7 @@ msgstr "Pro seulement"
 msgid "Probability of landing a critical hit"
 msgstr "Probabilité de porter un coup critique"
 
-#: src/components/_economy/company/ProduceButton.tsx:157
+#: src/components/_economy/company/ProduceButton.tsx:161
 #: src/components/_user/mission/mission.frontConfig.tsx:702
 msgid "Produce"
 msgstr "Produire"
@@ -12679,8 +12679,8 @@ msgstr "Production"
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:42
 #: src/components/_economy/employee/employeeStats.tsx:691
 #: src/components/_economy/employee/EmployeeTooltip.tsx:135
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:167
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:514
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:170
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:517
 #: src/pages/region/[regionId]/index.tsx:72
 msgid "Production bonus"
 msgstr "Bonus de production"
@@ -12738,7 +12738,7 @@ msgstr "Promouvoir au rang de commandant"
 msgid "Promoted to Commander"
 msgstr "Promu Commandant"
 
-#: src/components/_political/law/law.frontConfig.tsx:276
+#: src/components/_political/law/law.frontConfig.tsx:278
 msgid "Propose a defensive pact with <0/>"
 msgstr "Proposer un pacte de défense avec <0/>"
 
@@ -12747,11 +12747,11 @@ msgstr "Proposer un pacte de défense avec <0/>"
 msgid "Propose a motion"
 msgstr "Proposer une motion"
 
-#: src/components/_political/law/law.frontConfig.tsx:285
+#: src/components/_political/law/law.frontConfig.tsx:287
 msgid "Propose a mutual defensive pact with <0/>. Once accepted, defenders of either country get a bonus that starts at 1% and grows +1% per day up to 10%."
 msgstr "Proposer un pacte de défense mutuel avec <0/>. Une fois accepté, les défenseurs de l'un ou l'autre pays reçoivent un bonus qui commence à 1 % et augmente de +1 % par jour jusqu'à 10 %."
 
-#: src/components/_political/law/law.frontConfig.tsx:271
+#: src/components/_political/law/law.frontConfig.tsx:273
 msgid "Propose a mutual defensive pact with another country to get a growing defensive bonus"
 msgstr "Proposer un pacte de défense mutuel avec un autre pays pour obtenir un bonus de défense croissant"
 
@@ -12760,7 +12760,7 @@ msgstr "Proposer un pacte de défense mutuel avec un autre pays pour obtenir un 
 msgid "Propose alliance law"
 msgstr "Proposer une loi d'alliance"
 
-#: src/components/_political/law/law.frontConfig.tsx:269
+#: src/components/_political/law/law.frontConfig.tsx:271
 #: src/components/_political/law/lawNames.tsx:40
 msgid "Propose defensive pact"
 msgstr "Proposer un pacte de défense"
@@ -12774,31 +12774,31 @@ msgstr "Proposer une loi"
 msgid "Propose motion"
 msgstr "Proposer une motion"
 
-#: src/components/_political/law/law.frontConfig.tsx:154
+#: src/components/_political/law/law.frontConfig.tsx:156
 #: src/components/_political/law/lawNames.tsx:15
 msgid "Propose peace"
 msgstr "Proposer la paix"
 
-#: src/components/_political/law/law.frontConfig.tsx:159
-#: src/components/_political/law/law.frontConfig.tsx:168
+#: src/components/_political/law/law.frontConfig.tsx:161
+#: src/components/_political/law/law.frontConfig.tsx:170
 msgid "Propose peace to <0/>"
 msgstr "Proposer la paix avec <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:155
+#: src/components/_political/law/law.frontConfig.tsx:157
 msgid "Propose peace to another country"
 msgstr "Proposer la paix avec un autre pays"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:499
+#: src/components/_political/law/law.frontConfig.tsx:501
 msgid "Propose to buy <0/> from <1/> for <2>{0}</2>"
 msgstr "Proposer d'acheter la région <0/> à <1/> pour <2>{0}</2>"
 
-#: src/components/_political/law/law.frontConfig.tsx:483
+#: src/components/_political/law/law.frontConfig.tsx:485
 #: src/components/_political/law/lawNames.tsx:31
 msgid "Propose to buy a region"
 msgstr "Proposer d'acheter une région"
 
-#: src/components/_political/law/law.frontConfig.tsx:484
+#: src/components/_political/law/law.frontConfig.tsx:486
 msgid "Propose to buy a region from another country"
 msgstr "Proposer d'acheter une région à un autre pays"
 
@@ -12858,7 +12858,7 @@ msgstr ""
 msgid "Put yourself to work!"
 msgstr "Mets-toi au travail !"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:132
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:135
 msgid "Putting your company in one of your country's core regions gives <0>{coreRegionBonusPercent}</0> production to your employees and helps your country."
 msgstr ""
 
@@ -13139,7 +13139,7 @@ msgstr "Recette"
 msgid "Recipient"
 msgstr "Destinataire"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:128
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:131
 msgid "Recommended regions"
 msgstr "Régions recommandées"
 
@@ -13147,7 +13147,7 @@ msgstr "Régions recommandées"
 msgid "Recruit"
 msgstr "Recrue"
 
-#: src/components/_economy/employee/EmployeeList.tsx:366
+#: src/components/_economy/employee/EmployeeList.tsx:374
 #: src/components/_economy/employee/RecruitModal.tsx:229
 msgctxt "verb: hire employees"
 msgid "Recruit"
@@ -13231,7 +13231,7 @@ msgstr "Régénère <0>{0}</0> lors de la consommation"
 msgid "Region"
 msgstr "Région"
 
-#: src/components/_political/law/law.frontConfig.tsx:455
+#: src/components/_political/law/law.frontConfig.tsx:457
 #: src/components/_political/law/lawNames.tsx:30
 msgid "Region buy offer"
 msgstr "Offre d'achat de région"
@@ -13349,7 +13349,7 @@ msgstr "Durée restante du malus"
 msgid "Remove <0/>"
 msgstr "Supprimer <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:218
+#: src/components/_political/law/law.frontConfig.tsx:220
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "Révoquer <0/> du parlement pour inactivité"
 
@@ -13374,7 +13374,7 @@ msgstr "Retirer un membre du conseil du parti"
 msgid "Remove all"
 msgstr "Tout supprimer"
 
-#: src/components/_political/law/law.frontConfig.tsx:202
+#: src/components/_political/law/law.frontConfig.tsx:204
 msgid "Remove an inactive congress member from its position"
 msgstr "Destituer un membre inactif du parlement de ses fonctions"
 
@@ -13399,7 +13399,7 @@ msgstr "Destituer un membre du conseil"
 msgid "Remove Description"
 msgstr "Supprimer la description"
 
-#: src/components/_political/law/law.frontConfig.tsx:445
+#: src/components/_political/law/law.frontConfig.tsx:447
 #: src/components/_political/law/lawNames.tsx:29
 msgid "Remove enemy"
 msgstr "Enlever l'ennemi juré"
@@ -13433,8 +13433,8 @@ msgstr "Retiré de l'unité militaire"
 msgid "Removed from saved"
 msgstr "Retiré des éléments enregistrés"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:457
-#: src/components/_economy/employee/EmployeeModal.tsx:429
+#: src/components/_economy/company/CompanyDropdown.tsx:461
+#: src/components/_economy/employee/EmployeeModal.tsx:419
 #: src/components/_economy/employee/EmployeeRenameModal.tsx:83
 #: src/components/_user/user/SkillPresetsModal.tsx:228
 msgid "Rename"
@@ -13484,7 +13484,7 @@ msgstr "Rejouer"
 msgid "Report"
 msgstr "Signaler"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:552
+#: src/components/_economy/employee/EmployeeModal.tsx:542
 msgid "Report name"
 msgstr "Reporter le nom"
 
@@ -13528,7 +13528,7 @@ msgstr "Nécessite une attention"
 msgid "Required citizenship"
 msgstr "Citoyenneté requise"
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:131
+#: src/components/_economy/manager/ManagerOfferRow.tsx:134
 msgid "Requirements"
 msgstr "Exigences"
 
@@ -13548,11 +13548,11 @@ msgstr "Réinitialiser"
 msgid "Reset CAPTCHA"
 msgstr "Réinitialiser le CAPTCHA"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:559
+#: src/components/_economy/employee/EmployeeModal.tsx:549
 msgid "Reset name"
 msgstr "Réinitialiser le nom"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:565
+#: src/components/_economy/employee/EmployeeModal.tsx:555
 msgid "Reset Name"
 msgstr "Réinitialiser le nom"
 
@@ -13589,7 +13589,7 @@ msgstr "Résidents"
 msgid "Residents (home here)"
 msgstr "Résidents (ici à la maison)"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:481
+#: src/components/_economy/company/CompanyDropdown.tsx:485
 msgid "Resign from this position?"
 msgstr "Démissionner de ce poste?"
 
@@ -13688,7 +13688,7 @@ msgstr "À la retraite"
 msgid "Retired at the end of a long career."
 msgstr "À la retraite au terme d’une longue carrière."
 
-#: src/components/_political/law/law.frontConfig.tsx:511
+#: src/components/_political/law/law.frontConfig.tsx:513
 msgid "Return a region to its original country"
 msgstr "Rendre une région à son pays d'origine"
 
@@ -13721,7 +13721,7 @@ msgid "Reward"
 msgstr "Récompense"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:241
-#: src/components/_other/tour/TutorialStep.tsx:589
+#: src/components/_other/tour/TutorialStep.tsx:598
 msgid "Reward claimed"
 msgstr "Récompense réclamée"
 
@@ -14045,7 +14045,7 @@ msgstr "Travail personnel"
 msgid "Sell an item"
 msgstr "Vendre un objet"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:518
+#: src/components/_economy/company/CompanyDropdown.tsx:522
 msgid "Sell company? Its employees will be let go and their tools returned to your inventory."
 msgstr "Vendre l’entreprise ? Ses employés seront licenciés et leurs outils seront réintégrés à ton inventaire."
 
@@ -14082,7 +14082,7 @@ msgstr "Les vendre aux voisins"
 msgid "sells"
 msgstr "vend"
 
-#: src/components/_political/law/law.frontConfig.tsx:435
+#: src/components/_political/law/law.frontConfig.tsx:437
 msgid "Send <0/> to <1/>"
 msgstr "Envoyer <0/> à <1/>"
 
@@ -14104,7 +14104,7 @@ msgstr "Envoyer un message"
 
 #. placeholder {0}: staticGameConfig.law[ELawType.SEND_MONEY_TO_COUNTRY].allianceTaxRate * 100
 #. placeholder {1}: staticGameConfig.law[ELawType.SEND_MONEY_TO_COUNTRY].externalTaxRate * 100
-#: src/components/_political/law/law.frontConfig.tsx:421
+#: src/components/_political/law/law.frontConfig.tsx:423
 msgid "Send money to another country. Paper tax on top: {0}% within your alliance, {1}% for external transfers."
 msgstr "Envoie de l'argent dans un autre pays. Taxe papier en supplément : {0}% au sein de votre alliance, {1}% pour les transferts externes."
 
@@ -14132,11 +14132,11 @@ msgstr "Mettre une <0>description</0>"
 msgid "Set a referrer"
 msgstr "Mettre un parrain"
 
-#: src/components/_political/law/law.frontConfig.tsx:535
+#: src/components/_political/law/law.frontConfig.tsx:537
 msgid "Set a welcome article for your country"
 msgstr "Mettre un article de bienvenue pour ton pays"
 
-#: src/components/_political/law/law.frontConfig.tsx:540
+#: src/components/_political/law/law.frontConfig.tsx:542
 msgid "Set a welcome article for your country<0/>"
 msgstr "Mettre un article de bienvenue pour ton pays<0/>"
 
@@ -14144,22 +14144,22 @@ msgstr "Mettre un article de bienvenue pour ton pays<0/>"
 msgid "Set bounty"
 msgstr "Mettre une prime"
 
-#: src/components/_political/law/law.frontConfig.tsx:561
+#: src/components/_political/law/law.frontConfig.tsx:563
 #: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
 msgstr "Mettre une couleur au pays"
 
 #. placeholder {0}: law.data.scheme
-#: src/components/_political/law/law.frontConfig.tsx:553
+#: src/components/_political/law/law.frontConfig.tsx:555
 msgid "Set country color to <0>{0}</0> "
 msgstr "Mettre la couleur du pays sur <0>{0}</0> "
 
-#: src/components/_political/law/law.frontConfig.tsx:627
+#: src/components/_political/law/law.frontConfig.tsx:629
 #: src/components/_political/law/lawNames.tsx:43
 msgid "Set government type"
 msgstr "Mettre un régime politique"
 
-#: src/components/_political/law/law.frontConfig.tsx:636
+#: src/components/_political/law/law.frontConfig.tsx:638
 msgid "Set government type to <0/>"
 msgstr "Mettre le type de gouvernement en tant que <0/>"
 
@@ -14183,13 +14183,13 @@ msgstr "Mettre des éthiques de parti"
 msgid "Set Profile Picture"
 msgstr "Mettre une image de profil"
 
-#: src/components/_political/law/law.frontConfig.tsx:607
+#: src/components/_political/law/law.frontConfig.tsx:609
 #: src/components/_political/law/lawNames.tsx:36
 msgid "Set specialization item"
 msgstr "Mettre l'objet de spécialisation"
 
 #. placeholder {0}: ts[law.data.itemCode]
-#: src/components/_political/law/law.frontConfig.tsx:614
+#: src/components/_political/law/law.frontConfig.tsx:616
 msgid "Set the country's specialized item to <0>{0}</0> (no longer in the game)"
 msgstr "Mettre l'objet spécialisé du pays sur <0>{0}</0> (n'est plus présent dans le jeu)"
 
@@ -14197,7 +14197,7 @@ msgstr "Mettre l'objet spécialisé du pays sur <0>{0}</0> (n'est plus présent 
 msgid "Set Username"
 msgstr "Mettre un nom d'utilisateur"
 
-#: src/components/_political/law/law.frontConfig.tsx:534
+#: src/components/_political/law/law.frontConfig.tsx:536
 #: src/components/_political/law/lawNames.tsx:33
 msgid "Set welcome article"
 msgstr "Mettre un article de bienvenue"
@@ -14408,11 +14408,11 @@ msgstr "Skins dans ce pack"
 msgid "Skins owned"
 msgstr "Skins possédés"
 
-#: src/components/_other/tour/TutorialStep.tsx:601
+#: src/components/_other/tour/TutorialStep.tsx:610
 msgid "Skip guide"
 msgstr "Passer le guide"
 
-#: src/components/_other/tour/TutorialStep.tsx:431
+#: src/components/_other/tour/TutorialStep.tsx:440
 msgid "Skip this guide?"
 msgstr "Passer ce guide ?"
 
@@ -14590,8 +14590,8 @@ msgstr "Marteau de la Forge stellaire"
 msgid "Start"
 msgstr "Commence"
 
-#: src/components/_political/law/law.frontConfig.tsx:186
 #: src/components/_political/law/law.frontConfig.tsx:188
+#: src/components/_political/law/law.frontConfig.tsx:190
 msgid "Start a congress election, now"
 msgstr "Lancer immédiamment des élections législatives anticipées"
 
@@ -14610,8 +14610,8 @@ msgstr "Lancer immédiatement des élections de chef de parti"
 msgid "Start a party primary election immediately"
 msgstr "Lancer immédiatement des élections primaires de parti"
 
-#: src/components/_political/law/law.frontConfig.tsx:178
 #: src/components/_political/law/law.frontConfig.tsx:180
+#: src/components/_political/law/law.frontConfig.tsx:182
 msgid "Start a presidential election, now"
 msgstr "Lancer immédiatement des élections présidentielles anticipées"
 
@@ -14620,12 +14620,12 @@ msgstr "Lancer immédiatement des élections présidentielles anticipées"
 msgid "Start a revolution to overthrow the government"
 msgstr "Lancer une révolution pour renverser le gouvernement"
 
-#: src/components/_political/law/law.frontConfig.tsx:185
+#: src/components/_political/law/law.frontConfig.tsx:187
 #: src/components/_political/law/lawNames.tsx:19
 msgid "Start congress election"
 msgstr "Lancer des élections législatives"
 
-#: src/components/_political/law/law.frontConfig.tsx:177
+#: src/components/_political/law/law.frontConfig.tsx:179
 #: src/components/_political/law/lawNames.tsx:17
 msgid "Start presidential election"
 msgstr "Lancer des élections présidentielles"
@@ -14660,7 +14660,7 @@ msgid "Starts"
 msgstr "Commence"
 
 #. placeholder {0}: gameConfig?.battle.enemyDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:254
+#: src/components/_political/law/law.frontConfig.tsx:256
 msgid "starts at 1% and grows +1% per day up to <0>{0}</0>"
 msgstr "commence à 1 % et augmente de +1 % par jour jusqu'à <0>{0}</0>"
 
@@ -14684,6 +14684,7 @@ msgstr "Statistiquement impossible de rester aussi malchanceux"
 msgid "Statistically rigged"
 msgstr "Statistiquement truqué"
 
+#: src/components/_economy/employee/EmployeeModal.tsx:808
 #: src/components/_economy/employee/EmployeeTooltip.tsx:123
 #: src/pages/company/[companyId]/index.tsx:69
 #: src/pages/war/[warId]/index.tsx:65
@@ -14729,7 +14730,7 @@ msgstr "Accumulateur"
 msgid "Stone Maul"
 msgstr "Maillet en pierre"
 
-#: src/components/_economy/company/CompanyTags.tsx:166
+#: src/components/_economy/company/CompanyTags.tsx:173
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
 msgid "Storage"
 msgstr "Stockage"
@@ -14821,7 +14822,7 @@ msgstr "Soutiens-nous"
 msgid "Supporter"
 msgstr "Supporter"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:431
+#: src/components/_economy/employee/EmployeeModal.tsx:421
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:52
 #: src/components/_user/user/UserDropdown.tsx:241
 #: src/components/_user/user/UserDropdown.tsx:250
@@ -14938,7 +14939,7 @@ msgstr ""
 msgid "Take them down"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:91
+#: src/components/_economy/manager/ManagerOfferRow.tsx:94
 msgid "Take this position?"
 msgstr ""
 
@@ -14950,7 +14951,7 @@ msgstr ""
 msgid "Taken: a swap is the only way in"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferList.tsx:116
+#: src/components/_economy/manager/ManagerOfferList.tsx:117
 msgid "Taking another position will make you leave this one!"
 msgstr ""
 
@@ -14966,7 +14967,7 @@ msgstr "Tank"
 msgid "Tap a battle to join it."
 msgstr "Appuie sur une bataille pour la rejoindre."
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:448
+#: src/components/_economy/employee/TrainingDraftModal.tsx:453
 msgid "Tap a card to look at it."
 msgstr "Appuie sur la carte pour y jeter un oeil"
 
@@ -15610,16 +15611,16 @@ msgstr "L'agrafeuse sort de la gelée. {name} et {partnerName} boudent."
 msgid "The stapler is in jelly. {name} and {partnerName} are at war, and the pranks are getting bigger."
 msgstr "L’agrafeuse est prise dans de la gelée. {name} et {partnerName} sont en guerre, et les farces prennent de l’ampleur."
 
-#. placeholder {0}: companyCountry.taxes.income
-#: src/components/_economy/company/CompanyTags.tsx:60
+#. placeholder {0}: roundTax(companyCountry.taxes.income)
+#: src/components/_economy/company/CompanyTags.tsx:63
 msgid "The state collects {0}% of this company's employee payroll, and every point of it costs each employee happiness."
 msgstr "L’État prélève {0}% de la masse salariale de cette entreprise, et chaque point de pourcentage de ce prélèvement se traduit par une perte de bonheur pour chaque employé."
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:195
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:198
 msgid "The state collects {taxPercent}% of your employees' wages as employee tax."
 msgstr "L’État prélève {taxPercent}% des salaires de vos employés au titre de la taxe sur les employés."
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:206
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:209
 msgid "The state withholds {managerTaxPercent}% of a hired manager's pay as manager tax."
 msgstr "L'État retient {managerTaxPercent}% de la rémunération d'un manager embauché, au titre de la taxe sur les managers."
 
@@ -15763,7 +15764,7 @@ msgstr "Ils tirent un salaire de ton <0>Argent</0>."
 msgid "They get through it somehow, and nobody mentions it again."
 msgstr "Ils finissent par surmonter l’épreuve, et plus personne n’en reparle."
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:267
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:270
 msgid "They keep what they earned."
 msgstr "Ils gardent ce qu’ils ont gagné."
 
@@ -15771,7 +15772,7 @@ msgstr "Ils gardent ce qu’ils ont gagné."
 msgid "They laugh too. {name} and {partnerName} are old friends now, and share a barber."
 msgstr "Ils rient aussi. {name} et {partnerName} sont désormais de vieux amis et fréquentent le même coiffeur."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:712
+#: src/components/_economy/employee/EmployeeModal.tsx:695
 msgid "They left the company"
 msgstr "Ils ont quitté l’entreprise."
 
@@ -15843,11 +15844,11 @@ msgstr "Cela peut aboutir au départ définitif d’une personne de votre entrep
 msgid "This company has no employees"
 msgstr "Cette entreprise n’a pas d’employés"
 
-#: src/components/_economy/employee/EmployeeList.tsx:198
+#: src/components/_economy/employee/EmployeeList.tsx:202
 msgid "This company is disabled and earns nothing. Once re-enabled, a day of its production would be worth this much at the market value of a point, minus the day's whole payroll, employees and manager."
 msgstr "Cette entreprise est à l’arrêt et ne génère aucun revenu. Une fois remise en activité, une journée de production représenterait une valeur équivalente au cours de marché d’un point de pourcentage, déduction faite de la totalité des charges salariales de la journée — incluant celles des employés et du directeur."
 
-#: src/components/_economy/company/CompanyTags.tsx:109
+#: src/components/_economy/company/CompanyTags.tsx:116
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Cette entreprise est désactivée car le propriétaire a atteint la limite d'entreprises."
 
@@ -15950,7 +15951,7 @@ msgstr "Ce membre ne pourra pas être nommé de nouveau avant {0, plural, one {#
 msgid "This no longer applies: someone it was about is gone."
 msgstr "Cela ne s’applique plus : la personne concernée n’est plus là."
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:206
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:209
 msgid "This player has not connected for days. Until they come back they add no production to the roster and earn nothing."
 msgstr "Ce joueur ne s’est pas connecté depuis plusieurs jours. Tant qu’il n’est pas de retour, il n’apporte aucune contribution à l’effectif et ne gagne rien."
 
@@ -16359,8 +16360,8 @@ msgstr "Commerce"
 msgid "Trading transaction"
 msgstr "Transaction commerciale"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:415
-#: src/components/_economy/employee/TrainingDraftModal.tsx:356
+#: src/components/_economy/employee/EmployeeModal.tsx:405
+#: src/components/_economy/employee/TrainingDraftModal.tsx:357
 msgid "Train"
 msgstr "Former"
 
@@ -16372,7 +16373,7 @@ msgstr "Forme chaque employé une fois par jour, avec une réinitialisation à 0
 msgid "Train Employees"
 msgstr "Former des employés"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:844
+#: src/components/_economy/employee/EmployeeModal.tsx:790
 msgid "Train to reveal traits"
 msgstr "Former pour révéler des traits"
 
@@ -16397,7 +16398,7 @@ msgstr "Formation"
 msgid "Training cards"
 msgstr "Cartes de formation"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:397
+#: src/components/_economy/employee/TrainingDraftModal.tsx:402
 msgid "Training complete."
 msgstr "Formation complète."
 
@@ -16420,7 +16421,7 @@ msgstr "Historique des formations"
 #: src/components/_economy/employee/employeeTags.tsx:58
 #: src/components/_economy/employee/EmployeeTooltip.tsx:144
 #: src/components/_economy/employee/TrainingCard.tsx:302
-#: src/components/_economy/employee/TrainingDraftModal.tsx:267
+#: src/components/_economy/employee/TrainingDraftModal.tsx:268
 msgid "Training potential"
 msgstr "Potentiel de formation"
 
@@ -16437,7 +16438,7 @@ msgstr "Potentiel de formation monté à <0>{0}</0>"
 msgid "Training raises them all."
 msgstr "La formation les élève tous."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:812
+#: src/components/_economy/employee/EmployeeModal.tsx:758
 #: src/components/_economy/employee/EmployeeTooltip.tsx:155
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:163
 msgid "Traits"
@@ -16455,11 +16456,11 @@ msgstr "Transac."
 msgid "Transactions"
 msgstr "Transactions"
 
-#: src/components/_political/law/law.frontConfig.tsx:425
+#: src/components/_political/law/law.frontConfig.tsx:427
 msgid "Transfer <0/> to <1/>"
 msgstr "Transférer <0/> vers <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:419
+#: src/components/_political/law/law.frontConfig.tsx:421
 #: src/components/_political/law/lawNames.tsx:28
 msgid "Transfer money"
 msgstr "Transférer de l'argent"
@@ -16651,8 +16652,8 @@ msgstr "Chat sans restriction"
 msgid "Unselect all"
 msgstr "Tout désélectionner"
 
-#: src/components/_political/law/law.frontConfig.tsx:446
 #: src/components/_political/law/law.frontConfig.tsx:448
+#: src/components/_political/law/law.frontConfig.tsx:450
 msgid "Unset the sworn enemy country"
 msgstr "Supprimer l'ennemi juré du pays"
 
@@ -16680,11 +16681,11 @@ msgstr "Mettre à jour l’épingle"
 msgid "Upgrade a company"
 msgstr "Améliore une entreprise"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:327
+#: src/components/_economy/company/CompanyDropdown.tsx:331
 msgid "Upgrade automated engine"
 msgstr "Améliorer la machine automatisée"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:371
+#: src/components/_economy/company/CompanyDropdown.tsx:375
 msgid "Upgrade break room"
 msgstr "Améliorer la salle de pause"
 
@@ -16696,7 +16697,7 @@ msgstr "Améliorer une entreprise"
 msgid "Upgrade Skills"
 msgstr "Améliorer les compétences"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:349
+#: src/components/_economy/company/CompanyDropdown.tsx:353
 msgid "Upgrade storage"
 msgstr "Améliorer l'entrepôt"
 
@@ -16712,7 +16713,7 @@ msgstr "Devenir supporter"
 msgid "Upgrade your skills!"
 msgstr "Améliore tes compétences !"
 
-#: src/components/_economy/company/CompanyTags.tsx:188
+#: src/components/_economy/company/CompanyTags.tsx:195
 #: src/components/_economy/company/CompanyTooltip.tsx:85
 #: src/components/_military/mu/MuTooltip.tsx:147
 #: src/components/_political/region/RegionTooltip.tsx:138
@@ -17269,7 +17270,7 @@ msgstr "Bravo ! Voici ta récompense."
 msgid "What a day of their production is worth at the market value of a point, minus a day of their wage. An estimate: what you really earn depends on what you make and the price you sell it at."
 msgstr "La valeur, au prix du marché, de ce qu’ils produisent en une journée, moins le montant d’une journée de salaire. En somme : ce que tu gagnes réellement dépend de ce que tu produis et du prix auquel tu le vends."
 
-#: src/components/_economy/employee/EmployeeList.tsx:132
+#: src/components/_economy/employee/EmployeeList.tsx:136
 msgid "What a day of this company's production is worth at the market value of a point, minus the day's whole payroll, employees and manager. An estimate: what you really earn depends on what it makes and the price you sell it at."
 msgstr "La valeur d'une journée de production de cette entreprise, calculée au prix du marché, moins la totalité de la masse salariale de la journée — incluant employés et manager. En somme : ce que tu gagnes réellement dépend du volume de production et du prix de vente."
 
@@ -17431,7 +17432,7 @@ msgstr "Travailleur parti"
 msgid "Workers"
 msgstr "Employés"
 
-#: src/pages/companies.tsx:103
+#: src/pages/companies.tsx:104
 msgid "Workforce"
 msgstr "Force de travail"
 
@@ -17484,7 +17485,7 @@ msgstr "Travaille dans une région légitime de leur terre natale : <0>{0}</0> <
 msgid "Working in your own company costs <0>{energyCostPerAction}</0> and adds your <1>Production</1> to its storage."
 msgstr "Travailler dans ta propre entreprise coûte <0>{energyCostPerAction}</0> et ajoute ta <1>Production</1> à son stock."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:216
+#: src/components/_economy/employee/EmployeeModal.tsx:197
 msgid "Works alone"
 msgstr "Travaille seul"
 
@@ -17567,7 +17568,7 @@ msgid "You already got its reward."
 msgstr "Tu as déjà obtenu cette récompense."
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:451
+#: src/components/_economy/company/CompanyDropdown.tsx:455
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Tu as déjà {0} entreprises actives. Désactivez-en une d'abord."
 
@@ -17601,7 +17602,7 @@ msgstr "Tu es déjà vice-président d'un autre pays. Démissionnes d'abord."
 msgid "You are here"
 msgstr "Tu es ici"
 
-#: src/pages/companies.tsx:76
+#: src/pages/companies.tsx:77
 msgid "You are jobless"
 msgstr "Tu es au chômage"
 
@@ -17622,7 +17623,7 @@ msgstr "Tu n'es pas membre du conseil de ce parti"
 msgid "You are not participating"
 msgstr "Tu ne participes pas"
 
-#: src/components/_economy/manager/ManagerOfferRow.tsx:92
+#: src/components/_economy/manager/ManagerOfferRow.tsx:95
 msgid "You are paid hourly and can resign after 24h."
 msgstr "Tu es rémunéré à l’heure et tu peux démissionner après 24 heures."
 
@@ -17668,7 +17669,7 @@ msgid "You can optionally link a campaign article to your candidacy."
 msgstr "Tu peux optionnellement lier un article de campagne à ta candidature."
 
 #. placeholder {0}: getTimeAgo(managerLockedUntil, 'fromNow')
-#: src/components/_economy/company/CompanyDropdown.tsx:489
+#: src/components/_economy/company/CompanyDropdown.tsx:493
 msgid "You can resign {0}"
 msgstr "Tu peux démissionner {0}"
 
@@ -18106,11 +18107,11 @@ msgstr "Votre pays a déjà les priorités <0/>. Le fait de mettre celui-ci le l
 msgid "Your country has its own Discord. Join your fellow citizens there."
 msgstr "Ton pays dispose de son propre serveur Discord. Rejoins tes concitoyens."
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:124
 msgid "Your country has no ally with regions."
 msgstr "Ton pays n’a aucun allié doté de régions."
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:119
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:122
 msgid "Your country has no initial region."
 msgstr "Ton pays ne possède aucune région initiale."
 
@@ -18142,7 +18143,7 @@ msgstr "L'article de ton pays"
 msgid "Your current order"
 msgstr "Ton ordre actuel"
 
-#: src/components/_economy/manager/ManagerOfferList.tsx:96
+#: src/components/_economy/manager/ManagerOfferList.tsx:97
 msgid "Your current position"
 msgstr "Ton poste actuel"
 
@@ -18299,7 +18300,7 @@ msgstr "Ton abonnement premium a été activé !"
 msgid "Your premium subscription has expired!"
 msgstr "Ton abonnement premium a expiré !"
 
-#: src/components/_other/tour/TutorialStep.tsx:432
+#: src/components/_other/tour/TutorialStep.tsx:441
 msgid "Your progress is kept. Finish it later to earn the reward."
 msgstr "Ta progression est conservée. Termine-la plus tard pour obtenir la récompense."
 
