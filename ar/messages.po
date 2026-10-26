@@ -209,7 +209,7 @@ msgstr "دخل التطوير لـ {0}"
 #. placeholder {0}: developmentPercent(conquered)
 #: src/components/_political/govType/govType.frontConfig.tsx:214
 msgid "{0} development income from conquered regions"
-msgstr "دخل تطوير {0} من المناطق المفتوحة (المحتلة)"
+msgstr "دخل تطوير {0} من المناطق المحتلة"
 
 #. placeholder {0}: developmentPercent(core)
 #: src/components/_political/govType/govType.frontConfig.tsx:199
