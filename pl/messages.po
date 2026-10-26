@@ -184,7 +184,7 @@ msgstr "{0} premii sojuszniczej gdy walczy dla sojusznika"
 #. placeholder {0}: formatKm(homeDistanceKm)
 #: src/components/_layout/LayoutMapUserMenu.tsx:332
 msgid "{0} away"
-msgstr "{0} od ciebie"
+msgstr "{0} od Ciebie "
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:669
@@ -610,7 +610,7 @@ msgstr "{gender, select, male {{name} zjada jedno winogrono, kiwa głową i prac
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1175
 msgid "{gender, select, male {{name} eats the red ones one at a time, staring at you.} female {{name} eats the red ones one at a time, staring at you.} other {{name} eats the red ones one at a time, staring at you.}}"
-msgstr "{gender, select, male {{name} zjada czerwone po jednym, wpatrując się w Ciebie.} female {{name} zjada czerwone po jednym, wpatrując się w Ciebie.} other {{name} zjada czerwone po jednym, wpatrując się w Ciebie.}}"
+msgstr "{gender, select, male {{name} zjada czerwone po jednym, wpatrując się w Ciebie .} female {{name} zjada czerwone po jednym, wpatrując się w Ciebie .} other {{name} zjada czerwone po jednym, wpatrując się w Ciebie .}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:999
 msgid "{gender, select, male {{name} emerges with a masterpiece.} female {{name} emerges with a masterpiece.} other {{name} emerges with a masterpiece.}}"
@@ -1414,7 +1414,7 @@ msgstr "{gender, select, male {Powiedz mu, że to uwielbiasz} female {Powiedz je
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2451
 msgid "{gender, select, male {The air raid siren goes off in the middle of the shift. {name} looks at you, then at the shelter door.} female {The air raid siren goes off in the middle of the shift. {name} looks at you, then at the shelter door.} other {The air raid siren goes off in the middle of the shift. {name} looks at you, then at the shelter door.}}"
-msgstr "{gender, select, male {Syrena alarmu przeciwlotniczego rozbrzmiewa w środku zmiany. {name} patrzy na ciebie, a potem na drzwi schronu.} female {Syrena alarmu przeciwlotniczego rozbrzmiewa w środku zmiany. {name} patrzy na ciebie, a potem na drzwi schronu.} other {Syrena alarmu przeciwlotniczego rozbrzmiewa w środku zmiany. {name} patrzy na ciebie, a potem na drzwi schronu.}}"
+msgstr "{gender, select, male {Syrena alarmu przeciwlotniczego rozbrzmiewa w środku zmiany. {name} patrzy na Ciebie, a potem na drzwi schronu.} female {Syrena alarmu przeciwlotniczego rozbrzmiewa w środku zmiany. {name} patrzy na Ciebie, a potem na drzwi schronu.} other {Syrena alarmu przeciwlotniczego rozbrzmiewa w środku zmiany. {name} patrzy na Ciebie, a potem na drzwi schronu.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3706
 msgid "{gender, select, male {The car drives off, still on fire. {name} takes it personally.} female {The car drives off, still on fire. {name} takes it personally.} other {The car drives off, still on fire. {name} takes it personally.}}"
@@ -1434,7 +1434,7 @@ msgstr "{gender, select, male {Łom się wygina. {name} spędza popołudnie w wi
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3085
 msgid "{gender, select, male {The curse embraces you back: {name}'s tool falls off a ladder.} female {The curse embraces you back: {name}'s tool falls off a ladder.} other {The curse embraces you back: {name}'s tool falls off a ladder.}}"
-msgstr "{gender, select, male {Klątwa odpowiada na twój uścisk: narzędzie użytkownika {name} spada z drabiny.} female {Klątwa odpowiada na twój uścisk: narzędzie użytkownika {name} spada z drabiny.} other {Klątwa odpowiada na twój uścisk: narzędzie użytkownika {name} spada z drabiny.}}"
+msgstr "{gender, select, male {Klątwa odpowiada na Twój uścisk: narzędzie użytkownika {name} spada z drabiny.} female {Klątwa odpowiada na Twój uścisk: narzędzie użytkownika {name} spada z drabiny.} other {Klątwa odpowiada na Twój uścisk: narzędzie użytkownika {name} spada z drabiny.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3050
 msgid "{gender, select, male {The curse is lifted. The clock runs forwards again, and {name} is as lucky as anyone.} female {The curse is lifted. The clock runs forwards again, and {name} is as lucky as anyone.} other {The curse is lifted. The clock runs forwards again, and {name} is as lucky as anyone.}}"
@@ -1754,7 +1754,7 @@ msgstr "{regionLootCount, plural, =1 {Collect the wooden case lying on this regi
 #: src/components/_layout/LayoutMapUserMenu.tsx:371
 #: src/components/_political/map/MapMenu.tsx:680
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
-msgstr "{regionsAway, plural, one {# region od ciebie} other {# regionów od ciebie}}"
+msgstr "{regionsAway, plural, one {# region od Ciebie } other {# regionów od Ciebie }}"
 
 #: src/pages/events/index.tsx:97
 msgid "{registeredCount} countries registered"
@@ -2050,21 +2050,21 @@ msgstr "<0/> zbanowanał z konwersacji <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2099
 msgid "<0/> bought your {assetLabel} as a gift for <1/>!"
-msgstr "<0/> kupił twój {assetLabel} jako prezent dla <1/>!"
+msgstr "<0/> kupił Twój {assetLabel} jako prezent dla <1/>!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2106
 msgid "<0/> bought your {assetLabel}!"
-msgstr "<0/> kupił twój {assetLabel}!"
+msgstr "<0/> kupił Twój {assetLabel}!"
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
 #: src/components/_user/notification/notification.frontConfig.tsx:1719
 msgid "<0/> bought your banner{0} as a gift for <1/>!"
-msgstr "<0/> kupił twój baner {0} jako prezent dla <1/>!"
+msgstr "<0/> kupił Twój baner {0} jako prezent dla <1/>!"
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
 #: src/components/_user/notification/notification.frontConfig.tsx:1727
 msgid "<0/> bought your banner{0}!"
-msgstr "<0/> kupił twój baner{0}!"
+msgstr "<0/> kupił Twój baner{0}!"
 
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:460
@@ -2074,7 +2074,7 @@ msgstr "<0/> kupuje <1/> za <2>{0}</2>"
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:471
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
-msgstr "<0/> kupuje twój region <1/> za <2>{0}</2>"
+msgstr "<0/> kupuje Twój region <1/> za <2>{0}</2>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1804
 msgid "<0/> cancelled the contract."
@@ -2082,7 +2082,7 @@ msgstr "<0/> anulował kontrakt."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:955
 msgid "<0/> commented on your article <1/>"
-msgstr "<0/> skomentował twój artykuł <1/>"
+msgstr "<0/> skomentował Twój artykuł <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1779
 msgid "<0/> completed a contract, you earned <1/>"
@@ -2212,7 +2212,7 @@ msgstr "<0/> utworzył sojusz z <1/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:409
 msgid "<0/> has invited your country to join."
-msgstr "<0/> zaprosil twój kraj do dołączenia."
+msgstr "<0/> zaprosil Twój kraj do dołączenia."
 
 #: src/components/_political/event/event.frontConfig.tsx:349
 msgid "<0/> has joined the alliance <1/>"
@@ -2257,7 +2257,7 @@ msgstr "<0/> atakuje w <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1091
 msgid "<0/> is attacking your country in <1/>"
-msgstr "<0/> atakuje twój kraj w <1/>"
+msgstr "<0/> atakuje Twój kraj w <1/>"
 
 #: src/components/_economy/employee/TrainingDraftModal.tsx:246
 #: src/components/_economy/employee/TrainingHistory.tsx:133
@@ -2278,7 +2278,7 @@ msgstr "<0/> buntuje się w <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1120
 msgid "<0/> is revolting in <1/> against your country"
-msgstr "<0/> buntuje się w <1/> przeciwko twojemu krajowi"
+msgstr "<0/> buntuje się w <1/> przeciwko Twojemu krajowi"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> joined the conversation"
@@ -2286,12 +2286,12 @@ msgstr "<0/> dołączył do konwersacji"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:731
 msgid "<0/> joined the game with your referral link!"
-msgstr "<0/> dołączył do gry z twoim linkiem polecającym!"
+msgstr "<0/> dołączył do gry z Twoim linkiem polecającym!"
 
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:428
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
-msgstr "<0/> dołączył do twojej firmy <1/> za <2>{0}</2> pensji"
+msgstr "<0/> dołączył do Twojej firmy <1/> za <2>{0}</2> pensji"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:43
 msgid "<0/> kicked <1/> from the conversation"
@@ -2306,7 +2306,7 @@ msgstr "<0/> opuścił"
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:609
 msgid "<0/> left his job in your company {0}"
-msgstr "<0/> odszedł z pracy w twojej firmie {0}"
+msgstr "<0/> odszedł z pracy w Twojej firmie {0}"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> left the conversation"
@@ -2314,7 +2314,7 @@ msgstr "<0/> opuścił konwersację"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:940
 msgid "<0/> liked your article <1/>"
-msgstr "<0/> polubił twój artykuł <1/>"
+msgstr "<0/> polubił Twój artykuł <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1027
 msgid "<0/> liked your message <1/>"
@@ -2346,7 +2346,7 @@ msgstr "Priorytet <0/> kończy się za <1/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:313
 msgid "<0/> proposed a mutual defensive pact to your country."
-msgstr "<0/> zaproponował twojemu krajowi wzajemny pakt obronny."
+msgstr "<0/> zaproponował Twojemu krajowi wzajemny pakt obronny."
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:145
 msgid "<0/> proposed a new alliance law: <1/>"
@@ -2393,7 +2393,7 @@ msgstr "<0/> zasubskrybował cię przy artykule <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:970
 msgid "<0/> tipped your article <1/>"
-msgstr "<0/> dał napiwek twojemu artykułowi <1/>"
+msgstr "<0/> dał napiwek Twojemu artykułowi <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:202
 msgid "<0/> took control of <1/>"
@@ -2409,7 +2409,7 @@ msgstr "<0/> chce zawrzeć pokój"
 
 #: src/components/_political/law/law.frontConfig.tsx:121
 msgid "<0/> wants to make peace with your country"
-msgstr "<0/> proponuje pokój z twoim krajem"
+msgstr "<0/> proponuje pokój z Twoim krajem"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1568
 msgid "<0/> was cancelled: not enough participants registered."
@@ -2517,7 +2517,7 @@ msgstr "<0>{0}</0> ponieważ <1/> okupuje przynajmniej jeden z regionów <2/>"
 #. placeholder {0}: 3
 #: src/components/_economy/employee/employee.frontConfig.tsx:601
 msgid "<0>{0}</0> but <1>-15%</1>. Twice as many critical successes and failures in events."
-msgstr ""
+msgstr "<0>{0}</0> but <1>-15%</1>. Podwojona szansa na krytyczny sukces oraz porażkę podczas wydarzeń."
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:52
@@ -2672,11 +2672,11 @@ msgstr "<0>Pancerz</0> i <1>Unik</1> dają malejące korzyści: każdy kolejny p
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:533
 msgid "<0>Armor</0> and <1>Dodge</1>: less <2>Health</2> lost."
-msgstr ""
+msgstr "<0>Pancerz</0> i <1>Unik</1>: mniej straty <2>Zdrowia</2>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:527
 msgid "<0>Attack</0>, <1>Precision</1> and <2>Critical chance</2>: more damage."
-msgstr ""
+msgstr "<0>Atak</0>, <1>Precyzja</1> i <2>Szansa kryt.</2>: więcej obrażeń."
 
 #: src/components/_political/country/CountryHeader.tsx:297
 msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
@@ -2700,17 +2700,17 @@ msgstr "<0>Emotki</0> na czacie"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:403
 msgid "<0>Energy</0> to work, <1>Stamina</1> to travel."
-msgstr ""
+msgstr "<0>Energia</0> aby pracować, <1>Wytzrymałość</1> aby się przemieszczać."
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr "<0>Każde <1/> obrażenia zadane w tej rundzie przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3>"
+msgstr "<0>Każde <1/> obrażenia zadane w tej rundzie przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do Ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:79
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr "<0>Wszystkie <1/> łączne obrażenia zadane przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3> "
+msgstr "<0>Wszystkie <1/> łączne obrażenia zadane przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do Ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3> "
 
 #. placeholder {0}: contract.productionBonusPercent
 #. placeholder {1}: employeeConfig.skills.managementBonusPercentPerLevel
@@ -2725,7 +2725,7 @@ msgstr "<0>Wypełniane <1>Punktami Produkcji</1> podczas pracy – przez Twoich 
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:400
 msgid "<0>Health</0> to fight, <1>Hunger</1> to eat."
-msgstr ""
+msgstr "<0>Zdrowie</0> aby walczyć, <1>Glód</1> aby jeść."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:151
 msgid "<0>Luck</0>: finds toolboxes."
@@ -3336,7 +3336,7 @@ msgstr "Poziom firmowej kantyny określa liczbę pracowników, których może po
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:219
 msgid "A core region of your country: your employees here get +{coreRegionBonusPercent}% production."
-msgstr ""
+msgstr "Rdzenny region Twojego kraju: Twoi pracownicy otrzymują tutaj +{coreRegionBonusPercent}% produkcji."
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:340
 msgid "A coworker"
@@ -4008,7 +4008,7 @@ msgstr "Utworzono sojusz"
 
 #: src/components/_political/law/law.frontConfig.tsx:396
 msgid "An alliance has invited your country to join"
-msgstr "Sojusz zaprosił twój kraj do członkostwa"
+msgstr "Sojusz zaprosił Twój kraj do członkostwa"
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:46
 msgid "An alliance's battle <0>damage</0> bonus depends on its share of the world's total <1>Development</1>."
@@ -4700,7 +4700,7 @@ msgstr "Najlepsza oferta"
 
 #: src/components/_economy/manager/ManagerBestOfferLine.tsx:37
 msgid "Best position for you"
-msgstr "Najlepsza posada dla Ciebie"
+msgstr "Najlepsza posada dla Ciebie "
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:37
 msgid "Better than nothing, right?"
@@ -4759,7 +4759,7 @@ msgstr "Bonusowe obrażenia"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:265
 msgid "Boost your Energy!"
-msgstr ""
+msgstr "Doładuj swoją Energię!"
 
 #: src/components/_economy/inventory/Inventory.tsx:502
 #: src/components/_user/UserEquipments.tsx:288
@@ -5778,7 +5778,7 @@ msgstr "Zużywane podczas walki w bitwach"
 #. placeholder {1}: staticGameConfig.items.cocain.flatStats?.debuffDurationHours
 #: src/utils/translations.tsx:127
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
-msgstr "Spożycie zwiększa twój <0>Atak</0> przez {0}h.<1/> Potem zmniejsza o tę samą ilość przez {1}h"
+msgstr "Spożycie zwiększa Twój <0>Atak</0> przez {0}h.<1/> Potem zmniejsza o tę samą ilość przez {1}h"
 
 #: src/components/_user/user/UserBadges.tsx:155
 msgid "Content Mod"
@@ -6296,7 +6296,7 @@ msgstr "Ciemna mapa"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:201
 msgid "Deal <0/> for allies or your country"
-msgstr "Zadaj <0/> obrażeń dla sojuszników albo twojego kraju"
+msgstr "Zadaj <0/> obrażeń dla sojuszników albo Twojego kraju"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:181
 msgid "Deal <0/> in battles"
@@ -6316,7 +6316,7 @@ msgstr "Zadawaj obrażenia w bitwach, aby zwiększyć swoją rangę wojskową i 
 
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:118
 msgid "Deal damage in battles with your MU members to level up each month and earn rewards. Resets on the 1st of each month."
-msgstr "Zadawaj obrażenia w bitwach wraz z członkami twojej JW, aby każdego miesiąca zdobywać poziomy i nagrody. Resetuje się każdego 1. dnia miesiąca."
+msgstr "Zadawaj obrażenia w bitwach wraz z członkami Twojej JW, aby każdego miesiąca zdobywać poziomy i nagrody. Resetuje się każdego 1. dnia miesiąca."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:179
 msgid "Deal Damages"
@@ -6837,11 +6837,11 @@ msgstr "Każdy posiłek kosztuje <0>1</0>. <1>{0}</1> odnawia {breadRegen}% Twoj
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:377
 msgid "Each meal refills your <0>Health</0> and uses <1>Hunger</1>."
-msgstr ""
+msgstr "Każdy posiłek odnawia Twoje <0>Zdrowie</0> i zużywa <1>Głód</1>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:575
 msgid "Each one leads to the next."
-msgstr ""
+msgstr "Każdy jeden prowadzi do następnego."
 
 #: src/components/_user/user/SkillUpgrade.tsx:319
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -6882,7 +6882,7 @@ msgstr "Zjedz ciepłe zapychacze"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:375
 msgid "Eat up to 3 times!"
-msgstr ""
+msgstr "Jedz do 3 razy!"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:20
 msgid "Eco Mode"
@@ -7182,7 +7182,7 @@ msgstr "Wprowadź ID artykułu"
 #: src/components/_user/auth/ConnectFromModal.tsx:177
 #: src/components/_user/auth/ConnectFromModal.tsx:182
 msgid "Enter the code we sent to your email."
-msgstr "Wprowadź kod, który wysłaliśmy na twój email."
+msgstr "Wprowadź kod, który wysłaliśmy na Twój email."
 
 #: src/components/_economy/employee/employee.traitMeta.ts:98
 msgid "Envious"
@@ -7294,7 +7294,7 @@ msgstr "Wydarzenia dotyczące {lead} i innych zostały rozstrzygnięte pod Twoj�
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:336
 msgid "Every 2 minutes, the side with more <0>Damages</0> gains <1>Ground</1>. Your hits count."
-msgstr ""
+msgstr "Co każde 2 minuty, strona z większymi <0>Obrażeniami</0> zysukje <1>Teren</1>. Twoje uderzenie ma znaczenie."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:650
 msgid "Every coworker can train twice a day instead of once."
@@ -7353,7 +7353,7 @@ msgstr "Każde celne uderzenie sprawdza Twoją <0>Szansę na łup</0> pod kątem
 #. placeholder {0}: ts.woodenCase
 #: src/components/_layout/loadingTips.tsx:282
 msgid "Every hour, you have a {woodenCaseChance}% chance that a <0>{0}</0> drops somewhere on the map, just for you. Go stand on it to claim it."
-msgstr "Każdej godziny masz {woodenCaseChance}% szansy, że that a <0>{0}</0> pojawi się gdzień na mapie, tylko wyłącznie dla Ciebie. Stań tam i zbierz ją."
+msgstr "Każdej godziny masz {woodenCaseChance}% szansy, że that a <0>{0}</0> pojawi się gdzień na mapie, tylko wyłącznie dla Ciebie . Stań tam i zbierz ją."
 
 #: src/components/_economy/itemOffer/MyItemOffers.tsx:44
 msgid "Every item goes back to your inventory."
@@ -7761,7 +7761,7 @@ msgstr "Pierwszy dzień w firmie: <0>+50%</0>. Nic poza tym. "
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:325
 msgid "First side to reach <0>{pointsToWinRound}</0> Ground wins the round."
-msgstr ""
+msgstr "Pierwsza strona, która osiągnie <0>{pointsToWinRound}</0> Terenów wygrywa rundę."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:317
 msgid "First side to win {roundsToWin} rounds wins the battle."
@@ -7878,7 +7878,7 @@ msgstr "Znalaziono błąd? Zgłoś go zamiast wykorzystywać: wartościowe zgło
 
 #: src/components/_political/law/law.frontConfig.tsx:350
 msgid "Found a new alliance with your country as founding member"
-msgstr "Utwórz nowy sojusz z twoim krajem jako członkiem założycielem"
+msgstr "Utwórz nowy sojusz z Twoim krajem jako członkiem założycielem"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1379
 msgid "Found a rival party"
@@ -8649,7 +8649,7 @@ msgstr "Uderz"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:388
 msgid "Hit until your <0>Health</0> runs out again."
-msgstr ""
+msgstr "Uderzaj dopóki Twoje <0>Zdrowie</0> znów się nie wyczerpie."
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
 #: src/components/_military/battle/BattleSystem.tsx:916
@@ -8751,7 +8751,7 @@ msgstr "i. Promowanie innych gier, produktów lub usług"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:81
 msgid "I'm proud of you"
-msgstr "Jestem z ciebie dumny"
+msgstr "Jestem z Ciebie  dumny"
 
 #: src/components/_user/auth/WelcomeModal.tsx:246
 msgid "ID No."
@@ -9805,7 +9805,7 @@ msgstr "Szczęśliwie znaleziono skrzynkę z narzędziami. Kliknij, aby ją odeb
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:59
 msgid "Luck is finally on payroll"
-msgstr "Szczęście w końcu po twojej stronie"
+msgstr "Szczęście w końcu po Twojej stronie"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:140
 msgid "Lucky Charm"
@@ -10458,7 +10458,7 @@ msgstr "Miesięcznie:"
 
 #: src/components/_economy/employee/employeeStats.tsx:510
 msgid "Morale (0-100). Above {neutral} it adds a <0>Production</0> bonus (up to +{maxBonus}% at 100), below {neutral} a malus (down to {minBonus}% at 0). Below {quitBelow} from your choices they can quit, up to {maxQuit}%/h at 0."
-msgstr "Morale (0–100). Powyżej {neutral} dodaje bonus do <0>produkcji</0> (do +{maxBonus}% przy 100), poniżej {neutral} nakłada karę (do {minBonus}% przy 0). Poniżej {quitBelow} z twoich wyborów mogą zrezygnować, z szansą do {maxQuit}%/h przy 0"
+msgstr "Morale (0–100). Powyżej {neutral} dodaje bonus do <0>produkcji</0> (do +{maxBonus}% przy 100), poniżej {neutral} nakłada karę (do {minBonus}% przy 0). Poniżej {quitBelow} z Twoich wyborów mogą zrezygnować, z szansą do {maxQuit}%/h przy 0"
 
 #: src/components/_economy/employee/employeeStats.tsx:801
 msgid "Morale is set live by traits and conditions."
@@ -10479,7 +10479,7 @@ msgstr "Więcej"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:267
 msgid "More <0>Energy</0> means more work, hires and training. Put 5 points in it."
-msgstr ""
+msgstr "Więcej <0>Energii</0> znaczy więcej pracy, zatrudnień i szkoleń. Przydziel w to 5 punktów."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:470
 msgid "More employees, more production."
@@ -11629,7 +11629,7 @@ msgstr "Jedno konto na gracza. Multikonta mogą zostać permanentnie zbanowane."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:643
 msgid "One extra candidate in the daily shortlist of every company you own."
-msgstr "Jeden dodatkowy kandydat na codziennej krótkiej liście każdej posiadanej przez Ciebie firmy"
+msgstr "Jeden dodatkowy kandydat na codziennej krótkiej liście każdej posiadanej przez Ciebie  firmy"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3819
 msgid "One prank goes too far. {name} and {partnerName} are sworn enemies now."
@@ -11858,7 +11858,7 @@ msgstr "Inne"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:369
 msgid "Out of Health?"
-msgstr ""
+msgstr "Koniec Zdrowia?"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:72
 #: src/components/_political/law/Law.tsx:78
@@ -12258,7 +12258,7 @@ msgstr "Wybierz bitwę!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:347
 msgid "Pick a side and hit until your <0>Health</0> runs out."
-msgstr ""
+msgstr "Wybierz stronę i uderzaj, aż Twoje <0>Zdrowie</0> się wyczerpie."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:441
 msgid "Pick an article!"
@@ -12834,7 +12834,7 @@ msgstr "Zabierz się do pracy!"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:132
 msgid "Putting your company in one of your country's core regions gives <0>{coreRegionBonusPercent}</0> production to your employees and helps your country."
-msgstr ""
+msgstr "Przenosząc Twoją firmę do rdzennego regionu Twojego kraju daje <0>{coreRegionBonusPercent}</0> produkcji Twoim pracownikom i pomaga Twojemu krajowi."
 
 #: src/components/_social/poll/PollEditorModal.tsx:187
 msgid "Question"
@@ -13125,7 +13125,7 @@ msgstr "Rekrut"
 #: src/components/_economy/employee/RecruitModal.tsx:229
 msgctxt "verb: hire employees"
 msgid "Recruit"
-msgstr ""
+msgstr "Rekrutuj"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:143
 msgid "Recruiter"
@@ -14439,7 +14439,7 @@ msgstr "Jedyny pracownik w firmie: <0>+100%</0>. Bonus znika, gdy dołączy wsp�
 
 #: src/components/_economy/company/CompanyList.tsx:164
 msgid "Some of your companies are disabled."
-msgstr "Niektóre z twoich firm są wyłączone."
+msgstr "Niektóre z Twoich firm są wyłączone."
 
 #. placeholder {0}: 3
 #. placeholder {1}: -1
@@ -14524,7 +14524,7 @@ msgstr "Wydatki"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:75
 msgid "Spent to work your companies, hire and train employees, and push resistance or unrest bars."
-msgstr ""
+msgstr "Przydziel, aby pracować w swoich firmach, zatrudniać i szkolić pracowików, a także ładować paski ruchu oporu i niepokoju."
 
 #: src/components/_user/user/skills.frontConfig.tsx:108
 msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
@@ -15774,7 +15774,7 @@ msgstr "Bez wahania wykorzystują to do pracy przy własnym narzędziu."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:407
 msgid "They regenerate {regenPercent}% every hour. Next in <0/>."
-msgstr ""
+msgstr "Odnawiają się co każdą godzinę o {regenPercent}%. Następny za <0/>."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:886
 msgid "They shake hands, grudgingly."
@@ -16145,7 +16145,7 @@ msgstr "Narzędzia"
 
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:137
 msgid "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, looted in battles."
-msgstr ""
+msgstr "Narzędzia zwwiększają <0>Produkcje</0>. Dostajesz je z <1>Skrzynek z narzedziami</1>, oraz łupów z bitew."
 
 #: src/components/_social/ArticleList.tsx:218
 msgid "Top"
@@ -16617,7 +16617,7 @@ msgstr "Podżegacze"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:121
 msgid "Unrestricted chat"
-msgstr ""
+msgstr "Czat bez ograniczeń"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:278
 msgid "Unselect all"
@@ -16717,7 +16717,7 @@ msgstr "Użyj ich jako brudnopisu"
 #: src/utils/translations.tsx:100
 #: src/utils/translations.tsx:105
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
-msgstr "Używana do strzelania. Zwiększa twój <0>Atak</0>"
+msgstr "Używana do strzelania. Zwiększa Twój <0>Atak</0>"
 
 #: src/utils/translations.tsx:71
 msgid "Used to build companies and MUs"
@@ -17255,7 +17255,7 @@ msgstr "Co otwiera każdy poziom"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:172
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
-msgstr "Łączny zysk z dotychczasowych bitew (trafienia, obrażenia, skrzynki, żołd i wypłaty z kontraktów) oraz przedmioty z puli łupów, do których się kwalifikujesz. Przedmioty z puli nie są jeszcze przyznane – zależą od rankingu zadanych obrażeń i trafią do ciebie dopiero w momencie podziału puli."
+msgstr "Łączny zysk z dotychczasowych bitew (trafienia, obrażenia, skrzynki, żołd i wypłaty z kontraktów) oraz przedmioty z puli łupów, do których się kwalifikujesz. Przedmioty z puli nie są jeszcze przyznane – zależą od rankingu zadanych obrażeń i trafią do Ciebie dopiero w momencie podziału puli."
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:541
 msgid "What your employees' Luck is expected to find in a day, at their current Luck and traits. Only hours that bank production roll a find, so a full storage or a disabled company finds nothing (Salvagers keep looking while the storage is full)."
@@ -17296,7 +17296,7 @@ msgstr "Z {partner}"
 
 #: src/components/_layout/loadingTips.tsx:499
 msgid "With a Supporter Plan, your color scheme paints the whole app, this loading screen included."
-msgstr "Z Planem Wspierającego, twój schemat kolorów działa na całą aplikacje, w tym ekran ładowania"
+msgstr "Z Planem Wspierającego, Twój schemat kolorów działa na całą aplikacje, w tym ekran ładowania"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:113
 #: src/components/_military/battle/ActiveBattlesList.tsx:148
@@ -17363,7 +17363,7 @@ msgstr "Drewniana Skrzynka"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:566
 msgid "Wooden cases are waiting near you. Open this menu."
-msgstr "Drewniane skrzynki czekają niedaleko ciebie. Otwórz to menu."
+msgstr "Drewniane skrzynki czekają niedaleko Ciebie . Otwórz to menu."
 
 #: src/components/_layout/loadingTips.tsx:292
 msgid "Wooden cases vanish after {woodenCaseExpiryHours}h, and no new one drops while {maxWoodenCases} are waiting. Go collect them!"
@@ -17450,7 +17450,7 @@ msgstr "Pracowanie w regionach macierzystych ich ojczyzny: <0>{0}</0> <1>{1}</1>
 
 #: src/components/_layout/loadingTips.tsx:303
 msgid "Working in your own company costs <0>{energyCostPerAction}</0> and adds your <1>Production</1> to its storage."
-msgstr "Pracowanie w twojej własnej firmie kosztuje <0>{energyCostPerAction}</0> i dodaje <1>Produkcje</1> do własnych magazynów."
+msgstr "Pracowanie w Twojej własnej firmie kosztuje <0>{energyCostPerAction}</0> i dodaje <1>Produkcje</1> do własnych magazynów."
 
 #: src/components/_economy/employee/EmployeeModal.tsx:212
 msgid "Works alone"
@@ -17524,7 +17524,7 @@ msgstr "XP zdobyte"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:247
 msgid "XP raises your level. Tap Levels."
-msgstr "XP podnosi twój poziom. Kliknij Poziomy."
+msgstr "XP podnosi Twój poziom. Kliknij Poziomy."
 
 #: src/components/_user/notification/NotificationList.tsx:90
 msgid "Yesterday"
@@ -17580,7 +17580,7 @@ msgstr "Nie jesteś już managerem w <0/>."
 #. placeholder {0}: data.paidOut
 #: src/components/_user/notification/notification.frontConfig.tsx:459
 msgid "You are no longer the manager of <0/>. Your remaining <1>{0}</1> was collected for you"
-msgstr "Nie jesteś już managerem w <0/>. Twoje pozostałe <1>{0}</1> zostało dla ciebie zebrane."
+msgstr "Nie jesteś już managerem w <0/>. Twoje pozostałe <1>{0}</1> zostało dla Ciebie zebrane."
 
 #: src/components/_political/partyMotion/PartyMotionList.tsx:44
 msgid "You are not a council member of this party"
@@ -17684,7 +17684,7 @@ msgstr "Otrzymałeś klejnoty ze sprzedaży paczki skórek!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:911
 msgid "You feel healthy, the debuff effect no longer affects you."
-msgstr "Czujesz się zdrowo, efekt debuffu już na ciebie nie wpływa."
+msgstr "Czujesz się zdrowo, efekt debuffu już na Ciebie nie wpływa."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:159
 msgid "You gifted a supporter plan subscription to someone <3"
@@ -17949,7 +17949,7 @@ msgstr "Byłeś tak blisko"
 #. placeholder {0}: gameConfig?.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/referral/ReferralList.tsx:117
 msgid "You win money for the badge + {0}% of the badge income of all your referrals"
-msgstr "Zyskujesz pieniądze za odznakę + {0}% dochodu z odznaki wszystkich twoich poleconych"
+msgstr "Zyskujesz pieniądze za odznakę + {0}% dochodu z odznaki wszystkich Twoich poleconych"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2995
 msgid "You win the regional title, and the prize money. The trophy goes on the machine."
@@ -18043,11 +18043,11 @@ msgstr "Twój artykuł dotarł do 2% aktywnej populacji w punktacji (min 10)"
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1748
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
-msgstr "Twój baner \"{0}\" został zaakcpetowany i jest już dostępny w sklepie! Został dla ciebie automatycznie odblokowany."
+msgstr "Twój baner \"{0}\" został zaakcpetowany i jest już dostępny w sklepie! Został dla Ciebie automatycznie odblokowany."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:398
 msgid "Your bars"
-msgstr ""
+msgstr "Twoje paski"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:880
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
@@ -18104,7 +18104,7 @@ msgstr "Twój kraj rozpoczął bunt w <0/> przeciwko <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2231
 msgid "Your country's article"
-msgstr "Artykuły twojego kraju"
+msgstr "Artykuły Twojego kraju"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
@@ -18124,11 +18124,11 @@ msgstr "Twój email"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:141
 msgid "Your employee's stats"
-msgstr "Statystyki twoich pracowników"
+msgstr "Statystyki Twoich pracowników"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:514
 msgid "Your employees' estimated daily profit, at market prices."
-msgstr "Szacowany dzienny zysk twoich pracowników, po cenach rynkowych"
+msgstr "Szacowany dzienny zysk Twoich pracowników, po cenach rynkowych"
 
 #: src/components/_economy/manager/ManagerRateReductionAlert.tsx:43
 msgid "Your employer cut your pay to"
@@ -18203,7 +18203,7 @@ msgstr "Twoje umiejętności wojskowe"
 
 #: src/components/_military/mu/MuFormModal.tsx:106
 msgid "Your military unit name"
-msgstr "Nazwa twojej jednostki wojskowej"
+msgstr "Nazwa Twojej jednostki wojskowej"
 
 #: src/components/_military/mu/MuSettings.tsx:53
 msgid "Your military unit nationality is the country it represents. Changing it is free and can only be done once every {cooldownDays} days."
