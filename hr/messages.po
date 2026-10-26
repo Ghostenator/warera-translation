@@ -2644,7 +2644,7 @@ msgstr "Svakoga radnog dana <0>{percentPerDay}</0> prema specijalizaciji u proiz
 #. placeholder {0}: fmt2(v / OUTPUT_DIVISOR)
 #: src/components/_economy/employee/employeeStats.tsx:259
 msgid "<0>{v}</0> Production ÷ {OUTPUT_DIVISOR} = <1>{0} points per hour</1>, before bonuses."
-msgstr "<0>{v}</0> Proizvodnja ÷ {OUTPUT_DIVISOR} = <1>{0} poena proizvodnje po satu</1>, prije bonusa."
+msgstr "Zaposlenik generira <1><0>{0}</0> bruto poena proizvodnje po satu</1>, prije bonusa."
 
 #: src/components/_economy/employee/employeeStats.tsx:463
 msgid "<0>{v}</0> Responsibility = <1>{shieldPct}% less</1> <2>Happiness</2> loss (max shield)."
@@ -7075,26 +7075,26 @@ msgstr ""
 #: src/components/_political/law/law.frontConfig.tsx:66
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:64
 msgid "Employee tax"
-msgstr ""
+msgstr "Porez za zaposlenike"
 
 #. placeholder {0}: 2
 #: src/components/_economy/employee/employee.frontConfig.tsx:555
 msgid "Employee tax at 20% or more: <0>{0}</0>."
-msgstr "Zaposlenik dobiva <0>{0}</0> ako je porez na zaposlenike barem 20%."
+msgstr "Zaposlenik dobiva <0>{0}</0> ako je porez za zaposlenike barem 20%."
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:287
 #: src/components/_economy/work/WorkChart.tsx:252
 #: src/pages/company/[companyId]/index.tsx:49
 msgid "Employees"
-msgstr ""
+msgstr "Zaposlenici"
 
 #: src/components/_layout/loadingTips.tsx:384
 msgid "Employees below {happinessQuitThreshold} happiness may quit."
-msgstr ""
+msgstr "Zaposlenici ispod {happinessQuitThreshold} zadovoljstva su skloniji dati otkaz."
 
 #: src/components/_layout/loadingTips.tsx:392
 msgid "Employees get +{specializationPerDay}% production for every day spent on the same good, up to +{specializationMax}%."
-msgstr ""
+msgstr "Zaposlenici se specijaliziraju za +{specializationPerDay}% svakoga dana proizvodnje do maksimalnih +{specializationMax}%."
 
 #: src/pages/region/[regionId]/index.tsx:169
 msgid "Empty"
@@ -10462,7 +10462,7 @@ msgstr ""
 
 #: src/components/_economy/employee/employeeStats.tsx:801
 msgid "Morale is set live by traits and conditions."
-msgstr ""
+msgstr "Zadovoljstvo karijerom definiraju osobine i uvjeti na poslu."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:139
 msgid "Morale shield: cancels a share of every happiness loss, ramping from 0 to {RESP_MAX_SHIELD_PERCENT}% at {RESP_FULL_AT} Responsibility. Does not affect output."
@@ -13619,11 +13619,11 @@ msgstr "Odgovor na poruku"
 #: src/components/_economy/employee/employee.frontConfig.tsx:137
 #: src/components/_economy/employee/employeeStats.tsx:493
 msgid "Responsibility"
-msgstr ""
+msgstr "Odgovornost"
 
 #: src/components/_economy/employee/employeeStats.tsx:831
 msgid "Responsibility shielded"
-msgstr ""
+msgstr "Vještina odgovornosti"
 
 #: src/components/_social/poll/PollEditorModal.tsx:260
 msgid "Restrict to nationality"
@@ -13635,31 +13635,31 @@ msgstr "Nastavi"
 
 #: src/components/_other/tour/TutorialFloatingGuide.tsx:55
 msgid "Resume guide"
-msgstr ""
+msgstr "Nastavite vodič"
 
 #: src/components/_other/tour/tutorial.hooks.ts:275
 msgid "Resume it anytime from the Battles page to earn its reward."
-msgstr ""
+msgstr "Nastavite s vodičem dodirom na stranicu Bitke kako bi zaradili nagradu."
 
 #: src/components/_other/tour/tutorial.hooks.ts:272
 msgid "Resume it anytime from the Companies page to earn its reward."
-msgstr ""
+msgstr "Nastavite s vodičem dodirom na stranicu Kompanije kako bi zaradili nagradu."
 
 #: src/components/_other/tour/tutorial.hooks.ts:281
 msgid "Resume it anytime from the Guides tab of the Progression page to earn its reward."
-msgstr ""
+msgstr "Nastavite vodič s kartice Vodiči na stranici Napredak kako biste zaradili nagradu."
 
 #: src/components/_other/tour/tutorial.hooks.ts:278
 msgid "Resume it anytime from your inventory to earn its reward."
-msgstr ""
+msgstr "Nastavite s vodičem dodirom na stranicu Inventar kako bi zaradili nagradu."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:107
 msgid "Retired"
-msgstr ""
+msgstr "Umirovljen"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:108
 msgid "Retired at the end of a long career."
-msgstr ""
+msgstr "Mirovina nakon duge karijere."
 
 #: src/components/_political/law/law.frontConfig.tsx:513
 msgid "Return a region to its original country"
@@ -16395,16 +16395,16 @@ msgstr "Povijest obuke"
 #: src/components/_economy/employee/TrainingCard.tsx:302
 #: src/components/_economy/employee/TrainingDraftModal.tsx:268
 msgid "Training potential"
-msgstr ""
+msgstr "Prilike za obuku"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:183
 msgid "Training potential left"
-msgstr ""
+msgstr "Preostalo prilika za obuku"
 
 #. placeholder {0}: outcome.potentialMax
 #: src/components/_economy/employee/TrainingHistory.tsx:152
 msgid "Training potential raised to <0>{0}</0>"
-msgstr ""
+msgstr "Broj prilika za obuku se povisuje na <0>{0}</0>"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "Training raises them all."
@@ -16451,7 +16451,7 @@ msgstr "Putuj"
 
 #: src/components/_political/party/PartyTooltip.tsx:91
 msgid "Treasurer"
-msgstr ""
+msgstr "Rizničar"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:95
 msgid "Trebuchet"
