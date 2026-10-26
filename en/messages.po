@@ -216,8 +216,13 @@ msgstr "{0} development income from conquered regions"
 msgid "{0} development income from core regions"
 msgstr "{0} development income from core regions"
 
+#. placeholder {0}: gift.amount
+#: src/components/_user/user/EnergyGiftAlert.tsx:32
+msgid "{0} energy for the update, once per account."
+msgstr "{0} energy for the update, once per account."
+
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/components/_user/user/UserSkills.tsx:334
+#: src/components/_user/user/UserSkills.tsx:336
 msgid "{0} Free"
 msgstr "{0} Free"
 
@@ -1941,8 +1946,8 @@ msgstr "*May burn"
 msgid "/{max, plural, one {# slot} other {# slots}}"
 msgstr "/{max, plural, one {# slot} other {# slots}}"
 
-#: src/components/_economy/employee/EmployeeList.tsx:213
-#: src/components/_economy/employee/EmployeeList.tsx:219
+#: src/components/_economy/employee/EmployeeList.tsx:225
+#: src/components/_economy/employee/EmployeeList.tsx:231
 #: src/components/_economy/employee/EstimatedProfit.tsx:143
 #: src/components/_economy/employee/WorkforceSummary.tsx:520
 #: src/components/_economy/employee/WorkforceSummary.tsx:555
@@ -2589,7 +2594,7 @@ msgid "<0>{0}</0> per foreign nationality on the roster, up to <1>{1}</1>."
 msgstr "<0>{0}</0> per foreign nationality on the roster, up to <1>{1}</1>."
 
 #. placeholder {0}: 1
-#: src/components/_user/user/UserSkills.tsx:216
+#: src/components/_user/user/UserSkills.tsx:217
 msgid "<0>{0}</0> prestige point to spend on a skill."
 msgstr "<0>{0}</0> prestige point to spend on a skill."
 
@@ -3578,6 +3583,10 @@ msgstr "a. Insults, slurs and targeted harassment"
 msgid "About {dayPct}% a day"
 msgstr "About {dayPct}% a day"
 
+#: src/components/_user/user/EnergyGiftAlert.tsx:34
+msgid "Above your bar's max, the extra is lost at the next hourly regen."
+msgstr "Above your bar's max, the extra is lost at the next hourly regen."
+
 #: src/utils/translations.tsx:290
 msgid "Absolute Caliper"
 msgstr "Absolute Caliper"
@@ -3880,7 +3889,7 @@ msgstr "All types"
 msgid "All your offers were withdrawn"
 msgstr "All your offers were withdrawn"
 
-#: src/components/_user/user/UserSkills.tsx:224
+#: src/components/_user/user/UserSkills.tsx:225
 msgid "All your skills are reset for free."
 msgstr "All your skills are reset for free."
 
@@ -4125,7 +4134,7 @@ msgstr "Applied on top of the above."
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:223
 #: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:56
-#: src/pages/country/[countryId]/citizenship.tsx:44
+#: src/pages/country/[countryId]/citizenship.tsx:49
 msgid "Apply"
 msgstr "Apply"
 
@@ -4388,7 +4397,7 @@ msgstr "Auctions"
 msgid "Authentication failed. Please try again."
 msgstr "Authentication failed. Please try again."
 
-#: src/pages/country/[countryId]/citizenship.tsx:47
+#: src/pages/country/[countryId]/citizenship.tsx:69
 msgid "Auto approval"
 msgstr "Auto approval"
 
@@ -4766,6 +4775,14 @@ msgstr "Boost your Energy!"
 #: src/utils/translations.tsx:212
 msgid "Boots"
 msgstr "Boots"
+
+#: src/pages/country/[countryId]/citizenship.tsx:60
+msgid "Borders are open after a revolution, every application is accepted for <0/>"
+msgstr "Borders are open after a revolution, every application is accepted for <0/>"
+
+#: src/pages/country/[countryId]/citizenship.tsx:54
+msgid "Borders are open: this country was just created, every application is accepted for <0/>"
+msgstr "Borders are open: this country was just created, every application is accepted for <0/>"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:333
 msgid "Both"
@@ -5376,7 +5393,7 @@ msgstr "Citizens get a bonus when fighting for allies, or against the sworn enem
 msgid "Citizenship"
 msgstr "Citizenship"
 
-#: src/pages/country/[countryId]/citizenship.tsx:72
+#: src/pages/country/[countryId]/citizenship.tsx:94
 msgid "Citizenship Applications"
 msgstr "Citizenship Applications"
 
@@ -5401,6 +5418,11 @@ msgstr "Claim"
 #: src/components/_economy/employee/EmployeeFoundToolboxes.tsx:240
 msgid "Claim {count} toolboxes"
 msgstr "Claim {count} toolboxes"
+
+#. placeholder {0}: gift.amount
+#: src/components/_user/user/EnergyGiftAlert.tsx:46
+msgid "Claim +{0}"
+msgstr "Claim +{0}"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:325
 msgid "Claim reward"
@@ -5996,7 +6018,7 @@ msgstr "Country wars"
 msgid "Coworker fired"
 msgstr "Coworker fired"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:205
+#: src/components/_economy/employee/EmployeeModal.tsx:209
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:45
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:141
 msgid "Coworkers"
@@ -6211,7 +6233,7 @@ msgstr "Daily maintenance"
 msgid "Daily Missions Reset"
 msgstr "Daily Missions Reset"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:762
+#: src/components/_economy/employee/EmployeeModal.tsx:778
 msgid "Daily output"
 msgstr "Daily output"
 
@@ -6219,11 +6241,11 @@ msgstr "Daily output"
 msgid "Daily pay"
 msgstr "Daily pay"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:159
+#: src/components/_economy/employee/EmployeeModal.tsx:163
 msgid "Daily production"
 msgstr "Daily production"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:776
+#: src/components/_economy/employee/EmployeeModal.tsx:792
 msgid "Daily profit"
 msgstr "Daily profit"
 
@@ -6231,7 +6253,7 @@ msgstr "Daily profit"
 msgid "Daily revenue"
 msgstr "Daily revenue"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:771
+#: src/components/_economy/employee/EmployeeModal.tsx:787
 msgid "Daily wage"
 msgstr "Daily wage"
 
@@ -7024,7 +7046,7 @@ msgstr "Elite Pants"
 msgid "Embrace the curse"
 msgstr "Embrace the curse"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:687
+#: src/components/_economy/employee/EmployeeModal.tsx:703
 #: src/components/_economy/employee/EmployeeName.tsx:70
 #: src/components/_economy/employee/EmployeeResumeRow.tsx:166
 #: src/components/_economy/employee/EmployeeResumeRow.tsx:230
@@ -7059,7 +7081,7 @@ msgstr "Employee moved"
 msgid "Employee Production"
 msgstr "Employee Production"
 
-#: src/components/_economy/employee/employee.hooks.ts:112
+#: src/components/_economy/employee/employee.hooks.ts:123
 msgid "Employee removed from the roster"
 msgstr "Employee removed from the roster"
 
@@ -7162,6 +7184,10 @@ msgstr "Enemies"
 #: src/components/_user/user/skills.frontConfig.tsx:102
 msgid "Energy"
 msgstr "Energy"
+
+#: src/components/_user/user/EnergyGiftAlert.tsx:18
+msgid "Energy gift claimed!"
+msgstr "Energy gift claimed!"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1728
 msgid "Enlist it"
@@ -7724,7 +7750,7 @@ msgstr "Finished missions give XP. Claim them all."
 msgid "Finished: your reward is waiting"
 msgstr "Finished: your reward is waiting"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:426
+#: src/components/_economy/employee/EmployeeModal.tsx:442
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:261
 #: src/components/_political/government/Government.tsx:263
 msgid "Fire"
@@ -8561,7 +8587,7 @@ msgstr "Help MU Members"
 msgid "Help the game to grow"
 msgstr "Help the game to grow"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:833
+#: src/components/_economy/employee/EmployeeModal.tsx:849
 msgid "hidden"
 msgstr "hidden"
 
@@ -9320,7 +9346,7 @@ msgstr "Last used"
 msgid "Last used:"
 msgstr "Last used:"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:178
+#: src/components/_economy/employee/EmployeeModal.tsx:182
 msgid "Last works"
 msgstr "Last works"
 
@@ -9977,7 +10003,7 @@ msgstr "Max level reached!"
 msgid "Max rarity"
 msgstr "Max rarity"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:401
+#: src/components/_economy/employee/EmployeeModal.tsx:417
 msgid "Maxed"
 msgstr "Maxed"
 
@@ -10515,7 +10541,7 @@ msgstr "Motion proposed"
 msgid "Motions"
 msgstr "Motions"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:420
+#: src/components/_economy/employee/EmployeeModal.tsx:436
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:252
 #: src/components/_political/region/MoveButton.tsx:119
 #: src/components/_political/region/MoveButton.tsx:131
@@ -10716,7 +10742,7 @@ msgstr "Mythic?! Your account is blessed"
 msgid "Name"
 msgstr "Name"
 
-#: src/components/_economy/employee/employee.hooks.ts:134
+#: src/components/_economy/employee/employee.hooks.ts:145
 msgid "Name reset"
 msgstr "Name reset"
 
@@ -10997,7 +11023,7 @@ msgid "Next tier {currentTier}"
 msgstr "Next tier {currentTier}"
 
 #. placeholder {0}: nextToTrain.count
-#: src/components/_economy/employee/EmployeeModal.tsx:452
+#: src/components/_economy/employee/EmployeeModal.tsx:468
 msgid "Next to train ({0} left)"
 msgstr "Next to train ({0} left)"
 
@@ -11122,7 +11148,7 @@ msgstr "No donations yet"
 msgid "No effects"
 msgstr "No effects"
 
-#: src/components/_economy/employee/EmployeeList.tsx:331
+#: src/components/_economy/employee/EmployeeList.tsx:343
 msgid "No employees"
 msgstr "No employees"
 
@@ -11264,7 +11290,7 @@ msgstr "No prestige points left, tap to reset staged points"
 msgid "No prize, but the whole company sang together. Spirits are high."
 msgstr "No prize, but the whole company sang together. Spirits are high."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:169
+#: src/components/_economy/employee/EmployeeModal.tsx:173
 msgid "No production yet"
 msgstr "No production yet"
 
@@ -11567,7 +11593,7 @@ msgstr "Oil the hinge"
 msgid "OK"
 msgstr "OK"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:500
+#: src/components/_economy/employee/EmployeeModal.tsx:516
 msgid "OK, remove them"
 msgstr "OK, remove them"
 
@@ -12197,7 +12223,7 @@ msgstr "Per hour. Allowed"
 msgid "Perfectly good stuff"
 msgstr "Perfectly good stuff"
 
-#: src/components/_user/user/UserSkills.tsx:207
+#: src/components/_user/user/UserSkills.tsx:208
 msgid "Permanent <0>{nextBonus}</0> XP bonus, paused while you are at level {MAX_LEVEL}."
 msgstr "Permanent <0>{nextBonus}</0> XP bonus, paused while you are at level {MAX_LEVEL}."
 
@@ -12243,7 +12269,7 @@ msgstr "Pick {cardTitle}"
 msgid "Pick a candidate!"
 msgstr "Pick a candidate!"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:397
+#: src/components/_economy/employee/EmployeeModal.tsx:413
 #: src/components/_economy/employee/TrainingDraftModal.tsx:478
 msgid "Pick a card"
 msgstr "Pick a card"
@@ -12492,7 +12518,7 @@ msgstr "Preset deleted."
 msgid "Preset saved!"
 msgstr "Preset saved!"
 
-#: src/components/_user/user/UserSkills.tsx:305
+#: src/components/_user/user/UserSkills.tsx:307
 msgid "Presets"
 msgstr "Presets"
 
@@ -12530,7 +12556,7 @@ msgstr "Presidential elections"
 #: src/components/_user/level/levelTrack.frontConfig.tsx:163
 #: src/components/_user/user/Level.tsx:167
 #: src/components/_user/user/UserBadges.tsx:81
-#: src/components/_user/user/UserSkills.tsx:297
+#: src/components/_user/user/UserSkills.tsx:299
 msgid "Prestige"
 msgstr "Prestige"
 
@@ -12546,7 +12572,7 @@ msgstr "Prestige:"
 msgid "Prestige!"
 msgstr "Prestige!"
 
-#: src/components/_user/user/UserSkills.tsx:197
+#: src/components/_user/user/UserSkills.tsx:198
 msgid "Prestige?"
 msgstr "Prestige?"
 
@@ -13121,7 +13147,7 @@ msgstr "Recommended regions"
 msgid "Recruit"
 msgstr "Recruit"
 
-#: src/components/_economy/employee/EmployeeList.tsx:354
+#: src/components/_economy/employee/EmployeeList.tsx:366
 #: src/components/_economy/employee/RecruitModal.tsx:229
 msgctxt "verb: hire employees"
 msgid "Recruit"
@@ -13407,7 +13433,7 @@ msgid "Removed from saved"
 msgstr "Removed from saved"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:457
-#: src/components/_economy/employee/EmployeeModal.tsx:413
+#: src/components/_economy/employee/EmployeeModal.tsx:429
 #: src/components/_economy/employee/EmployeeRenameModal.tsx:83
 #: src/components/_user/user/SkillPresetsModal.tsx:228
 msgid "Rename"
@@ -13457,7 +13483,7 @@ msgstr "Replay"
 msgid "Report"
 msgstr "Report"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:536
+#: src/components/_economy/employee/EmployeeModal.tsx:552
 msgid "Report name"
 msgstr "Report name"
 
@@ -13513,7 +13539,7 @@ msgstr "Reroll all"
 msgid "Reroll Mission"
 msgstr "Reroll Mission"
 
-#: src/components/_user/user/UserSkills.tsx:331
+#: src/components/_user/user/UserSkills.tsx:333
 msgid "Reset"
 msgstr "Reset"
 
@@ -13521,11 +13547,11 @@ msgstr "Reset"
 msgid "Reset CAPTCHA"
 msgstr "Reset CAPTCHA"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:543
+#: src/components/_economy/employee/EmployeeModal.tsx:559
 msgid "Reset name"
 msgstr "Reset name"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:549
+#: src/components/_economy/employee/EmployeeModal.tsx:565
 msgid "Reset Name"
 msgstr "Reset Name"
 
@@ -13830,7 +13856,7 @@ msgstr "Salvager"
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:135
 #: src/components/_military/order/BattleOrderList.tsx:220
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/user/UserSkills.tsx:367
+#: src/components/_user/user/UserSkills.tsx:369
 msgid "Save"
 msgstr "Save"
 
@@ -14335,7 +14361,7 @@ msgstr "Skillet"
 msgid "Skills"
 msgstr "Skills"
 
-#: src/components/_user/user/UserSkills.tsx:81
+#: src/components/_user/user/UserSkills.tsx:82
 msgid "Skills saved!"
 msgstr "Skills saved!"
 
@@ -14794,7 +14820,7 @@ msgstr "Support us"
 msgid "Supporter"
 msgstr "Supporter"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:415
+#: src/components/_economy/employee/EmployeeModal.tsx:431
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:52
 #: src/components/_user/user/UserDropdown.tsx:241
 #: src/components/_user/user/UserDropdown.tsx:250
@@ -15744,7 +15770,7 @@ msgstr "They keep what they earned."
 msgid "They laugh too. {name} and {partnerName} are old friends now, and share a barber."
 msgstr "They laugh too. {name} and {partnerName} are old friends now, and share a barber."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:696
+#: src/components/_economy/employee/EmployeeModal.tsx:712
 msgid "They left the company"
 msgstr "They left the company"
 
@@ -15816,7 +15842,7 @@ msgstr "This can end with someone leaving your company for good."
 msgid "This company has no employees"
 msgstr "This company has no employees"
 
-#: src/components/_economy/employee/EmployeeList.tsx:186
+#: src/components/_economy/employee/EmployeeList.tsx:198
 msgid "This company is disabled and earns nothing. Once re-enabled, a day of its production would be worth this much at the market value of a point, minus the day's whole payroll, employees and manager."
 msgstr "This company is disabled and earns nothing. Once re-enabled, a day of its production would be worth this much at the market value of a point, minus the day's whole payroll, employees and manager."
 
@@ -16144,8 +16170,8 @@ msgid "Tools"
 msgstr "Tools"
 
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:137
-msgid "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, looted in battles."
-msgstr "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, looted in battles."
+msgid "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, found by your employees' Luck."
+msgstr "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, found by your employees' Luck."
 
 #: src/components/_social/ArticleList.tsx:218
 msgid "Top"
@@ -16331,7 +16357,7 @@ msgstr "Trading"
 msgid "Trading transaction"
 msgstr "Trading transaction"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:399
+#: src/components/_economy/employee/EmployeeModal.tsx:415
 #: src/components/_economy/employee/TrainingDraftModal.tsx:356
 msgid "Train"
 msgstr "Train"
@@ -16344,7 +16370,7 @@ msgstr "Train each employee once a day, resetting at 00:00 UTC: you draw {traini
 msgid "Train Employees"
 msgstr "Train Employees"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:828
+#: src/components/_economy/employee/EmployeeModal.tsx:844
 msgid "Train to reveal traits"
 msgstr "Train to reveal traits"
 
@@ -16409,7 +16435,7 @@ msgstr "Training potential raised to <0>{0}</0>"
 msgid "Training raises them all."
 msgstr "Training raises them all."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:796
+#: src/components/_economy/employee/EmployeeModal.tsx:812
 #: src/components/_economy/employee/EmployeeTooltip.tsx:155
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:163
 msgid "Traits"
@@ -16636,6 +16662,10 @@ msgstr "Update"
 msgid "Update focus"
 msgstr "Update focus"
 
+#: src/components/_user/user/EnergyGiftAlert.tsx:30
+msgid "Update gift"
+msgstr "Update gift"
+
 #: src/pages/user/[userId]/settings.tsx:91
 msgid "Update infos"
 msgstr "Update infos"
@@ -16676,7 +16706,7 @@ msgstr "Upgrade the break room"
 msgid "Upgrade to supporter"
 msgstr "Upgrade to supporter"
 
-#: src/components/_user/user/UserSkills.tsx:277
+#: src/components/_user/user/UserSkills.tsx:279
 msgid "Upgrade your skills!"
 msgstr "Upgrade your skills!"
 
@@ -17237,7 +17267,7 @@ msgstr "Well done! Here is your reward."
 msgid "What a day of their production is worth at the market value of a point, minus a day of their wage. An estimate: what you really earn depends on what you make and the price you sell it at."
 msgstr "What a day of their production is worth at the market value of a point, minus a day of their wage. An estimate: what you really earn depends on what you make and the price you sell it at."
 
-#: src/components/_economy/employee/EmployeeList.tsx:120
+#: src/components/_economy/employee/EmployeeList.tsx:132
 msgid "What a day of this company's production is worth at the market value of a point, minus the day's whole payroll, employees and manager. An estimate: what you really earn depends on what it makes and the price you sell it at."
 msgstr "What a day of this company's production is worth at the market value of a point, minus the day's whole payroll, employees and manager. An estimate: what you really earn depends on what it makes and the price you sell it at."
 
@@ -17452,7 +17482,7 @@ msgstr "Working in a core region of their homeland: <0>{0}</0> <1>{1}</1>."
 msgid "Working in your own company costs <0>{energyCostPerAction}</0> and adds your <1>Production</1> to its storage."
 msgstr "Working in your own company costs <0>{energyCostPerAction}</0> and adds your <1>Production</1> to its storage."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:212
+#: src/components/_economy/employee/EmployeeModal.tsx:216
 msgid "Works alone"
 msgstr "Works alone"
 
@@ -17649,7 +17679,7 @@ msgstr "You can upgrade your skills!"
 msgid "You can vote {0} days after changing citizenship. Available in <0/>."
 msgstr "You can vote {0} days after changing citizenship. Available in <0/>."
 
-#: src/pages/country/[countryId]/citizenship.tsx:61
+#: src/pages/country/[countryId]/citizenship.tsx:83
 msgid "You cannot apply for citizenship if you have a government/congress role"
 msgstr "You cannot apply for citizenship if you have a government/congress role"
 
@@ -17666,7 +17696,7 @@ msgstr "You did not answer in time, so this was decided: {picked}."
 msgid "You don't have permission to view applications."
 msgstr "You don't have permission to view applications."
 
-#: src/components/_user/user/UserSkills.tsx:199
+#: src/components/_user/user/UserSkills.tsx:200
 msgid "You drop to <0>level {newLevel}</0> and lose <1>{xpPenalty}</1>. Your total XP is kept."
 msgstr "You drop to <0>level {newLevel}</0> and lose <1>{xpPenalty}</1>. Your total XP is kept."
 
@@ -17690,7 +17720,7 @@ msgstr "You feel healthy, the debuff effect no longer affects you."
 msgid "You gifted a supporter plan subscription to someone <3"
 msgstr "You gifted a supporter plan subscription to someone <3"
 
-#: src/pages/country/[countryId]/citizenship.tsx:48
+#: src/pages/country/[countryId]/citizenship.tsx:70
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "You will be automatically approved because the country population is below"
 
