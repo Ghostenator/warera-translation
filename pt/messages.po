@@ -386,7 +386,7 @@ msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:322
 msgid "{count, plural, one {<0>Participate in <1/> battle</0>} other {<2>Participate in <3/> battles</2>}}"
-msgstr "{count, plural, one {<0>Participa em <1/> batalha</0>} other {<2>Participa em <3/> batalhas</2>}"
+msgstr "{count, plural, one {<0>Participa em <1/> batalha</0>} other {<2>Participa em <3/> batalhas</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:704
 msgid "{count, plural, one {<0>Produce items <1/> time</0>} other {<2>Produce items <3/> times</2>}}"
