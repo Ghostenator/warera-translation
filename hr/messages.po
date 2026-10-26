@@ -153,13 +153,13 @@ msgstr "{0, plural, one {Stavite na prodaju} other {Stavite # predmeta na prodaj
 #. placeholder {0}: estimate.notOwnedCount
 #: src/components/_other/shop/SkinPackModal.tsx:287
 msgid "{0, plural, one {Unlock # skin} other {Unlock # skins}}"
-msgstr ""
+msgstr "{0, plural, one {Otključajte # skin} other {Otključajte # skinove}}"
 
 #. placeholder {0}: damagesPercent(effects.bunkerBonusDelta)
 #. placeholder {1}: upgradeName(EUpgrade.BUNKER)
 #: src/components/_political/govType/govType.frontConfig.tsx:269
 msgid "{0} {1} bonus"
-msgstr ""
+msgstr "{0} {1} bonus"
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -174,12 +174,12 @@ msgstr "Potrebno je {0} aktivnih građana"
 #. placeholder {0}: getTimeAgo(entry.pickedAt, 'fromNow', undefined, true, true)
 #: src/components/_economy/employee/TrainingHistory.tsx:184
 msgid "{0} ago"
-msgstr ""
+msgstr "prije {0}"
 
 #. placeholder {0}: damagesPercent(effects.allianceBonusDelta)
 #: src/components/_political/govType/govType.frontConfig.tsx:259
 msgid "{0} alliance bonus when fighting for an ally"
-msgstr ""
+msgstr "{0} saveznički bonus u borbi za saveznika"
 
 #. placeholder {0}: formatKm(homeDistanceKm)
 #: src/components/_layout/LayoutMapUserMenu.tsx:332
@@ -194,7 +194,7 @@ msgstr "{0} je kupio/la vašu ponudu"
 #. placeholder {0}: upgradeName(EUpgrade.BASE)
 #: src/components/_political/govType/govType.frontConfig.tsx:340
 msgid "{0} can't be activated"
-msgstr ""
+msgstr "{0} se nemože aktivirati"
 
 #. placeholder {0}: Math.floor(cooldownHours / 24)
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:127
@@ -204,17 +204,17 @@ msgstr "Vrijeme čekanja: {0} dana"
 #. placeholder {0}: developmentPercent(core)
 #: src/components/_political/govType/govType.frontConfig.tsx:192
 msgid "{0} development income"
-msgstr ""
+msgstr "{0} prihoda od razvoja"
 
 #. placeholder {0}: developmentPercent(conquered)
 #: src/components/_political/govType/govType.frontConfig.tsx:214
 msgid "{0} development income from conquered regions"
-msgstr ""
+msgstr "{0} prihoda od razvoja osvojenih regija"
 
 #. placeholder {0}: developmentPercent(core)
 #: src/components/_political/govType/govType.frontConfig.tsx:199
 msgid "{0} development income from core regions"
-msgstr ""
+msgstr "{0} prihoda od razvoja izvornih regija"
 
 #. placeholder {0}: user.data.leveling.freeReset
 #: src/components/_user/user/UserSkills.tsx:334
@@ -224,7 +224,7 @@ msgstr "{0} Besplatno"
 #. placeholder {0}: meta.label
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:110
 msgid "{0} guide"
-msgstr ""
+msgstr "{0} vodič"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
@@ -236,7 +236,7 @@ msgstr "{0} sati"
 #. placeholder {0}: employee.name
 #: src/components/_economy/employee/EmployeeNameTags.tsx:58
 msgid "{0} is waiting for your decision."
-msgstr ""
+msgstr "{0} čeka vašu odluku."
 
 #. placeholder {0}: data.outbidByMuName
 #. placeholder {1}: data.newPerK
@@ -247,7 +247,7 @@ msgstr "{0} nadmašuje vašu ponudu od ${1}/K"
 #. placeholder {0}: moneyPercent(effects.incomeTaxMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:235
 msgid "{0} payroll and manager tax income"
-msgstr ""
+msgstr "{0} prihoda od poreza na upravitelje i dohodak"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:692
@@ -257,7 +257,7 @@ msgstr "{0} je predložio novi zakon <0/>"
 #. placeholder {0}: presetPointCost(preset.skills)
 #: src/components/_user/user/SkillPresetsModal.tsx:251
 msgid "{0} pts"
-msgstr ""
+msgstr "{0} poena"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:55
@@ -267,12 +267,12 @@ msgstr "{0} rundi je potrebno za pobjedu u bitki."
 #. placeholder {0}: moneyPercent(effects.strategicResourceIncomeMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:225
 msgid "{0} strategic resource income"
-msgstr ""
+msgstr "{0} prihoda od strateških resursa"
 
 #. placeholder {0}: itemName(rarity)
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:244
 msgid "{0} tool"
-msgstr ""
+msgstr "{0} alat"
 
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:45
@@ -299,16 +299,16 @@ msgstr "{0}% od uloženog"
 #. placeholder {1}: specializationBonusPercent(employee, code)
 #: src/components/_economy/employee/EmployeeSpecializations.tsx:68
 msgid "{0}d worked: <0>{1}</0>"
-msgstr ""
+msgstr "Zaposlenik je radio {0} dana: <0>{1}</0>"
 
 #. placeholder {0}: contract.unpaidHours
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:220
 msgid "{0}h unpaid"
-msgstr ""
+msgstr "Neplaćen {0} sati"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:913
 msgid "{answerWithin} to answer"
-msgstr ""
+msgstr "{answerWithin} za odabir"
 
 #. placeholder {0}: states.length
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:214
@@ -325,103 +325,103 @@ msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:812
 msgid "{count, plural, one {<0>Answer <1/> employee event</0>} other {<2>Answer <3/> employee events</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Odaberite ishod <1/> događaja zaposlenika</0>} other {<2>Odaberite ishode <3/> događaja zaposlenika</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:846
 msgid "{count, plural, one {<0>Contribute to constructions <1/> time</0>} other {<2>Contribute to constructions <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Doprinesite konstrukciji projekta <1/> put</0>} other {<2>Doprinesite konstrukciji projekta <3/> puta</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:867
 msgid "{count, plural, one {<0>Contribute to resistance <1/> time</0>} other {<2>Contribute to resistance <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Doprinesite otporu <1/> put</0>} other {<2>Doprinesite otporu <3/> puta</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:281
 msgid "{count, plural, one {<0>Craft <1/> item</0>} other {<2>Craft <3/> items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Izradite <1/> predmet</0>} other {<2>Izradite <3/> predmeta</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:918
 msgid "{count, plural, one {<0>Cross <1/> region on the map</0>} other {<2>Cross <3/> regions on the map</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Prijeđite <1/> regiju na mapi</0>} other {<2>Prijeđite <3/> regija na mapi</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:261
 msgid "{count, plural, one {<0>Dismantle <1/> item</0>} other {<2>Dismantle <3/> items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Rastavite <1/> predmet</0>} other {<2>Rastavite <3/> predmete</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:404
 msgid "{count, plural, one {<0>Dodge <1/> attack</0>} other {<2>Dodge <3/> attacks</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Izbjegnite <1/> štete</0>} other {<2>Izbjegnite <3/> štete</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:211
 msgid "{count, plural, one {<0>Eat <1/> food item</0>} other {<2>Eat <3/> food items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Pojedite <1/> komad hrane</0>} other {<2>Pojedite <3/> komada hrane</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "{count, plural, one {<0>Help <1/> MU member</0>} other {<2>Help <3/> MU members</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Pomognite <1/> članu vojne jedinice</0>} other {<2>Pomognite <3/> puta članovima vojne jedinice</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:161
 msgid "{count, plural, one {<0>Hit <1/> time in battles</0>} other {<2>Hit <3/> times in battles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Udarite <1/> put u bitkama</0>} other {<2>Udarite <3/> puta u bitkama</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:382
 msgid "{count, plural, one {<0>Land <1/> critical hit</0>} other {<2>Land <3/> critical hits</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Nanesite <1/> kritični udarac</0>} other {<2>Nanesite <3/> kritičnih udaraca</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:487
 msgid "{count, plural, one {<0>Like <1/> article</0>} other {<2>Like <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Lajkajte <1/> članak</0>} other {<2>Lajkajte <3/> članaka</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:613
 msgid "{count, plural, one {<0>Like <1/> message</0>} other {<2>Like <3/> messages</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Lajkajte <1/> poruku</0>} other {<2>Lajkajte <3/> poruke</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:467
 msgid "{count, plural, one {<0>Loot <1/> item on battlefield</0>} other {<2>Loot <3/> items on battlefield</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Pokupite <1/> plijen s bojišta</0>} other {<2>Pokupite <3/> plijena s bojišta</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:322
 msgid "{count, plural, one {<0>Participate in <1/> battle</0>} other {<2>Participate in <3/> battles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Sudjelujte u <1/> bitki</0>} other {<2>Sudjelujte u <3/> bitaka</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:704
 msgid "{count, plural, one {<0>Produce items <1/> time</0>} other {<2>Produce items <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Izradite predmet <1/> put</0>} other {<2>Izradite predmete <3/> puta</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:521
 msgid "{count, plural, one {<0>Read <1/> article</0>} other {<2>Read <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Pročitajte <1/> članak</0>} other {<2>Pročitajte <3/> članaka</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:93
 msgid "{count, plural, one {<0>Self work <1/> time in your companies</0>} other {<2>Self work <3/> times in your companies</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Radite <1/> put u vašim kompanijama</0>} other {<2>Radite <3/> puta u vašim kompanijama</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:563
 msgid "{count, plural, one {<0>Send <1/> message</0>} other {<2>Send <3/> messages</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Pošaljite <1/> poruku</0>} other {<2>Pošaljite <3/> poruka/e</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:790
 msgid "{count, plural, one {<0>Take care of an employee <1/> time in the company you manage</0>} other {<2>Take care of an employee <3/> times in the company you manage</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Zbrinite zaposlenika <1/> put u kompaniji kojom upravljate</0>} other {<2>Zbrinite zaposlenike <3/> puta u kompaniji kojom upravljate</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:435
 msgid "{count, plural, one {<0>Tip <1/> article</0>} other {<2>Tip <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Dajte napojnicu za <1/> članak</0>} other {<2>Dajte napojnicu za <3/> članaka</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:770
 msgid "{count, plural, one {<0>Train your employees <1/> time</0>} other {<2>Train your employees <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Obučite vaše zaposlenike <1/> put</0>} other {<2>Obučite vaše zaposlenike <3/> puta</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:887
 msgid "{count, plural, one {<0>Travel to another region <1/> time</0>} other {<2>Travel to another region <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Prijeđite u drugu regiju <1/> put</0>} other {<2>Prijeđite u drugu regiju <3/> puta</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:730
 msgid "{count, plural, one {<0>Upgrade your skills <1/> time</0>} other {<2>Upgrade your skills <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Nadogradite vašu vještinu <1/> put</0>} other {<2>Nadogradite vašu vještinu <3/> puta</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:127
 msgid "{count, plural, one {<0>Work <1/> time in your companies</0>} other {<2>Work <3/> times in your companies</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Radite <1/> put u vašim kompanijama</0>} other {<2>Radite <3/> puta u vašim kompanijama</2>}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:171
 msgid "{days, plural, one {# day of their wage} other {# days of their wage}}"
@@ -2635,16 +2635,16 @@ msgstr "<0>{depositBonus}</0> od nalazišta resursa u <1/>."
 
 #: src/components/_economy/employee/employeeStats.tsx:350
 msgid "<0>{luck}</0> Luck. Never output: it finds toolboxes, improves training draws and moves the odds of every employee event."
-msgstr ""
+msgstr "<0>{luck}</0> sreće. Nema utjecaja na produktivnost, ali povećava izgleda pronalaska kutije s alatom, povećava izglede za izvuči rijeđu kartu obuke i utječe na ishod događaja zaposlenika."
 
 #: src/components/_economy/employee/EmployeeSpecializations.tsx:41
 msgid "<0>{percentPerDay}</0> per day worked in a good, up to <1>{maxPercent}</1>. Each good keeps its own days, so a moved employee starts over in the new good and keeps the old bonus for later."
-msgstr ""
+msgstr "Svakoga radnog dana <0>{percentPerDay}</0> prema specijalizaciji u proizvodnji predmeta kompanije, do maksimalnih <1>{maxPercent}</1>. Svaki predmet proizvodnje zadržava svoje dane specijalizacije."
 
 #. placeholder {0}: fmt2(v / OUTPUT_DIVISOR)
 #: src/components/_economy/employee/employeeStats.tsx:259
 msgid "<0>{v}</0> Production ÷ {OUTPUT_DIVISOR} = <1>{0} points per hour</1>, before bonuses."
-msgstr ""
+msgstr "<0>{v}</0> Proizvodnja ÷ {OUTPUT_DIVISOR} = <1>{0} poena proizvodnje po satu</1>, prije bonusa."
 
 #: src/components/_economy/employee/employeeStats.tsx:463
 msgid "<0>{v}</0> Responsibility = <1>{shieldPct}% less</1> <2>Happiness</2> loss (max shield)."
@@ -2652,7 +2652,7 @@ msgstr ""
 
 #: src/components/_economy/employee/employeeStats.tsx:471
 msgid "<0>{v}</0> Responsibility = <1>{shieldPct}% less</1> <2>Happiness</2> loss."
-msgstr ""
+msgstr "<0>{v}</0> Odgovornosti = <1>{shieldPct}% manje</1> gubitka <2>zadovoljstva</2>."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:356
 msgid "<0>+15%</0> per female coworker (max <1>+30%</1>). Women only."
@@ -2745,7 +2745,7 @@ msgstr "<0>Proizvodnja</0>: koliko proizvodnje generiraju."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:147
 msgid "<0>Responsibility</0>: protects their <1>Happiness</1>."
-msgstr "<0>Odgovornost</0>: štiti njihovo <1>Zadovoljstvo</1>."
+msgstr "<0>Odgovornost</0>: štiti njihovo <1>zadovoljstvo</1>."
 
 #. placeholder {0}: gameConfig?.unrest.contributionCost
 #. placeholder {1}: gameConfig?.unrest.contributionCost
@@ -3900,11 +3900,11 @@ msgstr "Razvoj saveza (udio globalnog razvoja): <0/> (<1/>)"
 #. placeholder {0}: costMultiplier(effects.allianceUpkeepMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:408
 msgid "Alliance and pact upkeep {0}"
-msgstr ""
+msgstr "Održavanje saveza i paktova {0}"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:65
 msgid "Alliance backbone"
-msgstr ""
+msgstr "Okosnica saveza"
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:94
 msgid "Alliance battle damage bonus"
@@ -3935,7 +3935,7 @@ msgstr "Naziv saveza"
 #. placeholder {0}: costMultiplier(effects.allianceUpkeepMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:419
 msgid "Alliance upkeep {0}"
-msgstr ""
+msgstr "Održavanje saveza {0}"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:160
 #: src/components/_military/battle/ActiveBattlesList.tsx:101
@@ -3945,7 +3945,7 @@ msgstr "Saveznici"
 
 #: src/components/_social/poll/PollEditorModal.tsx:254
 msgid "Allow multiple answers"
-msgstr ""
+msgstr "Dozvolite više odgovora"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:73
 msgid "Almost feels like cheating"
@@ -3961,7 +3961,7 @@ msgstr "Alpha Tester"
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:221
 msgid "Already employed"
-msgstr ""
+msgstr "Već zaposlen"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:188
 msgid "Always, for every employee who turns {age}, then again every {every} while they stay. Each year past {age} takes {oddsPerYear}% off the odds of keeping them."
@@ -4024,7 +4024,7 @@ msgstr ""
 
 #: src/components/_political/govType/govType.frontConfig.tsx:358
 msgid "An occupied capital revolts on its own at full resistance"
-msgstr ""
+msgstr "Okupirana glavna regija revoltira sama od sebe sa punim otporom"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:135
 msgid "Anchor"
@@ -4355,7 +4355,7 @@ msgstr "Borbeni bonus:"
 #. placeholder {0}: costMultiplier(effects.nonCoreAttackOrderCostMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:328
 msgid "Attack orders outside its core regions cost {0}"
-msgstr ""
+msgstr "Naredbe za regije koje nisu izvorne koštaju {0}"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:193
 #: src/components/_military/war/WarComparison.tsx:41
@@ -4407,7 +4407,7 @@ msgstr "Automatski kupite pri nedostatku zaliha"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:76
 msgid "Autocracy"
-msgstr ""
+msgstr "Autokracija"
 
 #: src/components/_economy/company/CompanyTags.tsx:155
 msgid "Automated engine"
@@ -4550,7 +4550,7 @@ msgstr "Banovi"
 #: src/components/_economy/employee/employeeStats.tsx:193
 #: src/components/_economy/employee/employeeStats.tsx:804
 msgid "Base"
-msgstr ""
+msgstr "Osnovna vrijednost"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:84
 msgid "Base chance"
@@ -4671,7 +4671,7 @@ msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:696
 msgid "Become the manager of another player's company"
-msgstr ""
+msgstr "Postanite upravitelj tuđe kompanije"
 
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:221
 msgid "Before tax: buyers add their own tax on top."
@@ -4722,7 +4722,7 @@ msgstr "Ponudi"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:47
 msgid "Big peaceful population"
-msgstr ""
+msgstr "Velika benigna populacija"
 
 #: src/components/_political/region/RegionHeader.tsx:146
 msgid "Biome"
@@ -5032,19 +5032,19 @@ msgstr ""
 
 #: src/components/_political/govType/govType.frontConfig.tsx:453
 msgid "Can't have a sworn enemy"
-msgstr ""
+msgstr "Ne može imati zakletog neprijatelja"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:447
 msgid "Can't join an alliance"
-msgstr ""
+msgstr "Ne može se pridružiti savezima"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:459
 msgid "Can't send money to other countries"
-msgstr ""
+msgstr "Ne može prenositi novac u druge države"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:450
 msgid "Can't sign defensive pacts"
-msgstr ""
+msgstr "Ne može potpisivati obrambene paktove"
 
 #: src/components/_military/order/BattleOrderList.tsx:210
 #: src/components/_political/election/CandidateFormModal.tsx:79
@@ -5429,7 +5429,7 @@ msgstr "Preuzeto do sad"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:325
 msgid "Claimed!"
-msgstr ""
+msgstr "Preuzeto!"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:112
 msgid "Claustrophobe"
@@ -5437,7 +5437,7 @@ msgstr "Klaustrofob"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:79
 msgid "Clean slate"
-msgstr ""
+msgstr "Tabula rasa"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:319
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:171
@@ -5480,7 +5480,7 @@ msgstr "Kliknite da biste izabrali prijedlog"
 
 #: src/components/_layout/loadingTips.tsx:355
 msgid "Clicking a cost you can't afford opens the market, already filled with exactly what you're missing."
-msgstr ""
+msgstr "Dodir na trošak koji zahtijeva predmete koje nemate u inventaru automatski otvara tržište s točno onim što vam treba."
 
 #: src/components/_layout/map.frontConfig.tsx:80
 msgid "Climate"
@@ -5498,11 +5498,11 @@ msgstr "Zatvori"
 
 #: src/components/_layout/LayoutOptions.tsx:169
 msgid "Clouds"
-msgstr ""
+msgstr "Oblaci"
 
 #: src/utils/translations.tsx:276
 msgid "Cloudy Flask"
-msgstr ""
+msgstr "Maglovita Čutura"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:266
 msgid "Clovis Point"
@@ -5510,7 +5510,7 @@ msgstr "Kameni Šiljak"
 
 #: src/components/_economy/strategicResource/strategicResource.frontConfig.ts:21
 msgid "Coal"
-msgstr ""
+msgstr "Ugljen"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:37
 msgid "Cold af"
@@ -5752,7 +5752,7 @@ msgstr "Osvojene regije"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:208
 msgid "Conquered regions give no development income"
-msgstr ""
+msgstr "Osvojene regije ne stvaraju prihod od razvoja"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:91
 msgid "Conqueror"
@@ -5782,7 +5782,7 @@ msgstr "Povećava <0>napad</0> sljedećih {0} sati, a zatim ga smanjuje za isti 
 
 #: src/components/_user/user/UserBadges.tsx:155
 msgid "Content Mod"
-msgstr ""
+msgstr "Moderator Sadržaja"
 
 #: src/components/_layout/LayoutOptions.tsx:137
 msgid "Contextual borders"
@@ -6004,7 +6004,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:146
 msgid "Cozy"
-msgstr ""
+msgstr "Ugodni"
 
 #: src/utils/translations.tsx:267
 msgid "Cracked Hammer"
@@ -6013,7 +6013,7 @@ msgstr ""
 #: src/components/_user/mission/mission.frontConfig.tsx:279
 #: src/pages/user/[userId]/inventory.tsx:66
 msgid "Craft"
-msgstr "Izradi"
+msgstr "Izradite"
 
 #: src/components/_economy/transaction/TransactionList.tsx:92
 msgid "Craft Item"
@@ -6103,7 +6103,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:139
 msgid "Crisis"
-msgstr ""
+msgstr "Krizni"
 
 #: src/components/_user/user/skills.frontConfig.tsx:66
 #: src/components/_user/user/skills.frontConfig.tsx:67
@@ -6249,7 +6249,7 @@ msgstr "Šteta po korisniku"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:83
 msgid "Damage farmer"
-msgstr ""
+msgstr "Akumulator štete"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:127
 msgid "Damage ranking"
@@ -6408,7 +6408,7 @@ msgstr "Obrani"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:59
 msgid "Defend and liberate"
-msgstr ""
+msgstr "Obrana i sloboda"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:192
 #: src/components/_military/war/WarComparison.tsx:49
@@ -6426,7 +6426,7 @@ msgstr "Obrambeni pakt"
 #. placeholder {0}: damagesPerDay(effects.pactBonusPerDayPercent)
 #: src/components/_political/govType/govType.frontConfig.tsx:397
 msgid "Defensive pact bonus ramps {0}"
-msgstr ""
+msgstr "Bonus od obrambenog pakta raste za {0}"
 
 #: src/components/_political/event/EventList.tsx:137
 msgid "Defensive pact broken"
@@ -6639,7 +6639,7 @@ msgstr "Diplomacija"
 
 #: src/components/_military/order/BattleOrderActions.tsx:98
 msgid "Disable"
-msgstr ""
+msgstr "Onemogućite"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:442
 msgid "Disable company"
@@ -6647,7 +6647,7 @@ msgstr "Onemogući kompaniju"
 
 #: src/components/_military/order/BattleOrderActions.tsx:72
 msgid "Disable Order"
-msgstr ""
+msgstr "Onemogućite Naredbu"
 
 #: src/components/_economy/company/CompanyTags.tsx:124
 #: src/components/_economy/employee/WorkforceSummary.tsx:145
@@ -6657,7 +6657,7 @@ msgstr "Onemogućeno"
 
 #: src/components/_layout/LayoutOptions.tsx:159
 msgid "Disabled upgrades"
-msgstr ""
+msgstr "Onemogućene nadogradnje"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:93
 msgid "Disbanded"
@@ -6670,7 +6670,7 @@ msgstr "Rastavite"
 
 #: src/components/_economy/inventory/Inventory.tsx:120
 msgid "Dismantle item"
-msgstr ""
+msgstr "Rastavite predmet"
 
 #: src/components/_economy/transaction/TransactionList.tsx:97
 msgid "Dismantle Item"
@@ -6833,15 +6833,15 @@ msgstr "Upravljanje dodaje <0>{perPoint}</0> bonusa proizvodnje svakome vašem z
 #. placeholder {2}: ts.cookedFish
 #: src/components/_layout/loadingTips.tsx:124
 msgid "Each meal costs <0>1</0>. <1>{0}</1> restores {breadRegen}% of your max <2>Health</2>, <3>{1}</3> {steakRegen}% and <4>{2}</4> {cookedFishRegen}%."
-msgstr ""
+msgstr "Svaki obrok troši <0>1</0>. <1>{0}</1> obnavlja {breadRegen}%, <3>{1}</3> {steakRegen}% i <4>{2}</4> {cookedFishRegen}% vašeg maksimalnog <2>zdravlja</2>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:377
 msgid "Each meal refills your <0>Health</0> and uses <1>Hunger</1>."
-msgstr ""
+msgstr "Svaki obrok obnavlja vaše <0>zdravlje</0> i troši <1>apetit</1>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:575
 msgid "Each one leads to the next."
-msgstr ""
+msgstr "Svaki vodi do sljedećeg."
 
 #: src/components/_user/user/SkillUpgrade.tsx:319
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -6849,11 +6849,11 @@ msgstr "Svaki poen prestiža daje ekvivalent {skillBonusLevels} razine odabrane 
 
 #: src/components/_layout/loadingTips.tsx:247
 msgid "Each region you cross costs <0>{MOVE_STAMINA_PER_REGION}</0>. When the bar runs dry, the trip costs <1>{MOVE_OIL_PER_REGION}</1> per region instead."
-msgstr ""
+msgstr "Za svaku regiju koju prijeđete trošite <0>{MOVE_STAMINA_PER_REGION}</0>. Kad istrošitu svu kondiciju, za prijelazak u novu regiju koristite petrol i trošite <1>{MOVE_OIL_PER_REGION}</1> po regiji."
 
 #: src/pages/country/[countryId]/index.tsx:409
 msgid "Each strategic resource pays the country holding it, every day, the core <0>Development</0> of the country it originally belonged to."
-msgstr ""
+msgstr "Svakoga dana okupirana regija sa strateškim resursom doprihodi novčani iznos jednak <0>razvoju izvornih regija</0> od matične države."
 
 #: src/components/_user/milestone/milestone.frontConfig.tsx:34
 msgid "Earn <0/> in total"
@@ -6906,11 +6906,11 @@ msgstr "Ekonomija & Kompanije"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:71
 msgid "Economy first"
-msgstr ""
+msgstr "Prvo ekonomija"
 
 #: src/components/_military/order/BattleOrderActions.tsx:91
 msgid "Edit"
-msgstr ""
+msgstr "Uredite"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:148
 msgid "Edit country order"
@@ -7338,7 +7338,7 @@ msgstr "Svaki zaposlenik otključa 1 do 3 osobine pri zaposlenju. Ostale osobine
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:580
 msgid "Every happiness loss hits them half as hard."
-msgstr "Svaki gubitak sreće ih pogađa upola teško."
+msgstr "Svaki gubitak zadovoljstva ih pogađa upola teško."
 
 #: src/components/_layout/loadingTips.tsx:115
 msgid "Every hit in battle costs <0>{healthCost}</0>. Eat food to get back in the fight."
@@ -7606,7 +7606,7 @@ msgstr "Omiljeno"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:64
 msgid "Federation"
-msgstr ""
+msgstr "Federacija"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:238
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:108
@@ -7733,11 +7733,11 @@ msgstr "Otpustite"
 #: src/components/_user/user/UserEffectSelector.tsx:62
 msgctxt "username effect: flames"
 msgid "Fire"
-msgstr ""
+msgstr "Plamen"
 
 #: src/components/_economy/employee/useConfirmFire.tsx:61
 msgid "Fire employee?"
-msgstr ""
+msgstr "Otpustiti zaposlenika?"
 
 #: src/components/_political/government/Government.tsx:275
 msgid "Fire government member"
@@ -7810,7 +7810,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:152
 msgid "Follow-up"
-msgstr ""
+msgstr "Kaskadni"
 
 #: src/components/_layout/LayoutOptions.tsx:305
 msgid "Font"
@@ -7898,7 +7898,7 @@ msgstr "Besplatna dnevna nagrada"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:300
 msgid "Free national orders to defend, revolt in or retake its core regions"
-msgstr ""
+msgstr "Besplatne državne naredbe za obranu, otpor ili oslobađanje svojih izvornih regije"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2541
 msgid "Free paper, blank on the back. The coworkers are delighted."
@@ -8426,7 +8426,7 @@ msgstr ""
 #: src/components/_economy/employee/WorkforceSummary.tsx:317
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:159
 msgid "Happiness"
-msgstr ""
+msgstr "Zadovoljstvo"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:148
 msgid "Happiness {mood} or less, or {burnout} or {wornOut}."
@@ -8694,7 +8694,7 @@ msgstr "Početna"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:58
 msgid "Homeland Front"
-msgstr ""
+msgstr "Domovinska Fronta"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:123
 msgid "Homesick"
@@ -8879,7 +8879,7 @@ msgstr "Novak"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:136
 msgid "Inspiration"
-msgstr ""
+msgstr "Motivacijski"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3737
 msgid "Install a fake thermostat"
@@ -9602,7 +9602,7 @@ msgstr "Poručnik"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:145
 msgid "Life"
-msgstr ""
+msgstr "Životni"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:282
 msgid "Lifetime goals"
@@ -9856,34 +9856,34 @@ msgstr "Upravljanje"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:91
 msgid "Management {value}"
-msgstr ""
+msgstr "Upravljanje {value}"
 
 #: src/components/_economy/employee/employeeStats.tsx:584
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:278
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:486
 #: src/pages/company/[companyId]/index.tsx:57
 msgid "Manager"
-msgstr ""
+msgstr "Upravitelj"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2201
 msgid "Manager hired"
-msgstr ""
+msgstr "Upravitelj zaposlen"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:67
 msgid "Manager jobs"
-msgstr ""
+msgstr "Poslovi upravitelja"
 
 #: src/components/_economy/manager/manager.hooks.ts:151
 msgid "Manager moved"
-msgstr ""
+msgstr "Upravitelj premješten"
 
 #: src/pages/market/jobs.tsx:26
 msgid "Manager positions"
-msgstr ""
+msgstr "Upraviteljske pozicije"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2203
 msgid "Manager resigned"
-msgstr ""
+msgstr "Upravitelj je dao otkaz"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:205
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:434
@@ -9891,15 +9891,15 @@ msgstr ""
 #: src/components/_political/law/law.frontConfig.tsx:66
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:68
 msgid "Manager tax"
-msgstr ""
+msgstr "Porez za upravitelje"
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:158
 msgid "Manager Tax"
-msgstr ""
+msgstr "Porez za Upravitelje"
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:375
 msgid "Manager wanted"
-msgstr ""
+msgstr "Potreban upravitelj"
 
 #. placeholder {0}: 3
 #. placeholder {1}: -1
@@ -9941,7 +9941,7 @@ msgstr "Tržište"
 
 #: src/components/_economy/employee/TrainingDraftModal.tsx:199
 msgid "Market rate"
-msgstr ""
+msgstr "Tržišna stopa"
 
 #: src/components/_political/country/CountryTaxes.tsx:29
 #: src/components/_political/law/law.frontConfig.tsx:67
@@ -10155,7 +10155,7 @@ msgstr "Reputacija Plaćenika"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:82
 msgid "Mercenary State"
-msgstr ""
+msgstr "Plaćenička Država"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:129
 msgid "Message"
@@ -10727,17 +10727,17 @@ msgstr "Državna nagrada"
 #. placeholder {0}: costMultiplier(effects.orderCostMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:291
 msgid "National orders cost {0}"
-msgstr ""
+msgstr "Državne naredbe koštaju {0}"
 
 #. placeholder {0}: costMultiplier(effects.coreOrderCostMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:308
 msgid "National orders for its core regions cost {0}"
-msgstr ""
+msgstr "Državne naredbe za izvorne regije koštaju {0}"
 
 #. placeholder {0}: damagesMultiplier(effects.orderBonusMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:279
 msgid "National orders give {0} bonus (normal bonus while the capital is occupied)"
-msgstr ""
+msgstr "Državne naredbe daju {0} borbenog bonusa (normalni bonus dok je glavna izvorna regija okupirana)"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:87
 msgid "Nationalist"
@@ -10745,7 +10745,7 @@ msgstr "Nacionalist"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:52
 msgid "Nationalist State"
-msgstr ""
+msgstr "Nacionalna država"
 
 #: src/components/_military/mu/MuHeader.tsx:104
 #: src/components/_user/auth/WelcomeModal.tsx:266
@@ -10829,7 +10829,7 @@ msgstr "Nikad ne odustaj od kocke!"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:592
 msgid "Never walks out. Below {quitThreshold} happiness, produces half as much."
-msgstr "Nikada ne napušta kompaniju, ali ispod {quitThreshold} sreće  prepolavlja mu se produktivnost."
+msgstr "Nikada ne napušta kompaniju, ali ispod {quitThreshold} zadovoljstva prepolavlja mu se produktivnost."
 
 #: src/components/_economy/itemOffer/itemOffer.frontConfig.tsx:10
 #: src/components/_other/shop/SkinPackItem.tsx:93
@@ -11068,15 +11068,15 @@ msgstr "Još nema ponuda"
 
 #: src/components/_economy/inventory/Inventory.tsx:529
 msgid "No boots"
-msgstr ""
+msgstr "Nema čizmi"
 
 #: src/components/_economy/employee/RecruitModal.tsx:149
 msgid "No candidates available"
-msgstr ""
+msgstr "Još nema dostupnih kandidata"
 
 #: src/components/_economy/inventory/Inventory.tsx:526
 msgid "No chests"
-msgstr ""
+msgstr "Nema oklopa"
 
 #: src/pages/country/[countryId]/citizens.tsx:41
 msgid "No citizens"
@@ -11084,7 +11084,7 @@ msgstr "Nema građana"
 
 #: src/components/_economy/manager/ManagerOfferList.tsx:139
 msgid "No company is looking for a manager right now."
-msgstr ""
+msgstr "Trenutno nema kompanija koje traže upravitelja."
 
 #: src/pages/country/[countryId]/government.tsx:178
 msgid "No congress members"
@@ -11092,7 +11092,7 @@ msgstr "Nema članova vlade"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:485
 msgid "No congress: only the president and vice president vote laws"
-msgstr ""
+msgstr "Nema kongresa već samo predsjednik i potpredsjednik izglasavaju zakone"
 
 #: src/components/_political/contribution/ContributionList.tsx:221
 msgid "No contributions yet"
@@ -11108,7 +11108,7 @@ msgstr "Još uvijek nema rangirane štete."
 
 #: src/components/_economy/employee/EmployeeSpecializations.tsx:59
 msgid "No days worked yet"
-msgstr ""
+msgstr "Još nema ni jednog dana radnog staža"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:377
 msgid "No defensive pact"
@@ -11120,19 +11120,19 @@ msgstr "Još nema donacija"
 
 #: src/components/_political/govType/GovTypeEffects.tsx:56
 msgid "No effects"
-msgstr ""
+msgstr "Nema efekta"
 
 #: src/components/_economy/employee/EmployeeList.tsx:331
 msgid "No employees"
-msgstr ""
+msgstr "Nema zaposlenika"
 
 #: src/components/_economy/inventory/Inventory.tsx:527
 msgid "No gloves"
-msgstr ""
+msgstr "Nema rukavica"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:41
 msgid "No government type chosen yet"
-msgstr ""
+msgstr "Tip vlade nije definiran"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1183
 msgid "No grapes"
@@ -11144,7 +11144,7 @@ msgstr "Još uvijek nema rangiranih poena."
 
 #: src/components/_economy/inventory/Inventory.tsx:525
 msgid "No helmets"
-msgstr ""
+msgstr "Nema kaciga"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:317
 msgid "No home region set"
@@ -11152,7 +11152,7 @@ msgstr "Bez regije prebivališta"
 
 #: src/components/_economy/inventory/Inventory.tsx:212
 msgid "No items"
-msgstr ""
+msgstr "Nema predmeta"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:284
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:203
@@ -11214,11 +11214,11 @@ msgstr ""
 
 #: src/components/_political/govType/govType.frontConfig.tsx:478
 msgid "No ministers (vice president only)"
-msgstr ""
+msgstr "Nema ministara (samo potpredsjednik)"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:468
 msgid "No ministers and no congress: only the president and vice president vote laws"
-msgstr ""
+msgstr "Nema ministara i kongresa: samo predsjednik i potpredsjednik mogu izglasavati zakone"
 
 #: src/components/_user/mission/MissionsList.tsx:320
 msgid "No missions available"
@@ -11246,7 +11246,7 @@ msgstr "Nema naredbi"
 
 #: src/components/_economy/inventory/Inventory.tsx:528
 msgid "No pants"
-msgstr ""
+msgstr "Nema hlača"
 
 #: src/components/_political/party/PartyList.tsx:95
 msgid "No parties found"
@@ -11254,7 +11254,7 @@ msgstr "Nije pronađena ni jedna stranka"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:311
 msgid "No presets saved yet."
-msgstr ""
+msgstr "Nema spremljenih postavki vještina."
 
 #: src/components/_user/user/SkillUpgrade.tsx:313
 msgid "No prestige points left, tap to reset staged points"
@@ -11323,11 +11323,11 @@ msgstr "Transakcije nisu pronađene"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:442
 msgid "No treaties (alliance, pacts, sworn enemy)"
-msgstr ""
+msgstr "Nema ugovora (savezničkih, obrambenih, zakletih neprijatelja)"
 
 #: src/components/_social/poll/PollVotersModal.tsx:42
 msgid "No votes yet"
-msgstr ""
+msgstr "Još nema glasova"
 
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
@@ -11339,7 +11339,7 @@ msgstr "Nema oružja ili komada opreme za rastaviti"
 
 #: src/components/_economy/work/WorkList.tsx:63
 msgid "No work yet"
-msgstr ""
+msgstr "Još nema rada"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3579
 msgid "Nobody admits to the birthday. The card is now evidence."
@@ -11637,7 +11637,7 @@ msgstr ""
 
 #: src/components/_political/govType/govType.frontConfig.tsx:77
 msgid "One ruler, fast decisions"
-msgstr ""
+msgstr "Jedan vođa, brze odluke"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:70
 msgid "One step away from legendary..."
@@ -11843,7 +11843,7 @@ msgstr "Naredbe od <0/>"
 #. placeholder {0}: costMultiplier(effects.allyOrderCostMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:318
 msgid "Orders on allies' and pact partners' battles cost {0}"
-msgstr ""
+msgstr "Naredbe za bitke saveznika i članova pakta koštaju {0}"
 
 #: src/components/_political/map/MapMenu.tsx:459
 msgid "Origin"
@@ -11858,7 +11858,7 @@ msgstr "Ostalo"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:369
 msgid "Out of Health?"
-msgstr ""
+msgstr "Ostali ste bez Zdravlja?"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:72
 #: src/components/_political/law/Law.tsx:78
@@ -11892,7 +11892,7 @@ msgstr ""
 
 #: src/components/_political/govType/govType.frontConfig.tsx:53
 msgid "Own country first, no alliance"
-msgstr ""
+msgstr "Prioritet je vlastita država bez saveznika"
 
 #: src/components/_other/shop/SkinPackItem.tsx:108
 msgid "Owned"
@@ -11939,7 +11939,7 @@ msgstr "Paketi"
 #. placeholder {0}: costMultiplier(effects.pactUpkeepMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:428
 msgid "Pact upkeep {0}"
-msgstr ""
+msgstr "Održavanje pakta {0}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:499
 msgid "Paid back in full"
@@ -12081,7 +12081,7 @@ msgstr "Patriot"
 #. placeholder {1}: damagesPercent(next, false)
 #: src/components/_political/govType/govType.frontConfig.tsx:249
 msgid "Patriotic bonus {0} → {1}"
-msgstr ""
+msgstr "Patriotski bonus {0} → {1}"
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:51
 #: src/components/_user/user/Level.tsx:200
@@ -12359,7 +12359,7 @@ msgstr "Molim vas izaberite regiju"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:70
 msgid "Plutocracy"
-msgstr ""
+msgstr "Plutokracija"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:103
 msgid "Poached"
@@ -12786,7 +12786,7 @@ msgstr ""
 
 #: src/components/_political/govType/govType.frontConfig.tsx:40
 msgid "Provisional"
-msgstr ""
+msgstr "Privremena vlada"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3905
 msgid "Prune Kevin"
@@ -13475,7 +13475,7 @@ msgstr "Prijave"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:46
 msgid "Republic"
-msgstr ""
+msgstr "Republika"
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:34
 msgid "Reputation decays 20% toward 0 every week (minimum 1 point)."
@@ -13580,7 +13580,7 @@ msgstr "Otpor"
 #. placeholder {0}: resistanceMultiplier(effects.coreResistanceContributionMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:347
 msgid "Resistance contributions {0} in its occupied core regions"
-msgstr ""
+msgstr "Doprinos otporu {0} za okupirane izvorne regije"
 
 #: src/components/_political/contribution/ContributionList.tsx:194
 msgid "Resistance Contributors"
@@ -14466,7 +14466,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1018
 msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day, never to someone hired less than {hired} ago. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
-msgstr ""
+msgstr "Događaji i situacije koje utječu na radni put zaposlenika i radnu klimu unutar kompanija. Moguće je imati do {maxPerDay} situacije dnevno koje se generiraju samo za zaposlenike zaposlene duže od {hired} dana. Ako ne odabereš ishod, nakon {expires} primjenjuje se ishod u slučaju zanemarivanja. Izgledi ovise o zaposleniku i tvojim vještinama, a prikazuju se kad se događaj dogodi."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:610
 msgid "Something in the storeroom"
@@ -14639,7 +14639,7 @@ msgstr "Počinje od 1% i raste +1% svakoga dana sve do <0>{0}</0>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:584
 msgid "Starts looking for the door at {flightRiskQuitThreshold} happiness, not {quitThreshold}."
-msgstr "Počinje razmišljati o otkazu pri {flightRiskQuitThreshold} sreće."
+msgstr "Počinje razmišljati o otkazu pri {flightRiskQuitThreshold} zadovoljstva."
 
 #: src/components/_social/poll/PollCard.tsx:218
 msgid "Starts when the article is published"
@@ -14869,7 +14869,7 @@ msgstr "Zakleti neprijatelj"
 #. placeholder {2}: damagesPerDay(perDay)
 #: src/components/_political/govType/govType.frontConfig.tsx:387
 msgid "Sworn enemy bonus from {0} up to {1} at {2}"
-msgstr ""
+msgstr "Bonus od zakletog neprijateljstva od {0} do {1} za {2} svakog dana"
 
 #: src/components/_political/event/EventList.tsx:115
 msgid "System revolt"
@@ -15206,7 +15206,7 @@ msgstr "Ukupni trošak predstavlja osnovni trošak zakona skaliranog prema prosj
 
 #: src/components/_economy/strategicResource/StrategicResource.tsx:34
 msgid "The country holding this region earns, every day, money equal to the core <0>Development</0> of the country it originally belonged to."
-msgstr ""
+msgstr "Država koja upravlja ovom regijom svakoga dana zarađuje iznos novaca jednak vrijednosti <0>razvoja izvornih regija</0> matične države."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:398
 msgid "The course opens doors: there is more to train now."
@@ -15322,27 +15322,27 @@ msgstr ""
 
 #: src/components/_political/law/LawFormModal.tsx:356
 msgid "The government type changed less than {GOV_TYPE_CHANGE_COOLDOWN_DAYS} days ago. It can change again <0/>."
-msgstr ""
+msgstr "Promjena tipa vlade je izvršena prije {GOV_TYPE_CHANGE_COOLDOWN_DAYS} dana. Promijena je ponovo moguća <0/>."
 
 #: src/components/_political/law/LawGovTypeAlert.tsx:44
 msgid "The government type of the target country forbids defensive pacts."
-msgstr ""
+msgstr "Tip vlade te države onemogućava obrambene paktove."
 
 #: src/components/_political/law/LawGovTypeAlert.tsx:53
 msgid "The government type of this country forbids a sworn enemy."
-msgstr ""
+msgstr "Tip vlade ove države onemogućava ugovore o zakletom neprijatelju."
 
 #: src/components/_political/law/LawGovTypeAlert.tsx:27
 msgid "The government type of this country forbids alliances."
-msgstr ""
+msgstr "Tip vlade ove države onemogućava savezništva."
 
 #: src/components/_political/law/LawGovTypeAlert.tsx:35
 msgid "The government type of this country forbids defensive pacts."
-msgstr ""
+msgstr "Tip vlade ove države onemogućava obrambene paktove."
 
 #: src/components/_political/law/LawGovTypeAlert.tsx:62
 msgid "The government type of this country forbids sending money to a country."
-msgstr ""
+msgstr "Tip vlade ove države onemogućava prijenos novca drugim državama."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1831
 msgid "The great soup debate"
@@ -16609,7 +16609,7 @@ msgstr "Nemiri"
 #. placeholder {0}: unrestMultiplier(effects.unrestIncreaseMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:365
 msgid "Unrest contributions {0} when pushing the bar up"
-msgstr ""
+msgstr "Doprinos nemirima {0} prilikom povećanja"
 
 #: src/components/_political/contribution/ContributionList.tsx:196
 msgid "Unrest Contributors"
@@ -17458,7 +17458,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:144
 msgid "World"
-msgstr ""
+msgstr "Svjetski"
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:65
 msgid "World <0/>"
