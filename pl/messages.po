@@ -17679,7 +17679,7 @@ msgstr "Opcjonalnie możesz powiązać artykuł kampanijny ze swoją kandydatur�
 #. placeholder {0}: getTimeAgo(managerLockedUntil, 'fromNow')
 #: src/components/_economy/company/CompanyDropdown.tsx:493
 msgid "You can resign {0}"
-msgstr "Możesz odwołać {0}"
+msgstr "Możesz zrezygnować {0}"
 
 #: src/components/_user/user/Level.tsx:113
 msgid "You can upgrade your skills!"
