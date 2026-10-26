@@ -313,7 +313,7 @@ msgstr "ساعات غير مدفوعة {0}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:913
 msgid "{answerWithin} to answer"
-msgstr "{answerWithin} للاجابة خلال""
+msgstr "{answerWithin} للاجابة خلال\""
 
 #. placeholder {0}: states.length
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:214
