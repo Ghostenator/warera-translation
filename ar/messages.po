@@ -1839,7 +1839,7 @@ msgstr ""
 msgid "{value} training potential left"
 msgstr ""
 
-#: src/components/_economy/employee/employeeCards.tsx:215
+#: src/components/_economy/employee/employeeCards.tsx:224
 #: src/components/_economy/employee/EmployeeTooltip.tsx:142
 msgid "{wage} / day"
 msgstr ""
@@ -4227,7 +4227,7 @@ msgid "Article tipped"
 msgstr "تم تلقي إكرامية للمقال"
 
 #: src/components/_user/user/UserHeader.tsx:246
-#: src/pages/user/[userId]/index.tsx:226
+#: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "مقالات"
 
@@ -5101,7 +5101,7 @@ msgstr "أُلغي بواسطة المسؤول"
 msgid "Candidacy is open for <0/>"
 msgstr "باب الترشح مفتوح لـ <0/>"
 
-#: src/components/_economy/employee/employeeCards.tsx:211
+#: src/components/_economy/employee/employeeCards.tsx:220
 #: src/components/_political/election/CandidateFormModal.tsx:82
 msgid "Candidate"
 msgstr "مرشح"
@@ -6161,7 +6161,7 @@ msgstr "مكافأة ضرر للمعارك الحالية للتحالف ← <0/
 msgid "Current development"
 msgstr "التطور الحالي"
 
-#: src/pages/user/[userId]/index.tsx:188
+#: src/pages/user/[userId]/index.tsx:186
 msgid "Current Military Unit"
 msgstr "الوحدة العسكرية الحالية"
 
@@ -8156,7 +8156,7 @@ msgstr "يعطي <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "الكرة الأرضية (تجريبي)"
 
-#: src/components/_political/map/MapLibre.tsx:632
+#: src/components/_political/map/MapLibre.tsx:633
 msgid "Globe view isn't supported on this device"
 msgstr "عرض الكرة الأرضية غير مدعوم على هذا الجهاز"
 
@@ -8173,6 +8173,10 @@ msgstr "توهّج"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:95
 msgid "Go play lottery right now"
 msgstr "اذهب والعب اليانصيب الآن"
+
+#: src/components/_political/map/MapOrderIndicators.tsx:526
+msgid "Go to ordered battle"
+msgstr ""
 
 #: src/components/_economy/company/CompanyList.tsx:173
 msgid "Go to skills"
@@ -8608,7 +8612,7 @@ msgstr ""
 msgid "High Commander"
 msgstr "قائد أعلى"
 
-#: src/components/_economy/employee/employeeCards.tsx:242
+#: src/components/_economy/employee/employeeCards.tsx:251
 msgid "Hire"
 msgstr ""
 
@@ -8936,7 +8940,7 @@ msgstr ""
 #: src/pages/market/index.tsx:55
 #: src/pages/user/[userId]/account.tsx:20
 #: src/pages/user/[userId]/companies.tsx:34
-#: src/pages/user/[userId]/index.tsx:219
+#: src/pages/user/[userId]/index.tsx:217
 msgid "Inventory"
 msgstr "المخزون"
 
@@ -11925,7 +11929,7 @@ msgstr "مملوكة"
 msgid "Owned by {0}% of players"
 msgstr "يمتلكها {0}% من اللاعبين"
 
-#: src/pages/user/[userId]/index.tsx:194
+#: src/pages/user/[userId]/index.tsx:192
 msgid "Owned Military Units"
 msgstr "الوحدات العسكرية المملوكة"
 
@@ -12015,7 +12019,7 @@ msgstr ""
 #: src/components/_layout/MoreButtonNav.tsx:137
 #: src/components/_political/party/PartyHeader.tsx:74
 #: src/components/_user/notification/notificationPrefs.categories.ts:168
-#: src/pages/user/[userId]/index.tsx:203
+#: src/pages/user/[userId]/index.tsx:201
 msgid "Party"
 msgstr "الحزب"
 
@@ -12456,7 +12460,7 @@ msgstr ""
 msgid "Post announcement"
 msgstr "نشر إعلان"
 
-#: src/components/_economy/employee/employeeCards.tsx:226
+#: src/components/_economy/employee/employeeCards.tsx:235
 msgid "Potential"
 msgstr ""
 
@@ -13167,7 +13171,7 @@ msgstr "تم نسخ رابط الإحالة إلى الحافظة"
 
 #: src/components/_user/user/UserHeader.tsx:252
 #: src/components/_user/user/UserRankingsPanel.tsx:61
-#: src/pages/user/[userId]/index.tsx:237
+#: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
 msgstr "الإحالات"
@@ -14354,7 +14358,7 @@ msgstr ""
 #: src/components/_user/mission/ProgressHeader.tsx:90
 #: src/components/_user/user/MyAvatar.tsx:44
 #: src/components/_user/user/UserHeader.tsx:192
-#: src/pages/user/[userId]/index.tsx:180
+#: src/pages/user/[userId]/index.tsx:178
 msgid "Skills"
 msgstr "المهارات"
 
@@ -14879,7 +14883,7 @@ msgstr ""
 msgid "Sweethearts"
 msgstr ""
 
-#: src/components/_political/map/MapLibre.tsx:633
+#: src/components/_political/map/MapLibre.tsx:634
 msgid "Switched back to the flat map."
 msgstr "تم التبديل  إلى الخريطة المسطحة"
 
@@ -16452,7 +16456,7 @@ msgstr "معاملات"
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/components/_political/party/PartyHeader.tsx:129
 #: src/pages/market/index.tsx:86
-#: src/pages/user/[userId]/index.tsx:248
+#: src/pages/user/[userId]/index.tsx:246
 msgid "Transactions"
 msgstr "المعاملات"
 
