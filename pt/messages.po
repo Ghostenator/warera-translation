@@ -1951,6 +1951,7 @@ msgstr ""
 #: src/components/_economy/employee/EstimatedProfit.tsx:143
 #: src/components/_economy/employee/WorkforceSummary.tsx:520
 #: src/components/_economy/employee/WorkforceSummary.tsx:555
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:92
 #: src/components/_political/government/Government.tsx:232
 msgid "/day"
 msgstr "/dia"
@@ -1970,10 +1971,6 @@ msgstr ""
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:383
 msgid "/h max"
-msgstr ""
-
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:153
-msgid "/h per point"
 msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:203
@@ -3833,7 +3830,7 @@ msgstr "Todas as categorias"
 msgid "All companies"
 msgstr "Todas as empresas"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:195
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:171
 msgid "All countries"
 msgstr "Todos os países"
 
@@ -4698,14 +4695,11 @@ msgstr ""
 msgid "Believe {partnerName}"
 msgstr ""
 
+#: src/components/_economy/manager/managerStats.tsx:68
 #: src/components/_layout/LayoutOptions.tsx:285
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "Melhor"
-
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:147
-msgid "Best offer"
-msgstr ""
 
 #: src/components/_economy/manager/ManagerBestOfferLine.tsx:37
 msgid "Best position for you"
@@ -6541,7 +6535,7 @@ msgstr "Depósito de recurso"
 msgid "Deposit resources"
 msgstr "Depósitos de recursos"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:206
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:182
 msgid "Describe the role, what you expect, what you offer..."
 msgstr ""
 
@@ -6557,7 +6551,7 @@ msgstr "Descreve os objetivos e valores do teu partido"
 msgid "Description"
 msgstr "Descrição"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:204
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:180
 msgid "Description (Optional)"
 msgstr ""
 
@@ -6846,6 +6840,10 @@ msgstr ""
 msgid "Each level opens something new."
 msgstr "Subir de nível traz novas vantagens."
 
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:138
+msgid "Each Management point adds {pointPercent}% production to every employee: from {bonusAtZero}% at level 0 to {bonusAtMax}% at level {MAX_LEVEL}."
+msgstr ""
+
 #: src/components/_user/user/EcoSkillEffects.tsx:85
 msgid "Each Management point adds <0>{perPoint}</0> to the production bonus of every one of your employees, and is what a manager position pays you for."
 msgstr "Cada ponto adiciona <0>{perPoint}</0> ao bónus de produção de todos os teus funcionários e também aumenta o que ganhas como gestor."
@@ -6970,7 +6968,7 @@ msgstr ""
 msgid "Edit resistance focus"
 msgstr "Editar foco de resistência"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:130
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:129
 msgid "Edit the position"
 msgstr ""
 
@@ -7286,6 +7284,8 @@ msgid "Estimated minimum time for this side to win the current round if all tick
 msgstr "Tempo mínimo estimado para este lado vencer a ronda atual caso vença todos os ticks."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:65
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:53
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:57
 msgid "Estimated profit"
 msgstr ""
 
@@ -7396,10 +7396,6 @@ msgstr ""
 #: src/components/_other/tour/tuto.frontConfig.tsx:260
 msgid "Every level gives skill points. Tap Skills."
 msgstr "Cada nível dá-te pontos de habilidade. Vai a Habilidades para os usares."
-
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:164
-msgid "Every manager has at least {pointsAtZero} point, so even one with no Management level gives {bonusAtZero}%. A level {MAX_LEVEL} one gives {bonusAtMax}%."
-msgstr ""
 
 #: src/components/_user/mission/ProgressHeader.tsx:112
 msgid "Every mission you ever completed and claimed"
@@ -7853,6 +7849,10 @@ msgstr "Estilo da fonte"
 #: src/components/_user/user/UserFontSelector.tsx:72
 msgid "Font updated"
 msgstr "Tipo de letra atualizado"
+
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:86
+msgid "for"
+msgstr ""
 
 #: src/components/_economy/manager/ManagerCareButton.tsx:117
 msgid "for {durationHours}h. One pick per day, boosts stack."
@@ -9448,7 +9448,7 @@ msgstr "Sair da aliança"
 msgid "Leave congress"
 msgstr "Sair do congresso"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:190
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:166
 msgid "Leave empty for no requirement"
 msgstr ""
 
@@ -10362,7 +10362,7 @@ msgstr "Mínimo de cidadãos ativos"
 msgid "Minimum level to vote"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:189
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:165
 msgid "Minimum Management"
 msgstr ""
 
@@ -11625,10 +11625,6 @@ msgstr "Em caso de incumprimento do contrato: -1 de rep por cada <0/> no orçame
 msgid "On every employee, before Responsibility"
 msgstr ""
 
-#: src/components/_economy/manager/managerStats.tsx:71
-msgid "on every employee, per"
-msgstr ""
-
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:342
 msgid "On fire"
 msgstr ""
@@ -12165,7 +12161,7 @@ msgstr ""
 msgid "Pay for the course"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:180
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:152
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:120
 msgid "Pay per Management point"
 msgstr ""
@@ -12211,11 +12207,11 @@ msgstr ""
 msgid "per day to <0/>."
 msgstr ""
 
-#: src/components/_economy/manager/managerStats.tsx:87
+#: src/components/_economy/manager/managerStats.tsx:54
 msgid "Per hour, per Management point"
 msgstr ""
 
-#: src/components/_economy/manager/managerStats.tsx:90
+#: src/components/_economy/manager/managerStats.tsx:57
 msgid "Per hour. Allowed"
 msgstr ""
 
@@ -12447,11 +12443,11 @@ msgstr "População (atualmente aqui)"
 msgid "Position ended"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:218
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:200
 msgid "Post"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:130
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:129
 msgid "Post a manager position"
 msgstr ""
 
@@ -13524,7 +13520,7 @@ msgstr "Pedidos API:"
 msgid "Require attention"
 msgstr "Atenção necessária"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:194
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:170
 msgid "Required citizenship"
 msgstr ""
 
@@ -13853,7 +13849,7 @@ msgstr ""
 msgid "Salvager"
 msgstr "Desenrascado"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:218
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:200
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:135
 #: src/components/_military/order/BattleOrderList.tsx:220
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
@@ -15526,6 +15522,10 @@ msgstr ""
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:75
 msgid "The price must be positive"
 msgstr "O preço tem de ser superior a 0"
+
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:54
+msgid "The production a manager's Management adds to your employees as they are now, at the market value of a point, minus a day of their pay at this rate. It moves with your roster."
+msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:313
 msgid "The prototype never quite works. The money is gone."
@@ -17266,6 +17266,10 @@ msgstr "Bem-vindo à tua economia!"
 msgid "Well done! Here is your reward."
 msgstr "Parabéns! Aqui tens a tua recompensa."
 
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:102
+msgid "What a day of the production this manager adds is worth at the market value of a point, minus a day of their pay. An estimate: it follows your roster as it is now."
+msgstr ""
+
 #: src/components/_economy/employee/EstimatedProfit.tsx:181
 msgid "What a day of their production is worth at the market value of a point, minus a day of their wage. An estimate: what you really earn depends on what you make and the price you sell it at."
 msgstr ""
@@ -18158,6 +18162,10 @@ msgstr "Email"
 #: src/components/_other/tour/tuto.frontConfig.tsx:141
 msgid "Your employee's stats"
 msgstr "Conhece os atributos da tua equipa!"
+
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:63
+msgid "Your employees produce nothing right now, so a manager would add nothing."
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:514
 msgid "Your employees' estimated daily profit, at market prices."

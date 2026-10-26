@@ -1949,6 +1949,7 @@ msgstr ""
 #: src/components/_economy/employee/EstimatedProfit.tsx:143
 #: src/components/_economy/employee/WorkforceSummary.tsx:520
 #: src/components/_economy/employee/WorkforceSummary.tsx:555
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:92
 #: src/components/_political/government/Government.tsx:232
 msgid "/day"
 msgstr "/zi"
@@ -1968,10 +1969,6 @@ msgstr ""
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:383
 msgid "/h max"
-msgstr ""
-
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:153
-msgid "/h per point"
 msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:203
@@ -3831,7 +3828,7 @@ msgstr "Toate categoriile"
 msgid "All companies"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:195
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:171
 msgid "All countries"
 msgstr ""
 
@@ -4696,13 +4693,10 @@ msgstr ""
 msgid "Believe {partnerName}"
 msgstr ""
 
+#: src/components/_economy/manager/managerStats.tsx:68
 #: src/components/_layout/LayoutOptions.tsx:285
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
-msgstr ""
-
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:147
-msgid "Best offer"
 msgstr ""
 
 #: src/components/_economy/manager/ManagerBestOfferLine.tsx:37
@@ -6539,7 +6533,7 @@ msgstr "Resursă de zăcământ"
 msgid "Deposit resources"
 msgstr "Zăcăminte resurse"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:206
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:182
 msgid "Describe the role, what you expect, what you offer..."
 msgstr ""
 
@@ -6555,7 +6549,7 @@ msgstr "Descrieți obiectivele și valorile partidului dumneavoastră"
 msgid "Description"
 msgstr "Descriere"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:204
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:180
 msgid "Description (Optional)"
 msgstr ""
 
@@ -6844,6 +6838,10 @@ msgstr ""
 msgid "Each level opens something new."
 msgstr ""
 
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:138
+msgid "Each Management point adds {pointPercent}% production to every employee: from {bonusAtZero}% at level 0 to {bonusAtMax}% at level {MAX_LEVEL}."
+msgstr ""
+
 #: src/components/_user/user/EcoSkillEffects.tsx:85
 msgid "Each Management point adds <0>{perPoint}</0> to the production bonus of every one of your employees, and is what a manager position pays you for."
 msgstr ""
@@ -6968,7 +6966,7 @@ msgstr ""
 msgid "Edit resistance focus"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:130
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:129
 msgid "Edit the position"
 msgstr ""
 
@@ -7284,6 +7282,8 @@ msgid "Estimated minimum time for this side to win the current round if all tick
 msgstr "Timp minim estimat ca această parte să câștige runda, dacă păstrează dominanța câștigând tot terenul."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:65
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:53
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:57
 msgid "Estimated profit"
 msgstr ""
 
@@ -7393,10 +7393,6 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:260
 msgid "Every level gives skill points. Tap Skills."
-msgstr ""
-
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:164
-msgid "Every manager has at least {pointsAtZero} point, so even one with no Management level gives {bonusAtZero}%. A level {MAX_LEVEL} one gives {bonusAtMax}%."
 msgstr ""
 
 #: src/components/_user/mission/ProgressHeader.tsx:112
@@ -7850,6 +7846,10 @@ msgstr "Stil text (font)"
 
 #: src/components/_user/user/UserFontSelector.tsx:72
 msgid "Font updated"
+msgstr ""
+
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:86
+msgid "for"
 msgstr ""
 
 #: src/components/_economy/manager/ManagerCareButton.tsx:117
@@ -9446,7 +9446,7 @@ msgstr ""
 msgid "Leave congress"
 msgstr "Demisionează din parlament"
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:190
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:166
 msgid "Leave empty for no requirement"
 msgstr ""
 
@@ -10360,7 +10360,7 @@ msgstr "Min. cetățeni activi"
 msgid "Minimum level to vote"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:189
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:165
 msgid "Minimum Management"
 msgstr ""
 
@@ -11623,10 +11623,6 @@ msgstr "La eșuarea contractului: -1 reputație per <0/> din buget, și -1 reput
 msgid "On every employee, before Responsibility"
 msgstr ""
 
-#: src/components/_economy/manager/managerStats.tsx:71
-msgid "on every employee, per"
-msgstr ""
-
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:342
 msgid "On fire"
 msgstr ""
@@ -12163,7 +12159,7 @@ msgstr ""
 msgid "Pay for the course"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:180
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:152
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:120
 msgid "Pay per Management point"
 msgstr ""
@@ -12209,11 +12205,11 @@ msgstr ""
 msgid "per day to <0/>."
 msgstr ""
 
-#: src/components/_economy/manager/managerStats.tsx:87
+#: src/components/_economy/manager/managerStats.tsx:54
 msgid "Per hour, per Management point"
 msgstr ""
 
-#: src/components/_economy/manager/managerStats.tsx:90
+#: src/components/_economy/manager/managerStats.tsx:57
 msgid "Per hour. Allowed"
 msgstr ""
 
@@ -12445,11 +12441,11 @@ msgstr ""
 msgid "Position ended"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:218
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:200
 msgid "Post"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:130
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:129
 msgid "Post a manager position"
 msgstr ""
 
@@ -13522,7 +13518,7 @@ msgstr "Cereri:"
 msgid "Require attention"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:194
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:170
 msgid "Required citizenship"
 msgstr ""
 
@@ -13851,7 +13847,7 @@ msgstr ""
 msgid "Salvager"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerOfferFormModal.tsx:218
+#: src/components/_economy/manager/ManagerOfferFormModal.tsx:200
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:135
 #: src/components/_military/order/BattleOrderList.tsx:220
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
@@ -15523,6 +15519,10 @@ msgstr ""
 
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:75
 msgid "The price must be positive"
+msgstr ""
+
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:54
+msgid "The production a manager's Management adds to your employees as they are now, at the market value of a point, minus a day of their pay at this rate. It moves with your roster."
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:313
@@ -17264,6 +17264,10 @@ msgstr "Bun venit in finanțele tale!"
 msgid "Well done! Here is your reward."
 msgstr ""
 
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:102
+msgid "What a day of the production this manager adds is worth at the market value of a point, minus a day of their pay. An estimate: it follows your roster as it is now."
+msgstr ""
+
 #: src/components/_economy/employee/EstimatedProfit.tsx:181
 msgid "What a day of their production is worth at the market value of a point, minus a day of their wage. An estimate: what you really earn depends on what you make and the price you sell it at."
 msgstr ""
@@ -18155,6 +18159,10 @@ msgstr "Adresa ta de email"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:141
 msgid "Your employee's stats"
+msgstr ""
+
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:63
+msgid "Your employees produce nothing right now, so a manager would add nothing."
 msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:514
