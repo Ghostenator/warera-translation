@@ -159,7 +159,7 @@ msgstr ""
 #. placeholder {1}: upgradeName(EUpgrade.BUNKER)
 #: src/components/_political/govType/govType.frontConfig.tsx:269
 msgid "{0} {1} bonus"
-msgstr ""
+msgstr "Bónus de {1} {0}"
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -194,7 +194,7 @@ msgstr "{0} comprou o teu item"
 #. placeholder {0}: upgradeName(EUpgrade.BASE)
 #: src/components/_political/govType/govType.frontConfig.tsx:340
 msgid "{0} can't be activated"
-msgstr ""
+msgstr "{0} não pode ser ativada"
 
 #. placeholder {0}: Math.floor(cooldownHours / 24)
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:127
@@ -204,7 +204,7 @@ msgstr "{0} dias de espera"
 #. placeholder {0}: developmentPercent(core)
 #: src/components/_political/govType/govType.frontConfig.tsx:192
 msgid "{0} development income"
-msgstr ""
+msgstr "Rendimento de desenvolvimento {0}"
 
 #. placeholder {0}: developmentPercent(conquered)
 #: src/components/_political/govType/govType.frontConfig.tsx:214
@@ -214,7 +214,7 @@ msgstr ""
 #. placeholder {0}: developmentPercent(core)
 #: src/components/_political/govType/govType.frontConfig.tsx:199
 msgid "{0} development income from core regions"
-msgstr ""
+msgstr "{0} rendimento de Desenvolvimento nas regiões principais"
 
 #. placeholder {0}: gift.amount
 #: src/components/_user/user/EnergyGiftAlert.tsx:32
@@ -330,55 +330,55 @@ msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:812
 msgid "{count, plural, one {<0>Answer <1/> employee event</0>} other {<2>Answer <3/> employee events</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Responde a <1/> evento de trabalhador</0>} other {<2>Responde a <3/> eventos de trabalhador</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:846
 msgid "{count, plural, one {<0>Contribute to constructions <1/> time</0>} other {<2>Contribute to constructions <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Contribui para construções <1/> vez</0>} other {<2>Contribui para construções <3/> vezes</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:867
 msgid "{count, plural, one {<0>Contribute to resistance <1/> time</0>} other {<2>Contribute to resistance <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Contribui para Resistência <1/> vez</0>} other {<2>Contribui para Resistência <3/> vezes</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:281
 msgid "{count, plural, one {<0>Craft <1/> item</0>} other {<2>Craft <3/> items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Fabrica <1/> item</0>} other {<2>Fabrica <3/> itens</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:918
 msgid "{count, plural, one {<0>Cross <1/> region on the map</0>} other {<2>Cross <3/> regions on the map</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Atravessa <1/> região no mapa</0>} other {<2>Atravessa <3/> regiões no mapa</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:261
 msgid "{count, plural, one {<0>Dismantle <1/> item</0>} other {<2>Dismantle <3/> items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Desmonta <1/> item</0>} other {<2>Desmonta <3/> itens</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:404
 msgid "{count, plural, one {<0>Dodge <1/> attack</0>} other {<2>Dodge <3/> attacks</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Evade <1/> ataque</0>} other {<2>Evade <3/> ataques</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:211
 msgid "{count, plural, one {<0>Eat <1/> food item</0>} other {<2>Eat <3/> food items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Come <1/></0>} other {<2>Come <3/></2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "{count, plural, one {<0>Help <1/> MU member</0>} other {<2>Help <3/> MU members</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Ajuda <1/> membro da UM</0>} other {<2>Ajuda <3/> membros da UM</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:161
 msgid "{count, plural, one {<0>Hit <1/> time in battles</0>} other {<2>Hit <3/> times in battles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Acerta <1/> vez em batalhas</0>} other {<2>Acerta <3/> vezes em batalhas</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:382
 msgid "{count, plural, one {<0>Land <1/> critical hit</0>} other {<2>Land <3/> critical hits</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Acerta <1/> golpe crítico</0>} other {<2>Acerta <3/> golpes críticos</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:487
 msgid "{count, plural, one {<0>Like <1/> article</0>} other {<2>Like <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Gosta de <1/> artigo</0>} other {<2>Gosta de <3/> artigos</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:613
 msgid "{count, plural, one {<0>Like <1/> message</0>} other {<2>Like <3/> messages</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Gosta de <1/> mensagem</0>} other {<2>Gosta de <3/> mensagens</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:467
 msgid "{count, plural, one {<0>Loot <1/> item on battlefield</0>} other {<2>Loot <3/> items on battlefield</2>}}"
@@ -386,15 +386,15 @@ msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:322
 msgid "{count, plural, one {<0>Participate in <1/> battle</0>} other {<2>Participate in <3/> battles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Participa em <1/> batalha</0>} other {<2>Participa em <3/> batalhas</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:704
 msgid "{count, plural, one {<0>Produce items <1/> time</0>} other {<2>Produce items <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Produz itens <1/> vez</0>} other {<2>Produz itens <3/> vezes</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:521
 msgid "{count, plural, one {<0>Read <1/> article</0>} other {<2>Read <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Abre <1/> artigo</0>} other {<2>Abre <3/> artigos</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:93
 msgid "{count, plural, one {<0>Self work <1/> time in your companies</0>} other {<2>Self work <3/> times in your companies</2>}}"
@@ -402,27 +402,27 @@ msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:563
 msgid "{count, plural, one {<0>Send <1/> message</0>} other {<2>Send <3/> messages</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Envia <1/> mensagem no chat</0>} other {<2>Envia <3/> mensagens no chat</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:790
 msgid "{count, plural, one {<0>Take care of an employee <1/> time in the company you manage</0>} other {<2>Take care of an employee <3/> times in the company you manage</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Resolve <1/> situação com um trabalhador</0>} other {<2>Resolve <3/> situações com trabalhadores</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:435
 msgid "{count, plural, one {<0>Tip <1/> article</0>} other {<2>Tip <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Dá gorjeta a <1/> artigo</0>} other {<2>Dá gorjeta a <3/> artigos</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:770
 msgid "{count, plural, one {<0>Train your employees <1/> time</0>} other {<2>Train your employees <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Treina o teu trabalhador <1/> vez</0>} other {<2>Treina os teus trabalhadores <3/> vezes</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:887
 msgid "{count, plural, one {<0>Travel to another region <1/> time</0>} other {<2>Travel to another region <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Viaja até outra região <1/> vez</0>} other {<2>Viaja até outra região <3/> vezes</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:730
 msgid "{count, plural, one {<0>Upgrade your skills <1/> time</0>} other {<2>Upgrade your skills <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Melhora as tuas habilidades <1/> vez</0>} other {<2>Melhora as tuas habilidades <3/> vezes</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:127
 msgid "{count, plural, one {<0>Work <1/> time in your companies</0>} other {<2>Work <3/> times in your companies</2>}}"
@@ -4249,7 +4249,7 @@ msgstr ""
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:570
 msgid "Asks for 15% less pay than the market rate."
-msgstr ""
+msgstr "Pede um salário 15% abaixo do valor de mercado."
 
 #: src/components/_other/shop/skin.frontConfig.tsx:305
 msgid "AT Ammo"
@@ -4277,7 +4277,7 @@ msgstr "São necessárias pelo menos {MIN_REGISTRATIONS} inscrições, caso cont
 
 #: src/components/_social/PinArticleModal.tsx:51
 msgid "At least 1 hour"
-msgstr ""
+msgstr "Mínimo 1 hora"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:8
 msgid "At least you tried"
@@ -4289,7 +4289,7 @@ msgstr "Munição Leve AT"
 
 #: src/components/_social/PinArticleModal.tsx:54
 msgid "At most {MAX_PIN_DURATION_HOURS, plural, one {# hour} other {# hours}}"
-msgstr ""
+msgstr "Máximo {MAX_PIN_DURATION_HOURS, plural, one {# hora} other {# horas}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:652
 msgid "At most once every {every}"
@@ -4341,7 +4341,7 @@ msgstr "Em guerra com"
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:188
 msgid "At your Management level"
-msgstr ""
+msgstr "Com a tua habilidade de Gestão:"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:515
 msgid "Atlas"
@@ -4361,7 +4361,7 @@ msgstr "Bónus de ataque"
 #. placeholder {0}: costMultiplier(effects.nonCoreAttackOrderCostMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:328
 msgid "Attack orders outside its core regions cost {0}"
-msgstr ""
+msgstr "Ordens de ataque fora das regiões principais custam {0}"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:193
 #: src/components/_military/war/WarComparison.tsx:41
@@ -4634,7 +4634,7 @@ msgstr "Ordens de combate"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:105
 msgid "Battle Orders"
-msgstr "Ordens de batalha"
+msgstr "Ordens de combate"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:465
 msgid "Battlefield Loot"
@@ -4673,7 +4673,7 @@ msgstr "Tornar-se candidato"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:199
 msgid "Become a Supporter to save up to {premiumMaxPresets} skill presets."
-msgstr ""
+msgstr "Torna-te Apoiante e guarda até {premiumMaxPresets} perfis de habilidades."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:696
 msgid "Become the manager of another player's company"
@@ -4689,11 +4689,11 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3832
 msgid "Believe {name}"
-msgstr ""
+msgstr "Acreditar em {name}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3839
 msgid "Believe {partnerName}"
-msgstr ""
+msgstr "Acreditar em {partnerName}"
 
 #: src/components/_economy/manager/managerStats.tsx:68
 #: src/components/_layout/LayoutOptions.tsx:285
@@ -4725,7 +4725,7 @@ msgstr "Licitar"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:47
 msgid "Big peaceful population"
-msgstr ""
+msgstr "Paz, estabilidade e prosperidade"
 
 #: src/components/_political/region/RegionHeader.tsx:146
 msgid "Biome"
@@ -5047,7 +5047,7 @@ msgstr ""
 
 #: src/components/_political/govType/govType.frontConfig.tsx:447
 msgid "Can't join an alliance"
-msgstr ""
+msgstr "Não pode pertencer a uma aliança"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:459
 msgid "Can't send money to other countries"
@@ -5199,7 +5199,7 @@ msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:176
 msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit.<4/>It also adds <5>1%</5> to the hourly chance of a wooden case appearing on the map (base {woodenCaseBaseChance}%)."
-msgstr ""
+msgstr "Aumenta a probabilidade de obter caixas em combate e de surgirem caixas de madeira no mapa.<0/>Cada <1>1%</1> de Sorte dá <2>1%</2> e <3>0,01%</3> por golpe.<4/>Também aument em <5>1%</5> a probabilidade de surgir uma caixa de madeira no mapa a cada hora (base: {woodenCaseBaseChance}%)."
 
 #: src/components/_user/user/skills.frontConfig.tsx:162
 msgid "Chance to dodge all incoming damage when fighting in battles.<0/>Dodging also prevents equipment durability from being consumed."
@@ -5306,7 +5306,7 @@ msgstr ""
 
 #: src/components/_economy/itemOffer/itemOffer.frontConfig.tsx:9
 msgid "Cheapest"
-msgstr ""
+msgstr "Mais barato"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1697
 msgid "Check the numbers first"
@@ -5394,7 +5394,7 @@ msgstr "Pedidos de cidadania"
 #. placeholder {0}: staticGameConfig.user.activeCitizenMinLevel
 #: src/components/_political/country/CountryHeader.tsx:236
 msgid "Citizenship of this country, active and level {0}+"
-msgstr ""
+msgstr "Cidadãos ativos de nível {0}+"
 
 #: src/components/_military/battle/BattleSystem.tsx:395
 msgid "Civil war"
@@ -5768,7 +5768,7 @@ msgstr "Regiões conquistadas"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:208
 msgid "Conquered regions give no development income"
-msgstr ""
+msgstr "Regiões conquistadas não geram rendimento de Desenvolvimento"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:91
 msgid "Conqueror"
@@ -6575,7 +6575,7 @@ msgstr "Desenvolvimento"
 
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:50
 msgid "Development income"
-msgstr ""
+msgstr "Rendimento de desenvolvimento"
 
 #: src/utils/translations.tsx:254
 msgid "Diamond Auger"
@@ -7095,7 +7095,7 @@ msgstr ""
 #: src/components/_political/law/law.frontConfig.tsx:66
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:64
 msgid "Employee tax"
-msgstr ""
+msgstr "Imposto sobre trabalhadores"
 
 #. placeholder {0}: 2
 #: src/components/_economy/employee/employee.frontConfig.tsx:555
@@ -7266,17 +7266,17 @@ msgstr "Erro"
 
 #: src/components/_political/region/RegionTooltip.tsx:101
 msgid "Est. daily income"
-msgstr ""
+msgstr "Rendimento diário est."
 
 #: src/components/_political/country/CountryHeader.tsx:195
 #: src/components/_political/map/MapMenu.tsx:561
 #: src/components/_political/region/RegionHeader.tsx:83
 msgid "Estimated daily income"
-msgstr ""
+msgstr "Rendimento diário estimado"
 
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:41
 msgid "Estimated from current development, rosters, managers and tax rates. Updated hourly."
-msgstr ""
+msgstr "Estimativa com base no Desenvolvimento, na economia e nos bónus atuais. Atualizada a cada hora."
 
 #: src/components/_military/battle/BattleSystem.tsx:520
 #: src/components/_military/battle/BattleSystem.tsx:560
@@ -7287,7 +7287,7 @@ msgstr "Tempo mínimo estimado para este lado vencer a ronda atual caso vença t
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:53
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:57
 msgid "Estimated profit"
-msgstr ""
+msgstr "Lucro estimado"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:538
 msgid "Estimated toolboxes found per day"
@@ -7412,7 +7412,7 @@ msgstr ""
 #. placeholder {0}: country?.taxes.market ?? 0
 #: src/pages/market/equipments.tsx:88
 msgid "Every price here is what you pay, tax included: the seller's price plus the {0}% market tax of your country <0/>, which goes to it."
-msgstr ""
+msgstr "Todos os preços já incluem o imposto de mercado do teu país <0/>. Neste caso, são {0}% sobre o valor definido pelo vendedor."
 
 #: src/components/_social/poll/PollEditorModal.tsx:261
 msgid "Everyone can vote"
@@ -7924,7 +7924,7 @@ msgstr "Recompensa diária grátis"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:300
 msgid "Free national orders to defend, revolt in or retake its core regions"
-msgstr ""
+msgstr "Ordens de combate ao defender, revoltar ou reconquistar regiões principais não têm custos"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2541
 msgid "Free paper, blank on the back. The coworkers are delighted."
@@ -8222,7 +8222,7 @@ msgstr "Penalidade do governo"
 #: src/components/_political/law/LawFormModal.tsx:335
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:75
 msgid "Government type"
-msgstr ""
+msgstr "Tipo de governo"
 
 #: src/components/_political/government/Government.tsx:220
 msgid "Government wage"
@@ -8546,11 +8546,11 @@ msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:948
 msgid "Have your employees find <0/>"
-msgstr ""
+msgstr "Faz com que os teus funcionários encontrem <0/>"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:938
 msgid "Have your employees make <0/>"
-msgstr ""
+msgstr "Faz com que os teus funcionários produzam <0/>"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:112
 msgid "Headquarters"
@@ -8720,7 +8720,7 @@ msgstr "Início"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:58
 msgid "Homeland Front"
-msgstr ""
+msgstr "Estado Fortaleza"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:123
 msgid "Homesick"
@@ -8740,7 +8740,7 @@ msgstr ""
 
 #: src/components/_social/PinArticleModal.tsx:82
 msgid "Hours"
-msgstr ""
+msgstr "Horas"
 
 #: src/components/_social/PinArticleModal.tsx:59
 msgid "Hours is required"
@@ -8769,7 +8769,7 @@ msgstr "Ouvi dizer que comprar premium aumenta as tuas hipóteses :3"
 
 #: src/components/_economy/manager/ManagerOfferList.tsx:127
 msgid "I qualify"
-msgstr ""
+msgstr "Disponíveis para mim"
 
 #: src/components/_common/GameRules.tsx:293
 msgid "i. Promotion of other games, products, or services"
@@ -9893,7 +9893,7 @@ msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2201
 msgid "Manager hired"
-msgstr ""
+msgstr "Gestor contratado"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:67
 msgid "Manager jobs"
@@ -9905,11 +9905,11 @@ msgstr ""
 
 #: src/pages/market/jobs.tsx:26
 msgid "Manager positions"
-msgstr ""
+msgstr "Vagas de Gestor"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2203
 msgid "Manager resigned"
-msgstr ""
+msgstr "Gestor demitiu-se"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:208
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:437
@@ -9917,7 +9917,7 @@ msgstr ""
 #: src/components/_political/law/law.frontConfig.tsx:67
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:68
 msgid "Manager tax"
-msgstr ""
+msgstr "Imposto sobre gestores"
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:161
 msgid "Manager Tax"
@@ -10521,7 +10521,7 @@ msgstr ""
 
 #: src/components/_economy/itemOffer/itemOffer.frontConfig.tsx:11
 msgid "Most expensive"
-msgstr ""
+msgstr "Mais caro"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3647
 msgid "Mostly scrap, but good scrap."
@@ -10753,7 +10753,7 @@ msgstr "Recompensa nacional"
 #. placeholder {0}: costMultiplier(effects.orderCostMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:291
 msgid "National orders cost {0}"
-msgstr ""
+msgstr "Ordens de combate custam {0}"
 
 #. placeholder {0}: costMultiplier(effects.coreOrderCostMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:308
@@ -10771,7 +10771,7 @@ msgstr "Nacionalista"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:52
 msgid "Nationalist State"
-msgstr ""
+msgstr "Estado Nacionalista"
 
 #: src/components/_military/mu/MuHeader.tsx:104
 #: src/components/_user/auth/WelcomeModal.tsx:266
@@ -11094,15 +11094,15 @@ msgstr "Sem licitações"
 
 #: src/components/_economy/inventory/Inventory.tsx:529
 msgid "No boots"
-msgstr ""
+msgstr "Nenhumas botas"
 
 #: src/components/_economy/employee/RecruitModal.tsx:149
 msgid "No candidates available"
-msgstr ""
+msgstr "Nenhum trabalhador disponível"
 
 #: src/components/_economy/inventory/Inventory.tsx:526
 msgid "No chests"
-msgstr ""
+msgstr "Nenhuma caixa"
 
 #: src/pages/country/[countryId]/citizens.tsx:41
 msgid "No citizens"
@@ -11110,7 +11110,7 @@ msgstr "Sem cidadãos"
 
 #: src/components/_economy/manager/ManagerOfferList.tsx:140
 msgid "No company is looking for a manager right now."
-msgstr ""
+msgstr "Neste momento, nenhuma empresa procura um Gestor."
 
 #: src/pages/country/[countryId]/government.tsx:178
 msgid "No congress members"
@@ -11146,19 +11146,19 @@ msgstr "Ainda não há doações"
 
 #: src/components/_political/govType/GovTypeEffects.tsx:56
 msgid "No effects"
-msgstr ""
+msgstr "Sem efeitos"
 
 #: src/components/_economy/employee/EmployeeList.tsx:351
 msgid "No employees"
-msgstr ""
+msgstr "Sem trabalhadores"
 
 #: src/components/_economy/inventory/Inventory.tsx:527
 msgid "No gloves"
-msgstr ""
+msgstr "Nenhumas luvas"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:41
 msgid "No government type chosen yet"
-msgstr ""
+msgstr "Tipo de governo por definir"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1183
 msgid "No grapes"
@@ -11170,7 +11170,7 @@ msgstr "Nenhum ranking de terreno ainda"
 
 #: src/components/_economy/inventory/Inventory.tsx:525
 msgid "No helmets"
-msgstr ""
+msgstr "Nenhum capacete"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:317
 msgid "No home region set"
@@ -11178,7 +11178,7 @@ msgstr "Região-base ainda não definida"
 
 #: src/components/_economy/inventory/Inventory.tsx:212
 msgid "No items"
-msgstr ""
+msgstr "Nenhum item"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:284
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:203
@@ -11272,7 +11272,7 @@ msgstr "Sem ordens"
 
 #: src/components/_economy/inventory/Inventory.tsx:528
 msgid "No pants"
-msgstr ""
+msgstr "Nenhumas calças"
 
 #: src/components/_political/party/PartyList.tsx:95
 msgid "No parties found"
@@ -11280,7 +11280,7 @@ msgstr "Nenhum partido encontrado"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:311
 msgid "No presets saved yet."
-msgstr ""
+msgstr "Ainda não tens perfis guardados."
 
 #: src/components/_user/user/SkillUpgrade.tsx:313
 msgid "No prestige points left, tap to reset staged points"
@@ -12103,7 +12103,7 @@ msgstr "Patriota"
 #. placeholder {1}: damagesPercent(next, false)
 #: src/components/_political/govType/govType.frontConfig.tsx:249
 msgid "Patriotic bonus {0} → {1}"
-msgstr ""
+msgstr "Bónus patriótico {0} → {1}"
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:51
 #: src/components/_user/user/Level.tsx:200
@@ -12126,7 +12126,7 @@ msgstr ""
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:149
 msgid "Pay"
-msgstr ""
+msgstr "Pagamento"
 
 #: src/components/_economy/manager/ManagerRateReductionAlert.tsx:39
 #: src/components/_user/notification/notification.frontConfig.tsx:2205
@@ -12604,7 +12604,7 @@ msgstr ""
 
 #: src/pages/market/equipments.tsx:87
 msgid "Prices include your tax"
-msgstr ""
+msgstr "Preço final, com imposto"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:96
 msgid "Prima Donna"
@@ -13526,7 +13526,7 @@ msgstr ""
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:134
 msgid "Requirements"
-msgstr ""
+msgstr "Requisitos"
 
 #: src/components/_economy/employee/RecruitModal.tsx:91
 msgid "Reroll all"
@@ -13603,7 +13603,7 @@ msgstr "Resistência"
 #. placeholder {0}: resistanceMultiplier(effects.coreResistanceContributionMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:347
 msgid "Resistance contributions {0} in its occupied core regions"
-msgstr ""
+msgstr "Contribuições para Resistência {0} nas regiões principais ocupadas"
 
 #: src/components/_political/contribution/ContributionList.tsx:194
 msgid "Resistance Contributors"
@@ -13859,11 +13859,11 @@ msgstr "Guardar"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:187
 msgid "Save a build and reload it anytime. If you don't have enough skill points, the build is scaled down proportionally to fit."
-msgstr ""
+msgstr "Guarda uma distribuição para a voltares a usar quando quiseres. Se te faltarem pontos de habilidade, é ajustada automaticamente ao que tens disponível."
 
 #: src/components/_user/user/SkillPresetsModal.tsx:212
 msgid "Save current"
-msgstr ""
+msgstr "Guardar perfil atual"
 
 #: src/components/_social/poll/PollEditorModal.tsx:292
 msgid "Save poll"
@@ -13974,7 +13974,7 @@ msgstr ""
 
 #: src/components/_military/mu/MuSettings.tsx:77
 msgid "Select a country"
-msgstr "Selecione um país"
+msgstr "Selecionar país"
 
 #: src/components/_political/law/LawFormModal.tsx:336
 msgid "Select a government type"
@@ -13995,7 +13995,7 @@ msgstr "Selecionar tudo ({0})"
 
 #: src/components/_economy/inventory/ItemCodeModalSelector.tsx:58
 msgid "Select an item"
-msgstr ""
+msgstr "Seleciona um item"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:132
 msgid "Select an occupied region"
@@ -14340,7 +14340,7 @@ msgstr "Problema de skill?"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:184
 msgid "Skill presets"
-msgstr ""
+msgstr "Perfis"
 
 #: src/components/_user/user/SkillBar.tsx:32
 #: src/components/_user/user/SkillValue.tsx:69
@@ -14893,7 +14893,7 @@ msgstr "Inimigo"
 #. placeholder {2}: damagesPerDay(perDay)
 #: src/components/_political/govType/govType.frontConfig.tsx:387
 msgid "Sworn enemy bonus from {0} up to {1} at {2}"
-msgstr ""
+msgstr "Bónus contra país inimigos: de {0} até {1}, aumentando {2} por dia"
 
 #: src/components/_political/event/EventList.tsx:115
 msgid "System revolt"
@@ -15034,7 +15034,7 @@ msgstr "Jogador alvo"
 
 #: src/components/_economy/itemOffer/ItemOfferCard.tsx:68
 msgid "tax incl."
-msgstr ""
+msgstr "c/ imposto"
 
 #. placeholder {0}: offer.price
 #: src/components/_economy/itemOffer/ItemOfferBuyButton.tsx:47
@@ -15911,7 +15911,7 @@ msgstr "Resumo das recompensas ganhas nesta batalha. Inclui todas as caixas que 
 
 #: src/components/_political/country/CountryHeader.tsx:305
 msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
-msgstr "Valor utilizado para calcular a maioria dos custos: ordens de batalha, aliança, países inimigos e pactos defensivos, leis e manutenção de melhorias."
+msgstr "Valor utilizado para calcular a maioria dos custos: ordens de combate, aliança, países inimigos e pactos defensivos, leis e manutenção de melhorias."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:103
 msgid "This is your company"
@@ -17608,7 +17608,7 @@ msgstr "Estás aqui"
 
 #: src/pages/companies.tsx:77
 msgid "You are jobless"
-msgstr "Está sem emprego"
+msgstr "Estás sem emprego"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:468
 msgid "You are no longer the manager of <0/>"
