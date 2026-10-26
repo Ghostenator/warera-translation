@@ -3415,7 +3415,7 @@ msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:108
 msgid "A full bar turns into items."
-msgstr "Ispunjena traka proizvodnje stvara predmete."
+msgstr "Popunjena traka stvara predmete koje ta kompanija proizvodi."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:438
 msgid "A full storage does not bother them."
@@ -5349,7 +5349,7 @@ msgstr "Izaberite Font"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:171
 msgid "Choose one. The others are discarded."
-msgstr "Možete izabrati samo jednu karticu, a ostale se odbacuju."
+msgstr "Možete izabrati samo jednu kartu, a ostale se odbacuju."
 
 #: src/components/_economy/inventory/CraftModal.tsx:375
 msgid "Choosing a specific item costs ×2 steel:"
@@ -14978,7 +14978,7 @@ msgstr "Dodirnite Chat."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:134
 msgid "Tap them to see who they are."
-msgstr "Dodirnite karticu zaposlenika da ga upoznate."
+msgstr "Dodirnite karticu zaposlenika da ga pobliže upoznate."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:449
 msgid "Tap this slot to wear your new gear."
@@ -17440,7 +17440,7 @@ msgstr "Rad sa svojom simpatijom: <0>+20%</0>. Jedino moguće nakon događaja Ur
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Working fills its <0>Production</0> bar."
-msgstr "Rad ispunjava <0>Produkcijsku</0> traku."
+msgstr "Rad popunjava traku <0>proizvodnje</0>."
 
 #. placeholder {0}: 2
 #. placeholder {1}: 10
