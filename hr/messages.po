@@ -10470,7 +10470,7 @@ msgstr "Odgovornost poništava dio svakog gubitka sreće, povećavajući se od 0
 
 #: src/components/_economy/employee/employeeStats.tsx:456
 msgid "Morale shield: cancels part of every <0>Happiness</0> loss, ramping to {maxShieldPct}% at {RESP_FULL_AT} Responsibility. It does not affect output."
-msgstr "Odgovornost poništava dio svakog gubitka sreće, povećavajući se od 0 do {RESP_MAX_SHIELD_PERCENT}% pri {RESP_FULL_AT} odgovornosti."
+msgstr "Odgovornost poništava dio svakog gubitka <0>sreće</0>, povećavajući se od 0 do {maxShieldPct}% pri {RESP_FULL_AT} odgovornosti."
 
 #: src/components/_layout/LayoutLeftIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:191
