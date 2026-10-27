@@ -14545,9 +14545,9 @@ msgstr "Quelque chose suit dans {0}"
 msgid "Something follows soon"
 msgstr "Quelque chose arrive bientôt"
 
-#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1018
-msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day, never to someone hired less than {hired} ago. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
-msgstr "Un événement survient, impliquant un employé ou deux collègues, et tu dois décider de la marche à suivre: tu peux intervenir jusqu’à {maxPerDay} fois par jour, mais jamais auprès d’une personne embauchée il y a moins de {hired}. Si aucun choix n’est effectué, une issue par défaut — définie par le paramètre « Si ignoré » — est automatiquement retenue après un délai de {expires}. Les probabilités de réussite dépendent de l’employé concerné ainsi que de tes propres compétences, et sont affichées au moment où l’événement se produit."
+#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1017
+msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
+msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:610
 msgid "Something in the storeroom"

@@ -14545,9 +14545,9 @@ msgstr "За {0} следи наставак"
 msgid "Something follows soon"
 msgstr "Ускоро следи наставак"
 
-#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1018
-msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day, never to someone hired less than {hired} ago. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
-msgstr "Нешто задеси запосленог или двоје колега, а ти одлучујеш шта ћеш: највише {maxPerDay} дневно, и никад некога са мање од {hired} стажа. Догађај на који не одговориш после {expires} сам бира опцију „Ако не одговориш“. Шансе зависе од запосленог и твојих вештина, а видиш их кад се догађај деси."
+#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1017
+msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
+msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:610
 msgid "Something in the storeroom"

@@ -14545,9 +14545,9 @@ msgstr "Kažkas nutiks per {0}"
 msgid "Something follows soon"
 msgstr "Netrukus kažkas nutiks"
 
-#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1018
-msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day, never to someone hired less than {hired} ago. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
-msgstr "Darbuotojui ar dviem bendradarbiams kažkas nutinka, o tu sprendi, ką daryti: iki {maxPerDay} per dieną, bet niekada tiems, kurie pasamdyti mažiau nei prieš {hired}. Jei neatsakai per {expires}, įvykis pats pasirenka atsakymą „Jei ignoruosi“. Tikimybės priklauso nuo darbuotojo ir tavo įgūdžių, ir matomos, kai įvykis nutinka."
+#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1017
+msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
+msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:610
 msgid "Something in the storeroom"

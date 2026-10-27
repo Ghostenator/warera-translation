@@ -14545,9 +14545,9 @@ msgstr "Something follows in {0}"
 msgid "Something follows soon"
 msgstr "Something follows soon"
 
-#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1018
-msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day, never to someone hired less than {hired} ago. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
-msgstr "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day, never to someone hired less than {hired} ago. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
+#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1017
+msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
+msgstr "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:610
 msgid "Something in the storeroom"

@@ -14545,9 +14545,9 @@ msgstr ""
 msgid "Something follows soon"
 msgstr ""
 
-#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1018
-msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day, never to someone hired less than {hired} ago. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
-msgstr "Događaji i situacije koje utječu na radni put zaposlenika i radnu klimu unutar kompanija. Moguće je imati do {maxPerDay} situacije dnevno koje se generiraju samo za zaposlenike zaposlene duže od {hired} dana. Ako ne odabereš ishod, nakon {expires} primjenjuje se ishod u slučaju zanemarivanja. Izgledi ovise o zaposleniku i tvojim vještinama, a prikazuju se kad se događaj dogodi."
+#: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1017
+msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
+msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:610
 msgid "Something in the storeroom"
