@@ -63,8 +63,8 @@ msgstr " Ein Abo verschenken"
 msgid "- Defending this region will have a malus of <0>{0}</0>."
 msgstr "- Die Verteidigung dieser Region hat einen Malus von <0>{0}</0>."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:483
-msgid "-1 to every stat every 20 days in the same company, down to -3."
+#: src/components/_economy/employee/employee.frontConfig.tsx:721
+msgid "-1 to every stat"
 msgstr ""
 
 #: src/components/_economy/employee/training.frontConfig.tsx:135
@@ -141,7 +141,7 @@ msgid "{0, plural, one {# winner} other {# winners}}"
 msgstr ""
 
 #. placeholder {0}: totalBattles - maxBattles
-#: src/components/_layout/LayoutBattles.tsx:141
+#: src/components/_layout/LayoutBattles.tsx:137
 msgid "{0, plural, one {Battle} other {Battles}}"
 msgstr ""
 
@@ -307,7 +307,7 @@ msgid "{0}d worked: <0>{1}</0>"
 msgstr ""
 
 #. placeholder {0}: contract.unpaidHours
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:225
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:223
 msgid "{0}h unpaid"
 msgstr ""
 
@@ -454,6 +454,10 @@ msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:583
 msgid "{finder} found {toolboxes} for you to claim."
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:887
+msgid "{flightRiskQuitThreshold} happiness, not {quitThreshold}"
 msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:315
@@ -1619,7 +1623,7 @@ msgstr ""
 msgid "{lead} is waiting for your decision."
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:443
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:441
 msgid "{managerTax}% manager tax is withheld from this pay when the manager collects it, for the country the company sits in."
 msgstr ""
 
@@ -1790,14 +1794,6 @@ msgstr ""
 msgid "{selectedCount} selected"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeTraitArg.tsx:54
-msgid "{step} every {perDays} days in the same company, up to {cap}."
-msgstr ""
-
-#: src/components/_economy/employee/EmployeeTraitArg.tsx:43
-msgid "{step} every {perDays} days in the same company."
-msgstr ""
-
 #: src/components/_social/poll/PollCard.tsx:221
 msgid "{timeLeft} left"
 msgstr ""
@@ -1809,7 +1805,7 @@ msgstr ""
 
 #. placeholder {0}: employee.potential
 #. placeholder {1}: employee.potentialMax
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:317
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:341
 msgid "{trainingsLeft} training sessions left ({0}/{1} used)."
 msgstr ""
 
@@ -1951,13 +1947,13 @@ msgstr ""
 #: src/components/_economy/employee/EstimatedProfit.tsx:146
 #: src/components/_economy/employee/WorkforceSummary.tsx:520
 #: src/components/_economy/employee/WorkforceSummary.tsx:555
-#: src/components/_economy/manager/ManagerProfitEstimate.tsx:136
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:92
 #: src/components/_political/government/Government.tsx:232
 msgid "/day"
 msgstr "/Tag"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:431
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:458
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:429
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:456
 #: src/components/_economy/manager/ManagerBestOfferLine.tsx:41
 #: src/components/_economy/manager/ManagerOfferRow.tsx:192
 #: src/components/_economy/manager/ManagerRateReductionAlert.tsx:45
@@ -1969,7 +1965,7 @@ msgstr ""
 msgid "/h at {points} Management points"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:385
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:383
 msgid "/h max"
 msgstr ""
 
@@ -1989,8 +1985,12 @@ msgstr ""
 msgid "+{xpBonusPercent}%"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:478
-msgid "+1 to one stat every 10 days in the same company, up to +4."
+#: src/components/_economy/employee/employee.frontConfig.tsx:998
+msgid "+1 candidate"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:708
+msgid "+1 to one stat"
 msgstr ""
 
 #: src/components/_economy/employee/training.frontConfig.tsx:47
@@ -2469,18 +2469,6 @@ msgstr "<0/>Priorität endet in <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Widerstandswachstum pro Stunde"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:546
-msgid "<0>-1%</0> per 1% employee tax in the country, down to <1>-30%</1>."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:385
-msgid "<0>-15%</0> per female coworker, down to <1>-30%</1>. Men only."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:375
-msgid "<0>-15%</0> per male coworker, down to <1>-30%</1>. Women only."
-msgstr ""
-
 #. placeholder {0}: sideBonus.muHqBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:157
 msgid "<0>{0}</0> <1/> in <2/>"
@@ -2515,11 +2503,6 @@ msgstr "<0>{0}</0> weil <1/> <2/> verloren hat"
 #: src/components/_military/battle/BattleDamageBonuses.tsx:251
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<0>{0}</0> weil <1/> mindestens eine von <2/> Regionen besetzt"
-
-#. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:601
-msgid "<0>{0}</0> but <1>-15%</1>. Twice as many critical successes and failures in events."
-msgstr ""
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:52
@@ -2568,28 +2551,6 @@ msgstr "<0>{0}</0> durch Befehle von <1/>"
 msgid "<0>{0}</0> ground are required to win a round, points are gained every tick"
 msgstr "<0>{0}</0> Boden sind erforderlich, um eine Runde zu gewinnen; Punkte werden bei jedem Tick gutgeschrieben"
 
-#. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:490
-msgid "<0>{0}</0> per 10 years of age past 40."
-msgstr ""
-
-#. placeholder {0}: -2
-#: src/components/_economy/employee/employee.frontConfig.tsx:500
-msgid "<0>{0}</0> per 10 years of age past 50."
-msgstr ""
-
-#. placeholder {0}: -5
-#. placeholder {1}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:323
-msgid "<0>{0}</0> per coworker paid more than them, down to <1>{1}</1>."
-msgstr ""
-
-#. placeholder {0}: 2
-#. placeholder {1}: 4
-#: src/components/_economy/employee/employee.frontConfig.tsx:222
-msgid "<0>{0}</0> per foreign nationality on the roster, up to <1>{1}</1>."
-msgstr ""
-
 #. placeholder {0}: 1
 #: src/components/_user/user/UserSkills.tsx:217
 msgid "<0>{0}</0> prestige point to spend on a skill."
@@ -2611,19 +2572,13 @@ msgstr "<0>{0}</0> Lagerkapazität"
 msgid "<0>{0}</0> to level {1}"
 msgstr ""
 
-#. placeholder {0}: -1
-#. placeholder {1}: 10
-#: src/components/_economy/employee/employee.frontConfig.tsx:255
-msgid "<0>{0}</0> to themselves, but <1>{1}</1> to every coworker."
-msgstr ""
-
 #. placeholder {0}: lawConfig.maintenanceCost
 #: src/components/_political/law/Law.tsx:125
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/Tag"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:188
+#: src/components/_economy/company/CompanyList.tsx:199
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr ""
 
@@ -2654,18 +2609,6 @@ msgstr ""
 
 #: src/components/_economy/employee/employeeStats.tsx:470
 msgid "<0>{v}</0> Responsibility = <1>{shieldPct}% less</1> <2>Happiness</2> loss."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:356
-msgid "<0>+15%</0> per female coworker (max <1>+30%</1>). Women only."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:366
-msgid "<0>+15%</0> per male coworker (max <1>+30%</1>). Men only."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:245
-msgid "<0>+25%</0> per coworker (max <1>+50%</1>). Unhappy alone."
 msgstr ""
 
 #: src/components/_layout/loadingTips.tsx:225
@@ -2717,7 +2660,7 @@ msgstr ""
 #. placeholder {0}: contract.productionBonusPercent
 #. placeholder {1}: employeeConfig.skills.managementBonusPercentPerLevel
 #. placeholder {2}: contract.isInactive && ( <p>They are away, so none of it applies right now.</p> )
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:173
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:172
 msgid "<0>Every employee of this company produces <1>{0}</1> more.</0><2><3>{1}</3> per Management point, and they have <4/>.</2>{2}"
 msgstr ""
 
@@ -2763,7 +2706,7 @@ msgstr "<0>Unruhen</0> stellen interne Spannungen im Land dar.<1/><2/>Bürger k�
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
 msgstr "<0>Dein Konto erfordert eine zusätzliche Verifizierung. Bitte verifiziere deine Telefonnummer so schnell wie möglich, um dein Konto weiterhin normal nutzen zu können. Nicht verifizierte Konten haben nach 48 Stunden eingeschränkten Zugriff und können nach 5 Tagen dauerhaft gesperrt werden.</0><1>Telefonnummern sind verschlüsselt und für keinen Administrator sichtbar.</1>"
 
-#: src/components/_layout/LayoutOptions.tsx:105
+#: src/components/_layout/LayoutOptions.tsx:103
 msgid "= consumes more power"
 msgstr " = verbraucht mehr Energie"
 
@@ -3041,6 +2984,10 @@ msgstr ""
 
 #: src/components/_social/poll/PollEditorModal.tsx:117
 msgid "3 days"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:695
+msgid "3 days after a transfer"
 msgstr ""
 
 #: src/components/_social/poll/PollEditorModal.tsx:113
@@ -3348,12 +3295,6 @@ msgstr ""
 msgid "A coworker inherits one of their <0>good traits</0>"
 msgstr ""
 
-#. placeholder {0}: -2
-#. placeholder {1}: -5
-#: src/components/_economy/employee/employee.frontConfig.tsx:213
-msgid "A coworker of a different nationality: <0>{0}</0> <1>{1}</1>."
-msgstr ""
-
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1567
 msgid "A cursed tool"
 msgstr ""
@@ -3411,16 +3352,16 @@ msgstr ""
 msgid "A fight over nothing. {name} and {partnerName} cannot stand each other now."
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:263
+msgid "A foreign coworker"
+msgstr ""
+
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:845
 msgid "A friendship blooming"
 msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:108
 msgid "A full bar turns into items."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:438
-msgid "A full storage does not bother them."
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:944
@@ -3558,6 +3499,10 @@ msgstr ""
 
 #: src/components/_economy/employee/EmployeeNameTags.tsx:42
 msgid "A training hand is waiting for your pick."
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:686
+msgid "A transfer resets it."
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2057
@@ -3782,12 +3727,12 @@ msgstr "Fortgeschrittener Helm"
 msgid "Advanced Pants"
 msgstr "Fortgeschrittene Hose"
 
-#: src/components/_economy/company/CompanyList.tsx:200
+#: src/components/_economy/company/CompanyList.tsx:211
 msgid "Advanced view"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:461
-msgid "After 30 days in the same company: <0>+20%</0>. A transfer resets it."
+#: src/components/_economy/employee/employee.frontConfig.tsx:682
+msgid "After 30 days in a company"
 msgstr ""
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:171
@@ -3965,6 +3910,22 @@ msgstr "Fühlt sich fast wie Cheating an"
 msgid "Almost ready..."
 msgstr "Fast fertig..."
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:326
+msgid "Alone"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:469
+msgid "Alongside their friend"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:481
+msgid "Alongside their nemesis"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:493
+msgid "Alongside their sweetheart"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:115
 msgid "Alpha Tester"
 msgstr "Alpha-Tester"
@@ -4080,6 +4041,10 @@ msgstr "Jeder Versuch, diese Regeln zu umgehen, kann zum Entzug des Sharing-Stat
 msgid "Anyone moved cannot be fired for {fireLockHours} hours"
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:625
+msgid "Anything manufactured"
+msgstr ""
+
 #: src/components/_economy/employee/employeeTags.tsx:167
 msgid "Anywhere between -{spreadPercent}% and +{spreadPercent}%."
 msgstr ""
@@ -4104,7 +4069,7 @@ msgstr "API-Tokens"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API-Tokens ermöglichen es externen Anwendungen, in Ihrem Namen auf die API zuzugreifen. Verwenden Sie den Token im <0>X-API-Key</0>-Header. Jeder Token hat ein Ratelimit von 200 Anfragen pro Minute."
 
-#: src/components/_layout/LayoutOptions.tsx:344
+#: src/components/_layout/LayoutOptions.tsx:334
 msgid "App pattern"
 msgstr "App-Muster"
 
@@ -4249,10 +4214,6 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:474
 msgid "Asks for {value} pay from now on"
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:570
-msgid "Asks for 15% less pay than the market rate."
 msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:305
@@ -4402,7 +4363,7 @@ msgstr "Authentifizierung fehlgeschlagen. Bitte versuche es erneut."
 msgid "Auto approval"
 msgstr "Automatische Genehmigung"
 
-#: src/components/_layout/LayoutOptions.tsx:265
+#: src/components/_layout/LayoutOptions.tsx:255
 #: src/components/_user/kits/KitsPopover.tsx:227
 msgid "Auto-equip when item breaks"
 msgstr "Automatisch ausrüsten, wenn Gegenstand zerbricht"
@@ -4447,11 +4408,11 @@ msgstr "Avatar entfernt"
 msgid "Average development"
 msgstr "Durchschnittliche Entwicklung"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:230
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:251
 msgid "Away"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:224
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:245
 msgid "Away for <0/>: no work, no wage."
 msgstr ""
 
@@ -4475,7 +4436,7 @@ msgstr ""
 msgid "Back to home region"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:197
+#: src/components/_layout/LayoutOptions.tsx:187
 msgid "Background pattern"
 msgstr ""
 
@@ -4620,7 +4581,7 @@ msgstr "Kampf um {regionName} {score}"
 msgid "Battle Hero"
 msgstr "Schlachtenheld"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:229
 msgid "Battle hit effects"
 msgstr ""
 
@@ -4654,11 +4615,11 @@ msgstr ""
 msgid "Battles"
 msgstr "Kämpfe"
 
-#: src/components/_layout/LayoutOptions.tsx:132
+#: src/components/_layout/LayoutOptions.tsx:130
 msgid "Battles on layout"
 msgstr "Schlachten im Layout"
 
-#: src/components/_layout/LayoutOptions.tsx:127
+#: src/components/_layout/LayoutOptions.tsx:125
 msgid "Battles on map"
 msgstr "Schlachten auf der Karte"
 
@@ -4699,8 +4660,12 @@ msgstr ""
 msgid "Believe {partnerName}"
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:905
+msgid "Below {quitThreshold} happiness"
+msgstr ""
+
 #: src/components/_economy/manager/managerStats.tsx:68
-#: src/components/_layout/LayoutOptions.tsx:285
+#: src/components/_layout/LayoutOptions.tsx:275
 #: src/components/_user/kits/KitsPopover.tsx:249
 msgid "Best"
 msgstr "Beste"
@@ -4750,10 +4715,6 @@ msgstr "Blockieren (Inhalt ausblenden)"
 #: src/components/_other/shop/skin.frontConfig.tsx:164
 msgid "Blue Staff"
 msgstr "Blauer Stab"
-
-#: src/components/_layout/LayoutOptions.tsx:189
-msgid "Blur"
-msgstr "Unschärfe"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:242
 msgid "Bone Club"
@@ -4849,7 +4810,7 @@ msgstr ""
 msgid "broken"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:356
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:380
 #: src/components/_economy/inventory/Inventory.tsx:772
 msgid "Broken"
 msgstr ""
@@ -4871,7 +4832,7 @@ msgid "Buff ended"
 msgstr "Buff beendet"
 
 #: src/components/_user/user/UserHeader.tsx:334
-#: src/components/_user/user/UserTooltip.tsx:140
+#: src/components/_user/user/UserTooltip.tsx:138
 msgid "Buff ends"
 msgstr ""
 
@@ -4891,7 +4852,7 @@ msgstr "Buffs:"
 msgid "Bug finder"
 msgstr "Bugfinder"
 
-#: src/components/_economy/company/CompanyList.tsx:261
+#: src/components/_economy/company/CompanyList.tsx:272
 msgid "Build a company"
 msgstr "Unternehmen gründen"
 
@@ -5120,6 +5081,20 @@ msgstr "Kandidat"
 msgid "Candidates"
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:288
+#: src/components/_economy/employee/employee.frontConfig.tsx:322
+#: src/components/_economy/employee/employee.frontConfig.tsx:457
+#: src/components/_economy/employee/employee.frontConfig.tsx:510
+#: src/components/_economy/employee/employee.frontConfig.tsx:527
+#: src/components/_economy/employee/employee.frontConfig.tsx:544
+#: src/components/_economy/employee/employee.frontConfig.tsx:561
+#: src/components/_economy/employee/employee.frontConfig.tsx:710
+#: src/components/_economy/employee/employee.frontConfig.tsx:723
+#: src/components/_economy/employee/employee.frontConfig.tsx:823
+#: src/components/_economy/employee/EmployeeTraitArg.tsx:50
+msgid "Cap"
+msgstr ""
+
 #: src/components/_political/region/RegionTooltip.tsx:79
 msgid "Capital"
 msgstr ""
@@ -5251,7 +5226,7 @@ msgstr ""
 msgid "Change nationality"
 msgstr "Staatsbürgerschaft ändern"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:248
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:246
 msgid "Change pay"
 msgstr ""
 
@@ -5520,7 +5495,7 @@ msgstr ""
 msgid "Close"
 msgstr "Schließen"
 
-#: src/components/_layout/LayoutOptions.tsx:169
+#: src/components/_layout/LayoutOptions.tsx:167
 msgid "Clouds"
 msgstr ""
 
@@ -5570,7 +5545,7 @@ msgstr ""
 msgid "Color schemes are a Supporter Plan feature."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:221
+#: src/components/_layout/LayoutOptions.tsx:211
 msgid "Colorblind mode"
 msgstr "Modus für Farbenblinde"
 
@@ -5614,7 +5589,7 @@ msgstr "Community"
 #: src/components/_user/user/MyAvatar.tsx:50
 #: src/components/_user/user/UserHeader.tsx:238
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:144
+#: src/pages/companies.tsx:153
 msgid "Companies"
 msgstr "Firmen"
 
@@ -5628,7 +5603,7 @@ msgstr ""
 msgid "Companies limit"
 msgstr "Unternehmenslimit"
 
-#: src/components/_economy/company/CompanyList.tsx:166
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Companies limit reached"
 msgstr "Unternehmenslimit erreicht"
 
@@ -5808,7 +5783,7 @@ msgstr "Der Konsum erhöht deinen <0>Angriff</0> für {0}h.<1/> Danach verringer
 msgid "Content Mod"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:137
+#: src/components/_layout/LayoutOptions.tsx:135
 msgid "Contextual borders"
 msgstr "Kontextbezogene Grenzen"
 
@@ -5846,7 +5821,7 @@ msgstr "Verträge"
 msgid "Contracts & Auctions"
 msgstr "Verträge & Ausschreibungen"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:221
+#: src/components/_political/region/ResistanceFocusItem.tsx:218
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -6020,7 +5995,11 @@ msgstr "Landeskriege"
 msgid "Coworker fired"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:182
+#: src/components/_economy/employee/employee.frontConfig.tsx:1008
+msgid "Coworker trainings per day"
+msgstr ""
+
+#: src/components/_economy/employee/EmployeeModal.tsx:181
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:45
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:141
 msgid "Coworkers"
@@ -6139,6 +6118,10 @@ msgstr "Krit. Chance"
 msgid "Crit. damages"
 msgstr "Krit. Schaden"
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:931
+msgid "Critical event outcomes"
+msgstr ""
+
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:193
 msgid "Critical failure"
 msgstr ""
@@ -6235,19 +6218,19 @@ msgstr "Tägliche Unterhaltungskosten"
 msgid "Daily Missions Reset"
 msgstr "Tägliche Missionen zurückgesetzt"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:777
+#: src/components/_economy/employee/EmployeeModal.tsx:764
 msgid "Daily output"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:516
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:514
 msgid "Daily pay"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:136
+#: src/components/_economy/employee/EmployeeModal.tsx:135
 msgid "Daily production"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:791
+#: src/components/_economy/employee/EmployeeModal.tsx:778
 msgid "Daily profit"
 msgstr ""
 
@@ -6255,7 +6238,11 @@ msgstr ""
 msgid "Daily revenue"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:786
+#: src/components/_economy/employee/employee.frontConfig.tsx:997
+msgid "Daily shortlist, every company"
+msgstr ""
+
+#: src/components/_economy/employee/EmployeeModal.tsx:773
 msgid "Daily wage"
 msgstr ""
 
@@ -6314,7 +6301,7 @@ msgstr "Dunkle Ära"
 msgid "Dark Era Pack"
 msgstr "Dunkle-Ära-Paket"
 
-#: src/components/_layout/LayoutOptions.tsx:174
+#: src/components/_layout/LayoutOptions.tsx:172
 msgid "Dark map"
 msgstr "Dunkle Karte"
 
@@ -6379,7 +6366,7 @@ msgid "Debuff ended"
 msgstr "Debuff beendet"
 
 #: src/components/_user/user/UserHeader.tsx:342
-#: src/components/_user/user/UserTooltip.tsx:149
+#: src/components/_user/user/UserTooltip.tsx:147
 msgid "Debuff ends"
 msgstr ""
 
@@ -6597,7 +6584,7 @@ msgstr ""
 msgid "Diamonds"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:99
+#: src/components/_economy/employee/employee.frontConfig.tsx:102
 msgid "Died in a battle fought over the region they worked in."
 msgstr ""
 
@@ -6679,7 +6666,7 @@ msgstr ""
 msgid "Disabled"
 msgstr "Deaktiviert"
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:157
 msgid "Disabled upgrades"
 msgstr ""
 
@@ -6708,7 +6695,7 @@ msgstr ""
 msgid "Dismiss"
 msgstr "Entlassen"
 
-#: src/components/_economy/employee/useConfirmFire.tsx:63
+#: src/components/_economy/employee/useConfirmFire.tsx:37
 msgid "Dismiss {name}? This cannot be undone."
 msgstr ""
 
@@ -6877,7 +6864,7 @@ msgstr ""
 msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox (up to {LUCK_MAX_PCT}%), tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:151
+#: src/components/_economy/employee/employee.frontConfig.tsx:154
 msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox (up to {LUCK_MAX_PERCENT}%), tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
 msgstr ""
 
@@ -7062,10 +7049,10 @@ msgstr "Elite-Hose"
 msgid "Embrace the curse"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:649
+#: src/components/_economy/employee/EmployeeModal.tsx:643
 #: src/components/_economy/employee/EmployeeName.tsx:70
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:171
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:251
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:189
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:272
 #: src/components/_economy/employee/employeeTags.tsx:262
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:86
 msgid "Employee"
@@ -7115,9 +7102,8 @@ msgstr ""
 msgid "Employee tax"
 msgstr ""
 
-#. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:555
-msgid "Employee tax at 20% or more: <0>{0}</0>."
+#: src/components/_economy/employee/employee.frontConfig.tsx:835
+msgid "Employee tax 20% or more"
 msgstr ""
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:287
@@ -7246,7 +7232,7 @@ msgstr ""
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:65
 #: src/components/_economy/inventory/ItemGridFilters.tsx:199
-#: src/components/_layout/LayoutOptions.tsx:259
+#: src/components/_layout/LayoutOptions.tsx:249
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/user/[userId]/index.tsx:105
 #: src/pages/user/[userId]/inventory.tsx:92
@@ -7302,8 +7288,8 @@ msgid "Estimated minimum time for this side to win the current round if all tick
 msgstr "Geschätzte Mindestzeit, bis diese Seite die Runde gewinnt, wenn sie alle Ticks holt."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:65
-#: src/components/_economy/manager/ManagerProfitEstimate.tsx:97
-#: src/components/_economy/manager/ManagerProfitEstimate.tsx:101
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:53
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:57
 msgid "Estimated profit"
 msgstr ""
 
@@ -7336,52 +7322,42 @@ msgstr "Events"
 msgid "Events about {lead} and others were decided while you were away."
 msgstr ""
 
+#: src/components/_economy/employee/EmployeeTraitArg.tsx:40
+msgid "Every {perDays} days, same company"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:707
+msgid "Every 10 days, same company"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:336
 msgid "Every 2 minutes, the side with more <0>Damages</0> gains <1>Ground</1>. Your hits count."
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:650
-msgid "Every coworker can train twice a day instead of once."
+#: src/components/_economy/employee/employee.frontConfig.tsx:720
+msgid "Every 20 days, same company"
 msgstr ""
 
-#. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:279
-msgid "Every coworker gets <0>{0}</0>. Nothing for themselves."
+#: src/components/_economy/employee/employee.frontConfig.tsx:342
+#: src/components/_economy/employee/employee.frontConfig.tsx:378
+#: src/components/_economy/employee/employee.frontConfig.tsx:440
+#: src/components/_economy/employee/employee.frontConfig.tsx:971
+#: src/components/_economy/employee/employee.frontConfig.tsx:983
+msgid "Every coworker"
 msgstr ""
 
-#: src/components/_economy/employee/useConfirmFire.tsx:65
+#: src/components/_economy/employee/useConfirmFire.tsx:39
 msgid "Every coworker still working in this company loses {coworkerHappinessPenalty} happiness for {penaltyHours} hours. Firing again restarts the timer, it does not stack."
-msgstr ""
-
-#. placeholder {0}: 2
-#. placeholder {1}: -1
-#: src/components/_economy/employee/employee.frontConfig.tsx:267
-msgid "Every coworker weaker than them gets <0>{0}</0>. Costs the mentor <1>{1}</1>."
-msgstr ""
-
-#. placeholder {0}: -2
-#. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:627
-#: src/components/_economy/employee/employee.frontConfig.tsx:634
-msgid "Every coworker: <0>{0}</0>."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:434
-msgid "Every day worked counts double toward specialization."
 msgstr ""
 
 #. placeholder {0}: contract.productionBonusPercent
 #. placeholder {1}: employeeConfig.skills.managementBonusPercentPerLevel
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:526
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:524
 msgid "Every employee of this company produces <0>{0}</0> more: <1>{1}</1> per Management point, and they have <2/>."
 msgstr ""
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:79
 msgid "Every employee rolls 1 to 3 of these at hire, hidden until training reveals them."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:580
-msgid "Every happiness loss hits them half as hard."
 msgstr ""
 
 #: src/components/_layout/loadingTips.tsx:115
@@ -7430,6 +7406,10 @@ msgstr ""
 #. placeholder {0}: country?.taxes.market ?? 0
 #: src/pages/market/equipments.tsx:88
 msgid "Every price here is what you pay, tax included: the seller's price plus the {0}% market tax of your country <0/>, which goes to it."
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:358
+msgid "Every weaker coworker"
 msgstr ""
 
 #: src/components/_social/poll/PollEditorModal.tsx:261
@@ -7505,6 +7485,15 @@ msgstr ""
 msgid "Expected loot"
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:851
+#: src/components/_economy/employee/employee.frontConfig.tsx:858
+msgid "Expected pay vs market"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:866
+msgid "Expected pay, per week hired"
+msgstr ""
+
 #: src/components/_economy/employee/TrainingCard.tsx:282
 #: src/components/_economy/employee/TrainingDraftModal.tsx:256
 msgid "Expected wage"
@@ -7513,14 +7502,6 @@ msgstr ""
 #. placeholder {0}: Math.round(entry.delta * 100)
 #: src/components/_economy/employee/TrainingHistory.tsx:141
 msgid "Expected wage <0>-{0}%</0>"
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:574
-msgid "Expects 2% more pay every week since they were hired."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:567
-msgid "Expects 20% more pay than the market rate."
 msgstr ""
 
 #: src/components/_user/milestone/milestone.frontConfig.tsx:28
@@ -7732,7 +7713,7 @@ msgstr "Widerstand in <0/> finanzieren"
 msgid "Find a better horoscope"
 msgstr ""
 
-#: src/pages/companies.tsx:81
+#: src/pages/companies.tsx:86
 msgid "Find a job"
 msgstr "Einen Job finden"
 
@@ -7764,8 +7745,8 @@ msgstr ""
 msgid "Finished: your reward is waiting"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:396
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:266
+#: src/components/_economy/employee/EmployeeModal.tsx:394
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:264
 #: src/components/_political/government/Government.tsx:263
 msgid "Fire"
 msgstr "Entlassen"
@@ -7775,7 +7756,7 @@ msgctxt "username effect: flames"
 msgid "Fire"
 msgstr ""
 
-#: src/components/_economy/employee/useConfirmFire.tsx:61
+#: src/components/_economy/employee/useConfirmFire.tsx:35
 msgid "Fire employee?"
 msgstr ""
 
@@ -7783,7 +7764,7 @@ msgstr ""
 msgid "Fire government member"
 msgstr "Regierungsmitglied entlassen"
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:271
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:269
 msgid "Fire your manager?"
 msgstr ""
 
@@ -7795,8 +7776,8 @@ msgstr "Aus der Regierung entlassen"
 msgid "Firestorm Skillet"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:452
-msgid "First day in a new company: <0>+50%</0>. Nothing after that."
+#: src/components/_economy/employee/employee.frontConfig.tsx:670
+msgid "First day in a company"
 msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:325
@@ -7815,7 +7796,7 @@ msgstr "Fisch"
 msgid "Fixed. It looks great."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:149
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Flags"
 msgstr "Flaggen"
 
@@ -7852,11 +7833,11 @@ msgstr ""
 msgid "Follow-up"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:305
+#: src/components/_layout/LayoutOptions.tsx:295
 msgid "Font"
 msgstr "Schriftart"
 
-#: src/components/_layout/LayoutOptions.tsx:322
+#: src/components/_layout/LayoutOptions.tsx:312
 msgid "Font size"
 msgstr "Schriftgröße"
 
@@ -7868,7 +7849,7 @@ msgstr "Schriftstil"
 msgid "Font updated"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerProfitEstimate.tsx:130
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:86
 msgid "for"
 msgstr ""
 
@@ -7882,10 +7863,6 @@ msgstr ""
 
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:66
 msgid "for {penaltyDays} days, on everyone who changes desk"
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:470
-msgid "For 3 days after a transfer: <0>-30%</0>."
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3594
@@ -7956,6 +7933,10 @@ msgstr ""
 #. placeholder {1}: range.max
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:390
 msgid "From <0>{0}</0> to <1>{1}</1> before tax."
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:644
+msgid "Full storage"
 msgstr ""
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:49
@@ -8170,7 +8151,7 @@ msgstr "Giveaway gewonnen!"
 msgid "Gives <0>{0}</0>"
 msgstr "Gibt <0>{0}</0>"
 
-#: src/components/_layout/LayoutOptions.tsx:110
+#: src/components/_layout/LayoutOptions.tsx:108
 msgid "Globe (experimental)"
 msgstr "Globus (experimentell)"
 
@@ -8196,7 +8177,7 @@ msgstr "Geh sofort Lotto spielen"
 msgid "Go to ordered battle"
 msgstr ""
 
-#: src/components/_economy/company/CompanyList.tsx:180
+#: src/components/_economy/company/CompanyList.tsx:191
 msgid "Go to skills"
 msgstr "Zu den Fertigkeiten gehen"
 
@@ -8209,7 +8190,7 @@ msgstr ""
 msgid "Gold"
 msgstr "Gold"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:99
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:117
 msgid "Gone"
 msgstr ""
 
@@ -8270,7 +8251,7 @@ msgstr "Getreide"
 msgid "Grant the title"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:117
+#: src/components/_layout/LayoutOptions.tsx:115
 msgid "Graticule"
 msgstr "Gradnetz"
 
@@ -8440,10 +8421,8 @@ msgstr "Pistole"
 msgid "h. Glorification, promotion or encouragement of rule-breaking or cheating"
 msgstr "h. Verherrlichung, Bewerbung oder Ermutigung zu Regelverstößen oder Cheating"
 
-#. placeholder {0}: 2
-#. placeholder {1}: 5
-#: src/components/_economy/employee/employee.frontConfig.tsx:199
-msgid "Half or more coworkers share their nationality: <0>{0}</0> <1>{1}</1>."
+#: src/components/_economy/employee/employee.frontConfig.tsx:242
+msgid "Half or more compatriots"
 msgstr ""
 
 #: src/utils/translations.tsx:266
@@ -8500,6 +8479,10 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:113
 msgid "Happiness {value}"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:876
+msgid "Happiness losses"
 msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:85
@@ -8609,7 +8592,7 @@ msgstr "ME-Mitgliedern helfen"
 msgid "Help the game to grow"
 msgstr "Hilf dem Spiel zu wachsen"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:755
+#: src/components/_economy/employee/EmployeeModal.tsx:749
 msgid "hidden"
 msgstr ""
 
@@ -8635,7 +8618,7 @@ msgid "Hire"
 msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:299
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:145
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:144
 msgid "Hire a manager"
 msgstr ""
 
@@ -8675,10 +8658,6 @@ msgstr ""
 msgid "Hired 7 days ago or more, with happiness {mood} or more."
 msgstr ""
 
-#: src/components/_economy/employee/useConfirmFire.tsx:73
-msgid "Hired less than {rerollWithinHours}h ago, so this counts as a reroll: it costs <0>{energyCost}</0>."
-msgstr ""
-
 #: src/components/_layout/loadingTips.tsx:375
 msgid "Hiring an employee costs <0>{hireEnergyCost}</0> and no money. New candidates show up every day."
 msgstr ""
@@ -8704,6 +8683,10 @@ msgstr ""
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Das Kämpfen für das eigene Land, während man in der Regierung ist, gibt {0}% Kopfgeld-Effizienz."
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:216
+msgid "Holding a tool"
+msgstr ""
+
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:415
 msgid "Holding a tool worn down to 40 durability or less. Twice as likely if {jinx} or {handy}."
 msgstr ""
@@ -8720,12 +8703,8 @@ msgstr ""
 msgid "Holding a tool. Twice as likely for a {gambler}."
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:179
-msgid "Holding any tool: <0>+40%</0>. Nothing bare-handed."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:188
-msgid "Holding no tool: <0>+25%</0>. Give the tool to somebody else."
+#: src/components/_economy/employee/employee.frontConfig.tsx:228
+msgid "Holding no tool"
 msgstr ""
 
 #: src/components/_military/mu/MuHeader.tsx:149
@@ -8756,7 +8735,7 @@ msgstr ""
 msgid "Honor their career"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:510
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:508
 msgid "Hourly pay"
 msgstr ""
 
@@ -8805,7 +8784,7 @@ msgstr "Ich bin stolz auf dich"
 msgid "ID No."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:358
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:382
 #: src/components/_economy/inventory/Inventory.tsx:774
 msgid "Idle"
 msgstr ""
@@ -8877,14 +8856,8 @@ msgstr "Beeindruckend"
 msgid "Improviser"
 msgstr ""
 
-#. placeholder {0}: 3
-#. placeholder {1}: 5
-#: src/components/_economy/employee/employee.frontConfig.tsx:396
-msgid "In a company producing their good: <0>{0}</0> <1>{1}</1>."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:442
-msgid "In a company with a small storage: <0>-20%</0>."
+#: src/components/_economy/employee/employee.frontConfig.tsx:763
+msgid "In a homeland core region"
 msgstr ""
 
 #: src/components/_layout/loadingTips.tsx:458
@@ -8895,11 +8868,11 @@ msgstr ""
 msgid "In progress"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:218
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:216
 msgid "inactive"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:209
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:207
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Inaktiv"
@@ -8950,10 +8923,10 @@ msgid "Introduce yourself!"
 msgstr ""
 
 #: src/components/_layout/LayoutMenu.tsx:99
-#: src/components/_layout/LayoutUserMenu.tsx:169
+#: src/components/_layout/LayoutUserMenu.tsx:173
 #: src/components/_user/user/MyAvatar.tsx:38
 #: src/components/_user/user/UserHeader.tsx:177
-#: src/pages/companies.tsx:129
+#: src/pages/companies.tsx:136
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:55
 #: src/pages/user/[userId]/account.tsx:20
@@ -9126,7 +9099,7 @@ msgstr ""
 msgid "Jinx"
 msgstr ""
 
-#: src/pages/companies.tsx:65
+#: src/pages/companies.tsx:67
 msgid "Job"
 msgstr "Job"
 
@@ -9219,7 +9192,7 @@ msgstr "Nur noch eins..."
 msgid "Just because something isn't explicitly stated in the rules does not mean you can abuse it. Attempts to bypass rules or exploit loopholes will still be punished."
 msgstr "Nur weil etwas nicht ausdrücklich in den Regeln steht, heißt das nicht, dass du es ausnutzen darfst. Versuche, Regeln zu umgehen oder Schlupflöcher auszunutzen, werden trotzdem bestraft."
 
-#: src/components/_economy/employee/useConfirmFire.tsx:19
+#: src/components/_economy/employee/useConfirmFire.tsx:18
 msgid "Just moved: can be fired in {hours}h"
 msgstr ""
 
@@ -9271,10 +9244,6 @@ msgstr ""
 msgid "Keep working"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:620
-msgid "Keeps finding toolboxes while the storage is full and nobody works."
-msgstr ""
-
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:124
 msgid "Kept between {minChance}% and {maxChance}%. Fixed when the event appeared."
 msgstr ""
@@ -9309,7 +9278,7 @@ msgstr "Land entfernen"
 msgid "Kick Member"
 msgstr "Mitglied entfernen"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:97
+#: src/components/_economy/employee/employee.frontConfig.tsx:100
 msgid "Killed"
 msgstr ""
 
@@ -9333,7 +9302,7 @@ msgstr "Messer akzeptieren keine Munition"
 msgid "Laborer"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:248
+#: src/components/_layout/LayoutOptions.tsx:238
 #: src/components/_user/auth/WelcomeModal.tsx:277
 msgid "Language"
 msgstr "Sprache"
@@ -9368,7 +9337,7 @@ msgstr "Zuletzt verwendet"
 msgid "Last used:"
 msgstr "Zuletzt verwendet:"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:155
+#: src/components/_economy/employee/EmployeeModal.tsx:154
 msgid "Last works"
 msgstr ""
 
@@ -9689,7 +9658,7 @@ msgstr "Kalkstein"
 msgid "Limit of food consumption"
 msgstr "Limit für Nahrungsverbrauch"
 
-#: src/components/_economy/company/CompanyList.tsx:264
+#: src/components/_economy/company/CompanyList.tsx:275
 msgid "Limit reached"
 msgstr ""
 
@@ -9697,7 +9666,7 @@ msgstr ""
 msgid "Limited:"
 msgstr "Begrenzt:"
 
-#: src/components/_layout/LayoutOptions.tsx:358
+#: src/components/_layout/LayoutOptions.tsx:348
 msgid "Line"
 msgstr "Linie"
 
@@ -9834,7 +9803,8 @@ msgstr "Oberstleutnant"
 msgid "Lt. General"
 msgstr "Generalleutnant"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:149
+#: src/components/_economy/employee/employee.frontConfig.tsx:152
+#: src/components/_economy/employee/employee.frontConfig.tsx:919
 #: src/components/_economy/employee/employeeStats.tsx:432
 msgid "Luck"
 msgstr ""
@@ -9907,8 +9877,8 @@ msgid "Management {value}"
 msgstr ""
 
 #: src/components/_economy/employee/employeeStats.tsx:583
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:283
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:491
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:281
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:489
 #: src/pages/company/[companyId]/index.tsx:57
 msgid "Manager"
 msgstr ""
@@ -9934,7 +9904,7 @@ msgid "Manager resigned"
 msgstr ""
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:208
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:439
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:437
 #: src/components/_political/country/CountryTaxes.tsx:27
 #: src/components/_political/law/law.frontConfig.tsx:67
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:68
@@ -9945,14 +9915,12 @@ msgstr ""
 msgid "Manager Tax"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:380
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:378
 msgid "Manager wanted"
 msgstr ""
 
-#. placeholder {0}: 3
-#. placeholder {1}: -1
-#: src/components/_economy/employee/employee.frontConfig.tsx:410
-msgid "Manufactured goods: <0>{0}</0>. Raw resources: <1>{1}</1>."
+#: src/components/_economy/employee/employee.frontConfig.tsx:597
+msgid "Manufactured goods"
 msgstr ""
 
 #: src/components/_layout/LoadingScreenContent.tsx:26
@@ -9960,7 +9928,7 @@ msgid "map"
 msgstr "Karte"
 
 #: src/components/_layout/LayoutMapOptions.tsx:84
-#: src/components/_layout/LayoutOptions.tsx:107
+#: src/components/_layout/LayoutOptions.tsx:105
 #: src/components/_other/tour/tuto.frontConfig.tsx:652
 msgid "Map"
 msgstr "Karte"
@@ -9970,11 +9938,11 @@ msgstr "Karte"
 msgid "Map Accent"
 msgstr "Karten-Akzent"
 
-#: src/components/_layout/LayoutOptions.tsx:154
+#: src/components/_layout/LayoutOptions.tsx:152
 msgid "Map icons"
 msgstr "Kartensymbole"
 
-#: src/components/_layout/LayoutOptions.tsx:164
+#: src/components/_layout/LayoutOptions.tsx:162
 msgid "Map textures"
 msgstr ""
 
@@ -10025,7 +9993,7 @@ msgstr "Maximales Level erreicht!"
 msgid "Max rarity"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:371
+#: src/components/_economy/employee/EmployeeModal.tsx:369
 msgid "Maxed"
 msgstr ""
 
@@ -10161,6 +10129,11 @@ msgstr "Mitgliedschaft ausgesetzt"
 msgid "Memorandum"
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:531
+#: src/components/_economy/employee/employee.frontConfig.tsx:565
+msgid "Men only."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2367
 msgid "Mentioned in message"
 msgstr "In Nachricht erwähnt"
@@ -10193,7 +10166,7 @@ msgid "Mercenary earnings"
 msgstr "Söldnerverdienst"
 
 #: src/components/_military/mu/MuHeader.tsx:116
-#: src/components/_military/mu/MuTooltip.tsx:124
+#: src/components/_military/mu/MuTooltip.tsx:123
 msgid "Mercenary reputation"
 msgstr ""
 
@@ -10415,7 +10388,7 @@ msgstr ""
 msgid "Missing <0>{missing}</0> to produce"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:229
+#: src/components/_layout/LayoutOptions.tsx:219
 msgid "Mission tags"
 msgstr "Missionssymbole"
 
@@ -10512,7 +10485,7 @@ msgstr ""
 msgid "Morale is set live by traits and conditions."
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:139
+#: src/components/_economy/employee/employee.frontConfig.tsx:142
 msgid "Morale shield: cancels a share of every happiness loss, ramping from 0 to {RESP_MAX_SHIELD_PERCENT}% at {RESP_FULL_AT} Responsibility. Does not affect output."
 msgstr ""
 
@@ -10563,8 +10536,8 @@ msgstr "Antrag gestellt"
 msgid "Motions"
 msgstr "Anträge"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:390
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:257
+#: src/components/_economy/employee/EmployeeModal.tsx:388
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:255
 #: src/components/_political/region/MoveButton.tsx:119
 #: src/components/_political/region/MoveButton.tsx:131
 msgid "Move"
@@ -10850,6 +10823,10 @@ msgstr ""
 msgid "Nemesis"
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:902
+msgid "Never"
+msgstr ""
+
 #. placeholder {0}: ts.lightAmmo
 #. placeholder {1}: ts.ammo
 #. placeholder {2}: ts.heavyAmmo
@@ -10864,10 +10841,6 @@ msgstr "Niemals aufgeben!"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:16
 msgid "Never stop gambling"
 msgstr "Hör niemals auf zu spielen"
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:592
-msgid "Never walks out. Below {quitThreshold} happiness, produces half as much."
-msgstr ""
 
 #: src/components/_economy/itemOffer/itemOffer.frontConfig.tsx:10
 #: src/components/_other/shop/SkinPackItem.tsx:93
@@ -11035,7 +11008,7 @@ msgid "Next tier {currentTier}"
 msgstr ""
 
 #. placeholder {0}: nextToTrain.count
-#: src/components/_economy/employee/EmployeeModal.tsx:422
+#: src/components/_economy/employee/EmployeeModal.tsx:418
 msgid "Next to train ({0} left)"
 msgstr ""
 
@@ -11290,6 +11263,10 @@ msgstr ""
 msgid "No parties found"
 msgstr "Keine Parteien gefunden"
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:645
+msgid "No penalty"
+msgstr ""
+
 #: src/components/_user/user/SkillPresetsModal.tsx:311
 msgid "No presets saved yet."
 msgstr ""
@@ -11302,7 +11279,7 @@ msgstr ""
 msgid "No prize, but the whole company sang together. Spirits are high."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:146
+#: src/components/_economy/employee/EmployeeModal.tsx:145
 msgid "No production yet"
 msgstr ""
 
@@ -11351,7 +11328,7 @@ msgstr ""
 msgid "No trading orders"
 msgstr "Keine Handelsaufträge"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:749
+#: src/components/_economy/employee/EmployeeModal.tsx:743
 msgid "No traits"
 msgstr ""
 
@@ -11519,6 +11496,10 @@ msgstr ""
 msgid "Notes on an arm"
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:385
+msgid "Nothing"
+msgstr ""
+
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:748
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:228
 msgid "Nothing happens"
@@ -11530,6 +11511,11 @@ msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:180
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:423
+#: src/components/_economy/employee/employee.frontConfig.tsx:444
+msgid "Nothing while alone."
 msgstr ""
 
 #: src/pages/notifications.tsx:38
@@ -11605,11 +11591,11 @@ msgstr "Öl"
 msgid "Oil the hinge"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:198
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:216
 msgid "OK"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:470
+#: src/components/_economy/employee/EmployeeModal.tsx:466
 msgid "OK, remove them"
 msgstr ""
 
@@ -11663,10 +11649,6 @@ msgstr ""
 
 #: src/components/_layout/loadingTips.tsx:508
 msgid "One account per player. Multi-accounting can get you permanently banned."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:643
-msgid "One extra candidate in the daily shortlist of every company you own."
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3819
@@ -11726,6 +11708,10 @@ msgstr ""
 
 #: src/components/_social/poll/PollCard.tsx:232
 msgid "Only citizens of <0/> can vote."
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:497
+msgid "Only ever from an office romance."
 msgstr ""
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:164
@@ -11894,6 +11880,10 @@ msgstr ""
 msgid "Other"
 msgstr "Andere"
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:419
+msgid "Otherwise"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:369
 msgid "Out of Health?"
 msgstr ""
@@ -11916,7 +11906,7 @@ msgstr "Überlauf:"
 msgid "Overheard at the bar"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:122
+#: src/components/_layout/LayoutOptions.tsx:120
 msgid "Overseas frontiers"
 msgstr ""
 
@@ -11949,7 +11939,7 @@ msgstr "Eigene Militäreinheiten"
 #: src/components/_economy/company/CompanyTooltip.tsx:67
 #: src/components/_military/mu/MuHeader.tsx:139
 #: src/components/_military/mu/MuMemberList.tsx:321
-#: src/components/_military/mu/MuTooltip.tsx:135
+#: src/components/_military/mu/MuTooltip.tsx:134
 msgid "Owner"
 msgstr "Besitzer"
 
@@ -11995,9 +11985,8 @@ msgstr ""
 msgid "Paid back with interest: {value}"
 msgstr ""
 
-#. placeholder {0}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:302
-msgid "Paid more than every coworker: <0>+20%</0>. Otherwise <1>{0}</1>. Nothing while alone."
+#: src/components/_economy/employee/employee.frontConfig.tsx:415
+msgid "Paid more than every coworker"
 msgstr ""
 
 #: src/components/_economy/inventory/Inventory.tsx:501
@@ -12149,7 +12138,7 @@ msgstr ""
 msgid "Pay cut"
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:230
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:228
 msgid "pay cut pending"
 msgstr ""
 
@@ -12214,6 +12203,26 @@ msgstr "Ausstehend"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Die Menschen sind wütend, eine automatische Revolte hat in <0/> begonnen"
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:819
+msgid "Per 1% employee tax"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:733
+msgid "Per 10 years past 40"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:749
+msgid "Per 10 years past 50"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:453
+msgid "Per better-paid coworker"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:318
+msgid "Per coworker"
+msgstr ""
+
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:84
 #: src/pages/country/[countryId]/index.tsx:386
 msgid "Per day"
@@ -12223,12 +12232,26 @@ msgstr ""
 msgid "per day to <0/>."
 msgstr ""
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:506
+#: src/components/_economy/employee/employee.frontConfig.tsx:557
+msgid "Per female coworker"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:280
+msgid "Per foreign nationality"
+msgstr ""
+
 #: src/components/_economy/manager/managerStats.tsx:54
 msgid "Per hour, per Management point"
 msgstr ""
 
 #: src/components/_economy/manager/managerStats.tsx:57
 msgid "Per hour. Allowed"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:523
+#: src/components/_economy/employee/employee.frontConfig.tsx:540
+msgid "Per male coworker"
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3636
@@ -12281,7 +12304,7 @@ msgstr ""
 msgid "Pick a candidate!"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:367
+#: src/components/_economy/employee/EmployeeModal.tsx:365
 #: src/components/_economy/employee/TrainingDraftModal.tsx:483
 msgid "Pick a card"
 msgstr ""
@@ -12399,7 +12422,7 @@ msgstr "Bitte wähle eine Region aus"
 msgid "Plutocracy"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:103
+#: src/components/_economy/employee/employee.frontConfig.tsx:106
 msgid "Poached"
 msgstr ""
 
@@ -12676,7 +12699,13 @@ msgstr "Produzierter Gegenstand"
 msgid "Produced item changed!"
 msgstr "Produzierter Gegenstand geändert!"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:126
+#: src/components/_economy/employee/employee.frontConfig.tsx:576
+msgid "Producing their good"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:129
+#: src/components/_economy/employee/employee.frontConfig.tsx:927
+#: src/components/_economy/employee/employee.frontConfig.tsx:947
 #: src/components/_economy/employee/employeeStats.tsx:281
 #: src/components/_economy/employee/employeeStats.tsx:298
 #: src/components/_economy/employee/employeeStats.tsx:849
@@ -12691,8 +12720,8 @@ msgstr "Produktion"
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:42
 #: src/components/_economy/employee/employeeStats.tsx:690
 #: src/components/_economy/employee/EmployeeTooltip.tsx:135
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:171
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:519
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:170
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:517
 #: src/pages/region/[regionId]/index.tsx:72
 msgid "Production bonus"
 msgstr "Produktionsbonus"
@@ -12907,8 +12936,16 @@ msgstr "Gegenstände schnell zerlegen"
 msgid "Quintessence Still"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:91
+#: src/components/_economy/employee/employee.frontConfig.tsx:94
 msgid "Quit"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:885
+msgid "Quits below"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:901
+msgid "Quitting"
 msgstr ""
 
 #: src/components/_user/user/UserEffectSelector.tsx:60
@@ -12927,7 +12964,7 @@ msgstr ""
 msgid "Random trait, +1 random stat"
 msgstr ""
 
-#: src/components/_user/user/UserTooltip.tsx:158
+#: src/components/_user/user/UserTooltip.tsx:156
 msgid "Rank"
 msgstr ""
 
@@ -12992,10 +13029,9 @@ msgstr "Preis pro 1K Schaden"
 msgid "Rationing"
 msgstr ""
 
-#. placeholder {0}: 3
-#. placeholder {1}: -1
-#: src/components/_economy/employee/employee.frontConfig.tsx:422
-msgid "Raw resources: <0>{0}</0>. Anything manufactured: <1>{1}</1>."
+#: src/components/_economy/employee/employee.frontConfig.tsx:605
+#: src/components/_economy/employee/employee.frontConfig.tsx:617
+msgid "Raw resources"
 msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:292
@@ -13219,7 +13255,7 @@ msgstr ""
 msgid "Refuse and leave?"
 msgstr ""
 
-#: src/components/_layout/LayoutUserMenu.tsx:220
+#: src/components/_layout/LayoutUserMenu.tsx:224
 msgid "Regen in..."
 msgstr "Regen. in..."
 
@@ -13349,11 +13385,11 @@ msgstr ""
 msgid "Rejected"
 msgstr "Abgelehnt"
 
-#: src/components/_layout/LayoutUserMenu.tsx:246
+#: src/components/_layout/LayoutUserMenu.tsx:250
 msgid "Remaining buff duration"
 msgstr "Verbleibende Buff-Dauer"
 
-#: src/components/_layout/LayoutUserMenu.tsx:259
+#: src/components/_layout/LayoutUserMenu.tsx:263
 msgid "Remaining debuff duration"
 msgstr "Verbleibende Debuff-Dauer"
 
@@ -13446,7 +13482,7 @@ msgid "Removed from saved"
 msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:461
-#: src/components/_economy/employee/EmployeeModal.tsx:383
+#: src/components/_economy/employee/EmployeeModal.tsx:381
 #: src/components/_economy/employee/EmployeeRenameModal.tsx:83
 #: src/components/_user/user/SkillPresetsModal.tsx:228
 msgid "Rename"
@@ -13496,7 +13532,7 @@ msgstr ""
 msgid "Report"
 msgstr "Melden"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:506
+#: src/components/_economy/employee/EmployeeModal.tsx:502
 msgid "Report name"
 msgstr ""
 
@@ -13560,11 +13596,11 @@ msgstr "Zurücksetzen"
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA zurücksetzen"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:513
+#: src/components/_economy/employee/EmployeeModal.tsx:509
 msgid "Reset name"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:519
+#: src/components/_economy/employee/EmployeeModal.tsx:515
 msgid "Reset Name"
 msgstr ""
 
@@ -13610,7 +13646,7 @@ msgstr ""
 msgid "Resist"
 msgstr "Widersetzen"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:107
+#: src/components/_political/region/ResistanceFocusItem.tsx:105
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:128
 msgid "Resistance"
@@ -13625,7 +13661,7 @@ msgstr ""
 msgid "Resistance Contributors"
 msgstr "Widerstands-Unterstützer"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:247
+#: src/components/_political/region/ResistanceFocusItem.tsx:244
 msgid "Resistance focus"
 msgstr ""
 
@@ -13655,7 +13691,7 @@ msgstr "Ressourcen neu verteilt"
 msgid "Response to message"
 msgstr "Antwort auf Nachricht"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:137
+#: src/components/_economy/employee/employee.frontConfig.tsx:140
 #: src/components/_economy/employee/employeeStats.tsx:492
 msgid "Responsibility"
 msgstr ""
@@ -13692,11 +13728,11 @@ msgstr ""
 msgid "Resume it anytime from your inventory to earn its reward."
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:107
+#: src/components/_economy/employee/employee.frontConfig.tsx:110
 msgid "Retired"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:108
+#: src/components/_economy/employee/employee.frontConfig.tsx:111
 msgid "Retired at the end of a long career."
 msgstr ""
 
@@ -14448,8 +14484,12 @@ msgstr "Steine für die Schleuder"
 msgid "Slots"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:234
+#: src/components/_layout/LayoutOptions.tsx:224
 msgid "Small GIFs"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:656
+msgid "Small storage"
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2493
@@ -14476,18 +14516,16 @@ msgstr "Soziales & Nachrichten"
 msgid "Sold by"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:236
-msgid "Sole employee of the company: <0>+100%</0>. Nothing once a coworker joins."
+#: src/components/_economy/employee/employee.frontConfig.tsx:304
+msgid "Sole employee"
 msgstr ""
 
-#: src/components/_economy/company/CompanyList.tsx:171
+#: src/components/_economy/company/CompanyList.tsx:182
 msgid "Some of your companies are disabled."
 msgstr "Einige deiner Unternehmen sind deaktiviert."
 
-#. placeholder {0}: 3
-#. placeholder {1}: -1
-#: src/components/_economy/employee/employee.frontConfig.tsx:290
-msgid "Somebody out-produces them: <0>{0}</0>. Top of the roster: <1>{1}</1>."
+#: src/components/_economy/employee/employee.frontConfig.tsx:395
+msgid "Somebody out-produces them"
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1217
@@ -14519,7 +14557,7 @@ msgstr ""
 msgid "Something snapped. The tool is worse off than before."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:205
+#: src/components/_layout/LayoutOptions.tsx:195
 msgid "Sound effects"
 msgstr "Soundeffekte"
 
@@ -14540,6 +14578,10 @@ msgstr "Spezialist"
 #: src/components/_economy/employee/EmployeeSpecializations.tsx:54
 msgid "Specialization"
 msgstr "Spezialisierung"
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:635
+msgid "Specialization progress"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:194
 msgid "Spellcaster Gloves"
@@ -14680,10 +14722,6 @@ msgstr ""
 msgid "starts at 1% and grows +1% per day up to <0>{0}</0>"
 msgstr "startet bei 1% und erhält 1% pro Tag bis zu <0>{0}</0>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:584
-msgid "Starts looking for the door at {flightRiskQuitThreshold} happiness, not {quitThreshold}."
-msgstr ""
-
 #: src/components/_social/poll/PollCard.tsx:218
 msgid "Starts when the article is published"
 msgstr ""
@@ -14700,14 +14738,14 @@ msgstr "Statistisch gesehen unmöglich, so viel Pech zu haben"
 msgid "Statistically rigged"
 msgstr "Statistisch manipuliert"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:774
+#: src/components/_economy/employee/EmployeeModal.tsx:761
 #: src/components/_economy/employee/EmployeeTooltip.tsx:123
 #: src/pages/company/[companyId]/index.tsx:69
 #: src/pages/war/[warId]/index.tsx:65
 msgid "Stats"
 msgstr "Statistiken"
 
-#: src/components/_layout/LayoutUserMenu.tsx:221
+#: src/components/_layout/LayoutUserMenu.tsx:225
 msgid "Stats regenerate every hour"
 msgstr "Statistiken regenerieren sich jede Stunde"
 
@@ -14738,6 +14776,10 @@ msgstr "Steak"
 msgid "Steel"
 msgstr "Stahl"
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:960
+msgid "Still finds toolboxes"
+msgstr ""
+
 #: src/components/_economy/employee/employee.traitMeta.ts:111
 msgid "Stockpiler"
 msgstr ""
@@ -14753,6 +14795,10 @@ msgstr "Lager"
 
 #: src/components/_economy/employee/employeeStats.tsx:738
 msgid "Storage full"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:959
+msgid "Storage full, nobody working"
 msgstr ""
 
 #: src/components/_economy/employeeEvent/EmployeeEventHistory.tsx:36
@@ -14838,7 +14884,7 @@ msgstr "Unterstütze uns"
 msgid "Supporter"
 msgstr "Supporter"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:385
+#: src/components/_economy/employee/EmployeeModal.tsx:383
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:52
 #: src/components/_user/user/UserDropdown.tsx:241
 #: src/components/_user/user/UserDropdown.tsx:250
@@ -15129,7 +15175,7 @@ msgstr "Bedingungen"
 msgid "Terms of Service"
 msgstr "Nutzungsbedingungen"
 
-#: src/components/_layout/LayoutOptions.tsx:369
+#: src/components/_layout/LayoutOptions.tsx:359
 msgid "Texture"
 msgstr "Textur"
 
@@ -15543,7 +15589,7 @@ msgstr ""
 msgid "The price must be positive"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerProfitEstimate.tsx:98
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:54
 msgid "The production a manager's Management adds to your employees as they are now, at the market value of a point, minus a day of their pay at this rate. It moves with your roster."
 msgstr ""
 
@@ -15748,8 +15794,8 @@ msgstr ""
 msgid "Their coworkers"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeTraitArg.tsx:82
-msgid "Their good: {good}"
+#: src/components/_economy/employee/EmployeeTraitArg.tsx:85
+msgid "Their good"
 msgstr ""
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:197
@@ -15760,12 +15806,19 @@ msgstr ""
 msgid "Their output: every {OUTPUT_DIVISOR} Production banks one point per hour, before bonuses."
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:128
+#: src/components/_economy/employee/employee.frontConfig.tsx:131
 msgid "Their output: every {OUTPUT_DIVISOR} Production banks one production point per hour, before bonuses."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeTraitArg.tsx:97
-msgid "Their stat: {stat}"
+#: src/components/_economy/employee/EmployeeTraitArg.tsx:100
+msgid "Their stat"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:338
+#: src/components/_economy/employee/employee.frontConfig.tsx:366
+#: src/components/_economy/employee/employee.frontConfig.tsx:385
+#: src/components/_economy/employee/employee.frontConfig.tsx:432
+msgid "Themselves"
 msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3399
@@ -15784,7 +15837,7 @@ msgstr ""
 msgid "They get through it somehow, and nobody mentions it again."
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:272
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:270
 msgid "They keep what they earned."
 msgstr ""
 
@@ -15792,11 +15845,11 @@ msgstr ""
 msgid "They laugh too. {name} and {partnerName} are old friends now, and share a barber."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:658
+#: src/components/_economy/employee/EmployeeModal.tsx:652
 msgid "They left the company"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:102
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:120
 msgid "They left the company."
 msgstr ""
 
@@ -15901,7 +15954,7 @@ msgid "This dude is moderator."
 msgstr ""
 
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:288
-#: src/components/_economy/employee/useConfirmFire.tsx:58
+#: src/components/_economy/employee/useConfirmFire.tsx:32
 msgid "this employee"
 msgstr ""
 
@@ -15971,7 +16024,7 @@ msgstr ""
 msgid "This no longer applies: someone it was about is gone."
 msgstr ""
 
-#: src/components/_economy/manager/CompanyManagerSlot.tsx:211
+#: src/components/_economy/manager/CompanyManagerSlot.tsx:209
 msgid "This player has not connected for days. Until they come back they add no production to the roster and earn nothing."
 msgstr ""
 
@@ -16141,7 +16194,7 @@ msgstr "Buch der Stürme"
 msgid "Tome of Tides"
 msgstr "Buch der Gezeiten"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:104
+#: src/components/_economy/employee/employee.frontConfig.tsx:107
 msgid "Took a job offer from a rival firm."
 msgstr ""
 
@@ -16173,6 +16226,10 @@ msgstr ""
 
 #: src/utils/translations.tsx:119
 msgid "Toolbox"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:943
+msgid "Toolbox chance and cap"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:946
@@ -16246,6 +16303,10 @@ msgstr ""
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:97
 msgid "Top of the hill"
 msgstr "Gipfelstürmer"
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:403
+msgid "Top of the roster"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:765
 msgid "total"
@@ -16381,7 +16442,7 @@ msgstr "Handel"
 msgid "Trading transaction"
 msgstr "Handelsaktion"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:369
+#: src/components/_economy/employee/EmployeeModal.tsx:367
 #: src/components/_economy/employee/TrainingDraftModal.tsx:357
 msgid "Train"
 msgstr ""
@@ -16394,7 +16455,7 @@ msgstr ""
 msgid "Train Employees"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:747
+#: src/components/_economy/employee/EmployeeModal.tsx:741
 msgid "Train to reveal traits"
 msgstr ""
 
@@ -16459,7 +16520,7 @@ msgstr ""
 msgid "Training raises them all."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:714
+#: src/components/_economy/employee/EmployeeModal.tsx:708
 #: src/components/_economy/employee/EmployeeTooltip.tsx:155
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:163
 msgid "Traits"
@@ -16526,10 +16587,6 @@ msgstr "Tutorials"
 msgid "Tutorials reseted"
 msgstr "Tutorials zurückgesetzt"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:612
-msgid "Twice the chance to find a toolbox, and twice its cap. <0>-25%</0>."
-msgstr ""
-
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1316
 msgid "Two centimeters off. It is worse now."
 msgstr ""
@@ -16575,7 +16632,7 @@ msgstr ""
 msgid "Tyrannosaurus Rex"
 msgstr "Tyrannosaurus Rex"
 
-#: src/components/_layout/LayoutOptions.tsx:183
+#: src/components/_layout/LayoutOptions.tsx:181
 msgid "UI"
 msgstr "Benutzeroberfläche"
 
@@ -16735,8 +16792,8 @@ msgid "Upgrade your skills!"
 msgstr "Verbessere deine Fähigkeiten!"
 
 #: src/components/_economy/company/CompanyTags.tsx:195
-#: src/components/_economy/company/CompanyTooltip.tsx:85
-#: src/components/_military/mu/MuTooltip.tsx:147
+#: src/components/_economy/company/CompanyTooltip.tsx:84
+#: src/components/_military/mu/MuTooltip.tsx:146
 #: src/components/_political/region/RegionTooltip.tsx:138
 #: src/pages/company/[companyId]/index.tsx:75
 #: src/pages/region/[regionId]/index.tsx:147
@@ -16887,7 +16944,7 @@ msgstr "Benutzername entfernt"
 msgid "Users"
 msgstr "Benutzer"
 
-#: src/components/_layout/LayoutUserMenu.tsx:272
+#: src/components/_layout/LayoutUserMenu.tsx:276
 msgid "Users online"
 msgstr "Spieler online"
 
@@ -17072,7 +17129,7 @@ msgstr ""
 msgid "Veteran"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:213
+#: src/components/_layout/LayoutOptions.tsx:203
 msgid "Vibrations"
 msgstr ""
 
@@ -17172,7 +17229,7 @@ msgstr ""
 msgid "Waiting for level {0}"
 msgstr "Warte auf Level {0}"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:93
+#: src/components/_economy/employee/employee.frontConfig.tsx:96
 msgid "Walked out: they were too unhappy to keep working for you."
 msgstr ""
 
@@ -17291,8 +17348,7 @@ msgstr ""
 msgid "What a day of the extra production this tool gives is worth at the market value of a point. An estimate: what you really earn depends on what you make and the price you sell it at."
 msgstr ""
 
-#: src/components/_economy/manager/ManagerProfitEstimate.tsx:55
-#: src/components/_economy/manager/ManagerProfitEstimate.tsx:146
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:102
 msgid "What a day of the production this manager adds is worth at the market value of a point, minus a day of their pay. An estimate: it follows your roster as it is now."
 msgstr ""
 
@@ -17353,8 +17409,8 @@ msgstr ""
 msgid "Winter Soldier Pack"
 msgstr "Wintersoldaten-Paket"
 
-#: src/components/_economy/employee/EmployeeTraitArg.tsx:102
-msgid "With {partner}"
+#: src/components/_economy/employee/EmployeeTraitArg.tsx:105
+msgid "With"
 msgstr ""
 
 #: src/components/_layout/loadingTips.tsx:499
@@ -17365,12 +17421,6 @@ msgstr ""
 #: src/components/_military/battle/ActiveBattlesList.tsx:148
 msgid "With bounty"
 msgstr "Mit Kopfgeld"
-
-#. placeholder {0}: 2
-#. placeholder {1}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:311
-msgid "With coworkers: <0>{0}</0> for themselves, <1>{1}</1> for everyone else."
-msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:262
 msgid "With the right parts, the tool is as good as new."
@@ -17410,6 +17460,11 @@ msgstr ""
 #: src/components/_other/shop/skin.frontConfig.tsx:185
 msgid "Wizard Hat"
 msgstr "Zaubererhut"
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:514
+#: src/components/_economy/employee/employee.frontConfig.tsx:548
+msgid "Women only."
+msgstr ""
 
 #: src/components/_military/tournament/TournamentHeader.tsx:91
 #: src/pages/events/index.tsx:116
@@ -17462,12 +17517,17 @@ msgstr "Arbeiter hat das Unternehmen verlassen"
 msgid "Workers"
 msgstr "Arbeiter"
 
-#: src/pages/companies.tsx:104
+#: src/pages/companies.tsx:109
 msgid "Workforce"
 msgstr ""
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:115
 msgid "Workforce chart"
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:784
+#: src/components/_economy/employee/employee.frontConfig.tsx:801
+msgid "Working abroad"
 msgstr ""
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:515
@@ -17478,44 +17538,15 @@ msgstr ""
 msgid "Working abroad, with happiness {mood} or less. Always possible abroad for a {homesick}, and twice as likely."
 msgstr ""
 
-#. placeholder {0}: -2
-#. placeholder {1}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:524
-msgid "Working abroad: <0>{0}</0> <1>{1}</1>."
-msgstr ""
-
-#. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:533
-msgid "Working abroad: <0>{0}</0>."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:339
-msgid "Working alongside the one they cannot stand: <0>-15%</0>."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:331
-msgid "Working alongside their friend: <0>+15%</0>."
-msgstr ""
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:347
-msgid "Working alongside their sweetheart: <0>+20%</0>. Only ever from an office romance."
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Working fills its <0>Production</0> bar."
-msgstr ""
-
-#. placeholder {0}: 2
-#. placeholder {1}: 10
-#: src/components/_economy/employee/employee.frontConfig.tsx:510
-msgid "Working in a core region of their homeland: <0>{0}</0> <1>{1}</1>."
 msgstr ""
 
 #: src/components/_layout/loadingTips.tsx:303
 msgid "Working in your own company costs <0>{energyCostPerAction}</0> and adds your <1>Production</1> to its storage."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:189
+#: src/components/_economy/employee/EmployeeModal.tsx:188
 msgid "Works alone"
 msgstr ""
 
@@ -17535,7 +17566,7 @@ msgstr ""
 msgid "Worn Out"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:297
+#: src/components/_layout/LayoutOptions.tsx:287
 #: src/components/_user/kits/KitsPopover.tsx:263
 msgid "Worst"
 msgstr "Schlechteste"
@@ -17632,7 +17663,7 @@ msgstr "Du bist bereits Vizepräsident eines anderen Landes. Tritt zuerst zurüc
 msgid "You are here"
 msgstr ""
 
-#: src/pages/companies.tsx:77
+#: src/pages/companies.tsx:82
 msgid "You are jobless"
 msgstr "Du bist arbeitslos"
 
@@ -18189,7 +18220,7 @@ msgstr "Deine E-Mail"
 msgid "Your employee's stats"
 msgstr ""
 
-#: src/components/_economy/manager/ManagerProfitEstimate.tsx:107
+#: src/components/_economy/manager/ManagerProfitEstimate.tsx:63
 msgid "Your employees produce nothing right now, so a manager would add nothing."
 msgstr ""
 
@@ -18227,7 +18258,7 @@ msgstr ""
 msgid "Your gear boosts them all."
 msgstr ""
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:251
+#: src/components/_political/region/ResistanceFocusItem.tsx:248
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 
