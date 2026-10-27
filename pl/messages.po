@@ -3687,7 +3687,7 @@ msgstr "Aktywne bitwy"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:73
 msgid "Active citizen"
-msgstr "Aktywny mieszkaniec"
+msgstr "Aktywny obywatel"
 
 #: src/components/_political/country/CountryHeader.tsx:233
 msgid "Active citizens"
@@ -4902,7 +4902,7 @@ msgstr "Utwórz jednostkę wojskową"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:109
 msgid "Bulk dismantle"
-msgstr "Rozmontuj hurtowo"
+msgstr "Rozmontowuj hurtowo"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:97
 msgid "Bully"
@@ -6037,7 +6037,7 @@ msgstr "Wytwórz przedmiot"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:97
 msgid "Craft items"
-msgstr "Wytwórz przedmioty"
+msgstr "Wytwarzaj przedmioty"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:108
 msgid "Craftsman"
@@ -6749,7 +6749,7 @@ msgstr "Przekaż <0/> JW lub krajowi"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:43
 msgid "Donate to country/MU"
-msgstr "Przekaż krajowi/JW"
+msgstr "Przekazuj darowiznę krajowi/JW"
 
 #: src/components/_economy/transaction/TransactionList.tsx:83
 msgid "Donation"
@@ -7391,7 +7391,7 @@ msgstr "Każdy kociak znajduje schronienie w domach pracowników."
 
 #: src/components/_user/level/LevelTrack.tsx:88
 msgid "Every level gives skill points and opens something new. Here is the way to the top."
-msgstr "Każdy poziom daje punkty umiejętności i otwiera coś nowego. To jest droga na sam szczyt."
+msgstr "Każdy poziom daje punkty umiejętności i otwiera coś nowego. Oto droga na sam szczyt."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:260
 msgid "Every level gives skill points. Tap Skills."
@@ -11759,7 +11759,7 @@ msgstr "Otwórz wszystko"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:103
 msgid "Open all cases"
-msgstr "Otwórz wszystkie skrzynki"
+msgstr "Otwieraj wszystkie skrzynki"
 
 #: src/components/_economy/transaction/TransactionList.tsx:89
 msgid "Open Case"
@@ -14063,7 +14063,7 @@ msgstr "Sprzedaj przedmioty"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:299
 msgid "Sell Items"
-msgstr "Sprzedaj przedmioty"
+msgstr "Sprzedawaj przedmioty"
 
 #: src/components/_economy/itemTrading/TradingOrders.tsx:82
 #: src/pages/market/index.tsx:202
@@ -17529,7 +17529,7 @@ msgstr "Napisz prawo"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:49
 msgid "Write articles"
-msgstr "Napisz artykuły"
+msgstr "Pisz artykuły"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:436
 msgid "Written by players. Tap News."
