@@ -414,7 +414,7 @@ msgstr "{count, plural, one {<0>Daj napiwek <1/> artykułowi</0>} other {<2>Daj 
 
 #: src/components/_user/mission/mission.frontConfig.tsx:770
 msgid "{count, plural, one {<0>Train your employees <1/> time</0>} other {<2>Train your employees <3/> times</2>}}"
-msgstr "{count, plural, one {<0>Szkol swojego pracownika <1/> raz</0>} other {<2>Szkol swojego pracownika <3/> razy</2>}}"
+msgstr "{count, plural, one {<0>Szkol swojego pracownika <1/> raz</0>} other {<2>Szkol swoich pracowników <3/> razy</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:887
 msgid "{count, plural, one {<0>Travel to another region <1/> time</0>} other {<2>Travel to another region <3/> times</2>}}"
@@ -5578,7 +5578,7 @@ msgstr "Dowódca"
 #: src/components/_military/mu/MuHeader.tsx:97
 #: src/components/_military/mu/MuTooltip.tsx:100
 msgid "Commanders"
-msgstr "Dowódcy"
+msgstr "Dowódców"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3530
 msgid "Commission a better one"
@@ -7356,7 +7356,7 @@ msgstr "Każdy przepracowany dzień liczy się podwójnie do specjalizacji."
 #. placeholder {1}: employeeConfig.skills.managementBonusPercentPerLevel
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:524
 msgid "Every employee of this company produces <0>{0}</0> more: <1>{1}</1> per Management point, and they have <2/>."
-msgstr "Każdy pracownik tej firmy produkuje <0>{0}</0> więcej: <1>{1}</1> za punkt Zarządzaniem, i mają <2/>."
+msgstr "Każdy pracownik tej firmy produkuje <0>{0}</0> więcej: <1>{1}</1> za punkt Zarządzaniem, a mają <2/>."
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:79
 msgid "Every employee rolls 1 to 3 of these at hire, hidden until training reveals them."
@@ -8550,7 +8550,7 @@ msgstr "Ostrze Żniwiarza"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:948
 msgid "Have your employees find <0/>"
-msgstr "Zleć swoim pracownikom znalezienie <0/>"
+msgstr "Pozwól swoim pracownikom znaleźć <0/>"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:938
 msgid "Have your employees make <0/>"
@@ -11906,7 +11906,7 @@ msgstr "Podsłuchane przy barze"
 
 #: src/components/_layout/LayoutOptions.tsx:122
 msgid "Overseas frontiers"
-msgstr "Zamorskie rubieże"
+msgstr "Szlaki zamorskie"
 
 #: src/components/_military/war/WarHeader.tsx:79
 msgid "Overview"
@@ -17561,7 +17561,7 @@ msgstr "Bonus XP"
 
 #: src/components/_user/mission/ProgressHeader.tsx:127
 msgid "XP earned"
-msgstr "XP zdobyte"
+msgstr "Zdobyte XP"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:247
 msgid "XP raises your level. Tap Levels."
