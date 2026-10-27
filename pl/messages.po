@@ -1948,7 +1948,7 @@ msgstr "/{max, plural, one {# slot} other {# sloty}}"
 
 #: src/components/_economy/employee/EmployeeList.tsx:229
 #: src/components/_economy/employee/EmployeeList.tsx:235
-#: src/components/_economy/employee/EstimatedProfit.tsx:143
+#: src/components/_economy/employee/EstimatedProfit.tsx:146
 #: src/components/_economy/employee/WorkforceSummary.tsx:520
 #: src/components/_economy/employee/WorkforceSummary.tsx:555
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:136
@@ -1972,11 +1972,6 @@ msgstr "/godz. przy {points} punktach Zarządzania"
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:385
 msgid "/h max"
 msgstr "/godz. maks"
-
-#. placeholder {0}: status.bonusPercent
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:207
-msgid "+{0}% Production"
-msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:203
 msgid "+{hiddenBattles} more battles"
@@ -4859,7 +4854,7 @@ msgstr "Zepsuty"
 msgid "Broken"
 msgstr "Zepsuty"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:203
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:228
 msgid "Broken: no longer boosts Production"
 msgstr ""
 
@@ -5225,10 +5220,6 @@ msgstr "Szansa na trafienie celu.<0/>Pudła nie mogą być krytyczne i zadają p
 #: src/components/_economy/employee/employeeStats.tsx:858
 msgid "Chance to quit"
 msgstr "Szansa na odejście"
-
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:220
-msgid "Change"
-msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:99
 msgid "Change {taxName} to"
@@ -7243,10 +7234,6 @@ msgstr "Zazdrosny"
 #: src/components/_user/user/EcoSkillEffects.tsx:28
 msgid "Epic"
 msgstr "Epicki"
-
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:220
-msgid "Equip"
-msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:838
 msgid "Equip a Tool"
@@ -11524,7 +11511,7 @@ msgstr "Nieropoczęty"
 msgid "not usable in this company"
 msgstr "Nieużyteczny dla tej firmy"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:205
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:230
 msgid "Not usable in this company"
 msgstr ""
 
@@ -12211,7 +12198,7 @@ msgstr "Płatność udana! Dziękujemy za wspieranie gry <3"
 msgid "Payout"
 msgstr "Wypłata"
 
-#: src/components/_economy/employee/EstimatedProfit.tsx:97
+#: src/components/_economy/employee/EstimatedProfit.tsx:99
 msgid "Payroll"
 msgstr "Lista płac"
 
@@ -12738,7 +12725,7 @@ msgstr "Tylko dla profesjonalistów (5+ rep)"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/components/_economy/employee/EstimatedProfit.tsx:107
+#: src/components/_economy/employee/EstimatedProfit.tsx:110
 #: src/components/_economy/employee/WorkforceSummary.tsx:310
 msgid "Profit"
 msgstr "Profit"
@@ -16159,7 +16146,7 @@ msgid "Took a job offer from a rival firm."
 msgstr "Przyjął ofertę pracy od konkurencji."
 
 #: src/components/_economy/employee/employee.traitMeta.ts:81
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:229
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:255
 #: src/components/_economy/employee/EmployeeTooltip.tsx:183
 #: src/components/_economy/employee/EmployeeTooltip.tsx:194
 msgid "Tool"
@@ -16170,11 +16157,11 @@ msgstr "Narzędzie"
 msgid "Tool <0>fully repaired</0>"
 msgstr "Narzędzie <0>całkowicie naprawione</0>"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:71
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:75
 msgid "Tool given"
 msgstr "Narzędzie dane"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:76
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:80
 #: src/components/_economy/inventory/Inventory.tsx:685
 msgid "Tool taken back"
 msgstr "Nardzędzie zabrane"
@@ -16206,7 +16193,7 @@ msgstr "Skrzynki z narzędziami na przepracowane godziny"
 msgid "Tools"
 msgstr "Narzędzia"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:193
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:216
 msgid "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, found by your employees' Luck."
 msgstr "Narzędzia zwiększają <0>Produkcje</0>. Mogą wypaść ze <1>Skrzynek z narzędziami</1>, znalezionych dzięki Szczęściu pracowników."
 
@@ -17300,12 +17287,16 @@ msgstr "Witaj w świecie swojej ekonomii!"
 msgid "Well done! Here is your reward."
 msgstr "Dobra robota! Oto Twoja nagorda."
 
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:240
+msgid "What a day of the extra production this tool gives is worth at the market value of a point. An estimate: what you really earn depends on what you make and the price you sell it at."
+msgstr ""
+
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:55
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:146
 msgid "What a day of the production this manager adds is worth at the market value of a point, minus a day of their pay. An estimate: it follows your roster as it is now."
 msgstr "Wartość dziennej produkcji, jaką dodaje ten menedżer, wyliczona według rynkowej wartości punktu, pomniejszona o ich jednodniowe wynagrodzenie. To wartość szacunkowa – uwzględnia Twoją listę pracowników w jej obecnym kształcie."
 
-#: src/components/_economy/employee/EstimatedProfit.tsx:181
+#: src/components/_economy/employee/EstimatedProfit.tsx:184
 msgid "What a day of their production is worth at the market value of a point, minus a day of their wage. An estimate: what you really earn depends on what you make and the price you sell it at."
 msgstr "Rynkowa wartość ich dziennej produkcji po odliczeniu ich dziennej wypłaty. To wartość szacunkowa – rzeczywisty zysk zależy od tego, co wytwarzasz i po jakiej cenie to sprzedajesz."
 
