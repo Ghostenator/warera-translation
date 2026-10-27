@@ -3462,7 +3462,6 @@ msgstr "أداة جديدة: {value}"
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1363
 msgid "A party of one"
 msgstr "حفلة من شخص واحد"
-
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2532
 msgid "A patriotic bonfire. Everyone feels a little warmer."
 msgstr "نار وطنية. الجميع يشعر بدفء أكثر قليلًا."
@@ -6243,11 +6242,11 @@ msgstr "الربح اليومي"
 
 #: src/components/_layout/map.frontConfig.tsx:49
 msgid "Daily revenue"
-msgstr ""
+msgstr "الإيرادات اليومية"
 
 #: src/components/_economy/employee/EmployeeModal.tsx:820
 msgid "Daily wage"
-msgstr ""
+msgstr "الأجر اليومي"
 
 #: src/components/_political/government/Government.tsx:209
 msgid "Daily wage paid from the country treasury."
@@ -6255,7 +6254,7 @@ msgstr "أجر يومي يُدفع من خزينة الدولة"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:237
 msgid "Daily, weekly and monthly missions refresh on their own. Each tab shows when."
-msgstr ""
+msgstr "تتجدد المهام اليومية والأسبوعية والشهرية تلقائيًا. كل صفحة تعرض الموعد."
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:156
 msgid "Damage by user"
@@ -6263,7 +6262,7 @@ msgstr "الضرر من قبل المستخدم"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:83
 msgid "Damage farmer"
-msgstr ""
+msgstr "مزارع الضرر"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:127
 msgid "Damage ranking"
@@ -6379,7 +6378,7 @@ msgstr "الإضعافات:"
 
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:449
 msgid "Decides on its own in <0/>"
-msgstr ""
+msgstr "يُحسم تلقائيًا خلال <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:133
 #: src/components/_political/law/lawNames.tsx:14
@@ -6410,11 +6409,11 @@ msgstr "تقليل الاضطرابات"
 
 #: src/utils/translations.tsx:252
 msgid "Deepcut Pickaxe"
-msgstr ""
+msgstr "فأس القطع العميق"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:950
 msgid "Deeply disappointed, but still here."
-msgstr ""
+msgstr "خيبة أمل كبيرة، لكنه ما زال هنا."
 
 #: src/components/_military/hit/HitButton.tsx:526
 msgid "Defend"
@@ -6422,7 +6421,7 @@ msgstr "دفاع"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:59
 msgid "Defend and liberate"
-msgstr ""
+msgstr "الدفاع والتحرير"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:192
 #: src/components/_military/war/WarComparison.tsx:49
@@ -6440,7 +6439,7 @@ msgstr "ميثاق دفاع مشترك"
 #. placeholder {0}: damagesPerDay(effects.pactBonusPerDayPercent)
 #: src/components/_political/govType/govType.frontConfig.tsx:397
 msgid "Defensive pact bonus ramps {0}"
-msgstr ""
+msgstr "مكافأة الميثاق الدفاعي تزداد {0}"
 
 #: src/components/_political/event/EventList.tsx:137
 msgid "Defensive pact broken"
@@ -6473,7 +6472,7 @@ msgstr "تحديد عدو لدود"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:290
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: src/pages/user/[userId]/settings.tsx:174
 msgid "Delete account"
@@ -6490,7 +6489,7 @@ msgstr "حذف حسابك"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:996
 msgid "Deliver what they ask"
-msgstr ""
+msgstr "تلبية طلبهم"
 
 #: src/components/_military/mu/MuMemberList.tsx:153
 msgid "Demote Commander"
@@ -6506,7 +6505,7 @@ msgstr "تم تخفيض الرتبة من قائد"
 
 #: src/utils/translations.tsx:258
 msgid "Dented Skillet"
-msgstr ""
+msgstr "مقلاة مبعوجة"
 
 #: src/pages/region/[regionId]/index.tsx:63
 msgid "Deposit"
@@ -6535,7 +6534,7 @@ msgstr "إيداع الموارد"
 
 #: src/components/_economy/manager/ManagerOfferFormModal.tsx:182
 msgid "Describe the role, what you expect, what you offer..."
-msgstr ""
+msgstr "صف الدور، وما تتوقعه، وما تقدمه..."
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:62
 #: src/components/_political/party/PartyFormModal.tsx:101
@@ -6551,7 +6550,7 @@ msgstr "الوصف"
 
 #: src/components/_economy/manager/ManagerOfferFormModal.tsx:180
 msgid "Description (Optional)"
-msgstr ""
+msgstr "الوصف (اختياري)"
 
 #: src/components/_user/user/UserDropdown.tsx:165
 msgid "Description removed"
@@ -6573,23 +6572,23 @@ msgstr "تطوير"
 
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:50
 msgid "Development income"
-msgstr ""
+msgstr "دخل التطوير"
 
 #: src/utils/translations.tsx:254
 msgid "Diamond Auger"
-msgstr ""
+msgstr "مثقاب الماس"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:117
 msgid "Diamond in the Rough"
-msgstr ""
+msgstr "ماسة خام"
 
 #: src/components/_economy/strategicResource/strategicResource.frontConfig.ts:33
 msgid "Diamonds"
-msgstr ""
+msgstr "الماس"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:99
 msgid "Died in a battle fought over the region they worked in."
-msgstr ""
+msgstr "مات في معركة دارت على المنطقة التي كان يعمل فيها."
 
 #: src/components/_other/shop/skin.frontConfig.tsx:386
 msgid "Diesel Bomber Jacket"
@@ -6653,7 +6652,7 @@ msgstr "دبلوماسية"
 
 #: src/components/_military/order/BattleOrderActions.tsx:98
 msgid "Disable"
-msgstr ""
+msgstr "تعطيل"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:446
 msgid "Disable company"
@@ -6661,7 +6660,7 @@ msgstr "تعطيل الشركة"
 
 #: src/components/_military/order/BattleOrderActions.tsx:72
 msgid "Disable Order"
-msgstr ""
+msgstr "تعطيل الأمر"
 
 #: src/components/_economy/company/CompanyTags.tsx:131
 #: src/components/_economy/employee/WorkforceSummary.tsx:145
@@ -6671,7 +6670,7 @@ msgstr "معطل"
 
 #: src/components/_layout/LayoutOptions.tsx:159
 msgid "Disabled upgrades"
-msgstr ""
+msgstr "الترقيات المعطلة"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:93
 msgid "Disbanded"
@@ -6684,7 +6683,7 @@ msgstr "تفكيك متعدد"
 
 #: src/components/_economy/inventory/Inventory.tsx:120
 msgid "Dismantle item"
-msgstr ""
+msgstr "تفكيك العنصر"
 
 #: src/components/_economy/transaction/TransactionList.tsx:97
 msgid "Dismantle Item"
@@ -6700,11 +6699,11 @@ msgstr "تجاهل"
 
 #: src/components/_economy/employee/useConfirmFire.tsx:63
 msgid "Dismiss {name}? This cannot be undone."
-msgstr ""
+msgstr "فصل {name}؟ لا يمكن التراجع عن ذلك."
 
 #: src/components/_economy/employeeEvent/EmployeeEventInbox.tsx:70
 msgid "Dismiss past outcomes"
-msgstr ""
+msgstr "تجاهل النتائج السابقة"
 
 #: src/components/_political/alliance/alliance.frontConfig.tsx:20
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:168
@@ -6747,7 +6746,7 @@ msgstr "التبرع بـ <0/> للوحدة العسكرية أو الدولة"
 
 #: src/components/_user/level/levelTrack.frontConfig.tsx:43
 msgid "Donate to country/MU"
-msgstr ""
+msgstr "التبرع للدولة/الوحدة العسكرية"
 
 #: src/components/_economy/transaction/TransactionList.tsx:83
 msgid "Donation"
@@ -6768,7 +6767,7 @@ msgstr "التبرعات"
 
 #: src/components/_other/tour/TutorialGuidesList.tsx:53
 msgid "Done"
-msgstr ""
+msgstr "تم"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:124
 msgid "Dormitories"
@@ -6776,7 +6775,7 @@ msgstr "مساكن"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:594
 msgid "Double or nothing: flip a coin with them"
-msgstr ""
+msgstr "ضعف أو لا شيء: ارمِ عملة معهم"
 
 #: src/components/_military/order/BattleOrderList.tsx:228
 msgid "Drag the new order to choose its number."
@@ -6788,7 +6787,7 @@ msgstr "اسحب الأوامر لتغيير رقم أولويتها."
 
 #: src/components/_other/reorder/ReorderHandle.tsx:34
 msgid "Drag to reorder"
-msgstr ""
+msgstr "اسحب لإعادة الترتيب"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
@@ -6796,7 +6795,7 @@ msgstr "تنين"
 
 #: src/components/_economy/employee/TrainingCardList.tsx:124
 msgid "Draw odds"
-msgstr ""
+msgstr "احتمالات السحب"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:61
 msgid "Dressed to kill"
@@ -6804,19 +6803,19 @@ msgstr "بأناقة قاتلة"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:43
 msgid "Drill"
-msgstr ""
+msgstr "مثقاب"
 
 #: src/components/_economy/employee/employeeStats.tsx:547
 msgid "Drops too low and they can quit."
-msgstr ""
+msgstr "إذا انخفض كثيرًا قد يستقيلون."
 
 #: src/components/_economy/employee/EmployeeTooltip.tsx:219
 msgid "Durability {durability}/{maxDurability}"
-msgstr ""
+msgstr "المتانة {durability}/{maxDurability}"
 
 #: src/components/_social/poll/PollEditorModal.tsx:245
 msgid "Duration"
-msgstr ""
+msgstr "المدة"
 
 #: src/components/_common/GameRules.tsx:262
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
@@ -6824,11 +6823,11 @@ msgstr "هـ. المحتوى المتعلق بالحروب والنزاعات ا
 
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:192
 msgid "Each item starts at the price of the offer with the closest stats. Tap an offer to undercut it by 0.001."
-msgstr ""
+msgstr "يبدأ كل عنصر بسعر العرض الأقرب في الإحصاءات. اضغط على عرض لتخفيضه بمقدار 0.001."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:464
 msgid "Each level fits one more employee."
-msgstr ""
+msgstr "كل مستوى يتسع لموظف إضافي."
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:179
 msgid "Each level of your Leadership moves {MOVED_PER_LEVEL}% of the draws from Common to the rarer cards."
