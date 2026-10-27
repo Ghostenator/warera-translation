@@ -1839,7 +1839,7 @@ msgstr ""
 msgid "{value} training potential left"
 msgstr ""
 
-#: src/components/_economy/employee/employeeCards.tsx:215
+#: src/components/_economy/employee/employeeCards.tsx:224
 #: src/components/_economy/employee/EmployeeTooltip.tsx:142
 msgid "{wage} / day"
 msgstr ""
@@ -4227,7 +4227,7 @@ msgid "Article tipped"
 msgstr "Article soutenu"
 
 #: src/components/_user/user/UserHeader.tsx:246
-#: src/pages/user/[userId]/index.tsx:226
+#: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Articles"
 
@@ -5101,7 +5101,7 @@ msgstr "Annulé par un administrateur"
 msgid "Candidacy is open for <0/>"
 msgstr "Les candidatures sont ouvertes pour <0/>"
 
-#: src/components/_economy/employee/employeeCards.tsx:211
+#: src/components/_economy/employee/employeeCards.tsx:220
 #: src/components/_political/election/CandidateFormModal.tsx:82
 msgid "Candidate"
 msgstr "Candidat"
@@ -6161,7 +6161,7 @@ msgstr "Bonus de dégâts lors d'une bataille de l'alliance actuelle → <0/>"
 msgid "Current development"
 msgstr "Développement actuel"
 
-#: src/pages/user/[userId]/index.tsx:188
+#: src/pages/user/[userId]/index.tsx:186
 msgid "Current Military Unit"
 msgstr "Unité militaire actuelle"
 
@@ -8156,7 +8156,7 @@ msgstr "Donne <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Globe (expérimental)"
 
-#: src/components/_political/map/MapLibre.tsx:632
+#: src/components/_political/map/MapLibre.tsx:633
 msgid "Globe view isn't supported on this device"
 msgstr "La vue du globe n'est pas prise en charge sur cet appareil."
 
@@ -8173,6 +8173,10 @@ msgstr "Lumineux"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:95
 msgid "Go play lottery right now"
 msgstr "Va jouer au loto maintenant"
+
+#: src/components/_political/map/MapOrderIndicators.tsx:526
+msgid "Go to ordered battle"
+msgstr ""
 
 #: src/components/_economy/company/CompanyList.tsx:173
 msgid "Go to skills"
@@ -8608,7 +8612,7 @@ msgstr "Cacher les résultats"
 msgid "High Commander"
 msgstr "Haut Commandant des armées"
 
-#: src/components/_economy/employee/employeeCards.tsx:242
+#: src/components/_economy/employee/employeeCards.tsx:251
 msgid "Hire"
 msgstr "Embaucher"
 
@@ -8936,7 +8940,7 @@ msgstr "Présente-toi!"
 #: src/pages/market/index.tsx:55
 #: src/pages/user/[userId]/account.tsx:20
 #: src/pages/user/[userId]/companies.tsx:34
-#: src/pages/user/[userId]/index.tsx:219
+#: src/pages/user/[userId]/index.tsx:217
 msgid "Inventory"
 msgstr "Inventaire"
 
@@ -11925,7 +11929,7 @@ msgstr "Possédé"
 msgid "Owned by {0}% of players"
 msgstr "Possédé par {0}% des joueurs"
 
-#: src/pages/user/[userId]/index.tsx:194
+#: src/pages/user/[userId]/index.tsx:192
 msgid "Owned Military Units"
 msgstr "Unités militaires possédées"
 
@@ -12015,7 +12019,7 @@ msgstr ""
 #: src/components/_layout/MoreButtonNav.tsx:137
 #: src/components/_political/party/PartyHeader.tsx:74
 #: src/components/_user/notification/notificationPrefs.categories.ts:168
-#: src/pages/user/[userId]/index.tsx:203
+#: src/pages/user/[userId]/index.tsx:201
 msgid "Party"
 msgstr "Parti"
 
@@ -12456,7 +12460,7 @@ msgstr ""
 msgid "Post announcement"
 msgstr "Publier une annonce"
 
-#: src/components/_economy/employee/employeeCards.tsx:226
+#: src/components/_economy/employee/employeeCards.tsx:235
 msgid "Potential"
 msgstr ""
 
@@ -13167,7 +13171,7 @@ msgstr "Lien de parrainage copié dans le presse-papiers"
 
 #: src/components/_user/user/UserHeader.tsx:252
 #: src/components/_user/user/UserRankingsPanel.tsx:61
-#: src/pages/user/[userId]/index.tsx:237
+#: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
 msgstr "Parrainages"
@@ -14354,7 +14358,7 @@ msgstr "Poêlon"
 #: src/components/_user/mission/ProgressHeader.tsx:90
 #: src/components/_user/user/MyAvatar.tsx:44
 #: src/components/_user/user/UserHeader.tsx:192
-#: src/pages/user/[userId]/index.tsx:180
+#: src/pages/user/[userId]/index.tsx:178
 msgid "Skills"
 msgstr "Compétences"
 
@@ -14879,7 +14883,7 @@ msgstr "Changer de managers?"
 msgid "Sweethearts"
 msgstr "Amoureux"
 
-#: src/components/_political/map/MapLibre.tsx:633
+#: src/components/_political/map/MapLibre.tsx:634
 msgid "Switched back to the flat map."
 msgstr "Je suis repassé à la carte plate."
 
@@ -16452,7 +16456,7 @@ msgstr "Transac."
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/components/_political/party/PartyHeader.tsx:129
 #: src/pages/market/index.tsx:86
-#: src/pages/user/[userId]/index.tsx:248
+#: src/pages/user/[userId]/index.tsx:246
 msgid "Transactions"
 msgstr "Transactions"
 

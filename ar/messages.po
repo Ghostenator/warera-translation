@@ -81,7 +81,8 @@ msgstr "تخفيض بنسبة 5% على الأجر الذي يتوقعونه"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1805
 msgid "“Senior Worker” it is. It will do, for now."
-msgstr ""
+msgstr "“عامل مخضرم” اذن, سيؤدي الغرض, في الوقت الحالي"
+
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:225
@@ -90,7 +91,7 @@ msgstr "متوسط تطوير العضو"
 
 #: src/components/_economy/employee/employeeStats.tsx:758
 msgid "(coworker)"
-msgstr ""
+msgstr "(زميل عمل)"
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:66
 msgid "(member average development)"
@@ -103,47 +104,47 @@ msgstr "(التطوير الخاص/الذاتي)"
 #. placeholder {0}: others.length
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:602
 msgid "{0, plural, one {# coworker} other {# coworkers}}"
-msgstr ""
+msgstr "{0, plural, one {زميل واحد} two {زميلين} few {# زملاء} many {# زميلًا} other {# زميل}}"
 
 #. placeholder {0}: hours / 24
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:60
 msgid "{0, plural, one {# day} other {# days}}"
-msgstr ""
+msgstr "{0, plural, one {يوم واحد} two {يومين} few {# أيام} many {# يومًا} other {# يوم}}"
 
 #. placeholder {0}: data.employeeCount
 #: src/components/_economy/employee/WorkforceSummary.tsx:451
 msgid "{0, plural, one {# employee} other {# employees}}"
-msgstr ""
+msgstr "{0, plural, one {موظف واحد} two {موظفين} few {# موظفين} many {# موظفًا} other {# موظف}}"
 
 #. placeholder {0}: data.managerCount
 #: src/components/_economy/employee/WorkforceSummary.tsx:470
 msgid "{0, plural, one {# manager} other {# managers}}"
-msgstr ""
+msgstr "{0, plural, one {مدير واحد} two {مديرين} few {# مدراء} many {# مديرًا} other {# مدير}}"
 
 #. placeholder {0}: conversation.memberCount
 #: src/components/_political/chat/ChatConversationItem.tsx:201
 msgid "{0, plural, one {# member} other {# members}}"
-msgstr ""
+msgstr "{0, plural, one {عضو واحد} two {عضوين} few {# أعضاء} many {# عضوًا} other {# عضو}}"
 
 #. placeholder {0}: proposition.skinItems.length
 #: src/components/_user/premium/AssetPropositionItem.tsx:298
 msgid "{0, plural, one {# skin} other {# skins}}"
-msgstr ""
+msgstr "{0, plural, one {مظهر واحد} two {مظهرين} few {# مظاهر} many {# مظهرًا} other {# مظهر}}"
 
 #. placeholder {0}: poll.totalVoters
 #: src/components/_social/poll/PollCard.tsx:391
 msgid "{0, plural, one {# vote} other {# votes}}"
-msgstr ""
+msgstr "{0, plural, one {صوت واحد} two {صوتين} few {# أصوات} many {# صوتًا} other {# صوت}}"
 
 #. placeholder {0}: giveaway.winnersQuantity ?? 0
 #: src/components/_other/giveaway/GiveawayItem.tsx:31
 msgid "{0, plural, one {# winner} other {# winners}}"
-msgstr ""
+msgstr "{0, plural, one {فائز واحد} two {فائزين} few {# فائزين} many {# فائزًا} other {# فائز}}"
 
 #. placeholder {0}: totalBattles - maxBattles
 #: src/components/_layout/LayoutBattles.tsx:141
 msgid "{0, plural, one {Battle} other {Battles}}"
-msgstr ""
+msgstr "{0, plural, one {معركة} two {معركتين} few {معارك} many {معركة} other {معركة}}"
 
 #. placeholder {0}: Math.max(rows.length, 1)
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:242
@@ -153,13 +154,13 @@ msgstr "{0, plural, one {عرض عنصر للبيع} other {عرض # عناصر 
 #. placeholder {0}: estimate.notOwnedCount
 #: src/components/_other/shop/SkinPackModal.tsx:287
 msgid "{0, plural, one {Unlock # skin} other {Unlock # skins}}"
-msgstr ""
+msgstr "{0, plural, one {فتح مظهر واحد} two {فتح مظهرين} few {فتح # مظاهر} many {فتح # مظهرًا} other {فتح # مظهر}}"
 
 #. placeholder {0}: damagesPercent(effects.bunkerBonusDelta)
 #. placeholder {1}: upgradeName(EUpgrade.BUNKER)
 #: src/components/_political/govType/govType.frontConfig.tsx:269
 msgid "{0} {1} bonus"
-msgstr ""
+msgstr "مكافأة {0} {1}"
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -204,7 +205,7 @@ msgstr "فترة انتظار {0} أيام"
 #. placeholder {0}: developmentPercent(core)
 #: src/components/_political/govType/govType.frontConfig.tsx:192
 msgid "{0} development income"
-msgstr "دخل التطوير لـ {0}"
+msgstr "دخل التطوير {0}"
 
 #. placeholder {0}: developmentPercent(conquered)
 #: src/components/_political/govType/govType.frontConfig.tsx:214
@@ -252,7 +253,7 @@ msgstr "لقد زايد عليك {0} بسعر {1}$ لكل ألف"
 #. placeholder {0}: moneyPercent(effects.incomeTaxMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:235
 msgid "{0} payroll and manager tax income"
-msgstr "دخل ضرائب الرواتب والمدير لـ {0}"
+msgstr "دخل {0} من الرواتب وضريبة المدراء"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:692
@@ -272,7 +273,7 @@ msgstr "مطلوب {0} جولات للفوز بالمعركة."
 #. placeholder {0}: moneyPercent(effects.strategicResourceIncomeMultiplier)
 #: src/components/_political/govType/govType.frontConfig.tsx:225
 msgid "{0} strategic resource income"
-msgstr "دخل الموارد الاستراتيجية لـ {0}"
+msgstr "دخل {0} من الموارد الاستراتيجية"
 
 #. placeholder {0}: itemName(rarity)
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:244
@@ -309,16 +310,16 @@ msgstr "أيام العمل {0}: <0>{1}</0>"
 #. placeholder {0}: contract.unpaidHours
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:223
 msgid "{0}h unpaid"
-msgstr "ساعات غير مدفوعة {0}"
+msgstr "{0}س بدون أجر"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:913
 msgid "{answerWithin} to answer"
-msgstr "{answerWithin} للاجابة خلال\""
+msgstr "{answerWithin} للإجابة"
 
 #. placeholder {0}: states.length
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:214
 msgid "{chaptersDone} of {0} guides done"
-msgstr "شروحات {chaptersDone} تم اكمال {0} من اصل "
+msgstr "تم إنجاز {chaptersDone} من {0} أدلة"
 
 #: src/components/_user/mission/MissionsList.tsx:229
 msgid "{completedCount}/{totalCount} completed"
@@ -326,23 +327,23 @@ msgstr "تم إكمال {completedCount}/{totalCount}"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:307
 msgid "{contribution} when anyone in the event has it."
-msgstr "عندما يمتلكها أي شخص في الحدث"
+msgstr "{contribution} عندما يمتلكه أي شخص في الحدث."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:812
 msgid "{count, plural, one {<0>Answer <1/> employee event</0>} other {<2>Answer <3/> employee events</2>}}"
-msgstr ""
+msgstr "{count, plural, zero {<0>الإجابة على <1/> فعالية موظفين</0>} one {<0>الإجابة على فعالية موظفين <1/></0>} two {<0>الإجابة على فعاليتي موظفين <1/></0>} few {<0>الإجابة على <1/> فعاليات موظفين</0>} many {<0>الإجابة على <1/> فعالية موظفين</0>} other {<0>الإجابة على <1/> فعالية موظفين</0>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:846
 msgid "{count, plural, one {<0>Contribute to constructions <1/> time</0>} other {<2>Contribute to constructions <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, zero {<0>المساهمة في الإنشاءات <1/> مرة</0>} one {<0>المساهمة في الإنشاءات مرة <1/> واحدة</0>} two {<0>المساهمة في الإنشاءات مرتين <1/></0>} few {<0>المساهمة في الإنشاءات <1/> مرات</0>} many {<0>المساهمة في الإنشاءات <1/> مرة</0>} other {<0>المساهمة في الإنشاءات <1/> مرة</0>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:867
 msgid "{count, plural, one {<0>Contribute to resistance <1/> time</0>} other {<2>Contribute to resistance <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, zero {<0>المساهمة في المقاومة <1/> مرة</0>} one {<0>المساهمة في المقاومة مرة <1/> واحدة</0>} two {<0>المساهمة في المقاومة مرتين <1/></0>} few {<0>المساهمة في المقاومة <1/> مرات</0>} many {<0>المساهمة في المقاومة <1/> مرة</0>} other {<0>المساهمة في المقاومة <1/> مرة</0>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:281
 msgid "{count, plural, one {<0>Craft <1/> item</0>} other {<2>Craft <3/> items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>اصنع عنصرًا واحدًا</0>} two {<2>اصنع عنصرين</2>} few {<2>اصنع <3/> عناصر</2>} many {<2>اصنع <3/> عنصرًا</2>} other {<2>اصنع <3/> عنصر</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:918
 msgid "{count, plural, one {<0>Cross <1/> region on the map</0>} other {<2>Cross <3/> regions on the map</2>}}"
@@ -1839,7 +1840,7 @@ msgstr ""
 msgid "{value} training potential left"
 msgstr ""
 
-#: src/components/_economy/employee/employeeCards.tsx:215
+#: src/components/_economy/employee/employeeCards.tsx:224
 #: src/components/_economy/employee/EmployeeTooltip.tsx:142
 msgid "{wage} / day"
 msgstr ""
@@ -2344,7 +2345,7 @@ msgstr "دفع <0/> الرسوم"
 
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
-msgstr "<تنتهي أولوية </0> في </1"
+msgstr "تنتهي أولوية <0/> في <1/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:315
 msgid "<0/> proposed a mutual defensive pact to your country."
@@ -4227,7 +4228,7 @@ msgid "Article tipped"
 msgstr "تم تلقي إكرامية للمقال"
 
 #: src/components/_user/user/UserHeader.tsx:246
-#: src/pages/user/[userId]/index.tsx:226
+#: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "مقالات"
 
@@ -5101,7 +5102,7 @@ msgstr "أُلغي بواسطة المسؤول"
 msgid "Candidacy is open for <0/>"
 msgstr "باب الترشح مفتوح لـ <0/>"
 
-#: src/components/_economy/employee/employeeCards.tsx:211
+#: src/components/_economy/employee/employeeCards.tsx:220
 #: src/components/_political/election/CandidateFormModal.tsx:82
 msgid "Candidate"
 msgstr "مرشح"
@@ -6161,7 +6162,7 @@ msgstr "مكافأة ضرر للمعارك الحالية للتحالف ← <0/
 msgid "Current development"
 msgstr "التطور الحالي"
 
-#: src/pages/user/[userId]/index.tsx:188
+#: src/pages/user/[userId]/index.tsx:186
 msgid "Current Military Unit"
 msgstr "الوحدة العسكرية الحالية"
 
@@ -8156,7 +8157,7 @@ msgstr "يعطي <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "الكرة الأرضية (تجريبي)"
 
-#: src/components/_political/map/MapLibre.tsx:632
+#: src/components/_political/map/MapLibre.tsx:633
 msgid "Globe view isn't supported on this device"
 msgstr "عرض الكرة الأرضية غير مدعوم على هذا الجهاز"
 
@@ -8173,6 +8174,10 @@ msgstr "توهّج"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:95
 msgid "Go play lottery right now"
 msgstr "اذهب والعب اليانصيب الآن"
+
+#: src/components/_political/map/MapOrderIndicators.tsx:526
+msgid "Go to ordered battle"
+msgstr ""
 
 #: src/components/_economy/company/CompanyList.tsx:173
 msgid "Go to skills"
@@ -8608,7 +8613,7 @@ msgstr ""
 msgid "High Commander"
 msgstr "قائد أعلى"
 
-#: src/components/_economy/employee/employeeCards.tsx:242
+#: src/components/_economy/employee/employeeCards.tsx:251
 msgid "Hire"
 msgstr ""
 
@@ -8936,7 +8941,7 @@ msgstr ""
 #: src/pages/market/index.tsx:55
 #: src/pages/user/[userId]/account.tsx:20
 #: src/pages/user/[userId]/companies.tsx:34
-#: src/pages/user/[userId]/index.tsx:219
+#: src/pages/user/[userId]/index.tsx:217
 msgid "Inventory"
 msgstr "المخزون"
 
@@ -11925,7 +11930,7 @@ msgstr "مملوكة"
 msgid "Owned by {0}% of players"
 msgstr "يمتلكها {0}% من اللاعبين"
 
-#: src/pages/user/[userId]/index.tsx:194
+#: src/pages/user/[userId]/index.tsx:192
 msgid "Owned Military Units"
 msgstr "الوحدات العسكرية المملوكة"
 
@@ -12015,7 +12020,7 @@ msgstr ""
 #: src/components/_layout/MoreButtonNav.tsx:137
 #: src/components/_political/party/PartyHeader.tsx:74
 #: src/components/_user/notification/notificationPrefs.categories.ts:168
-#: src/pages/user/[userId]/index.tsx:203
+#: src/pages/user/[userId]/index.tsx:201
 msgid "Party"
 msgstr "الحزب"
 
@@ -12257,63 +12262,62 @@ msgstr "التحقق من الهاتف مطلوب"
 
 #: src/components/_economy/employee/TrainingDraftModal.tsx:481
 msgid "Pick {cardTitle}"
-msgstr ""
+msgstr "{cardTitle} اختر"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:120
 #: src/components/_other/tour/tuto.frontConfig.tsx:477
 #: src/components/_other/tour/tuto.frontConfig.tsx:506
 msgid "Pick a candidate!"
-msgstr ""
+msgstr "اختر مرشحًا!"
 
 #: src/components/_economy/employee/EmployeeModal.tsx:403
 #: src/components/_economy/employee/TrainingDraftModal.tsx:483
 msgid "Pick a card"
-msgstr ""
+msgstr "اختر بطاقة"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:170
 msgid "Pick a card!"
-msgstr ""
-
+msgstr "!اختر بطاقة" 
 #: src/components/_other/tour/tuto.frontConfig.tsx:309
 msgid "Pick a fight!"
-msgstr "ابدأ قتالاً!"
+msgstr "!ابدأ قتالاً"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:347
 msgid "Pick a side and hit until your <0>Health</0> runs out."
-msgstr ""
+msgstr "اختر جانبًا واضرب حتى تنفد <0>صحتك</0>"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:441
 msgid "Pick an article!"
-msgstr ""
+msgstr "!اختر مقالًا"
 
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:687
 msgid "Pick an option"
-msgstr ""
+msgstr "اختر خيارًا"
 
 #: src/components/_economy/employee/TrainingDraftModal.tsx:404
 msgid "Pick one card, the other is lost."
-msgstr ""
+msgstr "اختر بطاقة واحدة، والأخرى تضيع."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:478
 #: src/components/_other/tour/tuto.frontConfig.tsx:507
 msgid "Pick the one you like best."
-msgstr ""
+msgstr "اختر ما يعجبك أكثر."
 
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:187
 msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to put on sale."
-msgstr ""
+msgstr "اختر حتى {maxItemsPerListing} أسلحة أو معدات في حالة ممتازة لعرضها للبيع."
 
 #: src/utils/translations.tsx:248
 msgid "Pickaxe"
-msgstr ""
+msgstr "معول"
 
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:169
 msgid "Picked for you if you do not answer in time."
-msgstr ""
+msgstr "سيُختار لك إذا لم تجب في الوقت المناسب."
 
 #: src/components/_economy/employee/ToolSelectorPopover.tsx:156
 msgid "Picking it takes it from them."
-msgstr ""
+msgstr "اختياره يأخذه منهم."
 
 #: src/utils/translations.tsx:123
 msgid "Pill"
@@ -12321,32 +12325,32 @@ msgstr "حبة دواء"
 
 #: src/components/_social/PinArticleModal.tsx:107
 msgid "Pin"
-msgstr ""
+msgstr "تثبيت"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1102
 msgid "Pin it up"
-msgstr ""
+msgstr "ثبّتها"
 
 #: src/components/_social/Article.tsx:306
 #: src/components/_social/PinArticleModal.tsx:70
 msgid "Pin on news"
-msgstr ""
+msgstr "تثبيت في الأخبار"
 
 #: src/components/_social/PinArticleModal.tsx:38
 msgid "Pin updated"
-msgstr ""
+msgstr "تم تحديث التثبيت"
 
 #: src/pages/news/index.tsx:40
 msgid "Pinned by admin"
-msgstr ""
+msgstr "مثبّت من المشرف"
 
 #: src/pages/news/index.tsx:52
 msgid "Pinned by government"
-msgstr ""
+msgstr "مثبّت من الحكومة"
 
 #: src/components/_social/PinArticleModal.tsx:76
 msgid "Pinned until <0/>"
-msgstr ""
+msgstr "مثبّت حتى <0/>"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:153
 msgid "Plant a tree in the data center"
@@ -12366,7 +12370,7 @@ msgstr "يمكن للاعبين مشاركة عنوان ايبي واحد إذا
 
 #: src/components/_military/battle/BattleHeader.tsx:269
 msgid "Players watching this battle right now (refreshes every 30 seconds)."
-msgstr ""
+msgstr "اللاعبون الذين يشاهدون هذه المعركة الآن (يُحدَّث كل 30 ثانية)."
 
 #: src/components/_user/auth/ConnectFromModal.tsx:107
 #: src/components/_user/auth/ConnectFromModal.tsx:127
@@ -12381,16 +12385,16 @@ msgstr "يرجى اختيار منطقة"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:70
 msgid "Plutocracy"
-msgstr ""
+msgstr "حكم الأثرياء"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:103
 msgid "Poached"
-msgstr ""
+msgstr "تم استقطابه"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3319
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3703
 msgid "Politely decline"
-msgstr ""
+msgstr "ارفض بأدب"
 
 #: src/components/_layout/map.frontConfig.tsx:31
 msgid "Political"
@@ -12410,7 +12414,7 @@ msgstr "الاستيلاء السياسي مسموح به، ولكن إساءة 
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:58
 msgid "Politics"
-msgstr ""
+msgstr "السياسة"
 
 #: src/components/_user/notification/notificationPrefs.categories.ts:167
 msgid "Politics & Government"
@@ -12419,11 +12423,11 @@ msgstr "السياسة والحكومة"
 #: src/components/_social/poll/PollCard.tsx:154
 #: src/components/_social/poll/PollCard.tsx:220
 msgid "Poll ended"
-msgstr ""
+msgstr "انتهى الاستطلاع"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1684
 msgid "Pop the champagne"
-msgstr ""
+msgstr "افتح الشمبانيا"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:205
 msgid "Popular Article"
@@ -12441,24 +12445,24 @@ msgstr "السكان (المتواجدون حاليًا هنا)"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2202
 msgid "Position ended"
-msgstr ""
+msgstr "انتهى المنصب"
 
 #: src/components/_economy/manager/ManagerOfferFormModal.tsx:200
 msgid "Post"
-msgstr ""
+msgstr "نشر"
 
 #: src/components/_economy/manager/ManagerOfferFormModal.tsx:129
 msgid "Post a manager position"
-msgstr ""
+msgstr "انشر منصب مدير"
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
 msgid "Post announcement"
 msgstr "نشر إعلان"
 
-#: src/components/_economy/employee/employeeCards.tsx:226
+#: src/components/_economy/employee/employeeCards.tsx:235
 msgid "Potential"
-msgstr ""
+msgstr "الإمكانات"
 
 #: src/components/_user/user/skills.frontConfig.tsx:154
 #: src/components/_user/user/skills.frontConfig.tsx:155
@@ -12507,16 +12511,16 @@ msgstr "بدأ البريميوم بالعمل"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:131
 msgid "Preset deleted."
-msgstr ""
+msgstr "تم حذف الإعداد المسبق."
 
 #: src/components/_user/user/SkillPresetsModal.tsx:119
 #: src/components/_user/user/SkillPresetsModal.tsx:125
 msgid "Preset saved!"
-msgstr ""
+msgstr "تم حفظ الإعداد المسبق!"
 
 #: src/components/_user/user/UserSkills.tsx:307
 msgid "Presets"
-msgstr ""
+msgstr "الإعدادات المسبقة"
 
 #: src/components/_political/government/Government.tsx:92
 #: src/components/_political/government/GovernmentScroll.tsx:40
@@ -12526,7 +12530,7 @@ msgstr "الرئيس"
 
 #: src/components/_user/user/UserBadges.tsx:193
 msgid "President of <0/>"
-msgstr ""
+msgstr "رئيس <0/>"
 
 #: src/components/_political/election/election.frontConfig.tsx:23
 msgid "Presidential election"
@@ -13167,7 +13171,7 @@ msgstr "تم نسخ رابط الإحالة إلى الحافظة"
 
 #: src/components/_user/user/UserHeader.tsx:252
 #: src/components/_user/user/UserRankingsPanel.tsx:61
-#: src/pages/user/[userId]/index.tsx:237
+#: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
 msgstr "الإحالات"
@@ -14354,7 +14358,7 @@ msgstr ""
 #: src/components/_user/mission/ProgressHeader.tsx:90
 #: src/components/_user/user/MyAvatar.tsx:44
 #: src/components/_user/user/UserHeader.tsx:192
-#: src/pages/user/[userId]/index.tsx:180
+#: src/pages/user/[userId]/index.tsx:178
 msgid "Skills"
 msgstr "المهارات"
 
@@ -14879,7 +14883,7 @@ msgstr ""
 msgid "Sweethearts"
 msgstr ""
 
-#: src/components/_political/map/MapLibre.tsx:633
+#: src/components/_political/map/MapLibre.tsx:634
 msgid "Switched back to the flat map."
 msgstr "تم التبديل  إلى الخريطة المسطحة"
 
@@ -16452,7 +16456,7 @@ msgstr "معاملات"
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/components/_political/party/PartyHeader.tsx:129
 #: src/pages/market/index.tsx:86
-#: src/pages/user/[userId]/index.tsx:248
+#: src/pages/user/[userId]/index.tsx:246
 msgid "Transactions"
 msgstr "المعاملات"
 
