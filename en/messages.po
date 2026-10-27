@@ -182,7 +182,7 @@ msgid "{0} alliance bonus when fighting for an ally"
 msgstr "{0} alliance bonus when fighting for an ally"
 
 #. placeholder {0}: formatKm(homeDistanceKm)
-#: src/components/_layout/LayoutMapUserMenu.tsx:332
+#: src/components/_layout/LayoutMapUserMenu.tsx:331
 msgid "{0} away"
 msgstr "{0} away"
 
@@ -291,7 +291,7 @@ msgid "{0}/{1} active"
 msgstr "{0}/{1} active"
 
 #. placeholder {0}: userMapLootConfig.lootChancePercent
-#: src/components/_layout/LayoutMapUserMenu.tsx:452
+#: src/components/_layout/LayoutMapUserMenu.tsx:451
 msgid "{0}% base chance, plus your Luck skill"
 msgstr "{0}% base chance, plus your Luck skill"
 
@@ -1599,7 +1599,7 @@ msgstr "{gender, select, male {You told {name} he did a good job. He has been ap
 msgid "{grainPerBread} <0>{0}</0> make one <1>{1}</1>, {ironPerSteel} <2>{2}</2> one <3>{3}</3> and {limestonePerConcrete} <4>{4}</4> one <5>{5}</5>."
 msgstr "{grainPerBread} <0>{0}</0> make one <1>{1}</1>, {ironPerSteel} <2>{2}</2> one <3>{3}</3> and {limestonePerConcrete} <4>{4}</4> one <5>{5}</5>."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:326
+#: src/components/_layout/LayoutMapUserMenu.tsx:325
 msgid "{homeRegionsAway, plural, one {# region away} other {# regions away}}"
 msgstr "{homeRegionsAway, plural, one {# region away} other {# regions away}}"
 
@@ -1743,7 +1743,7 @@ msgstr "{partnerName} learns fast."
 msgid "{premiumMonthsCount, plural, one {# month} other {# months}}"
 msgstr "{premiumMonthsCount, plural, one {# month} other {# months}}"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:281
+#: src/components/_layout/LayoutMapUserMenu.tsx:280
 #: src/components/_political/map/MapMenu.tsx:193
 msgid "{quantity, plural, =1 {Wooden case collected!} one {# wooden case collected!} other {# wooden cases collected!}}"
 msgstr "{quantity, plural, =1 {Wooden case collected!} one {# wooden case collected!} other {# wooden cases collected!}}"
@@ -1760,7 +1760,7 @@ msgstr "{raw} of the company's good, {product} if it is a product"
 msgid "{regionLootCount, plural, =1 {Collect the wooden case lying on this region} one {Collect the # wooden case lying on this region} other {Collect the # wooden cases lying on this region}}"
 msgstr "{regionLootCount, plural, =1 {Collect the wooden case lying on this region} one {Collect the # wooden case lying on this region} other {Collect the # wooden cases lying on this region}}"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:371
+#: src/components/_layout/LayoutMapUserMenu.tsx:370
 #: src/components/_political/map/MapMenu.tsx:680
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
 msgstr "{regionsAway, plural, one {# region away} other {# regions away}}"
@@ -1814,7 +1814,7 @@ msgstr "{trainingsLeft} training sessions left ({0}/{1} used)."
 msgid "{value} days of experience"
 msgstr "{value} days of experience"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:128
+#: src/components/_layout/LayoutMapUserMenu.tsx:127
 msgid "{value} km"
 msgstr "{value} km"
 
@@ -4308,7 +4308,7 @@ msgstr "At war with"
 msgid "At your Management level"
 msgstr "At your Management level"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:515
+#: src/components/_layout/LayoutMapUserMenu.tsx:514
 msgid "Atlas"
 msgstr "Atlas"
 
@@ -4389,7 +4389,7 @@ msgstr "Automated engine"
 msgid "Automated Engine"
 msgstr "Automated Engine"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:322
+#: src/components/_layout/LayoutMapUserMenu.tsx:321
 msgid "Available in"
 msgstr "Available in"
 
@@ -4432,7 +4432,7 @@ msgstr "Baby Boomer"
 msgid "Back the reinvention"
 msgstr "Back the reinvention"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:402
+#: src/components/_layout/LayoutMapUserMenu.tsx:401
 msgid "Back to home region"
 msgstr "Back to home region"
 
@@ -7812,7 +7812,7 @@ msgstr "Flask"
 msgid "Flight Risk"
 msgstr "Flight Risk"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:392
+#: src/components/_layout/LayoutMapUserMenu.tsx:391
 msgid "Focus on you"
 msgstr "Focus on you"
 
@@ -10777,7 +10777,7 @@ msgstr "Nationality"
 msgid "Nationality updated"
 msgstr "Nationality updated"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:339
+#: src/components/_layout/LayoutMapUserMenu.tsx:338
 msgid "Nearest wooden case"
 msgstr "Nearest wooden case"
 
@@ -11157,7 +11157,7 @@ msgstr "No ground ranking yet."
 msgid "No helmets"
 msgstr "No helmets"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:317
+#: src/components/_layout/LayoutMapUserMenu.tsx:316
 msgid "No home region set"
 msgstr "No home region set"
 
@@ -12920,7 +12920,7 @@ msgstr "Quick dismantle"
 msgid "Quick equip best items of any tier"
 msgstr "Quick equip best items of any tier"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:477
+#: src/components/_layout/LayoutMapUserMenu.tsx:476
 msgid "Quick move & collect on case click"
 msgstr "Quick move & collect on case click"
 
@@ -14468,7 +14468,7 @@ msgstr "Skip guide"
 msgid "Skip this guide?"
 msgstr "Skip this guide?"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:455
+#: src/components/_layout/LayoutMapUserMenu.tsx:454
 msgid "Skipped"
 msgstr "Skipped"
 
@@ -15637,7 +15637,7 @@ msgstr "The revolution in <0/> has succeeded! The government has been overthrown
 msgid "The rival assumes it is a trick and slams the door."
 msgstr "The rival assumes it is a trick and slams the door."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:451
+#: src/components/_layout/LayoutMapUserMenu.tsx:450
 msgid "The roll is skipped while you hold {maxLoots} uncollected cases"
 msgstr "The roll is skipped while you hold {maxLoots} uncollected cases"
 
@@ -16089,7 +16089,7 @@ msgstr "Time to produce!"
 msgid "Time to retire"
 msgstr "Time to retire"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:461
+#: src/components/_layout/LayoutMapUserMenu.tsx:460
 msgid "Time until the next case roll"
 msgstr "Time until the next case roll"
 
@@ -16640,7 +16640,7 @@ msgstr "UI"
 msgid "Unblock (show content)"
 msgstr "Unblock (show content)"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:439
+#: src/components/_layout/LayoutMapUserMenu.tsx:438
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
 msgstr "Uncollected cases waiting on the map, out of {maxLoots}"
 
@@ -17645,7 +17645,7 @@ msgstr "You are a lucky bastard"
 msgid "You are already congress member of another country. Resign first."
 msgstr "You are already congress member of another country. Resign first."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:319
+#: src/components/_layout/LayoutMapUserMenu.tsx:318
 msgid "You are already home"
 msgstr "You are already home"
 

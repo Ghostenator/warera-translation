@@ -182,7 +182,7 @@ msgid "{0} alliance bonus when fighting for an ally"
 msgstr "{0} saveznički bonus u borbi za saveznika"
 
 #. placeholder {0}: formatKm(homeDistanceKm)
-#: src/components/_layout/LayoutMapUserMenu.tsx:332
+#: src/components/_layout/LayoutMapUserMenu.tsx:331
 msgid "{0} away"
 msgstr "{0} udaljeno"
 
@@ -291,7 +291,7 @@ msgid "{0}/{1} active"
 msgstr "{0}/{1} aktivnih"
 
 #. placeholder {0}: userMapLootConfig.lootChancePercent
-#: src/components/_layout/LayoutMapUserMenu.tsx:452
+#: src/components/_layout/LayoutMapUserMenu.tsx:451
 msgid "{0}% base chance, plus your Luck skill"
 msgstr "Zbroj osnovne šanse od {0}% i vrijednosti vještine sreće."
 
@@ -1599,7 +1599,7 @@ msgstr ""
 msgid "{grainPerBread} <0>{0}</0> make one <1>{1}</1>, {ironPerSteel} <2>{2}</2> one <3>{3}</3> and {limestonePerConcrete} <4>{4}</4> one <5>{5}</5>."
 msgstr "{grainPerBread} <0>{0}</0> je potrebno za jedan <1>{1}</1>, {ironPerSteel} <2>{2}</2> je potrebno za jedan <3>{3}</3> i {limestonePerConcrete} <4>{4}</4> je potrebno za jedan <5>{5}</5>."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:326
+#: src/components/_layout/LayoutMapUserMenu.tsx:325
 msgid "{homeRegionsAway, plural, one {# region away} other {# regions away}}"
 msgstr "{homeRegionsAway, plural, one {udaljena za # regiju} other {udaljena za # regije}}"
 
@@ -1743,7 +1743,7 @@ msgstr ""
 msgid "{premiumMonthsCount, plural, one {# month} other {# months}}"
 msgstr "{premiumMonthsCount, plural, one {# mjesec} other {# mjeseca}}"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:281
+#: src/components/_layout/LayoutMapUserMenu.tsx:280
 #: src/components/_political/map/MapMenu.tsx:193
 msgid "{quantity, plural, =1 {Wooden case collected!} one {# wooden case collected!} other {# wooden cases collected!}}"
 msgstr "{quantity, plural, =1 {Drvena kutija pokupljena!} one {# drvena kutija pokupljena!} other {# drvene kutije pokupljene!}}"
@@ -1760,7 +1760,7 @@ msgstr ""
 msgid "{regionLootCount, plural, =1 {Collect the wooden case lying on this region} one {Collect the # wooden case lying on this region} other {Collect the # wooden cases lying on this region}}"
 msgstr "{regionLootCount, plural, =1 {Pokupite drvenu kutiju u ovoj regiji} one {Pokupite # drvenu kutiju u ovoj regiji} other {Pokupite # drvene kutije u ovoj regiji}}"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:371
+#: src/components/_layout/LayoutMapUserMenu.tsx:370
 #: src/components/_political/map/MapMenu.tsx:680
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
 msgstr "{regionsAway, plural, one {# regiju udaljena} other {# regije udaljena}}"
@@ -1814,7 +1814,7 @@ msgstr "{trainingsLeft} sesija obuke preostalo ({0}/{1} korišteno)."
 msgid "{value} days of experience"
 msgstr "{value} dana iskustva"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:128
+#: src/components/_layout/LayoutMapUserMenu.tsx:127
 msgid "{value} km"
 msgstr "{value} km"
 
@@ -4308,7 +4308,7 @@ msgstr "U ratu sa"
 msgid "At your Management level"
 msgstr "S vašom vještinom upravljanja:"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:515
+#: src/components/_layout/LayoutMapUserMenu.tsx:514
 msgid "Atlas"
 msgstr "Kompas"
 
@@ -4389,7 +4389,7 @@ msgstr "Automatizacija"
 msgid "Automated Engine"
 msgstr "Automatizacija"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:322
+#: src/components/_layout/LayoutMapUserMenu.tsx:321
 msgid "Available in"
 msgstr "Dostupno za"
 
@@ -4432,7 +4432,7 @@ msgstr "Baby Boomer"
 msgid "Back the reinvention"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:402
+#: src/components/_layout/LayoutMapUserMenu.tsx:401
 msgid "Back to home region"
 msgstr "Povratak u regiju prebivališta"
 
@@ -7812,7 +7812,7 @@ msgstr ""
 msgid "Flight Risk"
 msgstr "Preletač"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:392
+#: src/components/_layout/LayoutMapUserMenu.tsx:391
 msgid "Focus on you"
 msgstr "Vaša lokacija"
 
@@ -10777,7 +10777,7 @@ msgstr "Nacionalnost"
 msgid "Nationality updated"
 msgstr "Nacionalnost promijenjena"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:339
+#: src/components/_layout/LayoutMapUserMenu.tsx:338
 msgid "Nearest wooden case"
 msgstr "Najbliža drvena kutija"
 
@@ -11157,7 +11157,7 @@ msgstr "Još uvijek nema rangiranih poena."
 msgid "No helmets"
 msgstr "Nemate kaciga"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:317
+#: src/components/_layout/LayoutMapUserMenu.tsx:316
 msgid "No home region set"
 msgstr "Bez regije prebivališta"
 
@@ -12920,7 +12920,7 @@ msgstr "Rastavite predmete"
 msgid "Quick equip best items of any tier"
 msgstr "Brzo opremanje najboljom opremom bilo kojeg rariteta"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:477
+#: src/components/_layout/LayoutMapUserMenu.tsx:476
 msgid "Quick move & collect on case click"
 msgstr "Brzi prelazak i preuzimanje drvene kutije"
 
@@ -14468,7 +14468,7 @@ msgstr "Preskočite vodič"
 msgid "Skip this guide?"
 msgstr "Želite li preskočiti ovaj vodič?"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:455
+#: src/components/_layout/LayoutMapUserMenu.tsx:454
 msgid "Skipped"
 msgstr "Preskočeno"
 
@@ -15637,7 +15637,7 @@ msgstr "Revolucija u <0/> je uspješna! Vlada je pala."
 msgid "The rival assumes it is a trick and slams the door."
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:451
+#: src/components/_layout/LayoutMapUserMenu.tsx:450
 msgid "The roll is skipped while you hold {maxLoots} uncollected cases"
 msgstr "Šansa za novi pronalazak kutije/a se preskače dok postoje {maxLoots} nepokupljene kutije"
 
@@ -16089,7 +16089,7 @@ msgstr "Vrijeme je za proizvodnju!"
 msgid "Time to retire"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:461
+#: src/components/_layout/LayoutMapUserMenu.tsx:460
 msgid "Time until the next case roll"
 msgstr "Preostalo vrijeme do sljedećeg traženja kutije."
 
@@ -16640,7 +16640,7 @@ msgstr "Korisničko sučelje"
 msgid "Unblock (show content)"
 msgstr "Deblokiraj (prikaži sadržaj)"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:439
+#: src/components/_layout/LayoutMapUserMenu.tsx:438
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
 msgstr "Broj nepokupljenih drvenih kutija u svijetu od maksimalnih {maxLoots}."
 
@@ -17645,7 +17645,7 @@ msgstr "Više sreće nego pameti.."
 msgid "You are already congress member of another country. Resign first."
 msgstr "Već si član kongresa druge države. Prvo podnesite ostavku na trenutnoj poziciji."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:319
+#: src/components/_layout/LayoutMapUserMenu.tsx:318
 msgid "You are already home"
 msgstr "Već ste u regiji prebivališta."
 

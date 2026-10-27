@@ -182,7 +182,7 @@ msgid "{0} alliance bonus when fighting for an ally"
 msgstr ""
 
 #. placeholder {0}: formatKm(homeDistanceKm)
-#: src/components/_layout/LayoutMapUserMenu.tsx:332
+#: src/components/_layout/LayoutMapUserMenu.tsx:331
 msgid "{0} away"
 msgstr ""
 
@@ -291,7 +291,7 @@ msgid "{0}/{1} active"
 msgstr "{0}/{1} aktiva"
 
 #. placeholder {0}: userMapLootConfig.lootChancePercent
-#: src/components/_layout/LayoutMapUserMenu.tsx:452
+#: src/components/_layout/LayoutMapUserMenu.tsx:451
 msgid "{0}% base chance, plus your Luck skill"
 msgstr ""
 
@@ -1599,7 +1599,7 @@ msgstr ""
 msgid "{grainPerBread} <0>{0}</0> make one <1>{1}</1>, {ironPerSteel} <2>{2}</2> one <3>{3}</3> and {limestonePerConcrete} <4>{4}</4> one <5>{5}</5>."
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:326
+#: src/components/_layout/LayoutMapUserMenu.tsx:325
 msgid "{homeRegionsAway, plural, one {# region away} other {# regions away}}"
 msgstr ""
 
@@ -1743,7 +1743,7 @@ msgstr ""
 msgid "{premiumMonthsCount, plural, one {# month} other {# months}}"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:281
+#: src/components/_layout/LayoutMapUserMenu.tsx:280
 #: src/components/_political/map/MapMenu.tsx:193
 msgid "{quantity, plural, =1 {Wooden case collected!} one {# wooden case collected!} other {# wooden cases collected!}}"
 msgstr ""
@@ -1760,7 +1760,7 @@ msgstr ""
 msgid "{regionLootCount, plural, =1 {Collect the wooden case lying on this region} one {Collect the # wooden case lying on this region} other {Collect the # wooden cases lying on this region}}"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:371
+#: src/components/_layout/LayoutMapUserMenu.tsx:370
 #: src/components/_political/map/MapMenu.tsx:680
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
 msgstr ""
@@ -1814,7 +1814,7 @@ msgstr ""
 msgid "{value} days of experience"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:128
+#: src/components/_layout/LayoutMapUserMenu.tsx:127
 msgid "{value} km"
 msgstr ""
 
@@ -4308,7 +4308,7 @@ msgstr ""
 msgid "At your Management level"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:515
+#: src/components/_layout/LayoutMapUserMenu.tsx:514
 msgid "Atlas"
 msgstr ""
 
@@ -4389,7 +4389,7 @@ msgstr "Automatiserad produktion"
 msgid "Automated Engine"
 msgstr "Automatiserad produktion"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:322
+#: src/components/_layout/LayoutMapUserMenu.tsx:321
 msgid "Available in"
 msgstr ""
 
@@ -4432,7 +4432,7 @@ msgstr "Baby Boomer"
 msgid "Back the reinvention"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:402
+#: src/components/_layout/LayoutMapUserMenu.tsx:401
 msgid "Back to home region"
 msgstr ""
 
@@ -7812,7 +7812,7 @@ msgstr ""
 msgid "Flight Risk"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:392
+#: src/components/_layout/LayoutMapUserMenu.tsx:391
 msgid "Focus on you"
 msgstr ""
 
@@ -10777,7 +10777,7 @@ msgstr ""
 msgid "Nationality updated"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:339
+#: src/components/_layout/LayoutMapUserMenu.tsx:338
 msgid "Nearest wooden case"
 msgstr ""
 
@@ -11157,7 +11157,7 @@ msgstr "Ingen terrängranking ännu."
 msgid "No helmets"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:317
+#: src/components/_layout/LayoutMapUserMenu.tsx:316
 msgid "No home region set"
 msgstr ""
 
@@ -12920,7 +12920,7 @@ msgstr "Snabbskrotning"
 msgid "Quick equip best items of any tier"
 msgstr "Snabbutrusta de bästa föremålen oavsett nivå"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:477
+#: src/components/_layout/LayoutMapUserMenu.tsx:476
 msgid "Quick move & collect on case click"
 msgstr ""
 
@@ -14468,7 +14468,7 @@ msgstr ""
 msgid "Skip this guide?"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:455
+#: src/components/_layout/LayoutMapUserMenu.tsx:454
 msgid "Skipped"
 msgstr ""
 
@@ -15637,7 +15637,7 @@ msgstr "Revolutionen i <0/> har lyckats! Regeringen har störtats."
 msgid "The rival assumes it is a trick and slams the door."
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:451
+#: src/components/_layout/LayoutMapUserMenu.tsx:450
 msgid "The roll is skipped while you hold {maxLoots} uncollected cases"
 msgstr ""
 
@@ -16089,7 +16089,7 @@ msgstr "Dags att tillverka!"
 msgid "Time to retire"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:461
+#: src/components/_layout/LayoutMapUserMenu.tsx:460
 msgid "Time until the next case roll"
 msgstr ""
 
@@ -16640,7 +16640,7 @@ msgstr ""
 msgid "Unblock (show content)"
 msgstr "Avblockera (visa innehåll)"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:439
+#: src/components/_layout/LayoutMapUserMenu.tsx:438
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
 msgstr ""
 
@@ -17645,7 +17645,7 @@ msgstr "Din tursamma jävel"
 msgid "You are already congress member of another country. Resign first."
 msgstr "Du är redan riksdagsledamot i ett annat land. Avgå först."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:319
+#: src/components/_layout/LayoutMapUserMenu.tsx:318
 msgid "You are already home"
 msgstr ""
 
