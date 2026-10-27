@@ -9685,7 +9685,7 @@ msgstr "Linia"
 
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:152
 msgid "Listed"
-msgstr "Wpisany na listę"
+msgstr "Na liście "
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3239
 msgid "Listen to the whole thing"
@@ -12604,7 +12604,7 @@ msgstr "Cena dopasowuje się automatycznie do istniejących zleceń"
 
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:167
 msgid "Price for you, tax included"
-msgstr "Cena dla Ciebie, podatek wliczony"
+msgstr "Cena dla Ciebie, z VAT"
 
 #: src/pages/market/equipments.tsx:87
 msgid "Prices include your tax"
@@ -14458,7 +14458,7 @@ msgstr "Społeczność i Wiadomości"
 
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:147
 msgid "Sold by"
-msgstr "Sprzedany przez"
+msgstr "Sprzedawany przez"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:236
 msgid "Sole employee of the company: <0>+100%</0>. Nothing once a coworker joins."
@@ -15923,7 +15923,7 @@ msgstr "To Twoja własna farbyka"
 
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:207
 msgid "This is your offer, shown like other buyers from your country see it. Buyers from elsewhere add their own country's tax."
-msgstr "To Twoja oferta w kształcie, w jakim widzą ją inni kupujący z Twojego kraju. Kupujący z innych krajów doliczają podatek właściwy dla swojego państwa.”"
+msgstr "To Twoja oferta w kształcie, w jakim widzą ją inni kupujący z Twojego kraju. Kupujący z innych krajów doliczają podatek właściwy dla swojego państwa."
 
 #: src/components/_military/tournament/TournamentTeamTooltip.tsx:88
 msgid "This is your team"
@@ -17875,7 +17875,7 @@ msgstr "Płacisz"
 
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:169
 msgid "You pay, tax included"
-msgstr "Płacisz, podatek wliczony"
+msgstr "Płacisz, z VAT"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1249
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
