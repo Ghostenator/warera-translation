@@ -5445,7 +5445,7 @@ msgstr "Zebrano do tej pory"
 
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:325
 msgid "Claimed!"
-msgstr "Odebrany!"
+msgstr "Odebrana!"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:112
 msgid "Claustrophobe"
