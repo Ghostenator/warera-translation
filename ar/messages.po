@@ -346,100 +346,99 @@ msgstr "{count, plural, one {<0>اصنع عنصرًا واحدًا</0>} two {<2>
 
 #: src/components/_user/mission/mission.frontConfig.tsx:918
 msgid "{count, plural, one {<0>Cross <1/> region on the map</0>} other {<2>Cross <3/> regions on the map</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>اعبر منطقة واحدة على الخريطة</0>} two {<2>اعبر منطقتين على الخريطة</2>} few {<2>اعبر <3/> مناطق على الخريطة</2>} many {<2>اعبر <3/> منطقة على الخريطة</2>} other {<2>اعبر <3/> منطقة على الخريطة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:261
 msgid "{count, plural, one {<0>Dismantle <1/> item</0>} other {<2>Dismantle <3/> items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>فكك عنصرًا واحدًا</0>} two {<2>فكك عنصرين</2>} few {<2>فكك <3/> عناصر</2>} many {<2>فكك <3/> عنصرًا</2>} other {<2>فكك <3/> عنصر</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:404
 msgid "{count, plural, one {<0>Dodge <1/> attack</0>} other {<2>Dodge <3/> attacks</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>تفادَ هجومًا واحدًا</0>} two {<2>تفادَ هجومين</2>} few {<2>تفادَ <3/> هجمات</2>} many {<2>تفادَ <3/> هجومًا</2>} other {<2>تفادَ <3/> هجوم</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:211
 msgid "{count, plural, one {<0>Eat <1/> food item</0>} other {<2>Eat <3/> food items</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>تناول عنصر طعام واحد</0>} two {<2>تناول عنصري طعام</2>} few {<2>تناول <3/> عناصر طعام</2>} many {<2>تناول <3/> عنصر طعام</2>} other {<2>تناول <3/> عنصر طعام</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "{count, plural, one {<0>Help <1/> MU member</0>} other {<2>Help <3/> MU members</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>ساعد عضوًا واحدًا في الوحدة العسكرية</0>} two {<2>ساعد عضوين في الوحدة العسكرية</2>} few {<2>ساعد <3/> أعضاء في الوحدة العسكرية</2>} many {<2>ساعد <3/> عضوًا في الوحدة العسكرية</2>} other {<2>ساعد <3/> عضو في الوحدة العسكرية</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:161
 msgid "{count, plural, one {<0>Hit <1/> time in battles</0>} other {<2>Hit <3/> times in battles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>وجّه ضربة واحدة في المعارك</0>} two {<2>وجّه ضربتين في المعارك</2>} few {<2>وجّه <3/> ضربات في المعارك</2>} many {<2>وجّه <3/> ضربة في المعارك</2>} other {<2>وجّه <3/> ضربة في المعارك</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:382
 msgid "{count, plural, one {<0>Land <1/> critical hit</0>} other {<2>Land <3/> critical hits</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>وجّه ضربة حرجة واحدة</0>} two {<2>وجّه ضربتين حرجتين</2>} few {<2>وجّه <3/> ضربات حرجة</2>} many {<2>وجّه <3/> ضربة حرجة</2>} other {<2>وجّه <3/> ضربة حرجة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:487
 msgid "{count, plural, one {<0>Like <1/> article</0>} other {<2>Like <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>أعجب بمقال واحد</0>} two {<2>أعجب بـ مقالين</2>} few {<2>أعجب بـ <3/> مقالات</2>} many {<2>أعجب بـ <3/> مقالًا</2>} other {<2>أعجب بـ <3/> مقال</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:613
 msgid "{count, plural, one {<0>Like <1/> message</0>} other {<2>Like <3/> messages</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>أعجب برسالة واحدة</0>} two {<2>أعجب بـ رسالتين</2>} few {<2>أعجب بـ <3/> رسائل</2>} many {<2>أعجب بـ <3/> رسالة</2>} other {<2>أعجب بـ <3/> رسالة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:467
 msgid "{count, plural, one {<0>Loot <1/> item on battlefield</0>} other {<2>Loot <3/> items on battlefield</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>اغتنم عنصرًا واحدًا في ساحة المعركة</0>} two {<2>اغتنم عنصرين في ساحة المعركة</2>} few {<2>اغتنم <3/> عناصر في ساحة المعركة</2>} many {<2>اغتنم <3/> عنصرًا في ساحة المعركة</2>} other {<2>اغتنم <3/> عنصر في ساحة المعركة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:322
 msgid "{count, plural, one {<0>Participate in <1/> battle</0>} other {<2>Participate in <3/> battles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>شارك في معركة واحدة</0>} two {<2>شارك في معركتين</2>} few {<2>شارك في <3/> معارك</2>} many {<2>شارك في <3/> معركة</2>} other {<2>شارك في <3/> معركة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:704
 msgid "{count, plural, one {<0>Produce items <1/> time</0>} other {<2>Produce items <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>أنتج عنصر واحد</0>} two {<2>أنتج عنصرين</2>} few {<2>أنتج <3/> عناصر</2>} many {<2>أنتج <3/> عنصراً</2>} other {<2>أنتج <3/> عنصر</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:521
 msgid "{count, plural, one {<0>Read <1/> article</0>} other {<2>Read <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>اقرأ مقالًا واحدًا</0>} two {<2>اقرأ مقالين</2>} few {<2>اقرأ <3/> مقالات</2>} many {<2>اقرأ <3/> مقالًا</2>} other {<2>اقرأ <3/> مقال</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:93
 msgid "{count, plural, one {<0>Self work <1/> time in your companies</0>} other {<2>Self work <3/> times in your companies</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>اعمل بنفسك مرة واحدة في شركاتك</0>} two {<2>اعمل بنفسك مرتين في شركاتك</2>} few {<2>اعمل بنفسك <3/> مرات في شركاتك</2>} many {<2>اعمل بنفسك <3/> مرة في شركاتك</2>} other {<2>اعمل بنفسك <3/> مرة في شركاتك</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:563
 msgid "{count, plural, one {<0>Send <1/> message</0>} other {<2>Send <3/> messages</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>أرسل رسالة واحدة</0>} two {<2>أرسل رسالتين</2>} few {<2>أرسل <3/> رسائل</2>} many {<2>أرسل <3/> رسالة</2>} other {<2>أرسل <3/> رسالة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:790
 msgid "{count, plural, one {<0>Take care of an employee <1/> time in the company you manage</0>} other {<2>Take care of an employee <3/> times in the company you manage</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>اعتنِ بموظف مرة واحدة في الشركة التي تديرها</0>} two {<2>اعتنِ بموظف مرتين في الشركة التي تديرها</2>} few {<2>اعتنِ بموظف <3/> مرات في الشركة التي تديرها</2>} many {<2>اعتنِ بموظف <3/> مرة في الشركة التي تديرها</2>} other {<2>اعتنِ بموظف <3/> مرة في الشركة التي تديرها</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:435
 msgid "{count, plural, one {<0>Tip <1/> article</0>} other {<2>Tip <3/> articles</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>اترك بقشيشًا على مقال واحد</0>} two {<2>اترك بقشيشًا على مقالين</2>} few {<2>اترك بقشيشًا على <3/> مقالات</2>} many {<2>اترك بقشيشًا على <3/> مقالًا</2>} other {<2>اترك بقشيشًا على <3/> مقال</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:770
 msgid "{count, plural, one {<0>Train your employees <1/> time</0>} other {<2>Train your employees <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>درّب موظفيك مرة واحدة</0>} two {<2>درّب موظفيك مرتين</2>} few {<2>درّب موظفيك <3/> مرات</2>} many {<2>درّب موظفيك <3/> مرة</2>} other {<2>درّب موظفيك <3/> مرة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:887
 msgid "{count, plural, one {<0>Travel to another region <1/> time</0>} other {<2>Travel to another region <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>سافر إلى منطقة أخرى مرة واحدة</0>} two {<2>سافر إلى منطقة أخرى مرتين</2>} few {<2>سافر إلى منطقة أخرى <3/> مرات</2>} many {<2>سافر إلى منطقة أخرى <3/> مرة</2>} other {<2>سافر إلى منطقة أخرى <3/> مرة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:730
 msgid "{count, plural, one {<0>Upgrade your skills <1/> time</0>} other {<2>Upgrade your skills <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>طوّر مهاراتك مرة واحدة</0>} two {<2>طوّر مهاراتك مرتين</2>} few {<2>طوّر مهاراتك <3/> مرات</2>} many {<2>طوّر مهاراتك <3/> مرة</2>} other {<2>طوّر مهاراتك <3/> مرة</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:127
 msgid "{count, plural, one {<0>Work <1/> time in your companies</0>} other {<2>Work <3/> times in your companies</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>اعمل مرة واحدة في شركاتك</0>} two {<2>اعمل مرتين في شركاتك</2>} few {<2>اعمل <3/> مرات في شركاتك</2>} many {<2>اعمل <3/> مرة في شركاتك</2>} other {<2>اعمل <3/> مرة في شركاتك</2>}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:171
 msgid "{days, plural, one {# day of their wage} other {# days of their wage}}"
-msgstr ""
+msgstr "{days, plural, one {يوم واحد من أجره} two {يومين من أجره} few {# أيام من أجره} many {# يومًا من أجره} other {# يوم من أجره}}"
 
 #: src/components/_user/notification/NotificationList.tsx:92
 msgid "{daysAgo, plural, one {# day ago} other {# days ago}}"
-msgstr ""
+msgstr "{daysAgo, plural, one {منذ يوم واحد} two {منذ يومين} few {منذ # أيام} many {منذ # يومًا} other {منذ # يوم}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:631
 msgid "{delay} after you pick {answer} in {source}."
-msgstr ""
-
+msgstr "{delay} بعد اختيارك {answer} في {source}."
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} نقطة (نقاط) هيبة على هذه المهارة ({savedPrestigeCount} محفوظة، ومقفلة حتى إعادة التعيين)"
@@ -450,16 +449,16 @@ msgstr "{equippedCount, plural, one {# منها مجهز} other {# منها مج
 
 #: src/components/_user/notification/notification.frontConfig.tsx:579
 msgid "{finder} and others found {toolboxes} for you to claim."
-msgstr ""
+msgstr "{finder} وآخرون وجدوا {toolboxes} لتستلمها."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:583
 msgid "{finder} found {toolboxes} for you to claim."
-msgstr ""
+msgstr "{finder} وجد {toolboxes} لتستلمها."
 
 #: src/components/_economy/company/CompanyDropdown.tsx:315
 #: src/components/_economy/company/MoveCompanyForm.tsx:105
 msgid "{freeMoves} free"
-msgstr "مجانية {freeMoves}"
+msgstr "{freeMoves} مجانًا"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1169
 msgid "{gender, select, male {{name} accepts mixed grapes, under protest.} female {{name} accepts mixed grapes, under protest.} other {{name} accepts mixed grapes, under protest.}}"
@@ -1593,115 +1592,115 @@ msgstr ""
 #. placeholder {5}: ts.concrete
 #: src/components/_layout/loadingTips.tsx:341
 msgid "{grainPerBread} <0>{0}</0> make one <1>{1}</1>, {ironPerSteel} <2>{2}</2> one <3>{3}</3> and {limestonePerConcrete} <4>{4}</4> one <5>{5}</5>."
-msgstr ""
+msgstr "{grainPerBread} <0>{0}</0> تنتج <1>{1}</1> واحدًا، و{ironPerSteel} <2>{2}</2> تنتج <3>{3}</3> واحدًا و{limestonePerConcrete} <4>{4}</4> تنتج <5>{5}</5> واحدًا."
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:326
 msgid "{homeRegionsAway, plural, one {# region away} other {# regions away}}"
-msgstr ""
+msgstr "{homeRegionsAway, plural, one {على بعد منطقة واحدة} two {على بعد منطقتين} few {على بعد # مناطق} many {على بعد # منطقة} other {على بعد # منطقة}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:62
 msgid "{hours, plural, one {# hour} other {# hours}}"
-msgstr ""
+msgstr "{hours, plural, one {ساعة واحدة} two {ساعتين} few {# ساعات} many {# ساعة} other {# ساعة}}"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:116
 msgid "{input} days in the company"
-msgstr ""
+msgstr "{input} يوم في الشركة"
 
 #: src/components/_economy/itemOffer/itemOffer.hooks.ts:25
 msgid "{itemCount, plural, one {Item put on sale} other {Items put on sale}}"
-msgstr ""
+msgstr "{itemCount, plural, one {عنصر معروض للبيع} two {عنصران معروضان للبيع} few {عناصر معروضة للبيع} many {عناصر معروضة للبيع} other {عناصر معروضة للبيع}}"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:530
 msgid "{lead} and others are waiting for your decision."
-msgstr ""
+msgstr "{lead} وآخرون ينتظرون قرارك."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:532
 msgid "{lead} is waiting for your decision."
-msgstr ""
+msgstr "{lead} ينتظر قرارك."
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:441
 msgid "{managerTax}% manager tax is withheld from this pay when the manager collects it, for the country the company sits in."
-msgstr ""
+msgstr "تُخصم ضريبة المدير {managerTax}% من هذا الأجر عندما يستلمه المدير، لصالح الدولة التي تقع فيها الشركة."
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:162
 msgid "{managerTax}% manager tax is withheld when you collect your pay in this country."
-msgstr ""
+msgstr "تُخصم ضريبة المدير {managerTax}% عند استلام أجرك في هذه الدولة."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3829
 msgid "{name} accuses {partnerName} of eating a labeled lunch. The note on the fridge gets more threatening every day."
-msgstr ""
+msgstr "{name} يتهم {partnerName} بأكل غداء مُعلَّم. الملاحظة على الثلاجة تزداد تهديدًا كل يوم."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:859
 msgid "{name} and {partnerName} are inseparable now."
-msgstr ""
+msgstr "{name} و{partnerName} لا يفترقان الآن."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1923
 msgid "{name} and {partnerName} are officially together, and it is the real thing."
-msgstr ""
+msgstr "{name} و{partnerName} معًا رسميًا، وهذا أمر حقيقي."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1921
 msgid "{name} and {partnerName} are officially together. The whole workshop pretends to be surprised."
-msgstr ""
+msgstr "{name} و{partnerName} معًا رسميًا. الورشة كلها تتظاهر بالمفاجأة."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:857
 msgid "{name} and {partnerName} are old friends now."
-msgstr ""
+msgstr "{name} و{partnerName} صديقان قديمان الآن."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1858
 msgid "{name} and {partnerName} blame each other for the ban. It is personal now."
-msgstr ""
+msgstr "{name} و{partnerName} يلوم كل منهما الآخر على الحظر. أصبح الأمر شخصيًا الآن."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:875
 msgid "{name} and {partnerName} came to blows over who moved whose tools. Everyone is waiting to see what you do."
-msgstr ""
+msgstr "{name} و{partnerName} تشابكا بالأيدي حول من حرّك أدوات من. الجميع ينتظر ليرى ماذا ستفعل."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3744
 msgid "{name} and {partnerName} each think the other installed it. It is war now."
-msgstr ""
+msgstr "{name} و{partnerName} يعتقد كل منهما أن الآخر ركّبها. إنها حرب الآن."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3742
 msgid "{name} and {partnerName} find out. Neither is speaking to you."
-msgstr ""
+msgstr "{name} و{partnerName} يكتشفان الأمر. لا أحد منهما يكلمك."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2001
 msgid "{name} and {partnerName} had their first fight. It was about the inventory. The whole workshop is taking sides."
-msgstr ""
+msgstr "{name} و{partnerName} خاضا أول شجار لهما. كان حول المخزون. الورشة كلها تنحاز لطرف."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1908
 msgid "{name} and {partnerName} have been checking the inventory together a lot. The inventory has never been more checked."
-msgstr ""
+msgstr "{name} و{partnerName} يفحصان المخزون معًا كثيرًا. لم يُفحص المخزون من قبل بهذا القدر."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3761
 msgid "{name} and {partnerName} showed up with the exact same haircut. Neither will speak first."
-msgstr ""
+msgstr "ظهر {name} و{partnerName} بنفس قصة الشعر تمامًا. لن يتكلم أي منهما أولًا."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1884
 msgid "{name} has added a moat. {partnerName} is not welcome."
-msgstr ""
+msgstr "{name} أضاف خندقًا مائيًا. {partnerName} غير مرحب به."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1839
 msgid "{name} is vindicated. {partnerName} is not."
-msgstr ""
+msgstr "{name} تمّت تبرئته. {partnerName} لا."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1833
 msgid "{name} says soup is a drink. {partnerName} says it is food. They have not spoken in three days."
-msgstr ""
+msgstr "{name} يقول إن الحساء مشروب. {partnerName} يقول إنه طعام. لم يتكلما منذ ثلاثة أيام."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3720
 msgid "{name} wants the thermostat at 18 degrees, {partnerName} at 26. Half the workshop wears coats, the other half shorts."
-msgstr ""
+msgstr "{name} يريد المكيف على 18 درجة، و{partnerName} على 26. نصف الورشة يرتدي المعاطف، والنصف الآخر الشورتات."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3776
 msgid "{name} wears the hat proudly. {partnerName} wanted the hat."
-msgstr ""
+msgstr "{name} يرتدي القبعة بفخر. {partnerName} كان يريد القبعة."
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:606
 msgid "{named} and {counted}"
-msgstr ""
+msgstr "{named} و{counted}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventInbox.tsx:123
 msgid "{names}: decided while you were away"
-msgstr ""
+msgstr "{names}: تم الاقرار بها أثناء غيابك"
 
 #: src/components/_user/user/Level.tsx:137
 msgid "{nextLevelSkillPoints} Skill Points"
@@ -1709,40 +1708,40 @@ msgstr "{nextLevelSkillPoints} نقاط مهارة"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1891
 msgid "{partnerName} backs off. The fort stands."
-msgstr ""
+msgstr "{partnerName} يتراجع. الحصن يصمد."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1875
 msgid "{partnerName} has decided to become friends with {name}. {name} has responded by building a wall of crates."
-msgstr ""
+msgstr "قرر {partnerName} أن يصبح صديقًا لـ{name}. وردّ {name} ببناء جدار من الصناديق."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3842
 msgid "{partnerName} is cleared. {name} now guards the fridge alone."
-msgstr ""
+msgstr "تمّت تبرئة {partnerName}. {name} يحرس الثلاجة الآن وحده."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3835
 msgid "{partnerName} is officially the lunch thief. {name} eats in peace."
-msgstr ""
+msgstr "{partnerName} هو لص الغداء رسميًا. {name} يأكل بسلام."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1846
 msgid "{partnerName} is vindicated. {name} is not."
-msgstr ""
+msgstr "{partnerName} تمّت تبرئته. {name} لا."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:915
 msgid "{partnerName} learns fast, and wants to learn more."
-msgstr ""
+msgstr "{partnerName} يتعلم بسرعة، ويريد أن يتعلم أكثر."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:913
 msgid "{partnerName} learns fast."
-msgstr ""
+msgstr "{partnerName} يتعلم بسرعة."
 
 #: src/components/_user/premium/UserHeaderFakeContent.tsx:155
 msgid "{premiumMonthsCount, plural, one {# month} other {# months}}"
-msgstr ""
+msgstr "{premiumMonthsCount, plural, one {شهر واحد} two {شهرين} few {# أشهر} many {# شهرًا} other {# شهر}}"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:281
 #: src/components/_political/map/MapMenu.tsx:193
 msgid "{quantity, plural, =1 {Wooden case collected!} one {# wooden case collected!} other {# wooden cases collected!}}"
-msgstr ""
+msgstr "{quantity, plural, =1 {تم جمع صندوق خشبي!} one {تم جمع صندوق خشبي واحد!} two {تم جمع صندوقين خشبيين!} few {تم جمع # صناديق خشبية!} many {تم جمع # صندوقًا خشبيًا!} other {تم جمع # صندوق خشبي!}}"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:208
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
@@ -1750,11 +1749,11 @@ msgstr "{rareCount, plural, one {# منها نادر أو أفضل} other {# م�
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:702
 msgid "{raw} of the company's good, {product} if it is a product"
-msgstr ""
+msgstr "{raw} من سلعة الشركة، و{product} إذا كان منتجًا"
 
 #: src/components/_political/map/MapMenu.tsx:740
 msgid "{regionLootCount, plural, =1 {Collect the wooden case lying on this region} one {Collect the # wooden case lying on this region} other {Collect the # wooden cases lying on this region}}"
-msgstr ""
+msgstr "{regionLootCount, plural, =1 {اجمع الصندوق الخشبي الموجود في هذه المنطقة} one {اجمع الصندوق الخشبي الموجود في هذه المنطقة} two {اجمع الصندوقين الخشبيين الموجودين في هذه المنطقة} few {اجمع # صناديق خشبية موجودة في هذه المنطقة} many {اجمع # صندوقًا خشبيًا موجودًا في هذه المنطقة} other {اجمع # صندوق خشبي موجود في هذه المنطقة}}"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:371
 #: src/components/_political/map/MapMenu.tsx:680
@@ -1792,31 +1791,31 @@ msgstr "{selectedCount} محدد"
 
 #: src/components/_economy/employee/EmployeeTraitArg.tsx:54
 msgid "{step} every {perDays} days in the same company, up to {cap}."
-msgstr ""
+msgstr "{step} كل {perDays} أيام في نفس الشركة، حتى {cap}."
 
 #: src/components/_economy/employee/EmployeeTraitArg.tsx:43
 msgid "{step} every {perDays} days in the same company."
-msgstr ""
+msgstr "{step} كل {perDays} أيام في نفس الشركة."
 
 #: src/components/_social/poll/PollCard.tsx:221
 msgid "{timeLeft} left"
-msgstr ""
+msgstr "متبقي {timeLeft}"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:273
 #: src/components/_economy/employee/WorkforceSummary.tsx:428
 msgid "{trainable} to train"
-msgstr ""
+msgstr "{trainable} للتدريب"
 
 #. placeholder {0}: employee.potential
 #. placeholder {1}: employee.potentialMax
 #: src/components/_economy/employee/EmployeeResumeRow.tsx:317
 msgid "{trainingsLeft} training sessions left ({0}/{1} used)."
-msgstr ""
+msgstr "تبقّى {trainingsLeft} جلسات تدريب (استُخدم {0}/{1})."
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:482
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:121
 msgid "{value} days of experience"
-msgstr ""
+msgstr "{value} أيام من الخبرة"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:128
 msgid "{value} km"
@@ -1824,45 +1823,45 @@ msgstr "{value} كم"
 
 #: src/components/_economy/employee/employeeStats.tsx:538
 msgid "{value} morale = <0>{signedBonus}</0> {production}."
-msgstr ""
+msgstr "{value} معنويات = <0>{signedBonus}</0> {production}."
 
 #: src/components/_economy/employee/employeeStats.tsx:534
 msgid "{value} morale = <0>no</0> {production} change."
-msgstr ""
+msgstr "{value} معنويات = <0>بدون</0> تغيير في {production}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:716
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:720
 msgid "{value} received"
-msgstr ""
+msgstr "تم استلام {value}"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:125
 msgid "{value} training potential left"
-msgstr ""
+msgstr "متبقي {value} من إمكانيات التدريب"
 
 #: src/components/_economy/employee/employeeCards.tsx:224
 #: src/components/_economy/employee/EmployeeTooltip.tsx:142
 msgid "{wage} / day"
-msgstr ""
+msgstr "{wage} / يوم"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:529
 msgid "{who} leaves the company: {value}"
-msgstr ""
+msgstr "{who} يغادر الشركة: {value}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:737
 msgid "{who} left: {value}"
-msgstr ""
+msgstr "{who} غادر: {value}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:653
 msgid "{who}: {value}"
-msgstr ""
+msgstr "{who}: {value}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:401
 msgid "{who}: {value} (uses Potential)"
-msgstr ""
+msgstr "{who}: {value} (يستخدم الإمكانيات)"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:709
 msgid "{who}: {value} days of experience"
-msgstr ""
+msgstr "{who}: {value} أيام من الخبرة"
 
 #. placeholder {0}: duration(effect.hours)
 #. placeholder {0}: duration(hoursGiven(event.resolvedAt, applied.until))
@@ -1871,64 +1870,64 @@ msgstr ""
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:627
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:636
 msgid "{who}: {value} for {0}"
-msgstr ""
+msgstr "{who}: {value} لمدة {0}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:386
 msgid "{who}: {value} to a random stat"
-msgstr ""
+msgstr "{who}: {value} لإحصائية عشوائية"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:394
 msgid "{who}: {value} to a random stat (uses Potential)"
-msgstr ""
+msgstr "{who}: {value} لإحصائية عشوائية (يستخدم الإمكانيات)"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:409
 msgid "{who}: {value} training potential"
-msgstr ""
+msgstr "{who}: {value} إمكانيات تدريب"
 
 #. placeholder {0}: duration(effect.hours)
 #. placeholder {0}: duration(hoursGiven(event.resolvedAt, applied.until))
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:377
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:644
 msgid "{who}: <0>away</0> for {0} (no work, no wage)"
-msgstr ""
+msgstr "{who}: <0>غائب</0> لمدة {0} (بلا عمل، بلا أجر)"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:690
 msgid "{who}: asks for more pay"
-msgstr ""
+msgstr "{who}: يطلب أجرًا أكثر"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:702
 msgid "{who}: experience in {good} lost"
-msgstr ""
+msgstr "{who}: فُقدت الخبرة في {good}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:428
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:668
 msgid "{who}: gains <0/>"
-msgstr ""
+msgstr "{who}: يكتسب <0/>"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:423
 msgid "{who}: gains a random <0>bad trait</0>"
-msgstr ""
+msgstr "{who}: يكتسب <0>سمة سيئة</0> عشوائية"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:417
 msgid "{who}: gains a random <0>good trait</0>"
-msgstr ""
+msgstr "{who}: يكتسب <0>سمة جيدة</0> عشوائية"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:440
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:674
 msgid "{who}: loses <0/>"
-msgstr ""
+msgstr "{who}: يفقد <0/>"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:435
 msgid "{who}: loses a <0>bad trait</0>"
-msgstr ""
+msgstr "{who}: يفقد <0>سمة سيئة</0>"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:693
 msgid "{who}: now asks {value} over the market rate"
-msgstr ""
+msgstr "{who}: يطلب الآن {value} فوق سعر السوق"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:661
 msgid "{who}: training potential now {value}"
-msgstr ""
+msgstr "{who}: إمكانات التدريب الآن {value}"
 
 #: src/components/_common/GameRules.tsx:197
 msgid "* A gear merging scheme consists of buying items with very low durability at a relatively high price, merging them, and then reselling the result at a low price."
@@ -1944,7 +1943,7 @@ msgstr "*قد تحترق"
 
 #: src/components/_user/SavedSlotsUsage.tsx:37
 msgid "/{max, plural, one {# slot} other {# slots}}"
-msgstr ""
+msgstr "/{max, plural, one {خانة واحدة} two {خانتين} few {# خانات} many {# خانة} other {# خانة}}"
 
 #: src/components/_economy/employee/EmployeeList.tsx:229
 #: src/components/_economy/employee/EmployeeList.tsx:235
@@ -1963,15 +1962,15 @@ msgstr "/يوم"
 #: src/components/_economy/manager/ManagerRateReductionAlert.tsx:45
 #: src/components/_economy/manager/MoveManagerModal.tsx:62
 msgid "/h"
-msgstr ""
+msgstr "/س"
 
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:107
 msgid "/h at {points} Management points"
-msgstr ""
+msgstr "/س عند {points} نقاط إدارة"
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:383
 msgid "/h max"
-msgstr ""
+msgstr "/س كحد أقصى"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:203
 msgid "+{hiddenBattles} more battles"
@@ -1979,11 +1978,11 @@ msgstr "+{hiddenBattles} معارك اكثر"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:199
 msgid "+{perPoint}% per point above {statPivot}, -{perPoint}% per point under."
-msgstr ""
+msgstr "+{perPoint}% لكل نقطة فوق {statPivot}، و-{perPoint}% لكل نقطة تحتها."
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:195
 msgid "+{skillPerLevel}% per level of your Leadership."
-msgstr ""
+msgstr "+{skillPerLevel}% لكل مستوى من القيادة لديك."
 
 #: src/components/_user/user/Level.tsx:196
 msgid "+{xpBonusPercent}%"
@@ -1991,49 +1990,49 @@ msgstr "+{xpBonusPercent}%"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:478
 msgid "+1 to one stat every 10 days in the same company, up to +4."
-msgstr ""
+msgstr "+1 لإحصائية واحدة كل 10 أيام في نفس الشركة، حتى +4."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:47
 msgid "+1 to one stat."
-msgstr ""
+msgstr "+1 لإحصائية واحدة."
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:207
 msgid "+1% per {happinessDivisor} happiness above 50, -1% per {happinessDivisor} under."
-msgstr ""
+msgstr "+1% لكل {happinessDivisor} سعادة فوق 50، و-1% لكل {happinessDivisor} تحتها."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:48
 msgid "+2 to one stat."
-msgstr ""
+msgstr "+2 لإحصائية واحدة."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:145
 msgid "+2 training potential: one session more than the draw just spent."
-msgstr ""
+msgstr "+2 إمكانات تدريب: جلسة واحدة أكثر من السحب الذي استُهلك للتو."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:49
 msgid "+3 to one stat."
-msgstr ""
+msgstr "+3 لإحصائية واحدة."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:150
 msgid "+3 training potential: two sessions more than the draw just spent."
-msgstr ""
+msgstr "+3 إمكانات تدريب: جلستان أكثر من السحب الذي استُهلك للتو."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:50
 msgid "+4 to one stat."
-msgstr ""
+msgstr "+4 لإحصائية واحدة."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:155
 msgid "+4 training potential: three sessions more than the draw just spent."
-msgstr ""
+msgstr "+4 إمكانات تدريب: ثلاث جلسات أكثر من السحب الذي استُهلك للتو."
 
 #: src/components/_economy/employeeEvent/EmployeeEventText.tsx:31
 msgid "<0/> & <1/>"
-msgstr ""
+msgstr "<0/> و <1/>"
 
 #: src/components/_economy/employee/TrainingCard.tsx:230
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:329
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:592
 msgid "<0/> and <1/>"
-msgstr ""
+msgstr "<0/> و<1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:389
 #: src/components/_user/notification/notification.frontConfig.tsx:1291
@@ -2044,7 +2043,7 @@ msgstr "طلب <0/> الانضمام إلى <1/>"
 #. placeholder {1}: managerTax > 0 && ( <Typo as='span' opacity={0.7}> {' ('} <Money static color='yellowText'> {wageAfterTax} </Money> {' after taxes)'} </Typo> )
 #: src/components/_economy/manager/ManagerOfferList.tsx:103
 msgid "<0/> at <1>{0}</1> /h.{1}"
-msgstr ""
+msgstr "<0/> عند <1>{0}</1> /س.{1}"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:54
 msgid "<0/> banned <1/> from the conversation"
@@ -2096,7 +2095,7 @@ msgstr "احتل <0/> المنطقة في <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:509
 msgid "<0/> could not pay you this hour, so your bonus did not apply either. Nothing is owed for it."
-msgstr ""
+msgstr "لم يستطع <0/> دفع أجرك هذه الساعة، لذلك لم تُطبّق مكافأتك أيضًا. لا شيء مستحق عنها."
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:94
 msgid "<0/> created the conversation"
@@ -2106,7 +2105,7 @@ msgstr "قام <0/> بإنشاء المحادثة"
 #. placeholder {1}: data.newWage
 #: src/components/_user/notification/notification.frontConfig.tsx:495
 msgid "<0/> cut your pay from <1>{0}</1> to <2>{1}</2> per hour. Accept it or resign."
-msgstr ""
+msgstr "خفّض <0/> أجرك من <1>{0}</1> إلى <2>{1}</2> في الساعة. اقبله أو استقل."
 
 #: src/components/_political/event/event.frontConfig.tsx:180
 msgid "<0/> declared war on <1/>"
@@ -2264,7 +2263,7 @@ msgstr "يهاجم <0/> بلدك في <1/>"
 #: src/components/_economy/employee/TrainingDraftModal.tsx:247
 #: src/components/_economy/employee/TrainingHistory.tsx:133
 msgid "<0/> is gone"
-msgstr ""
+msgstr "<0/> رحل"
 
 #: src/components/_political/event/event.frontConfig.tsx:304
 msgid "<0/> is in bankruptcy. Removing all alliances and disabling every region upgrades."
@@ -2272,7 +2271,7 @@ msgstr "<0/> في حالة إفلاس. سيتم إلغاء كافة التحال
 
 #: src/components/_user/notification/notification.frontConfig.tsx:444
 msgid "<0/> is now the manager of <1/>"
-msgstr ""
+msgstr "<0/> هو الآن مدير <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:161
 msgid "<0/> is revolting in <1/>"
@@ -2303,7 +2302,7 @@ msgstr "طرد <0/>:-  <1/> من المحادثة"
 #: src/components/_economy/employee/employeeStats.tsx:816
 #: src/components/_economy/employee/employeeStats.tsx:909
 msgid "<0/> left"
-msgstr ""
+msgstr "<0/> غادر"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:609
@@ -2373,7 +2372,7 @@ msgstr "قام <0/> بإحالتك إلى اللعبة."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:596
 msgid "<0/> resigned as manager of <1/>"
-msgstr ""
+msgstr "استقال <0/> من إدارة <1/>"
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
 #: src/components/_user/notification/notification.frontConfig.tsx:1063
@@ -2458,7 +2457,7 @@ msgstr "فاز <0/> بالجولة <1>#{0}</1> في <2/>!"
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:461
 msgid "<0/>: this order costs ×{orderCostMult} <1>{0}</1> and gives ×{orderDamageMult} damage bonus"
-msgstr ""
+msgstr "<0/>: يكلّف هذا الأمر ×{orderCostMult} <1>{0}</1> ويمنح مكافأة ضرر ×{orderDamageMult}"
 
 #: src/pages/war/[warId]/index.tsx:55
 msgid "<0/>Priority ends in <1/>"
@@ -2471,15 +2470,15 @@ msgstr "<0>-{0}%</0> نمو المقاومة في الساعة"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:546
 msgid "<0>-1%</0> per 1% employee tax in the country, down to <1>-30%</1>."
-msgstr ""
+msgstr "<0>-1%</0> لكل 1% ضريبة موظفين في الدولة، حتى <1>-30%</1>."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:385
 msgid "<0>-15%</0> per female coworker, down to <1>-30%</1>. Men only."
-msgstr ""
+msgstr "<0>-15%</0> لكل زميلة، حتى <1>-30%</1>. للرجال فقط."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:375
 msgid "<0>-15%</0> per male coworker, down to <1>-30%</1>. Women only."
-msgstr ""
+msgstr "<0>-15%</0> لكل زميل، حتى <1>-30%</1>. للنساء فقط."
 
 #. placeholder {0}: sideBonus.muHqBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:157
@@ -2519,7 +2518,7 @@ msgstr "<0>{0}</0> لأن <1/> يحتل منطقة واحدة على الأقل 
 #. placeholder {0}: 3
 #: src/components/_economy/employee/employee.frontConfig.tsx:601
 msgid "<0>{0}</0> but <1>-15%</1>. Twice as many critical successes and failures in events."
-msgstr ""
+msgstr "<0>{0}</0> لكن <1>-15%</1>. ضعف النجاحات والإخفاقات الحرجة في الأحداث."
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:52
@@ -2571,18 +2570,18 @@ msgstr "مطلوب <0>{0}</0> أرض للفوز بجولة، يتم اكتساب
 #. placeholder {0}: 2
 #: src/components/_economy/employee/employee.frontConfig.tsx:490
 msgid "<0>{0}</0> per 10 years of age past 40."
-msgstr ""
+msgstr "<0>{0}</0> لكل 10 سنوات من العمر بعد 40."
 
 #. placeholder {0}: -2
 #: src/components/_economy/employee/employee.frontConfig.tsx:500
 msgid "<0>{0}</0> per 10 years of age past 50."
-msgstr ""
+msgstr "<0>{0}</0> لكل 10 سنوات من العمر بعد 50."
 
 #. placeholder {0}: -5
 #. placeholder {1}: -10
 #: src/components/_economy/employee/employee.frontConfig.tsx:323
 msgid "<0>{0}</0> per coworker paid more than them, down to <1>{1}</1>."
-msgstr ""
+msgstr "<0>{0}</0> لكل زميل يتقاضى أجرًا أعلى منه، حتى <1>{1}</1>."
 
 #. placeholder {0}: 2
 #. placeholder {1}: 4
