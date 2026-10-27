@@ -83,7 +83,6 @@ msgstr "تخفيض بنسبة 5% على الأجر الذي يتوقعونه"
 msgid "“Senior Worker” it is. It will do, for now."
 msgstr "“عامل مخضرم” اذن, سيؤدي الغرض, في الوقت الحالي"
 
-
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:225
 msgid "(average member development)"
@@ -12277,7 +12276,8 @@ msgstr "اختر بطاقة"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:170
 msgid "Pick a card!"
-msgstr "!اختر بطاقة" 
+msgstr "!اختر بطاقة"
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:309
 msgid "Pick a fight!"
 msgstr "!ابدأ قتالاً"
