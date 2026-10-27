@@ -68,7 +68,6 @@ An empty `msgstr ""` means the string is untranslated and will fall back to Engl
 
 You can edit `.po` files with:
 - Any text editor
-- [Poedit](https://poedit.net/) — a dedicated `.po` file editor with a nice UI
 - [Weblate](https://weblate.org/) or similar online tools
 
 ### Placeholders
