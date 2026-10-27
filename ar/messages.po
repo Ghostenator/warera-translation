@@ -6254,7 +6254,7 @@ msgstr "أجر يومي يُدفع من خزينة الدولة"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:237
 msgid "Daily, weekly and monthly missions refresh on their own. Each tab shows when."
-msgstr "تتجدد المهام اليومية والأسبوعية والشهرية تلقائيًا. كل تبويب يعرض الموعد."
+msgstr "تتجدد المهام اليومية والأسبوعية والشهرية تلقائيًا. كل صفحة تعرض الموعد."
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:156
 msgid "Damage by user"
