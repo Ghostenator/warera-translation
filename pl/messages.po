@@ -14674,7 +14674,7 @@ msgstr "Zaczyna się, gdy artykuł zostaje upubliczniony"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:127
 msgid "Statist"
-msgstr "Statysta"
+msgstr "Etatysta"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:11
 msgid "Statistically impossible to stay this unlucky"
