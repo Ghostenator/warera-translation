@@ -3461,7 +3461,7 @@ msgstr "أداة جديدة: {value}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1363
 msgid "A party of one"
-msgstr "حزب من شخص واحد"
+msgstr "حفلة من شخص واحد"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2532
 msgid "A patriotic bonfire. Everyone feels a little warmer."
